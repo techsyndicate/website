@@ -1,38 +1,30 @@
 <script>
-    import Link from 'svelte-link';
-    import page from 'page'
-    import LandingPage from '../pages/LandingPage.svelte';
-    import AboutPage from '../pages/AboutPage.svelte'
-    let Home = LandingPage
-    page('/',()=>(Home=LandingPage))
-    page('/about',()=>(Home = AboutPage))
-    page.start()
 </script>
 <ul>
     <li>
-        <a href='/'>
+        <a href='#home'>
             <div class="line"></div>
         </a>
     </li>
     <li>
-        <a href='/about'>
+        <a href='#about'>
             <div class="line"></div>
         </a>
     </li>
     <li>
-        <a href='/events'>
+        <a href='#events'>
             <div class="line"></div>
         </a>
     </li>
     <li>
-        <Link>
+        <a href="#ccc">
             <div class="line"></div>
-        </Link>
+        </a>
     </li>
     <li>
-        <Link>
+        <a href="#contact">
             <div class="line"></div>
-        </Link>
+        </a>
     </li>
 </ul>
 <style>
@@ -42,9 +34,7 @@
     }
     ul{
         list-style: none;
-        position: absolute;
-        margin-top: 18.5vw;
-        margin-left: 2.5vw;
+        position: fixed;
     }
     ul li {
         width: 3.75vh;
@@ -57,9 +47,11 @@
         transition: all 0.5s ease;
         cursor: pointer;
     }
+    ul li a{
+        text-decoration: none;
+    }
     .line:hover{
         width: 120%;
         background-color: #16e16e;
     }
 </style>
-<svelte:component this={Home} />

@@ -101,7 +101,7 @@
     }
     button{
         position: absolute;
-        margin-top:48.5vw;
+        margin-top:50vw;
         margin-left: 35%;
         background:transparent;
         font-size: 1.5vw;

@@ -7,8 +7,8 @@
         padding-bottom: .25vw;
         font-size: 1.5vw;
         position: absolute;
-        margin-top: 48.5vw;
-        margin-left: 5vw;
+        margin-top: 50vw;
+        margin-left: 10vw;
         color: #eee !important;
     }
     form input:focus{

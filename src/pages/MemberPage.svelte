@@ -31,6 +31,11 @@
     <SearchInput />
 </div>
 <style>
+    .member-div{
+        margin-left: -5vw;
+        margin-top: -.75vw;
+        height: 100vh;
+    }
     .back{
        color: #fff;
        text-decoration: none;

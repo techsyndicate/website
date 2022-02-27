@@ -78,16 +78,6 @@
         transition: all 0.5s ease;
         cursor: pointer;
     }
-    .card::before{
-        content: '';
-        position: absolute;
-        margin-left: -11.2vw;
-        width: 41.3vh;
-        height: 100%;
-        background:black;
-        border-radius: .75vw;
-        transition: all 1.5s ease;
-    }
     .social-info{
         background: #393939;
         width: 55%;
@@ -118,7 +108,7 @@
     }
     button{
         position: absolute;
-        margin-top:48.5vw;
+        margin-top:50vw;
         margin-left: 35%;
         background:transparent;
         font-size: 1.5vw;
