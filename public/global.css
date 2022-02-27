@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'sofia pro';
+	src: url('../assets/fonts/sofia-pro.otf');
+}
+*{
+	font-family: 'sofia pro', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+	background-color: #000;
+	color: #eee;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+i{
+	font-family: 'Font Awesome', sans-serif;
+}
