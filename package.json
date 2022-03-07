@@ -16,9 +16,12 @@
     "rollup-plugin-svelte": "^7.0.0",
     "rollup-plugin-terser": "^7.0.0",
     "svelte": "^3.0.0",
+    "svelte-carousel": "^1.0.17-rc4",
     "svelte-link": "^1.2.0"
   },
   "dependencies": {
+    "@barba/core": "^2.9.7",
+    "gsap": "^3.9.1",
     "page": "^1.11.6",
     "sirv-cli": "^2.0.0",
     "three": "^0.138.0"

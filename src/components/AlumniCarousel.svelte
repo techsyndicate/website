@@ -32,6 +32,27 @@
                 'https://www.instagram.com/john.doe',
                 'https://www.twitter.com/john.doe'
             ]
+        },
+        {   
+            name: "Jai Madhukar",
+            role: 'Jt. Sec',
+            year: '2021-22',
+            pfp: 'https://i.imgur.com/Rb6fHNy.png',
+            socials: [
+                'https://www.facebook.com/john.doe',
+                'https://www.instagram.com/john.doe',
+                'https://www.twitter.com/john.doe'
+            ]
+        },
+        {   
+            name: "Vaibhav Sharma",
+            role: 'Core',
+            pfp: 'https://i.imgur.com/Rb6fHNy.png',
+            socials: [
+                'https://www.facebook.com/john.doe',
+                'https://www.instagram.com/john.doe',
+                'https://www.twitter.com/john.doe'
+            ]
         }
     ];
 </script>
@@ -39,10 +60,24 @@
     .alumni-members{
         display: flex;
         position: absolute;
-        width: 150vh;
+        width: 150%;
+        height: 70vh;
+        overflow-x: scroll;
         margin-top: 16.5vw;
         margin-left: 10vw;
         justify-content: space-between;
+        cursor: grab;
+        animation: slide-in-left 1s ease; 
+    }
+    @keyframes slide-in-left{
+        from{
+            opacity: 0;
+            margin-left: 50vw;
+        }
+        to{
+            opacity: 1;
+            margin-left: 10vw;
+        }
     }
     .alumni-members img{
         width: 32vh;
@@ -76,7 +111,6 @@
         background: #191919;
         border-radius: .75vw;
         transition: all 0.5s ease;
-        cursor: pointer;
     }
     .social-info{
         background: #393939;
@@ -114,10 +148,29 @@
         font-size: 1.5vw;
         color: #eee;
         border: none;
-        cursor: pointer;
     }
     button i {
         margin-left: 1vw;
+    }
+    form input{
+        width: 8.75vh;
+        transition: all 0.5s ease;
+        border: none;
+        background: transparent;
+        padding-bottom: .25vw;
+        font-size: 1.5vw;
+        position: absolute;
+        margin-top: 50vw;
+        margin-left: -41.5vw;
+        color: #eee !important;
+    }
+    form input:focus{
+        width: 32.5vh;
+        outline: none;
+        border-bottom: 0.25vw solid #16e16e;
+    }
+    form input::placeholder{
+        color: #eee;
     }
 </style>
 <div class="member-info">
@@ -155,4 +208,9 @@
     <button>
         drag <i class="fa-solid fa-arrow-right-long"></i>
     </button>
+    <div class="search-input">
+        <form action="">
+            <input id="search" class="search" type="text" placeholder="Search by name or field">
+        </form>
+    </div>
 </div>

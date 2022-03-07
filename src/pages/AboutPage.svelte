@@ -1,7 +1,7 @@
-<script></script>
-<div class="about">
+
+<div class="about" id="about">
     <h1>
-        <span>
+        <span class="animate-this" >
             About
         </span>
         <br>
@@ -13,6 +13,57 @@
     <div class="scroll"></div>
     <img src="https://github.com/techsyndicate/website/blob/main/public/assets/images/tscircuitglow.png?raw=true" alt="">
 </div>
+<script>
+	import {gsap} from 'gsap'
+    import ScrollTrigger from 'gsap/ScrollTrigger'
+    import { onMount } from "svelte";
+    onMount(()=>{
+        gsap.registerPlugin(ScrollTrigger)
+        gsap.timeline({repeat: -1})
+        gsap.fromTo('.about img',
+        {
+          clipPath: "inset(100%,0,0,0)",
+        },
+        {
+          clipPath: "polygon(5% 5%, 95% 5%, 95% 95%, 5% 95%)",
+          ease: "none",
+          //  We want to do that animation on scroll
+          scrollTrigger: {
+            trigger: '.about',
+            scrub: 1,
+            start: "top center",
+            end: "top center-=100",
+          },
+          duration: 2,
+        },
+      );
+      gsap.fromTo('.scroll',{
+          opacity: 0,
+      },{
+            opacity: 1,
+            scrollTrigger: {
+                trigger: '.about h1',
+                scrub: 1,
+                start: "top center",
+                end: "top center-=100",
+            },
+            duration: 2,
+            delay: 0.5
+        })
+        gsap.fromTo('h3',{
+          opacity: 0,
+      },{
+            opacity: 1,
+            scrollTrigger: {
+                trigger: '.about h1 span',
+                scrub: 1,
+                start: "top center -=100",
+            },
+            duration: 2,
+            delay: 1,
+        })
+    })
+</script>
 <style>
     .about{
         height: 85vh;
@@ -41,6 +92,9 @@
         margin-left: 7.5vw;
         margin-top:50vw;
     }
+    .animate-this{
+        overflow: hidden;
+    }
     .scroll{
         width: 0.25vh;
         height: 27.5vh;
@@ -48,5 +102,18 @@
         background: #eee;
         margin-left: 5vw;
         margin-top: 37.5vw;
+        animation: scroll 2s infinite ease;
+        transition: all .5s ease;
+    }
+    @keyframes scroll{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-25%);
+        }
+        100%{
+            transform: translateY(0);
+        }
     }
 </style>

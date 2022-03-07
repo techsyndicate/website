@@ -1,20 +1,3 @@
-<script>
-    import SearchInput from '../components/SearchInput.svelte';
-    import MembersCarousel from '../components/MembersCarousel.svelte'
-    import AlumniCarousel from '../components/AlumniCarousel.svelte';
-    let display ='block';
-    let color1=()=>{
-        document.getElementById("t1").style.color="#16e16e";
-        document.getElementById("t2").style.color="#333";
-        display='block'
-    }
-    let color=()=>{
-        document.getElementById("t1").style.color="#333";
-        document.getElementById("t2").style.color="#16e16e";
-        display='none'
-    }
-    
-</script>
 <div class="member-div">
     <a href="$" class="back">Return to About</a>
     <div class="toggle-title">
@@ -28,8 +11,44 @@
             <AlumniCarousel />
         {/if}
     {/if}
-    <SearchInput />
 </div>
+<script>
+    import MembersCarousel from '../components/MembersCarousel.svelte'
+    import AlumniCarousel from '../components/AlumniCarousel.svelte';
+    import {onMount} from 'svelte'
+    import gsap from 'gsap'
+    import {ScrollTrigger} from 'gsap/ScrollTrigger'
+    let display ='block';
+    let memberSearch = '';
+    let color1=()=>{
+        document.getElementById("t1").style.color="#16e16e";
+        document.getElementById("t2").style.color="#333";
+        display='block'
+    }
+    let color=()=>{
+        document.getElementById("t1").style.color="#333";
+        document.getElementById("t2").style.color="#16e16e";
+        display='none'
+    }
+
+    onMount(()=>{
+        gsap.registerPlugin(ScrollTrigger)
+        gsap.fromTo('#t1',{
+            fillOpacity: 0,
+            x: -5,
+        },{
+            fillOpacity: 1,
+            x: 0,
+            duration: 1,
+            scrollTrigger:{
+                trigger: '.member-div',
+                start: 'top center',
+                end: 'top center-=200',
+                scrub: true,
+            }
+        })
+    })
+</script>
 <style>
     .member-div{
         margin-left: -5vw;
@@ -71,4 +90,5 @@
         margin-left: 2.5vw;
         color: #333;
     }
+    
 </style>

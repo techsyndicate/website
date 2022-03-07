@@ -1,4 +1,4 @@
-<script></script>
+
 <div class="landing-div">
     <div class="title">
         <h1>
@@ -8,7 +8,7 @@
             SYNDICATE
         </h2>
     </div>
-    <img src="https://media.discordapp.net/attachments/945638709007642634/947022108272230400/unknown.png?width=513&height=513" alt="">
+    <img class="img" src="https://media.discordapp.net/attachments/945638709007642634/947022108272230400/unknown.png?width=513&height=513" alt="">
     <div class="socials">
         <a href="#">
             <i class="fa-solid fa-envelope"></i>
@@ -27,6 +27,49 @@
         </a>
     </div>
 </div>
+<script>
+    import {onMount} from 'svelte'
+    import gsap from 'gsap'
+    import {ScrollTrigger} from 'gsap/ScrollTrigger'
+    gsap.registerPlugin(ScrollTrigger)
+    onMount(()=>{
+        gsap.fromTo('.img',{
+            y: 0,
+        },{
+            y:-250,
+            duration: 2,
+            scrollTrigger:{
+                trigger: '.img',
+                scrub: true,
+                start: 'top center-=200',
+            }
+        })
+        gsap.fromTo('.title',{
+            y:0,
+        },
+        {
+            y:-250,
+            duration: 2,
+            scrollTrigger:{
+                trigger: '.title img',
+                scrub: true,
+                start: 'top center-=100',
+            }
+        }
+        )
+        gsap.fromTo('.socials',{
+            y:0,
+        },{
+            y:-100,
+            duration: 1,
+            scrollTrigger:{
+                trigger: '.socials',
+                scrub: true,
+                start: 'top center-=100',
+            }
+        })
+    })
+</script>
 <style>
     .landing-div img{
         width: 80vh;

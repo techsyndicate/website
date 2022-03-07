@@ -1,6 +1,3 @@
-<script>
-    import MemberCarousel from '../components/MembersCarousel.svelte'
-</script>
 <div class="about-div">
     <div class="about-img">
     </div>
@@ -13,6 +10,79 @@
     <a href="#members">Meet Our Family.</a>
     <h1>Revolutionize<span style="color:#16e16e">.</span></h1>
 </div>
+<script>
+    import MemberCarousel from '../components/MembersCarousel.svelte'
+    import {onMount} from 'svelte'
+    import gsap from 'gsap'
+    import { ScrollTrigger } from 'gsap/ScrollTrigger'
+    gsap.registerPlugin(ScrollTrigger)
+    onMount(()=>{
+        gsap.fromTo('.about-img',{
+            clipPath: "inset(0,0,0,0)",
+        },{
+            clipPath: "polygon(5% 5%, 95% 5%, 95% 95%, 5% 95%)",
+            ease: "none",
+            duration: 2,
+            scrollTrigger: {
+                trigger: '.about-div',
+                start: 'top center',
+                end: "top center-=200",
+                scrub: true,
+                anticipatePin: 1,
+                anticipate: 0.5,
+            }
+        })
+        gsap.fromTo('.about-div a',{
+            opacity: 0,
+            x: -20,
+        },{
+            opacity: 1,
+            x: 0,
+            ease: "none",
+            duration: 1.75,
+            scrollTrigger: {
+                trigger: '.about-div',
+                start: 'top center',
+                end: "top center-=200",
+                scrub: true,
+                anticipatePin: 1,
+                anticipate: 0.5,
+            },
+            delay: 1.75
+        })
+        gsap.fromTo('.about-div p',{
+            opacity: 0,
+            x: -50,
+        },{
+            opacity: 1,
+            x: 0,
+            ease: "none",
+            duration: 1.75,
+            scrollTrigger: {
+                trigger: '.about-div',
+                start: 'top center',
+                end: "top center-=200",
+                scrub: true,
+                anticipatePin: 1,
+                anticipate: 0.5,
+            },
+            delay: 1
+        })
+        gsap.fromTo('.about-div h1',{
+            y: -20,
+        },{
+            y: 0,
+            ease: "none",
+            duration: 2,
+            scrollTrigger: {
+                trigger: '.about-div',
+                start: 'top center',
+                end: "bottom center-=200",
+                scrub: true,
+            }
+        })
+    })
+</script>
 <style>
     .about-div{
         margin-top:15vw;
