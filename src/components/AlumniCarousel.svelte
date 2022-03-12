@@ -1,61 +1,3 @@
-<script>
-   let members =[
-        {
-            name: "Oorjit Chowdhary",
-            role: 'Prez',
-            year: '2021-22',
-            pfp: 'https://i.imgur.com/Rb6fHNy.png',
-            socials: [
-                'https://www.facebook.com/john.doe',
-                'https://www.instagram.com/john.doe',
-                'https://www.twitter.com/john.doe'
-            ]
-        },
-        {
-            name: "Mihir Aggarwal",
-            role: 'VP',
-            year: '2021-22',
-            pfp: 'https://i.imgur.com/Rb6fHNy.png',
-            socials: [
-                'https://www.facebook.com/john.doe',
-                'https://www.instagram.com/john.doe',
-                'https://www.twitter.com/john.doe'
-            ]
-        },
-        {   
-            name: "Anshul Saha",
-            role: 'Sec',
-            year: '2021-22',
-            pfp: 'https://i.imgur.com/Rb6fHNy.png',
-            socials: [
-                'https://www.facebook.com/john.doe',
-                'https://www.instagram.com/john.doe',
-                'https://www.twitter.com/john.doe'
-            ]
-        },
-        {   
-            name: "Jai Madhukar",
-            role: 'Jt. Sec',
-            year: '2021-22',
-            pfp: 'https://i.imgur.com/Rb6fHNy.png',
-            socials: [
-                'https://www.facebook.com/john.doe',
-                'https://www.instagram.com/john.doe',
-                'https://www.twitter.com/john.doe'
-            ]
-        },
-        {   
-            name: "Vaibhav Sharma",
-            role: 'Core',
-            pfp: 'https://i.imgur.com/Rb6fHNy.png',
-            socials: [
-                'https://www.facebook.com/john.doe',
-                'https://www.instagram.com/john.doe',
-                'https://www.twitter.com/john.doe'
-            ]
-        }
-    ];
-</script>
 <style>
     .alumni-members{
         display: flex;
@@ -172,39 +114,64 @@
     form input::placeholder{
         color: #eee;
     }
+    .slider {
+        position: absolute;
+        width: 150vh;
+        height: 65vh;
+        top: 1.5%;
+        left: 1.5%;
+        padding-left: 1.5%;
+        padding-right: 1%;
+        overflow: hidden;
+    }
+    .slider-body{
+        position: absolute;
+        display: grid;
+        height: 100%;
+        top: 0;
+        left: 0;
+        grid-template-columns: repeat(15,1fr);
+        gap: 3.5%;
+        /* pointer-events: none; */
+        transition: .5s ease-in;
+    }
 </style>
 <div class="member-info">
     <div class="alumni-members">
-        {#each members as member}
-            <div class="card">
-                <img src="{member.pfp}" alt="{member.name}'s picture">
-                <div class="member-info">
-                    <h3>{member.year}</h3>
-                    <h2>{member.name}</h2>
-                    <h4>{member.role}</h4>
-                </div>
-                <div class="social-info">
-                    {#each member.socials as socials}
-                        {#if socials.includes('instagram')}
-                            <a href="{socials}" target="_blank">
-                                <i class="fa-brands fa-instagram" ></i>
-                            </a>
-                        {/if}
-                        {#if socials.includes('facebook')}
-                            <a href="{socials}" target="_blank">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-                        {/if}
-                        {#if socials.includes('twitter')}
-                            <a href="{socials}" target="_blank">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        {/if}
-                    {/each}
-                </div>
+        <div class="slider" id="slider">
+            <div class="slider-body">
+                {#each members as member}
+                    <div class="card">
+                        <img src="{member.pfp}" alt="{member.name}'s picture">
+                        <div class="member-info">
+                            <h3>{member.year}</h3>
+                            <h2>{member.name}</h2>
+                            <h4>{member.role}</h4>
+                        </div>
+                        <div class="social-info">
+                            {#each member.socials as socials}
+                                {#if socials.includes('instagram')}
+                                    <a href="{socials}" target="_blank">
+                                        <i class="fa-brands fa-instagram" ></i>
+                                    </a>
+                                {/if}
+                                {#if socials.includes('facebook')}
+                                    <a href="{socials}" target="_blank">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                {/if}
+                                {#if socials.includes('twitter')}
+                                    <a href="{socials}" target="_blank">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                {/if}
+                            {/each}
+                        </div>
+                    </div>
+                {/each}
             </div>
-        {/each}
-    </div>
+            </div>
+        </div>
     <button>
         drag <i class="fa-solid fa-arrow-right-long"></i>
     </button>
@@ -214,3 +181,128 @@
         </form>
     </div>
 </div>
+<script>
+    import {onMount} from 'svelte';
+    let members =[
+         {
+             name: "Oorjit Chowdhary",
+             role: 'Prez',
+             year: '2021-22',
+             pfp: 'https://i.imgur.com/Rb6fHNy.png',
+             socials: [
+                 'https://www.facebook.com/john.doe',
+                 'https://www.instagram.com/john.doe',
+                 'https://www.twitter.com/john.doe'
+             ]
+         },
+         {
+             name: "Mihir Aggarwal",
+             role: 'VP',
+             year: '2021-22',
+             pfp: 'https://i.imgur.com/Rb6fHNy.png',
+             socials: [
+                 'https://www.facebook.com/john.doe',
+                 'https://www.instagram.com/john.doe',
+                 'https://www.twitter.com/john.doe'
+             ]
+         },
+         {   
+             name: "Anshul Saha",
+             role: 'Sec',
+             year: '2021-22',
+             pfp: 'https://i.imgur.com/Rb6fHNy.png',
+             socials: [
+                 'https://www.facebook.com/john.doe',
+                 'https://www.instagram.com/john.doe',
+                 'https://www.twitter.com/john.doe'
+             ]
+         },
+         {   
+             name: "Jai Madhukar",
+             role: 'Jt. Sec',
+             year: '2021-22',
+             pfp: 'https://i.imgur.com/Rb6fHNy.png',
+             socials: [
+                 'https://www.facebook.com/john.doe',
+                 'https://www.instagram.com/john.doe',
+                 'https://www.twitter.com/john.doe'
+             ]
+         },
+         {   
+             name: "Vaibhav Sharma",
+             role: 'Core',
+             year: '2021-22',
+             pfp: 'https://i.imgur.com/Rb6fHNy.png',
+             socials: [
+                 'https://www.facebook.com/john.doe',
+                 'https://www.instagram.com/john.doe',
+                 'https://www.twitter.com/john.doe'
+             ]
+         }
+     ];
+     onMount(()=>{
+        let search = document.getElementById('search');
+        search.addEventListener('keyup', ()=>{
+            let searchValue = search.value.toLowerCase();
+            let cards = document.querySelectorAll('.card');
+            cards.forEach(card =>{
+                let name = card.querySelector('h2').innerText.toLowerCase();
+                let role = card.querySelector('h4').innerText.toLowerCase();
+                if(name.includes(searchValue) || role.includes(searchValue)){
+                    card.style.display = 'inline-block';
+                }else{
+                    card.style.display = 'none';
+                }
+            })
+        })
+        let draggableSlider = function () {
+        let slider = document.querySelector(".slider"),
+            innerSlider = document.querySelector(".slider-body");
+        let pressed = false,
+            startX,
+            x;
+    
+        slider.addEventListener("mousedown", (e) => {
+            pressed = true;
+            startX = e.offsetX - innerSlider.offsetLeft;
+            slider.style.cursor = "grabbing";
+        });
+    
+        slider.addEventListener("mouseenter", () => {
+            slider.style.cursor = "grab";
+        });
+    
+        slider.addEventListener("mouseup", () => {
+            slider.style.cursor = "grab";
+        });
+    
+        window.addEventListener("mouseup", () => {
+            pressed = false;
+        });
+    
+        slider.addEventListener("mousemove", (e) => {
+            if (!pressed) return;
+            e.preventDefault();
+    
+            x = e.offsetX;
+    
+            innerSlider.style.left = `${x - startX}px`;
+    
+            checkBoundry();
+        });
+    
+        // Check boundry of outer and inner sliders
+        function checkBoundry() {
+            let outer = slider.getBoundingClientRect(),
+            inner = innerSlider.getBoundingClientRect();
+    
+            if (parseInt(innerSlider.style.left) > 0) {
+            innerSlider.style.left = "0px";
+            } else if (inner.right < outer.right) {
+            innerSlider.style.left = `-${inner.width - outer.width}px`;
+            }
+        }
+        };
+        draggableSlider();
+     });
+ </script>
