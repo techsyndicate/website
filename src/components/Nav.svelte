@@ -22,11 +22,16 @@
         </a>
     </li>
     <li>
-        <a href="#resources">
+        <a href="#learn">
             <div class="line line-5"></div>
         </a>
     </li>
 </ul>
+<nav class="mobile">
+    <div></div>
+    <div></div>
+    <div></div>
+</nav>
 <style>
     *{
         margin: 0;
@@ -65,6 +70,8 @@
         position: absolute;
         display: none;
         transition: all 1s ease;
+        transition-delay: 250ms; 
+        transition-property: visibilty;
     }
     .line-1::after{
         content: 'Home';
@@ -92,5 +99,25 @@
     .line-4:hover::after,
     .line-5:hover::after {
         display: block;
+    }
+    nav{display: none;}
+    @media screen and (max-width: 768px) {
+        ul{
+            display:none;
+        }
+        nav{
+            width: 5vh;
+            height: 5vh;
+            display: block;
+            margin-top: -75vw;
+            margin-left: 5vw;
+            position: absolute;
+        }
+        nav div{
+            width: 100%;
+            height: .75vh;
+            background: #eee;
+            margin-bottom: 1.5vw;
+        }
     }
 </style>

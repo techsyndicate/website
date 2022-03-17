@@ -11,6 +11,12 @@
         scroll down
     </h3>
     <div class="scroll"></div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicin <br>
+        g elit. Et officia nihil, neque molestiae esse aliquid, <br>
+        ipsam earum debitis rerum consequatur  nostrum <br>
+        ducimus totam quasi facere odit. Voluptatem, dolorem.
+    </p>
     <img src="https://github.com/techsyndicate/website/blob/main/public/assets/images/tscircuitglow.png?raw=true" alt="">
 </div>
 <script>
@@ -92,9 +98,7 @@
         margin-left: 7.5vw;
         margin-top:50vw;
     }
-    .animate-this{
-        overflow: hidden;
-    }
+    
     .scroll{
         width: 0.25vh;
         height: 27.5vh;
@@ -105,6 +109,9 @@
         animation: scroll 2s infinite ease;
         transition: all .5s ease;
     }
+    p{
+        display: none;
+    }
     @keyframes scroll{
         0%{
             transform: translateY(0);
@@ -114,6 +121,29 @@
         }
         100%{
             transform: translateY(0);
+        }
+    }
+    @media only screen and (max-width: 768px){
+        .about{
+            margin-top: 27.5vw !important;
+        }
+        h3,.scroll{
+            display: none;
+        }
+        h1{
+            font-size: 15vw !important;
+            margin-left: 2.5vw !important;
+        }
+        p{
+            display: block;
+            margin-top: 50vw;
+            position: absolute;
+            margin-left: 2.5vw;
+        }
+        img{
+            transform: scale(0.45);
+            margin-left: -95vw !important;
+            margin-top: 65vw !important;
         }
     }
 </style>

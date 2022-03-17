@@ -135,6 +135,36 @@
         /* pointer-events: none; */
         transition: .5s ease-in;
     }
+    .mobile-input{
+        display: none;
+    }
+    @media only screen and (max-width: 768px){
+        .search-input,button,.slider{
+            display: none;
+        }
+        .mobile-input{
+            display: block;
+            margin-top: 32.5vw !important;
+            margin-left: 7.5vw !important;
+            position: absolute;
+        }
+        #mobile-search{
+            width: 30vh;
+            font-size: 4.5vw !important;
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid #16e16e;
+            color: #eee;
+            padding-left: 10px;
+            padding-bottom: 5px;
+        }
+        #mobile-search:focus{
+            outline: none;
+        }
+        #mobile-search::placeholder{
+            color: #eee;
+        }
+    }
 </style>
 <div class="member-info">
     <div class="alumni-members">
@@ -180,66 +210,14 @@
             <input id="search" class="search" type="text" placeholder="Search by name or field">
         </form>
     </div>
+    <div class="mobile-input">
+        <input type="text" id="mobile-search" placeholder="Search by name or field">
+    </div>
 </div>
 <script>
     import {onMount} from 'svelte';
-    let members =[
-         {
-             name: "Oorjit Chowdhary",
-             role: 'Prez',
-             year: '2021-22',
-             pfp: 'https://i.imgur.com/Rb6fHNy.png',
-             socials: [
-                 'https://www.facebook.com/john.doe',
-                 'https://www.instagram.com/john.doe',
-                 'https://www.twitter.com/john.doe'
-             ]
-         },
-         {
-             name: "Mihir Aggarwal",
-             role: 'VP',
-             year: '2021-22',
-             pfp: 'https://i.imgur.com/Rb6fHNy.png',
-             socials: [
-                 'https://www.facebook.com/john.doe',
-                 'https://www.instagram.com/john.doe',
-                 'https://www.twitter.com/john.doe'
-             ]
-         },
-         {   
-             name: "Anshul Saha",
-             role: 'Sec',
-             year: '2021-22',
-             pfp: 'https://i.imgur.com/Rb6fHNy.png',
-             socials: [
-                 'https://www.facebook.com/john.doe',
-                 'https://www.instagram.com/john.doe',
-                 'https://www.twitter.com/john.doe'
-             ]
-         },
-         {   
-             name: "Jai Madhukar",
-             role: 'Jt. Sec',
-             year: '2021-22',
-             pfp: 'https://i.imgur.com/Rb6fHNy.png',
-             socials: [
-                 'https://www.facebook.com/john.doe',
-                 'https://www.instagram.com/john.doe',
-                 'https://www.twitter.com/john.doe'
-             ]
-         },
-         {   
-             name: "Vaibhav Sharma",
-             role: 'Core',
-             year: '2021-22',
-             pfp: 'https://i.imgur.com/Rb6fHNy.png',
-             socials: [
-                 'https://www.facebook.com/john.doe',
-                 'https://www.instagram.com/john.doe',
-                 'https://www.twitter.com/john.doe'
-             ]
-         }
-     ];
+    import alumni from '../../data/alumni.json';
+    let members = alumni
      onMount(()=>{
         let search = document.getElementById('search');
         search.addEventListener('keyup', ()=>{
@@ -248,7 +226,8 @@
             cards.forEach(card =>{
                 let name = card.querySelector('h2').innerText.toLowerCase();
                 let role = card.querySelector('h4').innerText.toLowerCase();
-                if(name.includes(searchValue) || role.includes(searchValue)){
+                let year = card.querySelector('h3').innerText 
+                if(name.includes(searchValue) || role.includes(searchValue) || year.includes(searchValue)){
                     card.style.display = 'inline-block';
                 }else{
                     card.style.display = 'none';

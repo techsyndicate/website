@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Oorjit Chowdhary",
+        "role": "Prez",
+        "year": "2021-22",
+        "pfp": "https://i.imgur.com/Rb6fHNy.png",
+        "socials": [
+            "https://www.facebook.com/john.doe",
+            "https://www.instagram.com/john.doe",
+            "https://www.twitter.com/john.doe"
+        ]
+    },
+    {
+        "name": "Mihir Aggarwal",
+        "role": "VP",
+        "year": "2021-22",
+        "pfp": "https://i.imgur.com/Rb6fHNy.png",
+        "socials": [
+            "https://www.facebook.com/john.doe",
+            "https://www.instagram.com/john.doe",
+            "https://www.twitter.com/john.doe"
+        ]
+    },
+    {   
+        "name": "Anshul Saha",
+        "role": "Sec",
+        "year": "2021-22",
+        "pfp": "https://i.imgur.com/Rb6fHNy.png",
+        "socials": [
+            "https://www.facebook.com/john.doe",
+            "https://www.instagram.com/john.doe",
+            "https://www.twitter.com/john.doe"
+        ]
+    },
+    {   
+        "name": "Jai Madhukar",
+        "role": "Jt. Sec",
+        "year": "2021-22",
+        "pfp": "https://i.imgur.com/Rb6fHNy.png",
+        "socials": [
+            "https://www.facebook.com/john.doe",
+            "https://www.instagram.com/john.doe",
+            "https://www.twitter.com/john.doe"
+        ]
+    },
+    {   
+        "name": "Vaibhav Sharma",
+        "role": "Core",
+        "year": "2021-22",
+        "pfp": "https://i.imgur.com/Rb6fHNy.png",
+        "socials": [
+            "https://www.facebook.com/john.doe",
+            "https://www.instagram.com/john.doe",
+            "https://www.twitter.com/john.doe"
+        ]
+    }
+]

@@ -123,6 +123,44 @@
         /* pointer-events: none; */
         transition: .5s ease-in;
     }
+    .mobile-input{
+        display: none;
+    }.container{
+        display: none;
+    }
+    @media only screen and (max-width: 768px){
+        button,.search-input,.slider{
+            display: none;
+        }
+        .container{
+            display: block;
+            position: relative;
+            overflow: hidden;
+        }
+        .mobile-input{
+            display: block;
+            margin-top: 32.5vw !important;
+            margin-left: 7.5vw !important;
+            position: absolute;
+            margin-bottom: 15vw;
+        }
+        #mobile-search{
+            width: 30vh;
+            font-size: 4.5vw !important;
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid #16e16e;
+            color: #eee;
+            padding-left: 10px;
+            padding-bottom: 5px;
+        }
+        #mobile-search:focus{
+            outline: none;
+        }
+        #mobile-search::placeholder{
+            color: #eee;
+        }
+    }
 </style>
 <div class="member-info">
     <div class="current-members">
@@ -156,8 +194,39 @@
                         </div>
                     </div>
                 {/each}
+            </div>   
+        </div>            
+        <!--mobile slider-->
+        <div class="container">
+            <div class="carousel">
+                {#each num as i}
+                    {#if i == 1}
+                        <input type="radio" id="carousel-{i}" name="carousel[]" checked>
+                    {/if}
+                    {#if i != 1}
+                        <input type="radio" id="carousel-{i}" name="carousel[]">
+                    {/if}
+
+                {/each}
+                <ul class="carousel-items">
+                    {#each members as member}
+                        <li class="carousel-card">
+                            <img src="{member.pfp}" alt="{member.name}'s image">
+                            <div class="card-info">
+                                <h2>{member.name}</h2>
+                                <h4>{member.role}</h4>
+                            </div>
+                        </li>
+                    {/each}
+                </ul>
+                <div class="">
+                    {#each num as i}
+                        <label for="carousel-{i}"></label>
+                    {/each}
+                </div>
+                
             </div>
-        </div>
+        </div>    
     </div>
     <button>
         drag <i class="fa-solid fa-arrow-right-long"></i>
@@ -167,83 +236,21 @@
             <input id="search" class="search" type="text" placeholder="Search by name or field">
         </form>
     </div>
+    <div class="mobile-input">
+        <input type="text" placeholder="Search by name or field" id="mobile-search">
+    </div>
 </div>
 <script>
     import { onMount } from 'svelte';
     import gsap from 'gsap'
     import {ScrollTrigger} from 'gsap/ScrollTrigger'
-    let members =[
-        {
-            name: "Aayan Agarwal",
-            role: 'Prez',
-            pfp: 'https://i.imgur.com/Rb6fHNy.png',
-            socials: [
-                'https://www.facebook.com/john.doe',
-                'https://www.instagram.com/john.doe',
-                'https://www.twitter.com/john.doe'
-            ]
-        },
-        {
-            name: "Aayush Garg",
-            role: 'VP',
-            pfp: 'https://i.imgur.com/Rb6fHNy.png',
-            socials: [
-                'https://www.facebook.com/john.doe',
-                'https://www.instagram.com/john.doe',
-                'https://www.twitter.com/john.doe'
-            ]
-        },
-        {   
-            name: "Yuvraaj Narula",
-            role: 'Sec',
-            pfp: 'https://i.imgur.com/Rb6fHNy.png',
-            socials: [
-                'https://www.facebook.com/john.doe',
-                'https://www.instagram.com/john.doe',
-                'https://www.twitter.com/john.doe'
-            ]
-        },
-        {   
-            name: "Utkarsh Dugar",
-            role: 'Jt. Sec',
-            pfp: 'https://i.imgur.com/Rb6fHNy.png',
-            socials: [
-                'https://www.facebook.com/john.doe',
-                'https://www.instagram.com/john.doe',
-                'https://www.twitter.com/john.doe'
-            ]
-        },
-        {   
-            name: "Nevis Kawatra",
-            role: 'Core',
-            pfp: 'https://i.imgur.com/Rb6fHNy.png',
-            socials: [
-                'https://www.facebook.com/john.doe',
-                'https://www.instagram.com/john.doe',
-                'https://www.twitter.com/john.doe'
-            ]
-        },
-        {   
-            name: "Amish Mamtani",
-            role: 'Core',
-            pfp: 'https://i.imgur.com/Rb6fHNy.png',
-            socials: [
-                'https://www.facebook.com/john.doe',
-                'https://www.instagram.com/john.doe',
-                'https://www.twitter.com/john.doe'
-            ]
-        },
-        {   
-            name: "Anirudh Chaturvedi",
-            role: 'Core',
-            pfp: 'https://i.imgur.com/Rb6fHNy.png',
-            socials: [
-                'https://www.facebook.com/john.doe',
-                'https://www.instagram.com/john.doe',
-                'https://www.twitter.com/john.doe'
-            ]
-        }
-    ];
+    import curr_members from '../../data/members.json'
+    let members = curr_members;
+    let num =[];
+    for (let i = 0; i < members.length; i++) {
+        num.push(i+1);
+    }
+    console.log(num)
     gsap.registerPlugin(ScrollTrigger)
     onMount(()=>{
         let search = document.getElementById('search');

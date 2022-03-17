@@ -131,4 +131,28 @@
     .socials a:hover::after{
         height: 80%;
     }
+    @media only screen and (max-width: 768px){
+        .img{
+            width: 50vh !important;
+            height: 40vh !important;
+            margin-left: -7.5vw !important;
+            margin-top:90vw !important;
+        }
+        .title{
+            margin-top: -5vw !important;
+            margin-left: -2.5vw !important;
+        }
+        .title h1{
+            font-size: 38.5vw !important;
+        }
+        .title h2{
+            font-size: 17.5vw !important;
+        }
+        .socials i{
+            font-size: 5vw !important;
+        }
+        .socials {
+            margin-left: 12.5vw !important;
+        }
+    }
 </style>

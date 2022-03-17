@@ -1,0 +1,52 @@
+[
+    {
+        "field" : "App Development",
+        "link" : "https://www.notion.so/App-Development-3eeb461d6dea4c919dfec2179b7bced0",
+        "svg": "../assets/images/resources/appd.svg"   
+    },
+    {
+        "field" : "Web Development",
+        "link" : "https://www.notion.so/Web-Development-342122d8a41a47c2bf513a74aa99fbd9",
+        "svg": "../assets/images/resources/webd.svg"   
+    },
+    {
+        "field" : "2D Design",
+        "link" : "https://www.notion.so/2D-Design-6ea7adf55f524f50853714097d8022a6",
+        "svg": "../assets/images/resources/2d.svg"   
+    },
+    {
+        "field" : "3D Design",
+        "link" : "https://www.notion.so/3D-Design-c7cf7b5942c94e738d44914c7895d61d",
+        "svg": "../assets/images/resources/3d.svg"   
+    },
+    {
+        "field" : "A/V Editing",
+        "link" : "https://www.notion.so/A-V-Editing-d20e21ef8e944470a9e0cdad92fbab1e",
+        "svg": "../assets/images/resources/av.svg"   
+    },
+    {
+        "field" : "Crossword",
+        "link" : "https://www.notion.so/Crossword-4a4133cf77b848e0aeb639e9f169f9a6",
+        "svg": "../assets/images/resources/cross.svg"  
+    },
+    {
+        "field" : "Cryptic Hunts",
+        "link" : "https://www.notion.so/Cryptic-Hunts-f452885083b54d048187b0a7f053e231",
+        "svg": "../assets/images/resources/cryptic.svg"
+    },
+    {
+        "field" : "Quiz",
+        "link" : "https://www.notion.so/Quiz-a11151bcd8bd4b10b2d0d0ca702884d5",
+        "svg": "../assets/images/resources/quiz.svg"
+    },
+    {
+        "field" : "Group Discussion",
+        "link" : "https://www.notion.so/Group-Discussion-903404e4ee1b4aa09e17746989e547b4",
+        "svg": "../assets/images/resources/gdlr.svg"
+    },
+    {
+        "field" : "Programming",
+        "link" : "https://www.notion.so/Programming-46280d608cab4b9bafe84187ffaed616",
+        "svg": "../assets/images/resources/hack.svg"
+    }
+]

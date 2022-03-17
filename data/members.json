@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Aayan Agarwal",
+        "role": "Prez",
+        "pfp": "https://i.imgur.com/Rb6fHNy.png",
+        "socials": [
+            "https://www.facebook.com/john.doe",
+            "https://www.instagram.com/john.doe",
+            "https://www.twitter.com/john.doe"
+        ]
+    },
+    {
+        "name": "Aayush Garg",
+        "role": "VP",
+        "pfp": "https://i.imgur.com/Rb6fHNy.png",
+        "socials": [
+            "https://www.facebook.com/john.doe",
+            "https://www.instagram.com/john.doe",
+            "https://www.twitter.com/john.doe"
+        ]
+    },
+    {   
+        "name": "Yuvraaj Narula",
+        "role": "Sec",
+        "pfp": "https://i.imgur.com/Rb6fHNy.png",
+        "socials": [
+            "https://www.facebook.com/john.doe",
+            "https://www.instagram.com/john.doe",
+            "https://www.twitter.com/john.doe"
+        ]
+    },
+    {   
+        "name": "Utkarsh Dugar",
+        "role": "Jt. Sec",
+        "pfp": "https://i.imgur.com/Rb6fHNy.png",
+        "socials": [
+            "https://www.facebook.com/john.doe",
+            "https://www.instagram.com/john.doe",
+            "https://www.twitter.com/john.doe"
+        ]
+    },
+    {   
+        "name": "Nevis Kawatra",
+        "role": "Core",
+        "pfp": "https://i.imgur.com/Rb6fHNy.png",
+        "socials": [
+            "https://www.facebook.com/john.doe",
+            "https://www.instagram.com/john.doe",
+            "https://www.twitter.com/john.doe"
+        ]
+    },
+    {   
+        "name": "Amish Mamtani",
+        "role": "Core",
+        "pfp": "https://i.imgur.com/Rb6fHNy.png",
+        "socials": [
+            "https://www.facebook.com/john.doe",
+            "https://www.instagram.com/john.doe",
+            "https://www.twitter.com/john.doe"
+        ]
+    },
+    {   
+        "name": "Anirudh Chaturvedi",
+        "role": "Core",
+        "pfp": "https://i.imgur.com/Rb6fHNy.png",
+        "socials": [
+            "https://www.facebook.com/john.doe",
+            "https://www.instagram.com/john.doe",
+            "https://www.twitter.com/john.doe"
+        ]
+    }
+]

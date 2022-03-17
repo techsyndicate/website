@@ -90,5 +90,16 @@
         margin-left: 2.5vw;
         color: #333;
     }
-    
+    @media only screen and (max-width: 768px){
+        .back{
+            display: none;
+        }
+        .member-div{
+            margin-top: -110vw !important;
+        }
+        .toggle-title{
+            font-size: 7vw !important;
+            margin-left: 7.5vw !important;
+        }
+    }
 </style>

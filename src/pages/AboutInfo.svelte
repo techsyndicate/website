@@ -11,7 +11,6 @@
     <h1>Revolutionize<span style="color:#16e16e">.</span></h1>
 </div>
 <script>
-    import MemberCarousel from '../components/MembersCarousel.svelte'
     import {onMount} from 'svelte'
     import gsap from 'gsap'
     import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -140,5 +139,17 @@
     .about-div a:hover:before {
         border-bottom: solid 0.25vw #16e16e;
         transform: scale(0.5);
+    }
+    @media only screen and (max-width: 768px){
+        .about-div{
+            margin-top: -15vw !important;
+        }
+        .about-img,p,a{
+            display: none;
+        }
+        .about-div h1{
+            font-size: 12.5vw !important;
+            margin-left: 10vw !important;
+        }
     }
 </style>
