@@ -123,42 +123,20 @@
         /* pointer-events: none; */
         transition: .5s ease-in;
     }
-    .mobile-input{
-        display: none;
-    }.container{
+    .mobile-carousel{
         display: none;
     }
     @media only screen and (max-width: 768px){
         button,.search-input,.slider{
             display: none;
         }
-        .container{
+        .mobile-carousel{
             display: block;
-            position: relative;
-            overflow: hidden;
+
         }
-        .mobile-input{
-            display: block;
-            margin-top: 32.5vw !important;
-            margin-left: 7.5vw !important;
-            position: absolute;
-            margin-bottom: 15vw;
-        }
-        #mobile-search{
-            width: 30vh;
-            font-size: 4.5vw !important;
-            background: transparent;
-            border: none;
-            border-bottom: 2px solid #16e16e;
-            color: #eee;
-            padding-left: 10px;
-            padding-bottom: 5px;
-        }
-        #mobile-search:focus{
-            outline: none;
-        }
-        #mobile-search::placeholder{
-            color: #eee;
+        .mobile-carousel-card img{
+            width: 25%;
+            margin: auto;
         }
     }
 </style>
@@ -196,37 +174,6 @@
                 {/each}
             </div>   
         </div>            
-        <!--mobile slider-->
-        <div class="container">
-            <div class="carousel">
-                {#each num as i}
-                    {#if i == 1}
-                        <input type="radio" id="carousel-{i}" name="carousel[]" checked>
-                    {/if}
-                    {#if i != 1}
-                        <input type="radio" id="carousel-{i}" name="carousel[]">
-                    {/if}
-
-                {/each}
-                <ul class="carousel-items">
-                    {#each members as member}
-                        <li class="carousel-card">
-                            <img src="{member.pfp}" alt="{member.name}'s image">
-                            <div class="card-info">
-                                <h2>{member.name}</h2>
-                                <h4>{member.role}</h4>
-                            </div>
-                        </li>
-                    {/each}
-                </ul>
-                <div class="">
-                    {#each num as i}
-                        <label for="carousel-{i}"></label>
-                    {/each}
-                </div>
-                
-            </div>
-        </div>    
     </div>
     <button>
         drag <i class="fa-solid fa-arrow-right-long"></i>
@@ -236,9 +183,42 @@
             <input id="search" class="search" type="text" placeholder="Search by name or field">
         </form>
     </div>
-    <div class="mobile-input">
-        <input type="text" placeholder="Search by name or field" id="mobile-search">
-    </div>
+</div>
+<div class="mobile-carousel">
+    {#each members as member}
+        <div class="mobile-carousel-card mySlides1">
+            <img src="{member.pfp}" alt="{member.name}'s picture">
+            <div class="member-info">
+                <h2>{member.name}</h2>
+                <h4>{member.role}</h4>
+            </div>
+            <div class="social-info">
+                {#each member.socials as socials}
+                    {#if socials.includes('instagram')}
+                        <a href="{socials}" target="_blank">
+                            <i class="fa-brands fa-instagram" ></i>
+                        </a>
+                    {/if}
+                    {#if socials.includes('facebook')}
+                        <a href="{socials}" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                    {/if}
+                    {#if socials.includes('twitter')}
+                        <a href="{socials}" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    {/if}
+                {/each}
+            </div>
+        </div>
+    {/each}
+    <button onclick="prev(-1,0)">
+        <i class="fa-solid fa-arrow-left-long"></i>
+    </button>
+    <button onclick="next(1,0)">
+        <i class="fa-solid fa-arrow-right-long"></i>
+    </button>
 </div>
 <script>
     import { onMount } from 'svelte';
@@ -366,6 +346,27 @@
                 scrub: true,
             }
         })
+        let slideIndex = [1,1];
+        let slideId ='mySlides1'
+        showSlides(1, 0);
+        showSlides(1, 1);
+
+        function plusSlides(n, no) {
+            showSlides(slideIndex[no] += n, no);
+        }
+        function showSlides(n, no) {
+            let i;
+            let x = document.getElementsByClassName(slideId[no]);
+            if (n > x.length) {
+                slideIndex[no] = 1
+            }    
+            if (n < 1) {
+                slideIndex[no] = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            x[slideIndex[no]-1].style.display = "block";  
+        }
     })
-    let search = document.querySelector('#search') 
 </script>

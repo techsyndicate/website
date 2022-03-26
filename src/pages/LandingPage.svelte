@@ -33,6 +33,7 @@
     import {ScrollTrigger} from 'gsap/ScrollTrigger'
     gsap.registerPlugin(ScrollTrigger)
     onMount(()=>{
+        
         gsap.fromTo('.img',{
             y: 0,
         },{

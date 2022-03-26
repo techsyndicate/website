@@ -48,5 +48,15 @@
         "field" : "Programming",
         "link" : "https://www.notion.so/Programming-46280d608cab4b9bafe84187ffaed616",
         "svg": "../assets/images/resources/hack.svg"
+    },
+    {
+        "field" : "Hardware",
+        "link": "",
+        "svg": "../assets/images/resources/hardware.svg"
+    },
+    {
+        "field": "Capture the flag",
+        "link" : "https://www.notion.so/Capture-The-Flag-a66386a75ce44bc79c51429b34250931",
+        "svg": ""
     }
 ]
