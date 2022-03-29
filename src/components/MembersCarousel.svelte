@@ -123,20 +123,9 @@
         /* pointer-events: none; */
         transition: .5s ease-in;
     }
-    .mobile-carousel{
-        display: none;
-    }
     @media only screen and (max-width: 768px){
         button,.search-input,.slider{
             display: none;
-        }
-        .mobile-carousel{
-            display: block;
-
-        }
-        .mobile-carousel-card img{
-            width: 25%;
-            margin: auto;
         }
     }
 </style>
@@ -184,47 +173,13 @@
         </form>
     </div>
 </div>
-<div class="mobile-carousel">
-    {#each members as member}
-        <div class="mobile-carousel-card mySlides1">
-            <img src="{member.pfp}" alt="{member.name}'s picture">
-            <div class="member-info">
-                <h2>{member.name}</h2>
-                <h4>{member.role}</h4>
-            </div>
-            <div class="social-info">
-                {#each member.socials as socials}
-                    {#if socials.includes('instagram')}
-                        <a href="{socials}" target="_blank">
-                            <i class="fa-brands fa-instagram" ></i>
-                        </a>
-                    {/if}
-                    {#if socials.includes('facebook')}
-                        <a href="{socials}" target="_blank">
-                            <i class="fa-brands fa-facebook"></i>
-                                    </a>
-                    {/if}
-                    {#if socials.includes('twitter')}
-                        <a href="{socials}" target="_blank">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    {/if}
-                {/each}
-            </div>
-        </div>
-    {/each}
-    <button onclick="prev(-1,0)">
-        <i class="fa-solid fa-arrow-left-long"></i>
-    </button>
-    <button onclick="next(1,0)">
-        <i class="fa-solid fa-arrow-right-long"></i>
-    </button>
-</div>
+<MobileCarousel />
 <script>
     import { onMount } from 'svelte';
     import gsap from 'gsap'
     import {ScrollTrigger} from 'gsap/ScrollTrigger'
     import curr_members from '../../data/members.json'
+    import MobileCarousel from './MobileCarousel.svelte'
     let members = curr_members;
     let num =[];
     for (let i = 0; i < members.length; i++) {
@@ -346,27 +301,6 @@
                 scrub: true,
             }
         })
-        let slideIndex = [1,1];
-        let slideId ='mySlides1'
-        showSlides(1, 0);
-        showSlides(1, 1);
-
-        function plusSlides(n, no) {
-            showSlides(slideIndex[no] += n, no);
-        }
-        function showSlides(n, no) {
-            let i;
-            let x = document.getElementsByClassName(slideId[no]);
-            if (n > x.length) {
-                slideIndex[no] = 1
-            }    
-            if (n < 1) {
-                slideIndex[no] = x.length
-            }
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-            }
-            x[slideIndex[no]-1].style.display = "block";  
-        }
+        
     })
 </script>

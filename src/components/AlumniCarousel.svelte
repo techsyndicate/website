@@ -135,35 +135,10 @@
         /* pointer-events: none; */
         transition: .5s ease-in;
     }
-    .mobile-input{
-        display: none;
-    }
     @media only screen and (max-width: 768px){
         .search-input,button,.slider{
             display: none;
-        }
-        .mobile-input{
-            display: block;
-            margin-top: 32.5vw !important;
-            margin-left: 7.5vw !important;
-            position: absolute;
-        }
-        #mobile-search{
-            width: 30vh;
-            font-size: 4.5vw !important;
-            background: transparent;
-            border: none;
-            border-bottom: 2px solid #16e16e;
-            color: #eee;
-            padding-left: 10px;
-            padding-bottom: 5px;
-        }
-        #mobile-search:focus{
-            outline: none;
-        }
-        #mobile-search::placeholder{
-            color: #eee;
-        }
+        }  
     }
 </style>
 <div class="member-info">
@@ -210,13 +185,12 @@
             <input id="search" class="search" type="text" placeholder="Search by name or field">
         </form>
     </div>
-    <div class="mobile-input">
-        <input type="text" id="mobile-search" placeholder="Search by name or field">
-    </div>
 </div>
+<AlumniMobileCarousel />
 <script>
     import {onMount} from 'svelte';
     import alumni from '../../data/alumni.json';
+    import AlumniMobileCarousel from './AlumniMobileCarousel.svelte'
     let members = alumni
      onMount(()=>{
         let search = document.getElementById('search');

@@ -5,7 +5,7 @@
         <h2 id="t2" on:click="{color}">Alumni</h2>
     </div>
     {#if display=='block'}
-        <MembersCarousel />
+        <MembersCarousel  />
     {:else}
         {#if display=='none'}
             <AlumniCarousel />
@@ -15,6 +15,7 @@
 <script>
     import MembersCarousel from '../components/MembersCarousel.svelte'
     import AlumniCarousel from '../components/AlumniCarousel.svelte';
+    import MobileCarousel from '../components/MobileCarousel.svelte'
     import {onMount} from 'svelte'
     import gsap from 'gsap'
     import {ScrollTrigger} from 'gsap/ScrollTrigger'
@@ -96,10 +97,12 @@
         }
         .member-div{
             margin-top: -110vw !important;
+            height: 60vh !important;
         }
         .toggle-title{
             font-size: 7vw !important;
             margin-left: 7.5vw !important;
+            margin-top: -25vw !important;
         }
     }
 </style>
