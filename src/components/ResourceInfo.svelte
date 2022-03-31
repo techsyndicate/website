@@ -107,11 +107,9 @@
     gsap.registerPlugin(ScrollTrigger)
     onMount(()=>{
         gsap.fromTo('.learn-div h1',{
-            transform: 'rotate(-90deg) scale(0.1)',
             opacity: 0,
             x: -100,
         },{
-            transform: 'rotate(0deg) scale(1)',
             opacity: 1,
             x: 0,
             duration: 5,
@@ -125,12 +123,10 @@
             }
         })
         gsap.fromTo('.learn-div p',{
-            transform: 'rotate(-90deg) scale(0.1)',
-            opacity: 0.2,
+            opacity: 0,
             x: 100,
         },
         {
-            transform: 'rotate(0deg) scale(1)',
             opacity: 1,
             x: 0,
             duration: 5,
@@ -145,7 +141,7 @@
         })
         gsap.fromTo('.learn-div img',{
             transform: 'rotate(-90deg) scale(0.1)',
-            opacity: 0.2,
+            opacity: 0,
             x: 100,
         },
         {
@@ -163,12 +159,10 @@
             }
         })
         gsap.fromTo('.scroll',{
-            transform: 'rotate(-75deg) scale(0.1)',
             opacity: 0.2,
             x: 100,
         },
         {
-            transform: 'rotate(0deg) scale(1)',
             opacity: 1,
             x: 0,
             duration: 2,

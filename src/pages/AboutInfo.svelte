@@ -112,7 +112,7 @@
     .about-div h1{
         position: absolute;
         font-size: 7.5vw;
-        margin-left: 8.75vw;
+        margin-left: 7vw;
         margin-top: 31.5vw;
     }
     .about-div a{

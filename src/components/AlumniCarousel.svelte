@@ -8,7 +8,6 @@
         margin-top: 16.5vw;
         margin-left: 10vw;
         justify-content: space-between;
-        cursor: grab;
         animation: slide-in-left 1s ease; 
     }
     @keyframes slide-in-left{
@@ -115,17 +114,14 @@
         color: #eee;
     }
     .slider {
-        position: absolute;
         width: 150vh;
-        height: 65vh;
+        height: 60vh;
         top: 1.5%;
-        left: 1.5%;
         padding-left: 1.5%;
         padding-right: 1%;
-        overflow: hidden;
     }
     .slider-body{
-        position: absolute;
+        overflow-x: scroll;
         display: grid;
         height: 100%;
         top: 0;
@@ -134,6 +130,12 @@
         gap: 3.5%;
         /* pointer-events: none; */
         transition: .5s ease-in;
+    }
+    .slider-body::-webkit-scrollbar{
+        height: 0.25vw;
+        background: #111;
+        border-radius: 10px;
+        border-radius: .1px solid #111;
     }
     @media only screen and (max-width: 768px){
         .search-input,button,.slider{
@@ -208,54 +210,6 @@
                 }
             })
         })
-        let draggableSlider = function () {
-        let slider = document.querySelector(".slider"),
-            innerSlider = document.querySelector(".slider-body");
-        let pressed = false,
-            startX,
-            x;
-    
-        slider.addEventListener("mousedown", (e) => {
-            pressed = true;
-            startX = e.offsetX - innerSlider.offsetLeft;
-            slider.style.cursor = "grabbing";
-        });
-    
-        slider.addEventListener("mouseenter", () => {
-            slider.style.cursor = "grab";
-        });
-    
-        slider.addEventListener("mouseup", () => {
-            slider.style.cursor = "grab";
-        });
-    
-        window.addEventListener("mouseup", () => {
-            pressed = false;
-        });
-    
-        slider.addEventListener("mousemove", (e) => {
-            if (!pressed) return;
-            e.preventDefault();
-    
-            x = e.offsetX;
-    
-            innerSlider.style.left = `${x - startX}px`;
-    
-            checkBoundry();
-        });
-    
-        // Check boundry of outer and inner sliders
-        function checkBoundry() {
-            let outer = slider.getBoundingClientRect(),
-            inner = innerSlider.getBoundingClientRect();
-    
-            if (parseInt(innerSlider.style.left) > 0) {
-            innerSlider.style.left = "0px";
-            } else if (inner.right < outer.right) {
-            innerSlider.style.left = `-${inner.width - outer.width}px`;
-            }
-        }
-        };
-        draggableSlider();
+        
      });
  </script>

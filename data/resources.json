@@ -57,6 +57,6 @@
     {
         "field": "Capture the flag",
         "link" : "https://www.notion.so/Capture-The-Flag-a66386a75ce44bc79c51429b34250931",
-        "svg": ""
+        "svg": "../assets/images/resources/ctf.svg"
     }
 ]

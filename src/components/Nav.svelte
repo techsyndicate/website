@@ -58,8 +58,8 @@
             </a>
         </li>
         <li>
-            <a href="#contact">
-                Contact
+            <a href="#faq">
+                FAQ
             </a>
         </li>
     </ul>

@@ -1,6 +1,6 @@
 <style>
     .resource-table,.resource-table-mobile{
-        margin-top: 35%;
+        margin-top: 5%;
         margin-left: 7.5%;
         padding-right: 5%;
         display: grid;
@@ -68,6 +68,7 @@
         .resource-table-mobile{
             display: block;
             margin: -10% 7.5%;
+            margin-bottom: 5%;
         }
         .resource-card-mobile{
             width: 35vh;
@@ -108,7 +109,7 @@
     onMount(()=>{
         gsap.fromTo('.resource-card',{
             opacity: 0,
-            y: -100
+            y: 100
         },{
             opacity: 1,
             y: 0,
