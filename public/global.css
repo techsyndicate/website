@@ -1,13 +1,11 @@
-@font-face {
-	font-family: 'sofia pro';
-	src: url('../assets/fonts/sofia-pro.otf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
-	font-family: 'sofia pro', sans-serif;
+	font-family: 'Outfit', sans-serif;
 }
 html{
 	scroll-behavior: smooth;
-	background-color: #000;
+	background-color: rgb(13, 12, 12);
 	color: #eee;
 	margin: 0;
 	padding: 0;
