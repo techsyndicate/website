@@ -7,4 +7,8 @@
     import LearnPage from './pages/LearnPage.svelte';
 </script>
 <Nav />
+<LandingPage />
 <AboutPage />
+<MemberPage />
+<EventPage />
+<LearnPage />

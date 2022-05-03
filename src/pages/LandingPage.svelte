@@ -94,6 +94,6 @@
         transform: scale(.65) translateX(1vw) translateY(1vw);
     }
     .landing-asset svg{
-        transform: scale(.6) translateX(17.5vw) translateY(-35vw);
+        transform: scale(.6) translateX(22.5vw) translateY(-35vw);
     }
 </style>

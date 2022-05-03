@@ -247,8 +247,10 @@
 </div>
 <style>
     .about-div{
+        margin-top:5vw;
         width: 100%;
         display: flex;
+        height: 90vh;
     }
     .about-div svg{
         width: 65vw;
