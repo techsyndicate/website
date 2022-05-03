@@ -27,17 +27,16 @@
         margin: 2.5vw 5vw;
     }
     .learn-blob{
-        border-radius: 7.5px;
+        border-radius: 10px;
         padding: 2vw;
-        border: 2px solid #eee;
+        background: #171717;
         transition: all .2s ease;
-        height: 17.5vw;
+        height: 15vw;
         width: 25vw;
         cursor: pointer;
         margin-bottom: 2vw;
     }
     .learn-blob:hover{
-        border: 2px solid #16e16e;
         transform: translateY(-5px);
     }
     .learn-header{
