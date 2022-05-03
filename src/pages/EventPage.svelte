@@ -51,7 +51,7 @@
     }
     .event-div h1{
         font-size: 4.5vw;
-        margin: 5vw 5vw;
+        margin: 2.5vw 5vw;
         letter-spacing: 1px;
     }
     .line{
@@ -68,7 +68,7 @@
         border-radius: 10vw;
         background: #4e4e4e;
         position: absolute;
-        margin-top: 10vw;
+        margin-top: 12.5vw;
         margin-left: 12.5vw;
     }
     .circle-1,
@@ -81,7 +81,7 @@
         width: 1.5vw;
         position: absolute;
         border-radius:100%;
-        margin-top: 9.55vw;
+        margin-top: 12.1vw;
     }
     .circle-1 {
         margin-left: 11.5vw;
@@ -114,16 +114,16 @@
     }
     .event-blob-1{
         background: #4e4e4e;
-        margin: 5vw 15vw;
+        margin: 3.5vw 15vw;
     }
     .event-blob-2{
-        margin: -15vw 31vw;
+        margin: -11.5vw 31vw;
     }
     .event-blob-3{
-        margin: 5vw 45vw;
+        margin: 3.5vw 45vw;
     }
     .event-blob-4{
-        margin: -15vw 61vw;
+        margin: -11.5vw 61vw;
     }
     .event-name {
         font-size: 2vw;
