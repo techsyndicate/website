@@ -3,6 +3,7 @@
     import LandingPage from './pages/LandingPage.svelte';
     import MemberPage from './pages/MemberPage.svelte';
     import EventPage from './pages/EventPage.svelte';
+    import LearnPage from './pages/LearnPage.svelte';
 </script>
 <Nav />
-<EventPage />
+<LearnPage />
