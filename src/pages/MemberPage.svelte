@@ -77,6 +77,7 @@
         display: flex;
         margin-left: 37.5%;
         margin-top: 1vw;
+        z-index: 3;
     }
     .team-panel .team-search input{
         background:transparent;
@@ -93,6 +94,7 @@
     }
     .team-panel .team-search input:focus{
         border-bottom: 2px solid #16e16e;
+        color: white;
     }
     .team-panel .team-search svg{
         transform: scale(.5) translateX(40vw);

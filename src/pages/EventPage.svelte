@@ -34,7 +34,10 @@
         </p>
         <p class="event-duration">
             Jun 4 - Jun 20
-        </p>
+        </p> <br><br> <br>
+        <a href="#" target='_blank'>
+            Check Out
+        </a>
     </div>
     <div class="event-blob-4">
         <p class="event-name">
@@ -122,6 +125,7 @@
     }
     .event-blob-3{
         margin: 3.5vw 45vw;
+        height: 12.5vw;
     }
     .event-blob-4{
         margin: -11.5vw 61vw;
@@ -137,5 +141,19 @@
         font-weight: 400;
         letter-spacing: 1px;
         margin: -1.5vw 1.5vw;
+    }
+    .event-blob-3 a{
+        font-size: 1.25vw;
+        font-weight: 500;
+        text-decoration: none;
+        width: 10vw;
+        height: 3vw;
+        border-radius: 5px;
+        background: #191919;
+        color: #16e16e;
+        padding: 10px;
+        letter-spacing: 2px;
+        cursor: pointer;
+        margin: 1.5vw;
     }
 </style>
