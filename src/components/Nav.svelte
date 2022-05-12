@@ -2,16 +2,16 @@
     <div class="nav-logo"></div>
     <ul class="nav-links">
         <li>
-            Learn <span>|</span>
+          <a href="#"> Learn</a> <span>|</span>
         </li>
         <li>
-            Events <span>|</span>
+           <a href="#"> Events</a> <span>|</span>
         </li>
         <li>
-            About <span>|</span>
+           <a href="#"> About</a> <span>|</span>
         </li>
         <li>
-            Team
+           <a href="#"> Team</a>
         </li>
     </ul>
 </div>
@@ -39,10 +39,26 @@
         margin-top: 3.5vw;
     }
     .nav-links li{
+        display: flex;
         margin: 0 1vw;
         font-size: 1.5vw;
+    }
+    .nav-links a{
         text-decoration: none;
         cursor: pointer;
+        color: #eee;
+        transition: all 0.5s ease;
+    }
+    .nav-links a:after{
+        content : '';
+        display: block;
+        width: 0;
+        height:2.5px;
+        transition: all 0.2s ease;
+        background: #16e16e;
+    }
+    .nav-links a:hover:after{
+        width: 55%;
     }
     .nav-links li span{
         padding-left: 1vw;

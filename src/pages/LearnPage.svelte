@@ -9,8 +9,7 @@
 </script>
 <style>
     .learn-div{
-        width: 100%;
-    }
+        width: 100%;    }
     .learn-div h1{
         font-size: 4.5vw;
         margin: 2.5vw 5vw;
