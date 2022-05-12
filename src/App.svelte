@@ -5,6 +5,7 @@
     import MemberPage from './pages/MemberPage.svelte';
     import EventPage from './pages/EventPage.svelte';
     import LearnPage from './pages/LearnPage.svelte';
+    import IntechPage from './pages/IntechPage.svelte';
 </script>
 <Nav />
-<MemberPage />
+<IntechPage />

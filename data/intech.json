@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Development",
+        "info": "The Dev event consists of two categories: Web Development and App Development. The prompt will be the same for both and participants can choose to submit their entries in either of the two or both.",
+        "class" : "VI-XI"
+    },
+    {
+        "name": "Design",
+        "info": "The Design consists of three categories: 3D Design, Graphic Design, and UI Design. There will be separate prompts for each category; participants can take part in one or more categories.",
+        "class" : "VI-XI"
+    },
+    {
+        "name": "Audio/Video Editing",
+        "info": "A/V Editing is a very diverse field; films, motion graphics, animations, and videos, all come under A/V. Based on the prompt, you can choose to make a video of any type from the above.",
+        "class" : "VI-XI"
+    },
+    {
+        "name": "Encryptid",
+        "info": "Tech Syndicate's annual cryptic hunt, a scavenger hunt-like experience, based on web security, cryptography, and steganography.",
+        "class": "VI-XI"
+    },
+    {
+        "name": "Crossword",
+        "info": "A tech-based crossword solely based on puns. The only things that you need to know are the name's of really popular tech companies, products, or games.",
+        "class": "VI-XI"
+    },
+    {
+        "name": "Group Discussion",
+        "info": "An engaging panel discussion debating the rights and wrongs of the latest technology trends/issues. It consists of a group of individuals having an intellectual discussion.",
+        "class": "VI-XI"
+    }
+    
+]
