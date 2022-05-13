@@ -173,5 +173,78 @@
         .event-div h1{
             font-size: 6.5vw;
         }
+        .line{
+            width: 1.5vw;
+            height: 125vw;
+        }
+        .line-overlap{
+            width: 1.5vw;
+            height: 25vw;
+            margin-left: 47.35%;
+        }
+        .circle-1,
+        .circle-2,
+        .circle-3,
+        .circle-4,
+        .circle-5,.circle-6{
+            height: 3.5vw;
+            width: 3.5vw;
+            margin-left: 46.25%;
+            z-index: 100;
+        }
+        .circle-2{
+            margin-top: 35vw;
+        }
+        .circle-3{
+            margin-top: 60vw;
+        }
+        .circle-4{
+            margin-top: 85vw;
+        }
+        .circle-5{
+            margin-top: 110vw;
+        }
+        .circle-6{
+            margin-top: 135vw;
+        }
+        .event-blob-1,
+        .event-blob-2,
+        .event-blob-3,
+        .event-blob-4{
+            width: 35vw;
+            height: 20vw;
+        }
+        .event-blob-1{
+            margin-top: -110vw;
+            margin-left: 5vw;
+        }
+        .event-blob-2{
+            margin-top: -85vw;
+            margin-left: 60vw;
+        }
+        .event-blob-3{
+            margin-top: -60vw;
+            margin-left: 5vw;
+            height: 27.5vw;
+        }
+        .event-blob-4{
+            margin-top: -35vw;
+            margin-left: 60vw;
+        }
+        .event-name {
+            font-size: 3.5vw;
+            margin-left: 1.5vw;
+        }
+        .event-duration{
+            font-size: 3vw;
+            margin: -1.5vw 1.5vw;
+        }
+        .event-blob-3 button{
+            font-size: 2.5vw;
+            width: 15vw;
+            height: 7.5vw;
+            margin: 1.5vw;
+        }
+
     }
 </style>
