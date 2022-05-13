@@ -7,8 +7,10 @@
     import EventPage from './pages/EventPage.svelte';
     import LearnPage from './pages/LearnPage.svelte';
     import IntechPage from './pages/IntechPage.svelte';
+    import MobileNav from './components/MobileNav.svelte';
 </script>
 <Router>
+    <MobileNav />
     <Nav />
     <Route path="/" component={LandingPage} />
     <Route path="learn" component={LearnPage}/>

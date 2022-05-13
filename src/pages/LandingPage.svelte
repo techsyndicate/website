@@ -102,4 +102,28 @@
     .socials a:hover::after{
         height: 80%;
     }
+    @media only screen and (max-width: 768px){
+        .landing-div{
+            margin-top: 50vw;
+        }
+        .tech{
+            font-size: 30vw !important;
+        }
+        .syndicate {
+            margin-top: -25vw !important;
+            font-size:  13.5vw !important;
+        }
+        .snowglobe-assets{
+            height: 80vw !important;
+            width: 80vw !important;
+            transform: translateY(-75vw) !important;
+        }
+        .social-div{
+            margin-top: -100vw !important;
+            margin-left: 15vw !important;
+        }
+        .socials a{
+            font-size: 5vw !important;
+        }
+    }
 </style>
