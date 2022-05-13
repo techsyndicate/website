@@ -1,3 +1,9 @@
+<svelte:head>
+    <title>Tech Syndicate | Events</title>
+</svelte:head>
+<script>
+    import {Link} from 'svelte-navigator';
+</script>
 <div class="event-div">
     <h1>
         Events
@@ -34,10 +40,12 @@
         </p>
         <p class="event-duration">
             Jun 4 - Jun 20
-        </p> <br><br> <br>
-        <a href="#" target='_blank'>
-            Check Out
-        </a>
+        </p> <br>
+        <Link to = "/intech" style="text-decoration: none;">
+            <button>
+                Explore
+            </button>
+        </Link>
     </div>
     <div class="event-blob-4">
         <p class="event-name">
@@ -142,7 +150,7 @@
         letter-spacing: 1px;
         margin: -1.5vw 1.5vw;
     }
-    .event-blob-3 a{
+    .event-blob-3 button{
         font-size: 1.25vw;
         font-weight: 500;
         text-decoration: none;
@@ -152,6 +160,8 @@
         background: #191919;
         color: #16e16e;
         padding: 10px;
+        border: none;
+        outline: none;
         letter-spacing: 2px;
         cursor: pointer;
         margin: 1.5vw;

@@ -1,6 +1,9 @@
 <script>
     import events from '../../data/intech.json';
 </script>
+<svelte:head>
+    <title>Tech Syndicate | Intech'22</title>
+</svelte:head>
 <div class="intech-div">
     <h1>Intech'22</h1>
     <p class="intech-info">
@@ -68,5 +71,8 @@
         color: #16e16e;
         text-decoration: none;
         border-radius: 5px;
+    }
+    .event:hover{
+        transform: translateY(-10px);
     }
 </style>

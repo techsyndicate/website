@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Tech Syndicate | Members</title>
+</svelte:head>
 <script>
     import MemberGrid from '../components/MemberGrid.svelte'
     import AlumniGrid from '../components/AlumniGrid.svelte'

@@ -25,6 +25,7 @@
     "gsap": "^3.9.1",
     "page": "^1.11.6",
     "sirv-cli": "^2.0.0",
+    "svelte-navigator": "^3.1.5",
     "swiper": "^8.0.7",
     "three": "^0.138.0"
   }

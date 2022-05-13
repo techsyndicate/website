@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Tech Syndicate</title>
+</svelte:head>
 <div class="landing-div">
     <h1 class="tech">
         TECH
@@ -63,9 +66,9 @@
     }
     .social-div{
         position: absolute;
-        margin-left: 75%;
+        margin-left: 70%;
         z-index: 5;
-        margin-top: -5vw;
+        margin-top: -6.5vw;
     }
     .socials{
         display: flex;

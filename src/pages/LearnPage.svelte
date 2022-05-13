@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>Tech Syndicate | Resources</title>
+</svelte:head>
 <div class="learn-div">
     <h1>
         Learning Resources

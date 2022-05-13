@@ -1,18 +1,31 @@
+<script>
+    import {Link} from 'svelte-navigator'
+</script>
 <div class="nav">
+    <Link to ="/" style="text-decoration: none;">
     <div class="nav-logo"></div>
+    </Link>
     <ul class="nav-links">
-        <li>
-          <a href="#"> Learn</a> <span>|</span>
-        </li>
-        <li>
-           <a href="#"> Events</a> <span>|</span>
-        </li>
-        <li>
-           <a href="#"> About</a> <span>|</span>
-        </li>
-        <li>
-           <a href="#"> Team</a>
-        </li>
+        <Link to = "/learn" style="text-decoration: none; color:#eee;">
+            <li>
+                <p>Learn</p> <span>|</span>
+            </li>
+        </Link>
+        <Link to = "/about" style="text-decoration: none; color:#eee;">
+            <li>
+                <p>About</p> <span>|</span>
+            </li>
+        </Link>
+        <Link to = "/event" style="text-decoration: none; color:#eee;">
+            <li>
+                <p>Events</p> <span>|</span>
+            </li>
+        </Link>
+        <Link to = "/team" style="text-decoration: none; color:#eee;">
+            <li>
+                <p>Team</p> <span>|</span>
+            </li>
+        </Link>
     </ul>
 </div>
 <style>
@@ -42,14 +55,16 @@
         display: flex;
         margin: 0 1vw;
         font-size: 1.5vw;
+        text-decoration: none;
     }
-    .nav-links a{
+    .nav-links p{
         text-decoration: none;
         cursor: pointer;
         color: #eee;
         transition: all 0.5s ease;
+        margin-top: 0vw;
     }
-    .nav-links a:after{
+    .nav-links p:after{
         content : '';
         display: block;
         width: 0;
@@ -57,7 +72,7 @@
         transition: all 0.2s ease;
         background: #16e16e;
     }
-    .nav-links a:hover:after{
+    .nav-links p:hover:after{
         width: 55%;
     }
     .nav-links li span{
