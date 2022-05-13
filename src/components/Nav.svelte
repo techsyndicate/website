@@ -23,7 +23,7 @@
         </Link>
         <Link to = "/team" style="text-decoration: none; color:#eee;">
             <li>
-                <p>Team</p> <span>|</span>
+                <p>Team</p>
             </li>
         </Link>
     </ul>

@@ -69,4 +69,23 @@
     .alum{
         display: none;
     }
+    @media only screen and (max-width: 768px){
+        .team-div{
+            margin-top: 5vw !important;
+        }
+        .team-panel .team-toggle button{
+            background: none;
+            border: none;
+            outline: none;
+            font-size: 7.5vw;
+            color: #eee;
+            cursor: pointer;
+            margin-right: 2vw;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .curr,.alum{
+            margin-top: 15vw !important;
+        }
+    }
 </style>

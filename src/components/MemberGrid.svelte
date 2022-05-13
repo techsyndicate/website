@@ -49,6 +49,41 @@
                                 <i class="fa-brands fa-twitter"></i>
                             </a>
                         {/if}
+                        {#if social.includes('mailto:')}
+                            <a href="{social}" target="_blank">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        {/if}
+                        {#if social.includes('linkedin')}
+                            <a href="{social}" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        {/if}
+                        {#if social.includes('youtube')}
+                            <a href="{social}" target="_blank">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        {/if}
+                        {#if social.includes('dribbble')}
+                            <a href="{social}" target="_blank">
+                                <i class="fa-brands fa-dribbble"></i>
+                            </a>
+                        {/if}
+                        {#if social.includes('github')}
+                            <a href="{social}" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        {/if}
+                        {#if social.includes('behance')}
+                            <a href="{social}" target="_blank">
+                                <i class="fa-brands fa-behance"></i>
+                            </a>
+                        {/if}
+                        {#if social.includes('spotify')}
+                            <a href="{social}" target="_blank">
+                                <i class="fa-brands fa-spotify"></i>
+                            </a>
+                        {/if}
                     {/each}
                 </div>
             </div>
@@ -130,5 +165,47 @@
     }
     .team-search svg{
         transform: scale(.5) translateX(40vw);
+    }
+    @media only screen and (max-width: 768px){
+        .member-table{
+            display: block;
+        }
+        .member{
+            width: 100%;
+            height: 35vw;
+            margin-top: 5vw !important;
+            margin-bottom: 5vw !important;
+        }
+        .member .member-pfp{
+            width: 20vw;
+            height: 20vw;
+            border-radius: 100%;
+            margin: 7.5vw 5vw;
+        }
+        .member-info .member-name{
+            font-weight: light;
+            font-size: 5vw !important;
+            width: auto !important;
+            letter-spacing: 1px;
+        }
+        .member-info .member-role{
+            margin-top: -2.4vw !important;
+        }
+        .team-search{
+            display: flex;
+            margin-left: -8.5vw !important;
+            margin-top: -11vw !important;
+            position: absolute;
+        }
+        .team-search input{
+            height: 5vw;
+            width: 40.5vw;
+            font-size: 4vw;
+            border-bottom: 3.5px solid grey;
+            padding-bottom: 1.5vw;
+        }
+        .team-search svg{
+            transform: scale(.5) translateX(87.5vw) translateY(-3vw);
+        }
     }
 </style>

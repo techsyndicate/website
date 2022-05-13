@@ -1,5 +1,5 @@
 <div class="nav-mobile">
-    <div class="nav-logo"></div>
+    <Link to="/" style="text-decoration: none;"><div class="nav-logo"></div></Link>
     <button class="open">
         <i class="fa-solid fa-bars"></i>
     </button>
@@ -8,7 +8,9 @@
     <button class="close">
         <i class="fa-solid fa-times"></i>
     </button>
-    <div class="nav-logo" style="width: 15vw; height: 15vw; display: block; margin-right: auto;margin-left: auto; margin-top: 15vw;"></div>
+    <Link to="/" style="text-decoration: none;">
+        <div class="nav-logo" style="width: 15vw; height: 15vw; display: block; margin-right: auto;margin-left: auto; margin-top: 15vw;"></div>
+    </Link>
     <ul>
         <li>
             <Link to="/learn" style="text-decoration: none; color: #eee;">
@@ -45,7 +47,7 @@
     })
 </script>
 <style>
-    .nav-mobile{
+    .nav-mobile,.nav-links{
         display: none;
     }
     .nav-logo{
@@ -55,6 +57,7 @@
         width: 10vw;
         height: 10vw;
     }
+
     @media only screen and (max-width: 768px) {
         .nav-mobile{
             display: flex;

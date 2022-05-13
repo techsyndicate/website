@@ -97,7 +97,7 @@
     }
      .alumni-info .socials a{
         text-decoration: none;
-        color: #272727;
+        color: #646464;
         transition: color 0.2s ease-in-out;
         cursor: pointer;
     }
@@ -130,5 +130,47 @@
     }
     .team-search svg{
         transform: scale(.5) translateX(40vw);
+    }
+    @media only screen and (max-width: 768px){
+        .alumni-table{
+            display: block;
+        }
+        .alumni{
+            width: 100%;
+            height: 35vw;
+            margin-top: 5vw !important;
+            margin-bottom: 5vw !important;
+        }
+        .alumni .alumni-pfp{
+            width: 20vw;
+            height: 20vw;
+            border-radius: 100%;
+            margin: 7.5vw 5vw;
+        }
+        .alumni-info .alumni-name{
+            font-weight: light;
+            font-size: 5vw !important;
+            width: auto !important;
+            letter-spacing: 1px;
+        }
+        .alumni-info .alumni-role{
+            margin-top: -2.4vw !important;
+        }
+        .team-search{
+            display: flex;
+            margin-left: -8.5vw !important;
+            margin-top: -11vw !important;
+            position: absolute;
+        }
+        .team-search input{
+            height: 5vw;
+            width: 40.5vw;
+            font-size: 4vw;
+            border-bottom: 3.5px solid grey;
+            padding-bottom: 1.5vw;
+        }
+        .team-search svg{
+            transform: scale(.5) translateX(87.5vw) translateY(-3vw);
+        }
     }
 </style>
