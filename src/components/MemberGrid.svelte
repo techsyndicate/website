@@ -198,14 +198,14 @@
             position: absolute;
         }
         .team-search input{
-            height: 5vw;
+            height: 6.5vw;
             width: 40.5vw;
             font-size: 4vw;
             border-bottom: 3.5px solid grey;
             padding-bottom: 1.5vw;
         }
         .team-search svg{
-            transform: scale(.5) translateX(87.5vw) translateY(-3vw);
+            transform: scale(.5) translateX(87.5vw) translateY(-1.5vw);
         }
     }
 </style>

@@ -66,4 +66,37 @@
     .learn-blob a svg{
         transform: scale(0.5) translateX(1vw) translateY(1.25vw);
     }
+    @media only screen and (max-width: 768px){
+        .learn-grid{
+            display: block;
+            width: 100%;
+        }
+        .learn-blob{
+            width: 80%;
+            min-height: 42.5vw;
+            max-height: 45vw;
+            margin-top: 5vw;
+        }
+        .learn-blob img{
+            width: 7.5vw !important;
+            height: 7.5vw !important;
+            transform: translateY(5vw) translateX(2.5vw) !important;
+        }
+        .learn-blob h2{
+            margin-left: 5vw;
+            margin-top: 5vw;
+        }
+        .learn-blob p{
+            font-size: 3.5vw;
+            margin-left: 2.5vw !important;
+        }
+        .learn-blob a{
+            font-size: 3.5vw;
+            margin-left: 2.5vw;
+            margin-top: 1.5vw;
+        }
+        .learn-blob a svg{
+            transform: scale(0.5) translateX(1vw) translateY(5vw) !important;
+        }
+    }
 </style>

@@ -18,4 +18,13 @@
         margin: 2.5vw 5vw;
         letter-spacing: 1px;
     }
+    @media only screen and (max-width: 768px){
+        .learn-div{
+            margin-top: 12.5vw;
+        }
+        .learn-div h1{
+            font-size: 6.5vw;
+            margin-bottom: 5vw;
+        }
+    }
 </style>

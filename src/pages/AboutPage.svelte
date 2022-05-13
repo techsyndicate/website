@@ -40,4 +40,23 @@
     .about-content p {
         font-size: 1.5vw;
     }
+    @media only screen and (max-width: 768px){
+        .about-div{
+            display: block;
+        }
+        .about-content{
+            margin: 120vw 5vw;
+        }
+        .about-content h1{
+            font-size: 6.5vw;
+        }
+        .about-content p{
+            font-size: 3.5vw;
+        }
+        .about-div .about-asset img{
+            margin-left: -7.5% !important;
+            width: 140vw !important;
+            margin-top: 5vw !important;
+        }
+    }
 </style>
