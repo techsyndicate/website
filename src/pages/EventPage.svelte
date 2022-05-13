@@ -166,4 +166,12 @@
         cursor: pointer;
         margin: 1.5vw;
     }
+    @media only screen and (max-width: 768px){
+        .event-div{
+            margin-top: 10vw;
+        }
+        .event-div h1{
+            font-size: 6.5vw;
+        }
+    }
 </style>

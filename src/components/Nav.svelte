@@ -78,7 +78,7 @@
     .nav-links li span{
         padding-left: 1vw;
     }
-    @media only screen and (max-width: 425px) {
+    @media only screen and (max-width: 768px) {
         .nav{
             display: none !important;
         }

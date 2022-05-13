@@ -75,4 +75,30 @@
     .event:hover{
         transform: translateY(-10px);
     }
+    @media only screen and (max-width:768px){
+        .intech-div{
+            margin-top: 10vw;
+        }
+        .intech-div h1{
+            font-size: 6.5vw;
+        }
+        .intech-div .intech-info{
+            font-size: 3.25vw;
+        }
+        .intech-events-grid{
+            display: block;
+            width: 100%;
+            margin-left: 7.5vw;
+        }
+        .event{
+            max-width: 75vw !important;
+            height: 65vw;
+            border-radius: 1vw;
+            margin-bottom: 5vw;
+            padding: 3.5vw;
+        }
+        .event-name{
+            font-size: 4vw;
+        }
+    }
 </style>
