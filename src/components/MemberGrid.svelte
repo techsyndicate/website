@@ -97,7 +97,7 @@
     }
     .member-info .socials a{
         text-decoration: none;
-        color: #272727;
+        color: #646464;
         transition: color 0.2s ease-in-out;
         cursor: pointer;
     }
