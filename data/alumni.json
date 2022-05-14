@@ -1,57 +1,184 @@
 [
     {
-        "name": "Oorjit Chowdhary",
-        "role": "Prez",
-        "year": "2021-22",
-        "pfp": "https://i.imgur.com/Rb6fHNy.png",
-        "socials": [
-            "https://www.facebook.com/john.doe",
-            "https://www.instagram.com/john.doe",
-            "https://www.twitter.com/john.doe"
+        "batch": "2021-22",
+        "alumni": [
+            [
+                {
+                    "name": "Oorjit Chowdhary",
+                    "image": "https://github.com/oorjitchowdhary.png",
+                    "exrole": "President",
+                    "batch": "2021-22"
+                },
+                {
+                    "name": "Mihir Aggarwal",
+                    "exrole": "Vice President",
+                    "image": "https://github.com/mihiraggarwal.png",
+                    "batch": "2021-22"
+                },
+                {
+                    "name": "Anshul Saha",
+                    "exrole": "Secretary",
+                    "image": "https://github.com/sheldor1510.png",
+                    "batch": "2021-22"
+                },
+                {
+                    "name": "Jai Madhukar",
+                    "exrole": "Joint Secretary",
+                    "image": "https://github.com/jai-17.png",
+                    "batch": "2021-22"
+                },
+                {
+                    "name": "Vaibhav Sharma",
+                    "exrole": "Core Member",
+                    "image": "https://github.com/gigabite-pro.png",
+                    "batch": "2021-22"
+                }
+            ]
         ]
     },
     {
-        "name": "Mihir Aggarwal",
-        "role": "VP",
-        "year": "2021-22",
-        "pfp": "https://i.imgur.com/Rb6fHNy.png",
-        "socials": [
-            "https://www.facebook.com/john.doe",
-            "https://www.instagram.com/john.doe",
-            "https://www.twitter.com/john.doe"
+      "batch": "2020-21",
+      "alumni": [
+        [
+          {
+            "name": "Laxya Pahuja",
+            "image": "https://github.com/laxyapahuja.png",
+            "exrole": "President",
+            "batch": "2020-21"
+          },
+          {
+            "name": "Ribhav Sharma",
+            "image": "https://github.com/ribhavsharma.png",
+            "exrole": "Secretary",
+            "batch": "2020-21"
+          },
+          {
+            "name": "Chiranjiv Singh Malhi",
+            "image": "https://github.com/chiranjivmalhi.png",
+            "exrole": "Member",
+            "batch": "2020-21"
+          },
+          {
+            "name": "Devjyoti Ghosh",
+            "image": "/assets/images/alumni/devjyotighosh.jpg",
+            "exrole": "Member",
+            "batch": "2020-21"
+          }
+        ],
+        [
+          {
+            "name": "Pranav Uppal",
+            "image": "https://github.com/upspal.png",
+            "exrole": "Member",
+            "batch": "2020-21"
+          }
         ]
+      ]
     },
-    {   
-        "name": "Anshul Saha",
-        "role": "Sec",
-        "year": "2021-22",
-        "pfp": "https://i.imgur.com/Rb6fHNy.png",
-        "socials": [
-            "https://www.facebook.com/john.doe",
-            "https://www.instagram.com/john.doe",
-            "https://www.twitter.com/john.doe"
+    {
+      "batch": "2019-20",
+      "alumni": [
+        [
+          {
+            "name": "Anurag Parida",
+            "image": "https://github.com/anuragparida.png",
+            "exrole": "President",
+            "batch": "2019-20"
+          },
+          {
+            "name": "Sarthak Singhal",
+            "image": "/assets/images/alumni/sarthaksinghal.png",
+            "exrole": "Secretary",
+            "batch": "2019-20"
+          },
+          {
+            "name": "Ansh Deo Singh",
+            "image": "/assets/images/alumni/anshdeosingh.jpg",
+            "exrole": "Member",
+            "batch": "2019-20"
+          },
+          {
+            "name": "Priyanshu Bhandari",
+            "image": "/assets/images/alumni/priyanshubhandari.jpg",
+            "exrole": "Member",
+            "batch": "2019-20"
+          }
         ]
+      ]
     },
-    {   
-        "name": "Jai Madhukar",
-        "role": "Jt. Sec",
-        "year": "2021-22",
-        "pfp": "https://i.imgur.com/Rb6fHNy.png",
-        "socials": [
-            "https://www.facebook.com/john.doe",
-            "https://www.instagram.com/john.doe",
-            "https://www.twitter.com/john.doe"
+    {
+      "batch": "2018-19",
+      "alumni": [
+        [
+          {
+            "name": "Padam Chopra",
+            "image": "https://github.com/padamchopra.png",
+            "exrole": "President",
+            "batch": "2018-19"
+          },
+          {
+            "name": "Aryaman Agrawal",
+            "image": "/assets/images/alumni/aryamanagrawal.jpg",
+            "exrole": "Secretary",
+            "batch": "2018-19"
+          },
+          {
+            "name": "Arnab Sagar",
+            "image": "https://github.com/ArnabSagar.png",
+            "exrole": "Member",
+            "batch": "2018-19"
+          }
         ]
+      ]
     },
-    {   
-        "name": "Vaibhav Sharma",
-        "role": "Core",
-        "year": "2021-22",
-        "pfp": "https://i.imgur.com/Rb6fHNy.png",
-        "socials": [
-            "https://www.facebook.com/john.doe",
-            "https://www.instagram.com/john.doe",
-            "https://www.twitter.com/john.doe"
+    {
+      "batch": "2017-18",
+      "alumni": [
+        [
+          {
+            "name": "Ashwin Tewary",
+            "image": "https://github.com/ashwintewary.png",
+            "exrole": "President",
+            "batch": "2017-18"
+          },
+          {
+            "name": "Gursimran Singh",
+            "image": "/assets/images/alumni/gursimransingh.jpg",
+            "exrole": "Secretary",
+            "batch": "2017-18"
+          }
         ]
+      ]
+    },
+    {
+      "batch": "2016-17",
+      "alumni": [
+        [
+          {
+            "name": "Satwik Dwivedi",
+            "image": "/assets/images/alumni/satwikdwivedi.jpg",
+            "exrole": "President",
+            "batch": "2016-17"
+          },
+          {
+            "name": "Mudit Sharma",
+            "image": "/assets/images/alumni/muditsharma.jpg",
+            "exrole": "Member",
+            "batch": "2016-17"
+          },
+          {
+            "name": "Shubh Jaroria",
+            "image": "/assets/images/alumni/shubhjaroria.jpg",
+            "exrole": "Member",
+            "batch": "2016-17"
+          },
+          {
+            "name": "Shivam Garg",
+            "image": "/assets/images/alumni/shivamgarg.jpg",
+            "exrole": "Member",
+            "batch": "2016-17"
+          }
+        ]
+      ]
     }
-]
+  ]
