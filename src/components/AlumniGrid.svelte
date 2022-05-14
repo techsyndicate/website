@@ -137,7 +137,7 @@
         transform: scale(.5) translateX(40vw);
     }
     @media only screen and (max-width: 768px){
-        .alumni-table{
+        .member-batch-members{
             display: block;
         }
         .alumni{
