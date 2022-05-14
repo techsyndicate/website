@@ -84,6 +84,11 @@
                                 <i class="fa-brands fa-spotify"></i>
                             </a>
                         {/if}
+                        {#if social.includes('anirudhchaturvedi.me') || social.includes('aayushgarg.net')}
+                            <a href="{social}" target="_blank">
+                                <i class="fa-solid fa-globe"></i>
+                            </a>
+                        {/if}
                     {/each}
                 </div>
             </div>

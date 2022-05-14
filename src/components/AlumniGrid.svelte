@@ -26,42 +26,47 @@
         <input type="text"  placeholder="Search" id="searchalum">
     </div>
     {#each members as member}
-        <div  class="alumni">
-            <div  class="alumni-pfp" style="background: url('{member.pfp}');background-size: cover;
-            background-position:center;"></div>
-            <div  class="alumni-info">
-                <p  class="alumni-name">{member.name}</p>
-                <p  class="alumni-role">{member.role} ({member.year})</p>
-                <div class="socials">
-                    {#each member.socials as social}
-                        {#if social.includes('instagram')}
-                            <a href="{social}" target="_blank">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                        {/if}
-                        {#if social.includes('facebook')}
-                            <a href="{social}" target="_blank">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-                        {/if}
-                        {#if social.includes('twitter')}
-                            <a href="{social}" target="_blank">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        {/if}
+        <div class="member-batch">
+            <h1>
+                {member.batch}
+            </h1>
+            <div class="member-batch-members">
+                {#each member.alumni as member}
+                    {#each member as alumni}
+                        <div  class="alumni">
+                            <div  class="alumni-pfp" style="background: url('{alumni.pfp}');background-size: cover;
+                            background-position:center;"></div>
+                            <div  class="alumni-info">
+                                <p  class="alumni-name">{alumni.name}</p>
+                                <p  class="alumni-role">{alumni.exrole}</p>
+                            </div>
+                        </div>
                     {/each}
-                </div>
+                {/each}
             </div>
+            <!--
+                
+            -->
         </div>
     {/each}
 </div>
 <style>
      .alumni-table{
-        display: grid;
-        grid-template-columns: repeat(3,30vw);
         margin: 5vw 5vw;
     }
-     .alumni{
+    .member-batch{
+        margin-top: -1.5vw;
+        margin-left: 2.5vw;
+    }
+    .member-batch-members{
+        display: grid;
+        grid-template-columns: repeat(3,30vw);
+    }
+    .member-batch h1{
+        color: #16e16e;
+        font-size: 3.5vw;
+    }
+    .alumni{
         width: 27.5vw;
         height: 15vw;
         background: #171717;

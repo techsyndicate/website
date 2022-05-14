@@ -12,7 +12,7 @@
 <Router>
     <MobileNav />
     <Nav />
-    <Route path="/" component={LandingPage} />
+    <Route path="/" component={MemberPage} />
     <Route path="learn" component={LearnPage}/>
     <Route path="about" component={AboutPage}/>
     <Route path="team" component={MemberPage}/>
