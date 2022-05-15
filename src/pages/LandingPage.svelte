@@ -12,19 +12,19 @@
 </div>
 <div class="social-div">
     <div class="socials">
-        <a href="#">
+        <a href="mailto:contact@techsyndicate.us">
             <i class="fa-solid fa-envelope"></i>
         </a>
-        <a href="#">
+        <a href="https://t11e.us/insta">
             <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="#">
+        <a href="https://t11e.us/fb">
             <i class="fa-brands fa-facebook"></i>
         </a>
-        <a href="#">
+        <a href="https://www.behance.net/techsyndicate">
             <i class="fa-brands fa-behance-square"></i>
         </a>
-        <a href="#">
+        <a href="https://t11e.us/gh">
             <i class="fa-brands fa-github"></i>
         </a>
     </div>

@@ -130,6 +130,14 @@
         .member-batch-members{
             display: block;
         }
+        .member-batch h1{
+            color: #16e16e;
+            font-size: 7.5vw;
+        }
+        .alumni-status{
+            font-size: 3.5vw;
+            margin-top: -2.5vw;
+        }
         .alumni{
             width: 100%;
             height: 35vw;

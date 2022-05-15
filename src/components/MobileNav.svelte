@@ -56,7 +56,7 @@
         display: none;
     }
     .nav-logo{
-        background: url('https://raw.githubusercontent.com/techsyndicate/website/main/public/assets/images/ts.png');
+        background: url('../assets/images/ts.png');
         background-size: cover;
         background-position: center;
         width: 10vw;
