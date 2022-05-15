@@ -8,24 +8,36 @@
     <ul class="nav-links">
         <Link to = "/learn" style="text-decoration: none; color:#eee;">
             <li>
-                <p>Learn</p> <span>|</span>
+                <p>Learn</p> 
             </li>
         </Link>
+        <li style="margin-top: -1.75vw;">
+            |
+        </li>
         <Link to = "/about" style="text-decoration: none; color:#eee;">
             <li>
-                <p>About</p> <span>|</span>
+                <p>About</p> 
             </li>
         </Link>
+        <li style="margin-top: -1.75vw;">
+            |
+        </li>
         <Link to = "/event" style="text-decoration: none; color:#eee;">
             <li>
-                <p>Events</p> <span>|</span>
+                <p>Events</p> 
             </li>
         </Link>
+        <li style="margin-top: -1.75vw;">
+            |
+        </li>
         <Link to = "/team" style="text-decoration: none; color:#eee;">
             <li>
-                <p>Team</p> <span>|</span>
+                <p>Team</p>
             </li>
         </Link>
+        <li style="margin-top: -1.75vw;">
+            |
+        </li>
         <Link to = "/intech" style="text-decoration: none; color:#eee;">
             <li>
                 <p>Intech</p>
@@ -59,8 +71,8 @@
         margin-top: 3.5vw;
     }
     .nav-links li{
-        display: flex;
-        margin: 0 1vw;
+        display: block;
+        margin: 0 1.25vw;
         font-size: 1.5vw;
         text-decoration: none;
     }
@@ -81,9 +93,6 @@
     }
     .nav-links p:hover:after{
         width: 55%;
-    }
-    .nav-links li span{
-        padding-left: 1vw;
     }
     @media only screen and (max-width: 768px) {
         .nav{
