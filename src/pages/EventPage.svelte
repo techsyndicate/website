@@ -40,7 +40,7 @@
             May 20 - May 25
         </p>
         <br>
-        <Link to = "/summer" target="_blank" style="text-decoration: none;">
+        <Link to = "/summer" style="text-decoration: none;">
             <button>
                 Register
             </button>
