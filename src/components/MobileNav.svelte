@@ -32,6 +32,11 @@
                 Team
             </Link>
         </li>
+        <li>
+            <Link to="/intech" style="text-decoration: none; color: #eee;">
+                Intech
+            </Link>
+        </li>
     </ul>
 </div>
 <script>
@@ -87,9 +92,9 @@
             left: 0;
             position: absolute;
             display: none;
-            z-index: 100;
+            z-index: 150000;
             height: 125vw;
-            background: #171717;
+            background: #272727;
             margin-top: -16.75vw;
         }
         .nav-links ul{

@@ -23,7 +23,12 @@
         </Link>
         <Link to = "/team" style="text-decoration: none; color:#eee;">
             <li>
-                <p>Team</p>
+                <p>Team</p> <span>|</span>
+            </li>
+        </Link>
+        <Link to = "/intech" style="text-decoration: none; color:#eee;">
+            <li>
+                <p>Intech</p>
             </li>
         </Link>
     </ul>

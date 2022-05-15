@@ -6,10 +6,22 @@
 </svelte:head>
 <div class="intech-div">
     <h1>Intech'22</h1>
-    <p class="intech-info">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Mauris eget nisl id nisl consectetur aliquam.
+    <p class="intech-info"> 
+        Tech Syndicate, the technology club of Amity International School, Sector-46, Gurgaon, is organizing the fourth edition <br>
+        of its annual intra-school event—inTech from 4th June to 20th June 2022
     </p>
+    <div class="button-panel">
+        <button>
+            Event Guide
+        </button>
+        <button>
+            Discord
+        </button>
+        <button>
+            Teaser
+        </button>
+    </div>
+    
     <div class="intech-events-grid">
         {#each events as event}
             <div class="event">
@@ -37,6 +49,22 @@
         margin-left: 8vw;
         font-size: 1.5vw;
     }
+    .button-panel{
+        margin-left: 7.5vw;
+    }
+    .button-panel button{
+        background: #171717;
+        color: #16e16e;
+        font-size: 1.25vw;
+        width: 10vw;
+        padding: .75vw;
+        border-radius: 10px;
+        margin-right: 1vw;
+        margin-bottom: 1vw;
+        outline: none;
+        cursor: pointer;
+        border: none;
+    }
     .intech-events-grid{
         display: grid;
         width: 100%;
@@ -55,6 +83,10 @@
         margin-bottom: 3vw;
         overflow: hidden;
     }
+    .event-info{
+        position: absolute;
+        max-width: 22.5vw;
+    }
     .event-name{
         font-size: 1.5vw;
         letter-spacing: 1px;
@@ -67,10 +99,12 @@
         padding: 10px;
         background: #111;
         cursor: pointer;
+        position: absolute !important;
         transition: all 0.5s ease;
         color: #16e16e;
         text-decoration: none;
         border-radius: 5px;
+        margin-top: 7.5vw;
     }
     .event:hover{
         transform: translateY(-10px);
@@ -99,6 +133,22 @@
         }
         .event-name{
             font-size: 4vw;
+        }
+        .event-info {
+            max-width: 70vw !important;
+        }
+        .event a {
+            margin-top: 25vw !important;
+        }
+        .button-panel {
+            display: flex;
+        }
+        .button-panel button {
+            width: 25vw;
+            font-size: 3.5vw;
+            padding: 1.5vw;
+            border-radius: 1vw;
+            margin-bottom: 2.5vw;
         }
     }
 </style>
