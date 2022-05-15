@@ -16,7 +16,7 @@
 
 # Resources 
 
-resources                      https://www.notion.so/techsyndicate/Learning-Resources-11076be83f5e4456a105af9f2394b8b5
+/resources                      https://www.notion.so/techsyndicate/Learning-Resources-11076be83f5e4456a105af9f2394b8b5
 /resources/dev                  https://www.notion.so/techsyndicate/Development-0adf930eefb44819874bdc1976c9f9e9
 /resources/dev/web              https://www.notion.so/techsyndicate/Web-Development-342122d8a41a47c2bf513a74aa99fbd9
 /resources/dev/app              https://www.notion.so/techsyndicate/App-Development-3eeb461d6dea4c919dfec2179b7bced0
