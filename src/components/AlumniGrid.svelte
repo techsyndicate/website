@@ -85,8 +85,9 @@
         margin-top: 1.75vw;
     }
     .alumni-status{
-        font-size: 1.25vw;
-        color: #464646;
+        font-size: 1vw;
+        width: 10vw;
+        color: #918f8f;
         margin-top: -0.5vw;
     }
      .alumni-info  .alumni-name{
