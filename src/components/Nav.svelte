@@ -37,6 +37,8 @@
     .nav{
         width: 100%;
         display:flex;
+        position: relative;
+        z-index: 10;
     }
     .nav-logo{
         background: url('../assets/images/ts.png');

@@ -127,6 +127,7 @@
     .team-search svg{
         transform: scale(.5) translateX(40vw);
     }
+    
     @media only screen and (max-width: 768px){
         .member-batch-members{
             display: block;

@@ -182,6 +182,14 @@
         cursor: pointer;
         margin: 1.5vw;
     }
+    @media only screen and (max-width: 1920px){
+        .event-div{
+            margin-bottom: 5vw;
+        }
+        .circle-6{
+            margin-left: 71% !important;
+        }
+    }
     @media only screen and (max-width: 768px){
         .event-div{
             margin-top: 10vw;

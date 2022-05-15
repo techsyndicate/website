@@ -75,7 +75,7 @@
     }
     .socials{
         display: flex;
-        width: 30vh;
+        width: 20vw;
         justify-content: space-between;
         font-size: 2vw;
         margin-top: .5vw;
@@ -104,6 +104,22 @@
     }
     .socials a:hover::after{
         height: 80%;
+    }
+    @media only screen and (max-width: 1366px){
+        .tech{
+            margin-top:-1.5vw !important;
+        }
+        .socials{
+            margin-top: 3.5vw !important;
+        }
+    }
+    @media only screen and (max-width: 1920px){
+        .tech{
+            margin-top:-1.5vw !important;
+        }
+        .socials{
+            margin-top: 3.5vw !important;
+        }
     }
     @media only screen and (max-width: 768px){
         .landing-div{
