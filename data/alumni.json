@@ -7,31 +7,36 @@
                     "name": "Oorjit Chowdhary",
                     "pfp": "https://github.com/oorjitchowdhary.png",
                     "exrole": "President",
-                    "batch": "2021-22"
+                    "batch": "2021-22",
+                    "status": "Studying at XYZ"
                 },
                 {
                     "name": "Mihir Aggarwal",
                     "exrole": "Vice President",
                     "pfp": "https://github.com/mihiraggarwal.png",
-                    "batch": "2021-22"
+                    "batch": "2021-22",
+                    "status": "Studying at XYZ"
                 },
                 {
                     "name": "Anshul Saha",
                     "exrole": "Secretary",
                     "pfp": "https://github.com/sheldor1510.png",
-                    "batch": "2021-22"
+                    "batch": "2021-22",
+                    "status": "Studying at XYZ"
                 },
                 {
                     "name": "Jai Madhukar",
                     "exrole": "Joint Secretary",
                     "pfp": "https://github.com/jai-17.png",
-                    "batch": "2021-22"
+                    "batch": "2021-22",
+                    "status": "Studying at XYZ"
                 },
                 {
                     "name": "Vaibhav Sharma",
                     "exrole": "Core Member",
                     "pfp": "https://github.com/gigabite-pro.png",
-                    "batch": "2021-22"
+                    "batch": "2021-22",
+                    "status": "Studying at XYZ"
                 }
             ]
         ]
@@ -44,25 +49,29 @@
             "name": "Laxya Pahuja",
             "pfp": "https://github.com/laxyapahuja.png",
             "exrole": "President",
-            "batch": "2020-21"
+            "batch": "2020-21",
+            "status": "Studying at XYZ"
           },
           {
             "name": "Ribhav Sharma",
             "pfp": "https://github.com/ribhavsharma.png",
             "exrole": "Secretary",
-            "batch": "2020-21"
+            "batch": "2020-21",
+            "status": "Studying at XYZ"
           },
           {
             "name": "Chiranjiv Singh Malhi",
             "pfp": "https://github.com/chiranjivmalhi.png",
             "exrole": "Member",
-            "batch": "2020-21"
+            "batch": "2020-21",
+            "status": "Studying at XYZ"
           },
           {
             "name": "Devjyoti Ghosh",
             "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/devjyotighosh.jpg?raw=true",
             "exrole": "Member",
-            "batch": "2020-21"
+            "batch": "2020-21",
+            "status": "Studying at XYZ"
           }
         ],
         [
@@ -70,7 +79,8 @@
             "name": "Pranav Uppal",
             "pfp": "https://github.com/upspal.png",
             "exrole": "Member",
-            "batch": "2020-21"
+            "batch": "2020-21",
+            "status": "Studying at XYZ"
           }
         ]
       ]
@@ -83,25 +93,29 @@
             "name": "Anurag Parida",
             "pfp": "https://github.com/anuragparida.png",
             "exrole": "President",
-            "batch": "2019-20"
+            "batch": "2019-20",
+            "status": "Studying at XYZ"
           },
           {
             "name": "Sarthak Singhal",
             "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/sarthaksinghal.png?raw=true",
             "exrole": "Secretary",
-            "batch": "2019-20"
+            "batch": "2019-20",
+            "status": "Studying at XYZ"
           },
           {
             "name": "Ansh Deo Singh",
             "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/anshdeosingh.jpg?raw=true",
             "exrole": "Member",
-            "batch": "2019-20"
+            "batch": "2019-20",
+            "status": "Studying at XYZ"
           },
           {
             "name": "Priyanshu Bhandari",
             "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/priyanshubhandari.jpg?raw=true",
             "exrole": "Member",
-            "batch": "2019-20"
+            "batch": "2019-20",
+            "status": "Studying at XYZ"
           }
         ]
       ]
@@ -114,19 +128,22 @@
             "name": "Padam Chopra",
             "pfp": "https://github.com/padamchopra.png",
             "exrole": "President",
-            "batch": "2018-19"
+            "batch": "2018-19",
+            "status": "Studying at XYZ"
           },
           {
             "name": "Aryaman Agrawal",
             "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/aryamanagrawal.jpg?raw=true",
             "exrole": "Secretary",
-            "batch": "2018-19"
+            "batch": "2018-19",
+            "status": "Studying at XYZ"
           },
           {
             "name": "Arnab Sagar",
             "pfp": "https://github.com/ArnabSagar.png",
             "exrole": "Member",
-            "batch": "2018-19"
+            "batch": "2018-19",
+            "status": "Studying at XYZ"
           }
         ]
       ]
@@ -139,13 +156,15 @@
             "name": "Ashwin Tewary",
             "pfp": "https://github.com/ashwintewary.png",
             "exrole": "President",
-            "batch": "2017-18"
+            "batch": "2017-18",
+            "status": "Studying at XYZ"
           },
           {
             "name": "Gursimran Singh",
             "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/gursimransingh.jpg?raw=true",
             "exrole": "Secretary",
-            "batch": "2017-18"
+            "batch": "2017-18",
+            "status": "Studying at XYZ"
           }
         ]
       ]
@@ -158,25 +177,29 @@
             "name": "Satwik Dwivedi",
             "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/satwikdwivedi.jpg?raw=true",
             "exrole": "President",
-            "batch": "2016-17"
+            "batch": "2016-17",
+            "status": "Studying at XYZ"
           },
           {
             "name": "Mudit Sharma",
             "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/muditsharma.jpg?raw=true",
             "exrole": "Member",
-            "batch": "2016-17"
+            "batch": "2016-17",
+            "status": "Studying at XYZ"
           },
           {
             "name": "Shubh Jaroria",
             "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/shubhjaroria.jpg?raw=true",
             "exrole": "Member",
-            "batch": "2016-17"
+            "batch": "2016-17",
+            "status": "Studying at XYZ"
           },
           {
             "name": "Shivam Garg",
             "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/shivamgarg.jpg?raw=true",
             "exrole": "Member",
-            "batch": "2016-17"
+            "batch": "2016-17",
+            "status": "Studying at XYZ"
           }
         ]
       ]

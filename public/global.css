@@ -3,6 +3,10 @@
 *{
 	font-family: 'Outfit', sans-serif;
 }
+*:focus{
+	outline: none;
+	border: none;
+}
 html{
 	scroll-behavior: smooth;
 	background-color: rgb(13, 12, 12);

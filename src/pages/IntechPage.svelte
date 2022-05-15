@@ -30,7 +30,7 @@
                 <p class="event-info">{event.info}</p>
                 <br>
                 <br>
-                <a href="#">Prompt</a>
+                <a href="{event.link}">Prompt</a>
             </div>
         {/each}
     </div>

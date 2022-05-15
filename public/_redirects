@@ -3,6 +3,11 @@
 # External 
 /register                   https://techsyndicate.notion.site/Work-in-Progress-669c278be8d64881a0b9d184e5f96106
 
+# Summer Horizon
+/summer                     https://forms.office.com/Pages/ResponsePage.aspx?id=dqBGjZPQbUGle4aSzeE7-N_YXRyHQpZNvpUhOEJmuyBUNTJWM1ZOSTlMWUxUSkZPWVVWRjlTQ1lBVy4u
+
+/training                   https://discord.gg/HyY6gE2V
+
 # Prompts 
 /prompts/dev          https://techsyndicate.notion.site/Work-in-Progress-669c278be8d64881a0b9d184e5f96106
 /prompts/design       https://techsyndicate.notion.site/Work-in-Progress-669c278be8d64881a0b9d184e5f96106
@@ -27,3 +32,8 @@
 /resources/cryptic              https://www.notion.so/techsyndicate/Cryptic-Hunts-f452885083b54d048187b0a7f053e231
 /resources/gd                   https://www.notion.so/techsyndicate/Group-Discussion-903404e4ee1b4aa09e17746989e547b4
 /resources/quiz                 https://www.notion.so/techsyndicate/Quiz-a11151bcd8bd4b10b2d0d0ca702884d5
+/resources/ctf                  https://www.notion.so/Capture-The-Flag-a66386a75ce44bc79c51429b34250931
+/resources/prog                 https://www.notion.so/Programming-46280d608cab4b9bafe84187ffaed616
+
+# Routes
+/*                              /                  200

@@ -25,6 +25,12 @@
         <p class="event-duration">
             Mar 12 - Apr 25
         </p>
+        <br>
+        <Link to = "/training" style="text-decoration: none;">
+            <button>
+                Join
+            </button>
+        </Link>
     </div>
     <div class="event-blob-2">
         <p class="event-name">
@@ -33,6 +39,12 @@
         <p class="event-duration">
             May 20 - May 25
         </p>
+        <br>
+        <Link to = "/summer" target="_blank" style="text-decoration: none;">
+            <button>
+                Register
+            </button>
+        </Link>
     </div>
     <div class="event-blob-3">
         <p class="event-name">
@@ -63,7 +75,7 @@
     }
     .event-div h1{
         font-size: 4.5vw;
-        margin: 2.5vw 5vw;
+        margin-left: 5vw;
         letter-spacing: 1px;
     }
     .line{
@@ -72,7 +84,7 @@
         border-radius: 10vw;
         background: #16e16e;
         display: block;
-        margin: 15vw auto auto;
+        margin: 15.5vw auto auto;
     }
     .line-overlap{
         width: 15%;
@@ -127,16 +139,18 @@
     .event-blob-1{
         background: #4e4e4e;
         margin: 3.5vw 15vw;
+        height: 12.5vw;
     }
     .event-blob-2{
-        margin: -11.5vw 31vw;
+        margin: -15vw 31vw;
+        height: 12.5vw;
     }
     .event-blob-3{
         margin: 3.5vw 45vw;
         height: 12.5vw;
     }
     .event-blob-4{
-        margin: -11.5vw 61vw;
+        margin: -15vw 61vw;
     }
     .event-name {
         font-size: 2vw;
@@ -150,6 +164,8 @@
         letter-spacing: 1px;
         margin: -1.5vw 1.5vw;
     }
+    .event-blob-1 button,
+    .event-blob-2 button,
     .event-blob-3 button{
         font-size: 1.25vw;
         font-weight: 500;

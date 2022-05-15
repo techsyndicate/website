@@ -38,6 +38,9 @@
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        outline: none;
+    }.landing-div .tech:focus{
+        outline:none;
     }
     .landing-div .tech{
         font-size: 25vw;

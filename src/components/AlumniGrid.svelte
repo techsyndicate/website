@@ -39,6 +39,7 @@
                             <div  class="alumni-info">
                                 <p  class="alumni-name">{alumni.name}</p>
                                 <p  class="alumni-role">{alumni.exrole}</p>
+                                <p class="alumni-status">{alumni.status}</p>
                             </div>
                         </div>
                     {/each}
@@ -83,32 +84,21 @@
      .alumni-info{
         margin-top: 1.75vw;
     }
+    .alumni-status{
+        font-size: 1.25vw;
+        color: #464646;
+        margin-top: -0.5vw;
+    }
      .alumni-info  .alumni-name{
         font-weight: light;
         font-size: 1.75vw;
-        width: 5vw;
+        width: 10vw;
         letter-spacing: 1px;
     }
      .alumni-info  .alumni-role{
         color: #16e16e;
         margin-top: -1.25vw;
         letter-spacing: 1px;
-    }
-     .alumni-info .socials{
-        margin-top:-0.5vw;
-    }
-     .alumni-info .socials i{
-        margin-right: 0.5vw;
-    }
-     .alumni-info .socials a{
-        text-decoration: none;
-        color: #646464;
-        transition: color 0.2s ease-in-out;
-        cursor: pointer;
-    }
-     .alumni-info .socials a:hover{
-        color: #16e16e;
-        transform: translateY(-2px);
     }
     .team-search{
         display: flex;

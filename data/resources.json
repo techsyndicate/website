@@ -1,61 +1,61 @@
 [
     {
         "field" : "App Dev",
-        "link" : "https://www.notion.so/App-Development-3eeb461d6dea4c919dfec2179b7bced0",
+        "link" : "/resources/dev/app",
         "svg": "../assets/images/resources/appd.svg",
         "info" : "Mobile app development is, quite simply, the process of developing apps"
     },
     {
         "field" : "Web Dev",
-        "link" : "https://www.notion.so/Web-Development-342122d8a41a47c2bf513a74aa99fbd9",
+        "link" : "/resources/dev/web",
         "svg": "../assets/images/resources/webd.svg",
         "info":"Web development essentially consists of two paradigms: frontend and backend development"   
     },
     {
         "field" : "2D Design",
-        "link" : "https://www.notion.so/2D-Design-6ea7adf55f524f50853714097d8022a6",
+        "link" : "/resources/design/2d",
         "svg": "../assets/images/resources/2d.svg"   ,
         "info": "Design is something that involves thorough planning as well as ideation of the way your product"
     },
     {
         "field" : "3D Design",
-        "link" : "https://www.notion.so/3D-Design-c7cf7b5942c94e738d44914c7895d61d",
+        "link" : "/resources/design/3d",
         "svg": "../assets/images/resources/3d.svg"   ,
         "info" : "3D modelling is a vast field from low poly designs to realistically detailed environments"
     },
     {
         "field" : "A/V Editing",
-        "link" : "https://www.notion.so/A-V-Editing-d20e21ef8e944470a9e0cdad92fbab1e",
+        "link" : "/resources/av",
         "svg": "../assets/images/resources/av.svg" ,
         "info" : "A/V can be categorized following types: Films, Motion Graphics, Animation, Videos"
     },
     {
         "field" : "Crossword",
-        "link" : "https://www.notion.so/Crossword-4a4133cf77b848e0aeb639e9f169f9a6",
+        "link" : "/resources/cross",
         "svg": "../assets/images/resources/cross.svg" ,
         "info" : "Crossword is one of the most fun events that you’ll ever come across. It doesn’t require"
     },
     {
         "field" : "Cryptic Hunts",
-        "link" : "https://www.notion.so/Cryptic-Hunts-f452885083b54d048187b0a7f053e231",
+        "link" : "/resources/cryptic",
         "svg": "../assets/images/resources/cryptic.svg",
         "info" : "Cryptic hunts basically refer to scavenger hunts that are carried out over the internet"
     },
     {
         "field" : "Quiz",
-        "link" : "https://www.notion.so/Quiz-a11151bcd8bd4b10b2d0d0ca702884d5",
+        "link" : "/resources/quiz",
         "svg": "../assets/images/resources/quiz.svg",
         "info" : "Quizzing is one of the most challenging events in any tech competition. It aims at testing"
     },
     {
         "field" : "Group Discussion",
-        "link" : "https://www.notion.so/Group-Discussion-903404e4ee1b4aa09e17746989e547b4",
+        "link" : "/resources/gd",
         "svg": "../assets/images/resources/gdlr.svg",
         "info" : "Group discussion consists of a group of individuals having an intellectual discussion"
     },
     {
         "field" : "Programming",
-        "link" : "https://www.notion.so/Programming-46280d608cab4b9bafe84187ffaed616",
+        "link" : "/resources/prog",
         "svg": "../assets/images/resources/hack.svg",
         "info" : "Competitive Programming involves Programming a software that takes the given input"
     },
@@ -67,7 +67,7 @@
     },
     {
         "field": "Capture the flag",
-        "link" : "https://www.notion.so/Capture-The-Flag-a66386a75ce44bc79c51429b34250931",
+        "link" : "/resources/ctf",
         "svg": "../assets/images/resources/ctf.svg",
         "info" : "Capture the flag challenges are cyber security exercises where flags"
     }

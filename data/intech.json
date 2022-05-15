@@ -2,68 +2,80 @@
     {
         "name": "Development",
         "info": "Dev event consists of two categories: Web Development and App Development. The prompt will be the same for both and participants can choose to submit their entries in either of the two or both.",
-        "class" : "VII-XII"
+        "class" : "VII-XII",
+        "link": "/prompts/dev"
     },
     {
         "name": "Design",
         "info": "The Design consists of three categories: 3D Design, Graphic Design, and UI Design. There will be separate prompts for each category; participants can take part in one or more categories.",
-        "class" : "VII-XII"
+        "class" : "VII-XII",
+        "link": "/prompts/design"
     },
     {
         "name": "Audio/Video Editing",
         "info": "A/V editing is a diverse field that can be categorized into four broad types; Films, Motion grpahics, animations and videos. Check out the promt for more information!",
-        "class" : "VII-XII"
+        "class" : "VII-XII",
+        "link": "/prompts/av"
     },
     {
         "name": "Encryptid",
         "info": "Tech Syndicate's annual cryptic hunt, a scavenger hunt-like experience, based on web security, cryptography, and steganography.",
-        "class" : "VII-XII"
+        "class" : "VII-XII",
+        "link": "https://docs.google.com/document/d/1xCwT0hGAJ1xE5WqYgKOuu1feLB9mxquQ3l7YX2pzSXA/edit?usp=sharing"
     },
     {
         "name": "Crossword",
         "info": "A tech-based crossword solely based on puns. The only things that you need to know are the name's of really popular tech companies, products, or games.",
-        "class" : "VII-XII"
+        "class" : "VII-XII",
+        "link": "https://docs.google.com/document/d/1xCwT0hGAJ1xE5WqYgKOuu1feLB9mxquQ3l7YX2pzSXA/edit?usp=sharing"
     },
     {
         "name": "Group Discussion",
         "info": "An engaging panel discussion debating the rights and wrongs of the latest technology trends/issues. It consists of a group of individuals having an intellectual discussion.",
-        "class" : "VII-XII"
+        "class" : "VII-XII",
+        "link": "/prompts/gd"
     },
     {
         "name": "Quiz",
         "info": "An enthralling quiz based on the field of computers, technology, and recent events in the world of IT.",
-        "class":"VII-XII"
-
+        "class":"VII-XII",
+        "link": "https://docs.google.com/document/d/1xCwT0hGAJ1xE5WqYgKOuu1feLB9mxquQ3l7YX2pzSXA/edit?usp=sharing"
     },
     {
         "name": "Gaming", 
         "info": "Participants will play highly competitive and engaging PC game(s) during the event.",
-        "class": "VIII-XII"
+        "class": "VIII-XII",
+        "link": "https://docs.google.com/document/d/1xCwT0hGAJ1xE5WqYgKOuu1feLB9mxquQ3l7YX2pzSXA/edit?usp=sharing"
     },
     {
         "name": "Programming",
         "info": "Participants shall compete with each other and solve exciting programming challenges.",
-        "class": "VII-XII"
+        "class": "VII-XII",
+        "link": "https://docs.google.com/document/d/1xCwT0hGAJ1xE5WqYgKOuu1feLB9mxquQ3l7YX2pzSXA/edit?usp=sharing"
     },
     {
         "name": "Photography",
         "info":"Participants will be required to click a photo using their own equipment relevant to the given theme.",
-        "class": "VII-XII"
+        "class": "VII-XII",
+        "link": "https://docs.google.com/document/d/1xCwT0hGAJ1xE5WqYgKOuu1feLB9mxquQ3l7YX2pzSXA/edit?usp=sharing"
     },
     {
         "name": "Audio Mixing",
         "info": "Participants will have to create an audio track using the audio samples provided.",
-        "class": "IX-XII"
+        "class": "IX-XII",
+        "link": "/prompts/audio"
     },
     {
         "name": "Film Making",
         "info": "Participants will have to create a short film (<5 minutes) on the theme provided and they will be judged on the basis of overall idea, dialogues, scenes, originality and editing.",
-        "class": "VII-XII"
+        "class": "VII-XII",
+        "link": "/prompts/film"
     },
     {
         "name": "Hardware",
         "info": "Participants have to solve a series of 4 tasks that are related to linux, physical computer hardware, etc.",
-        "class":"IX-XII"
+        "class":"IX-XII",
+        "link": "/prompts/hardware"
     }
     
 ]
