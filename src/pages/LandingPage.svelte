@@ -47,7 +47,7 @@
         font-weight: 900;
         letter-spacing: 10px;
         color: #191919;
-        margin-top: 2.5vw;
+        margin-top: 5vw;
     }
     .landing-div .syndicate{
         font-size: 12.5vw;

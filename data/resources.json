@@ -70,5 +70,11 @@
         "link" : "/resources/ctf",
         "svg": "../assets/images/resources/ctf.svg",
         "info" : "Capture the flag challenges are cyber security exercises where flags"
+    },
+    {
+        "field": "Photography",
+        "link": "/resources/photography",
+        "svg": "../assets/images/resources/photography.svg",
+        "info": "Photography is the art, application, and practice of creating durable images"
     }
 ]
