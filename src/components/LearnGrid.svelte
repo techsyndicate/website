@@ -49,12 +49,12 @@
         transform: translateY(1vw);
     }
     .learn-field{
-        font-size: 2.5;
         letter-spacing: 1px;
+        margin-top: 1.5vw;
     }
     .learn-blob p {
         color: #b5b5b5;
-        font-size: 1.5vw;
+        font-size: 1.25vw;
         margin: 1vw 0.5vw;
     }
     .learn-blob a {
@@ -73,8 +73,8 @@
         }
         .learn-blob{
             width: 80%;
-            min-height: 42.5vw;
-            max-height: 45vw;
+            min-height: 45vw;
+            max-height: 47.5vw;
             margin-top: 5vw;
         }
         .learn-blob img{
@@ -84,7 +84,8 @@
         }
         .learn-blob h2{
             margin-left: 5vw;
-            margin-top: 5vw;
+            margin-top: 6vw;
+            font-size: 5vw;
         }
         .learn-blob p{
             font-size: 3.5vw;
@@ -96,7 +97,7 @@
             margin-top: 1.5vw;
         }
         .learn-blob a svg{
-            transform: scale(0.5) translateX(1vw) translateY(5vw) !important;
+            transform: scale(0.5) translateX(1vw) translateY(7.5vw) !important;
         }
     }
 </style>

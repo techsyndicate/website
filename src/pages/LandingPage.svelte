@@ -140,7 +140,10 @@
         }
         .social-div{
             margin-top: -100vw !important;
-            margin-left: 15vw !important;
+            margin-left: 20vw !important;
+        }
+        .socials{
+            width: 50vw !important;
         }
         .socials a{
             font-size: 5vw !important;

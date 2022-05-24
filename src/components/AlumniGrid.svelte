@@ -160,22 +160,29 @@
         }
         .alumni-info .alumni-role{
             margin-top: -2.4vw !important;
+            font-size: 3.5vw;
         }
         .team-search{
             display: flex;
-            margin-left: -8.5vw !important;
+            margin-left: -14vw !important;
             margin-top: -11vw !important;
             position: absolute;
         }
         .team-search input{
-            height: 5vw;
-            width: 40.5vw;
+            height: 6.5vw;
+            width: 42.5vw;
             font-size: 4vw;
             border-bottom: 3.5px solid grey;
             padding-bottom: 1.5vw;
         }
+        .alumni-status{
+            width: 35vw;
+        }
+        .team-search input:focus{
+            border-bottom: 3.5px solid #16e16e;
+        }
         .team-search svg{
-            transform: scale(.5) translateX(87.5vw) translateY(-3vw);
+            transform: scale(.5) translateX(95vw) translateY(-5vw);
         }
     }
 </style>

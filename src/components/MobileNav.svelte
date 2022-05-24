@@ -34,7 +34,7 @@
         </li>
         <li>
             <Link to="/intech" style="text-decoration: none; color: #eee;">
-                Intech
+                inTech
             </Link>
         </li>
     </ul>
@@ -74,11 +74,10 @@
             background: #000;
             width: 10vw;
             height: 10vw;
-            padding: 10px;
             border: none;
             outline:none;
             border-radius: 10px;
-            transform: translateX(70vw);
+            transform: translateX(70vw)
         }
         .nav-links button{
             transform: translateX(80vw) translateY(5vw);

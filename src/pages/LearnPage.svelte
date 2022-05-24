@@ -14,7 +14,7 @@
     .learn-div{
         width: 100%;    }
     .learn-div h1{
-        font-size: 4.5vw;
+        font-size: 3.5vw;
         margin: 2.5vw 5vw;
         letter-spacing: 1px;
     }

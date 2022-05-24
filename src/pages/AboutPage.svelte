@@ -38,7 +38,7 @@
         letter-spacing: 1px;
     }
     .about-content p {
-        font-size: 1.5vw;
+        font-size: 1.25vw;
     }
     @media only screen and (max-width: 768px){
         .about-div{

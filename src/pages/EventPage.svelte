@@ -28,7 +28,7 @@
         <br>
         <Link to = "/training" style="text-decoration: none;">
             <button>
-                Join
+               <span>Join</span>
             </button>
         </Link>
     </div>
@@ -42,7 +42,7 @@
         <br>
         <Link to = "/summer" style="text-decoration: none;">
             <button>
-                Register
+               <span>Register</span>
             </button>
         </Link>
     </div>
@@ -55,7 +55,7 @@
         </p> <br>
         <Link to = "/intech" style="text-decoration: none;">
             <button>
-                Explore
+                <span>Explore</span>
             </button>
         </Link>
     </div>
@@ -72,10 +72,11 @@
     .event-div{
         width: 100%;
         height: 65vh;
+        padding-bottom: 5vw;
         margin-top: -3vw;
     }
     .event-div h1{
-        font-size: 4.5vw;
+        font-size: 3.5vw;
         margin-left: 5vw;
         letter-spacing: 1px;
     }
@@ -85,7 +86,7 @@
         border-radius: 10vw;
         background: #16e16e;
         display: block;
-        margin: 15.5vw auto auto;
+        margin: 14.9vw auto auto;
     }
     .line-overlap{
         width: 15%;
@@ -93,7 +94,7 @@
         border-radius: 10vw;
         background: #4e4e4e;
         position: absolute;
-        margin-top: 12.5vw;
+        margin-top: 12.6vw;
         margin-left: 12.5vw;
     }
     .circle-1,
@@ -113,10 +114,10 @@
         background: #4e4e4e;
     }
     .circle-2{
-        margin-left: 85%;
+        margin-left: 85.5%;
     }
     .circle-3{
-        margin-left: 26%;
+        margin-left: 26.5%;
     }
     .circle-4{
         margin-left: 40.5%;
@@ -172,7 +173,7 @@
         font-weight: 500;
         text-decoration: none;
         width: 10vw;
-        height: 3vw;
+        max-height: 3vw;
         border-radius: 5px;
         background: #191919;
         color: #16e16e;
@@ -205,7 +206,7 @@
         .line-overlap{
             width: 1.5vw;
             height: 25vw;
-            margin-left: 47.35%;
+            margin-left: 46.75%;
         }
         .circle-1,
         .circle-2,
@@ -214,7 +215,7 @@
         .circle-5,.circle-6{
             height: 3.5vw;
             width: 3.5vw;
-            margin-left: 46.25%;
+            margin-left: 45.75%;
             z-index: 100;
         }
         .circle-2{
@@ -231,30 +232,34 @@
         }
         .circle-6{
             margin-top: 135vw;
+            margin-left: 45.75% !important;
+        }
+        .circle-1{
+            margin-top: 10vw;
         }
         .event-blob-1,
         .event-blob-2,
         .event-blob-3,
         .event-blob-4{
-            width: 35vw;
-            height: 20vw;
+            width: 40vw;
+            height: 30vw;
         }
         .event-blob-1{
             margin-top: -110vw;
-            margin-left: 5vw;
+            margin-left: 3.5vw;
         }
         .event-blob-2{
             margin-top: -85vw;
-            margin-left: 60vw;
+            margin-left: 52.5vw;
         }
         .event-blob-3{
             margin-top: -60vw;
-            margin-left: 5vw;
-            height: 27.5vw;
+            margin-left: 3.5vw;
         }
         .event-blob-4{
             margin-top: -35vw;
-            margin-left: 60vw;
+            margin-left: 52.5vw;
+            height: 25vw;
         }
         .event-name {
             font-size: 3.5vw;
@@ -264,12 +269,15 @@
             font-size: 3vw;
             margin: -1.5vw 1.5vw;
         }
-        .event-blob-3 button{
-            font-size: 2.5vw;
-            width: 15vw;
-            height: 7.5vw;
-            margin: 1.5vw;
+        .event-blob-3 button,.event-blob-1 button, .event-blob-2 button{
+            font-size: 3vw;
+            height: 12.5vw !important;
+            padding: 4vw !important;
+            width: 25vw;
         }
-
+        button span{
+            margin-top: -15vw !important;
+            position: relative;
+        }
     }
 </style>

@@ -5,7 +5,7 @@
     <title>Tech Syndicate | Intech'22</title>
 </svelte:head>
 <div class="intech-div">
-    <h1>Intech'22</h1>
+    <h1>inTech '22</h1>
     <p class="intech-info"> 
         Tech Syndicate, the technology club of Amity International School, Sector-46, Gurgaon, is organizing the fourth edition <br>
         of its annual intra-school event—inTech from 4th June to 20th June 2022
@@ -43,14 +43,14 @@
         width: 100%;
     }
     .intech-div h1{
-        font-size: 4.5vw;
+        font-size: 3.5vw;
         color: #16e16e;
         margin: 2.5vw 7.5vw;
         letter-spacing:1px;
     }
     .intech-div .intech-info{
-        margin-left: 8vw;
-        font-size: 1.5vw;
+        margin-left: 7.5vw;
+        font-size: 1.25vw;
     }
     .button-panel{
         margin-left: 7.5vw;
@@ -120,7 +120,7 @@
             font-size: 6.5vw;
         }
         .intech-div .intech-info{
-            font-size: 3.25vw;
+            font-size: 4.5vw;
         }
         .intech-events-grid{
             display: block;
@@ -129,19 +129,22 @@
         }
         .event{
             max-width: 75vw !important;
-            height: 65vw;
+            height: 70vw;
             border-radius: 1vw;
             margin-bottom: 5vw;
             padding: 3.5vw;
         }
         .event-name{
-            font-size: 4vw;
+            font-size: 5vw;
         }
         .event-info {
             max-width: 70vw !important;
+            font-size: 4vw;
+            margin: -4.5vw 0.5vw;
         }
         .event a {
-            margin-top: 25vw !important;
+            margin-top: 18.5vw !important;
+            font-size: 3vw;
         }
         .button-panel {
             display: flex;

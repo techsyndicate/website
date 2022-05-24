@@ -174,12 +174,19 @@
     @media only screen and (max-width: 768px){
         .member-table{
             display: block;
+            margin-top: 15vw;
         }
         .member{
             width: 100%;
             height: 35vw;
             margin-top: 5vw !important;
             margin-bottom: 5vw !important;
+        }
+        .member-info .socials a{
+            font-size: 3.5vw;
+        }
+        .member-info .socials{
+            margin: -5vw 0.5vw;
         }
         .member .member-pfp{
             width: 20vw;
@@ -198,19 +205,22 @@
         }
         .team-search{
             display: flex;
-            margin-left: -8.5vw !important;
+            margin-left: -14vw !important;
             margin-top: -11vw !important;
             position: absolute;
         }
         .team-search input{
             height: 6.5vw;
-            width: 40.5vw;
+            width: 42.5vw;
             font-size: 4vw;
             border-bottom: 3.5px solid grey;
             padding-bottom: 1.5vw;
         }
+        .team-search input:focus{
+            border-bottom: 3.5px solid #16e16e;
+        }
         .team-search svg{
-            transform: scale(.5) translateX(87.5vw) translateY(-1.5vw);
+            transform: scale(.5) translateX(95vw) translateY(-5vw);
         }
     }
 </style>
