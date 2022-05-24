@@ -72,6 +72,7 @@
     .event-div{
         width: 100%;
         height: 65vh;
+        margin-top: -3vw;
     }
     .event-div h1{
         font-size: 4.5vw;

@@ -18,7 +18,12 @@ html{
 i{
 	font-family: 'Font Awesome', sans-serif;
 }
-::-webkit-scrollbar {
-	width: 0px;
+
+::-webkit-scrollbar{
 	background: transparent;
+	width: 10px;
+}
+::-webkit-scrollbar-thumb{
+	background: rgb(34, 34, 34);
+	border-radius: 10px;
 }

@@ -43,27 +43,27 @@
         outline:none;
     }
     .landing-div .tech{
-        font-size: 25vw;
+        font-size: 21.5vw;
         font-weight: 900;
         letter-spacing: 10px;
         color: #191919;
         margin-top: 5vw;
     }
     .landing-div .syndicate{
-        font-size: 12.5vw;
+        font-size: 11.5vw;
         font-weight: 900;
         letter-spacing: 5px;
         color: #16e16e;
-        margin-top: -22.5vw;
+        margin-top: -20vw;
     }
     .snowglobe-assets{
-        height: 50vw;
-        width: 50vw;
+        height: 42.5vw;
+        width: 42.5vw;
         background: url('https://media.discordapp.net/attachments/741244174736556076/973287751468339200/unknown.png?width=513&height=513');
         background-size: cover;
         background-position: center;
         display: block;
-        transform: translateY(-55vw);
+        transform: translateY(-47.5vw);
         margin-left: auto;
         margin-right: auto;
     }
@@ -71,14 +71,15 @@
         position: absolute;
         margin-left: 70%;
         z-index: 5;
-        margin-top: -6.5vw;
+        margin-top: -5.5vw;
     }
     .socials{
         display: flex;
-        width: 20vw;
+        width: 15vw;
         justify-content: space-between;
-        font-size: 2vw;
-        margin-top: .5vw;
+        font-size: 1.5vw;
+        margin-top: 1.5vw; 
+       
     }
     .socials a{
         color: #fff;
