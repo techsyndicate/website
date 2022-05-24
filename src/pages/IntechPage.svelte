@@ -11,7 +11,7 @@
         of its annual intra-school event—inTech from 4th June to 20th June 2022
     </p>
     <div class="button-panel">
-        <button on:click={()=>{window.location.href='/intech/eventGuide'}}>
+        <button on:click={()=>{window.location.href='/intech/guide'}}>
             Event Guide
         </button>
         <button on:click={()=>{window.location.href='/intech/discord'}}>
