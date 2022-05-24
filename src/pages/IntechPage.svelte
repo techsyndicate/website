@@ -20,6 +20,9 @@
         <button>
             Teaser
         </button>
+        <button>
+            Registration
+        </button>
     </div>
     
     <div class="intech-events-grid">
