@@ -14,9 +14,9 @@
         <button on:click={()=>{window.location.href='/intech/guide'}}>
             Event Guide
         </button>
-        <button on:click={()=>{window.location.href='/intech/discord'}}>
+<!--         <button on:click={()=>{window.location.href='/intech/discord'}}>
             Discord
-        </button>
+        </button> -->
         <button>
             Teaser
         </button>
