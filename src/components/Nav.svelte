@@ -40,7 +40,7 @@
         </li>
         <Link to = "/intech" style="text-decoration: none; color:#eee;">
             <li>
-                <p>intech</p>
+                <p>inTech</p>
             </li>
         </Link>
     </ul>
