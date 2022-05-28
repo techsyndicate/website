@@ -89,7 +89,7 @@
         margin: 14.9vw auto auto;
     }
     .line-overlap{
-        width: 15%;
+        width: 28.5%;
         height: 0.75vw;
         border-radius: 10vw;
         background: #4e4e4e;
@@ -118,9 +118,11 @@
     }
     .circle-3{
         margin-left: 26.5%;
+        background: #4e4e4e;
     }
     .circle-4{
         margin-left: 40.5%;
+        background: #4e4e4e;
     }
     .circle-5{
         margin-left: 55%;
@@ -206,8 +208,8 @@
         }
         .line-overlap{
             width: 1.5vw;
-            height: 25vw;
-            margin-left: 46.75%;
+            height: 50vw;
+            margin-left: 47.35%;
         }
         .circle-1,
         .circle-2,
@@ -216,24 +218,26 @@
         .circle-5,.circle-6{
             height: 3.5vw;
             width: 3.5vw;
-            margin-left: 45.75%;
+            margin-left: 46.25%;
             z-index: 100;
         }
         .circle-2{
             margin-top: 35vw;
+            background: #4e4e4e !important;
         }
         .circle-3{
             margin-top: 60vw;
         }
         .circle-4{
             margin-top: 85vw;
+            background: #16e16e !important;
         }
         .circle-5{
             margin-top: 110vw;
         }
         .circle-6{
-            margin-top: 135vw;
-            margin-left: 45.75% !important;
+            margin-top: 132.5vw;
+            margin-left: 46.25% !important;
         }
         .circle-1{
             margin-top: 10vw;
