@@ -144,6 +144,7 @@
         height: 12.5vw;
     }
     .event-blob-2{
+        background: #4e4e4e !important;
         margin: -15vw 31vw;
         height: 12.5vw;
     }
