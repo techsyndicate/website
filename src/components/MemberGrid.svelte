@@ -89,6 +89,11 @@
                                 <i class="fa-solid fa-globe"></i>
                             </a>
                         {/if}
+                        {#if social.includes('soundcloud') }
+                            <a href="{social}" target="_blank">
+                                <i class="fa-brands fa-soundcloud"></i>
+                            </a>
+                        {/if}
                     {/each}
                 </div>
             </div>
