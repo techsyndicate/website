@@ -19,6 +19,6 @@
     <Route path="team" component={MemberPage}/>
     <Route path="event" component={EventPage}/>
     <Route path="intech" component={IntechPage}/>
-    <Route path="/achieve" component={AchievePage} />
-    <Route path="/" component={AchievePage} />
+    <Route path="achieve" component={AchievePage} />
+    <Route path="/" component={LandingPage} />
 </Router>

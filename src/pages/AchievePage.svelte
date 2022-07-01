@@ -36,7 +36,6 @@
                 Go Back
             </div>
         </div>
-        
     </div>
 {/if}
 
@@ -111,7 +110,12 @@
         padding-bottom: 0;
         box-sizing: border-box;
         min-height:fit-content;
-        overflow-y: auto;
+    }
+
+    .events{
+        height: fit-content;
+        max-height: 60vh;
+        overflow: auto;
     }
     .top{
         display:flex;
@@ -161,7 +165,7 @@
             grid-template-columns: 1fr 1fr;
         }
         .year{
-            margin: 1em 0.7em;
+            margin: 0.5em 0.7em;
             margin-left: 0
         }
     }
