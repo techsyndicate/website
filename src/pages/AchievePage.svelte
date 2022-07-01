@@ -1,9 +1,14 @@
 <script>
-    import { onMount } from 'svelte/internal';
-
     import AchieveItem from '../components/AchieveItem.svelte'
+    import achieve from '../../data/achieve.json'
     let year=2022;
-    let showPopup=true;
+    let showPopup=false;
+    let popupInfo={};
+    let cur=achieve.data.filter((el)=> el["year"]==year);
+    $:{
+        cur=achieve.data.filter((el)=> el["year"]==year);
+        console.log(cur);
+    }
 </script>
 
 <svelte:head>
@@ -14,19 +19,15 @@
     <div class="modalBg">
         <div class="modal">
             <div class="top">
-                <h1 class="name">CW Intra '2022</h1>
-                <h2 class="by">By DPS Vasant Kink</h2>
+                <h1 class="name">{popupInfo["name"]} '{popupInfo["year"]}</h1>
+                <h2 class="by">By {popupInfo["host"]}</h2>
             </div>
-            <h2 class="pos">Overall RunnerUps</h2>
+            <h2 class="pos">Overall {popupInfo["pos"]}</h2>
             <div class="events">
-                <h3 class="eventName">Techathlon - 1st</h3>
-                <h3 class="people">EEEEEEEEEEEEEEEEEEE, EEEEEEEEEEEEEEEEEEEEEEEEEE, EEEEEEEEEEEEEEEEE</h3>
-
-                <h3 class="eventName">Techathlon - 1st</h3>
-                <h3 class="people">EEEEEEEEEEEEEEEEEEE, EEEEEEEEEEEEEEEEEEEEEEEEEE, EEEEEEEEEEEEEEEEE</h3>
-
-                <h3 class="eventName">Techathlon - 1st</h3>
-                <h3 class="people">EEEEEEEEEEEEEEEEEEE, EEEEEEEEEEEEEEEEEEEEEEEEEE, EEEEEEEEEEEEEEEEE</h3>
+                {#each popupInfo["events"] as event }
+                    <h3 class="eventName">{event["name"]} - {event["rank"]}</h3>
+                    <h3 class="people">{event["people"]}</h3>
+                {/each}
             </div>
             <div class="bottom" on:click={()=>{showPopup=false;}}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
@@ -48,10 +49,9 @@
         <h2 class="year" on:click={()=>{year=2019}} class:focus={year==2019}>2019</h2>
     </div>
     <div class="grid">
-        <AchieveItem on:showModal={()=>{showPopup=true;}}/>
-        <AchieveItem />
-        <AchieveItem />
-        <AchieveItem />
+        {#each cur as el}
+            <AchieveItem on:showModal={(event)=>{showPopup=true; popupInfo=event.detail.dt;}} dt={el} />
+        {/each}
     </div>
 </div>
 
