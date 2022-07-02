@@ -1,5 +1,6 @@
 <script>
     import AchieveItem from '../components/AchieveItem.svelte'
+    import {fade} from 'svelte/transition'
     import achieve from '../../data/achieve.json'
     let year=2022;
     let showPopup=false;
@@ -17,7 +18,7 @@
 
 {#if showPopup}
     <div class="modalBg">
-        <div class="modal">
+        <div class="modal" transition:fade>
             <div class="top">
                 <h1 class="name">{popupInfo["name"]} '{popupInfo["year"]}</h1>
                 <h2 class="by">By {popupInfo["host"]}</h2>
@@ -77,6 +78,7 @@
         padding: 0.2em 1.5em;
         border-radius: 10px;
         font-weight:300;
+        cursor:pointer;
     }
     .focus{
         color: #16e16e;
@@ -84,7 +86,7 @@
     .grid{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 2em;
+        gap: 1em 2em;
     }
     .modalBg{
         height: 100%;
@@ -150,11 +152,13 @@
         font-size: 1.5rem;
         margin-bottom: 0.5em;
         width: 100%;
+        cursor:pointer;
     }
     svg{
         transform: scale(2);
         margin-right: 0.5em;
         color: #16e16e;
+        cursor:pointer;
     }
     .people:last-child{
         margin-bottom: 0.5em;
