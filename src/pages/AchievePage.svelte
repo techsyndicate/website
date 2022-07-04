@@ -68,6 +68,7 @@
         display:flex;
         flex-wrap: wrap;
     }
+
     .year:nth-child(1){
         margin-left: 0;
     }
@@ -78,6 +79,7 @@
         padding: 0.2em 1.5em;
         border-radius: 10px;
         font-weight:300;
+        font-size: 1.3em;
         cursor:pointer;
     }
     .focus{
@@ -164,24 +166,31 @@
         margin-bottom: 0.5em;
     }
 
-    @media screen and (max-width: 950px){
+    @media screen and (max-width: 900px){
         .grid{
             grid-template-columns: 1fr 1fr;
         }
         .year{
             margin: 0.5em 0.7em;
-            margin-left: 0
+            margin-left: 0;
         }
     }
+
     @media screen and (max-width: 600px){
+        .achievePage{
+            padding: 1em 2em;
+        }
         .grid{
             grid-template-columns: 1fr;
         }
-        .achievePage{
-            padding: 1em 1.5em;
+        .grid{
+            padding: 1em;
         }
         .title{
             font-size: 2.5rem;
+        }
+        .year:nth-child(2n){
+            margin-right: 0;
         }
     }
 </style>
