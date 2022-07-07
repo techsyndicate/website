@@ -1,0 +1,59 @@
+{
+    "data":[
+        {
+            "name":"CW Intra",
+            "host": "DPS Vasant Kunj",
+            "pos":"RunnerUps",
+            "events" : [
+                {"name":"Techathlon","people":"Some Guy, Some guy 2, some Guy 3","rank": "1st"},
+                {"name":"Designathon","people":"Some Guy, Some guy 2, some Guy 3","rank": "2nd"},
+                {"name":"Cryptic Hunt","people":"Some Guy, Some guy 2, some Guy 3","rank": "3rd"}
+            ],
+            "year":"2022"
+        },
+        {
+            "name":"Intech",
+            "host": "Amity G-46",
+            "pos":"Winners",
+            "events" : [
+                {"name":"Techathlon","people":"Some Guy, Some guy 2, some Guy 3","rank": "1st"},
+                {"name":"Designathon","people":"Some Guy, Some guy 2, some Guy 3","rank": "2nd"},
+                {"name":"Cryptic Hunt","people":"Some Guy, Some guy 2, some Guy 3","rank": "3rd"}
+            ],
+            "year":"2022"
+        },
+        {
+            "name":"AlphaNode",
+            "host": "DPS G-45",
+            "pos":"2nd RunnerUps",
+            "events" : [
+                {"name":"Techathlon","people":"Some Guy, Some guy 2, some Guy 3","rank": "1st"},
+                {"name":"Designathon","people":"Some Guy, Some guy 2, some Guy 3","rank": "2nd"},
+                {"name":"Cryptic Hunt","people":"Some Guy, Some guy 2, some Guy 3","rank": "3rd"}
+            ],
+            "year":"2022"
+        },
+        {
+            "name":"Intech",
+            "host": "Amity G-46",
+            "pos":"Winners",
+            "events" : [
+                {"name":"Techathlon","people":"Some Guy, Some guy 2, some Guy 3","rank": "1st"},
+                {"name":"Designathon","people":"Some Guy, Some guy 2, some Guy 3","rank": "2nd"},
+                {"name":"Cryptic Hunt","people":"Some Guy, Some guy 2, some Guy 3","rank": "3rd"}
+            ],
+            "year":"2021"
+        },
+        {
+            "name":"AlphaNode",
+            "host": "DPS G-45",
+            "pos":"2nd RunnerUps",
+            "events" : [
+                {"name":"Techathlon","people":"Some Guy, Some guy 2, some Guy 3","rank": "1st"},
+                {"name":"Designathon","people":"Some Guy, Some guy 2, some Guy 3","rank": "2nd"},
+                {"name":"Cryptic Hunt","people":"Some Guy, Some guy 2, some Guy 3","rank": "3rd"}
+            ],
+            "year":"2021"
+        }
+    ]
+}
