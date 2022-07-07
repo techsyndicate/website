@@ -43,14 +43,14 @@
                 <p>inTech</p>
             </li>
         </Link>
-        <li style="margin-top: -1.75vw;">
+        <!--<li style="margin-top: -1.75vw;">
             |
         </li>
-        <Link to = "/achieve" style="text-decoration: none; color:#eee;">
+         <Link to = "/achieve" style="text-decoration: none; color:#eee;">
             <li>
                 <p>Achievements</p>
             </li>
-        </Link>
+        </Link> -->
     </ul>
 </div>
 <style>
