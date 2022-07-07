@@ -94,6 +94,21 @@
                                 <i class="fa-brands fa-soundcloud"></i>
                             </a>
                         {/if}
+                        {#if social.includes('chef') }
+                            <a href="{social}" target = "_blank">
+                                <i class="fa-solid fa-hat-chef"></i>
+                            </a>
+                        {/if}
+                        {#if social.includes('hackerrank')}
+                            <a href="{social}" target="_blank">
+                                <i class="fa-brands fa-hackerrank"></i>
+                            </a>
+                        {/if}
+                        {#if social.includes('artstation')}
+                            <a href="{social}" target="_blank">
+                                <i class="fa-brands fa-artstation"></i>
+                            </a>
+                        {/if}
                     {/each}
                 </div>
             </div>
@@ -126,7 +141,7 @@
     .member-info .member-name{
         font-weight: light;
         font-size: 1.75vw;
-        width: 5vw;
+        width: 7.5vw;
         letter-spacing: 1px;
     }
     .member-info .member-role{
