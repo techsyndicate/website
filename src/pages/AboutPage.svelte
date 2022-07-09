@@ -1,7 +1,7 @@
 <svelte:head>
     <title>Tech Syndicate | About Us</title>
 </svelte:head>
-<meta http-equiv="refresh" content="0">
+<meta http-equiv="refresh" content="0.00001">
 <div class="about-div">
     <div class="about-content">
         <h1>know us better!</h1>
