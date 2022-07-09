@@ -1,6 +1,8 @@
 <svelte:head>
     <title>Tech Syndicate</title>
 </svelte:head>
+<meta http-equiv="refresh" content="0">
+
 <div class="landing-div">
     <h1 class="tech">
         TECH
@@ -64,15 +66,8 @@
         background-position: center;
         display: block;
         transform: translateY(-47.5vw);
-        animation: float 2s ease-in-out infinite;
-        transition: all 2s ease-in-out;
         margin-left: auto;
         margin-right: auto;
-    }
-    @keyframes float{
-        0% { transform: translate(0,  -47.5vw); }
-        50%  { transform: translate(0, -49vw); }
-        100%   { transform: translate(0, -47.5vw); }   
     }
     .social-div{
         position: absolute;
@@ -131,7 +126,8 @@
     }
     @media only screen and (max-width: 768px){
         .landing-div{
-            margin-top: 50vw;
+            margin-top: 25vw;
+            height: 64vh;
         }
         .tech{
             font-size: 30vw !important;
@@ -146,8 +142,8 @@
             transform: translateY(-75vw) !important;
         }
         .social-div{
-            margin-top: -100vw !important;
-            margin-left: 20vw !important;
+            margin-top: -20vh !important;
+            margin-left: 23vw !important;
         }
         .socials{
             width: 50vw !important;

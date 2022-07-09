@@ -20,6 +20,8 @@
         });
     })
 </script>
+<meta http-equiv="refresh" content="0">
+
 <div class="team-div">
     <div class="team-panel">
         <div class="team-toggle">
@@ -80,12 +82,14 @@
             font-size: 7.5vw;
             color: #eee;
             cursor: pointer;
-            margin-right: 2vw;
+            margin-right: 10vw;
             font-weight: 600;
             letter-spacing: 1px;
+            margin-left: 1vw;
         }
         .curr,.alum{
             margin-top: 15vw !important;
         }
     }
+    
 </style>

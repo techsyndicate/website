@@ -8,9 +8,7 @@
     import LearnPage from './pages/LearnPage.svelte';
     import IntechPage from './pages/IntechPage.svelte';
     import MobileNav from './components/MobileNav.svelte';
-    import AchievePage from './pages/AchievePage.svelte';
 </script>
-
 <Router>
     <MobileNav />
     <Nav />
@@ -19,6 +17,5 @@
     <Route path="team" component={MemberPage}/>
     <Route path="event" component={EventPage}/>
     <Route path="intech" component={IntechPage}/>
-    <!-- <Route path="achieve" component={AchievePage} /> -->
     <Route path="/" component={LandingPage} />
 </Router>

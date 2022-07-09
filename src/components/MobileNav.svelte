@@ -1,110 +1,222 @@
-<div class="nav-mobile">
-    <Link to="/" style="text-decoration: none;"><div class="nav-logo"></div></Link>
-    <button class="open">
-        <i class="fa-solid fa-bars"></i>
-    </button>
-</div>
-<div class="nav-links">
-    <button class="close">
-        <i class="fa-solid fa-times"></i>
-    </button>
-    <Link to="/" style="text-decoration: none;">
-        <div class="nav-logo" style="width: 15vw; height: 15vw; display: block; margin-right: auto;margin-left: auto; margin-top: 15vw;"></div>
-    </Link>
-    <ul>
-        <li>
-            <Link to="/learn" style="text-decoration: none; color: #eee;">
-                Learn
-            </Link>
-        </li>
-        <li>
-            <Link to="/event" style="text-decoration: none; color: #eee;">
-                Event
-            </Link>
-        </li>
-        <li>
-            <Link to="/about" style="text-decoration: none; color: #eee;">
-                About
-            </Link>
-        </li>
-        <li>
-            <Link to="/team" style="text-decoration: none; color: #eee;">
-                Team
-            </Link>
-        </li>
-        <li>
-            <Link to="/intech" style="text-decoration: none; color: #eee;">
-                inTech
-            </Link>
-        </li>
-    </ul>
-</div>
 <script>
-    import {Link} from 'svelte-navigator';
-    import {onMount} from 'svelte'
-    onMount(()=>{
-        document.querySelector('.close').addEventListener('click',()=>{
-            document.querySelector('.nav-links').style.display= 'none';
-        })
-        document.querySelector('.open').addEventListener('click',()=>{
-            document.querySelector('.nav-links').style.display= 'block';
-        })
-    })
-</script>
-<style>
-    .nav-mobile,.nav-links{
-        display: none;
-    }
-    .nav-logo{
-        background: url('../assets/images/ts.png');
-        background-size: cover;
-        background-position: center;
-        width: 10vw;
-        height: 10vw;
-    }
+  import {link} from 'svelte-navigator'
 
-    @media only screen and (max-width: 768px) {
-        .nav-mobile{
-            display: flex;
-            padding-top: 5vw;
-            padding-left: 2.5vw;
-            padding-right:2.5vw;
-        }
-        .nav-mobile button,.nav-links button{
-            background: #000;
-            width: 10vw;
-            height: 10vw;
-            border: none;
-            outline:none;
-            border-radius: 10px;
-            transform: translateX(70vw)
-        }
-        .nav-links button{
-            transform: translateX(80vw) translateY(5vw);
-        }
-        .nav-mobile i,.nav-links i{
-            font-size: 5vw;
-            color: #eee;
-        }
-        .nav-links{
-            width: 100vw;
-            left: 0;
-            position: absolute;
-            display: none;
-            z-index: 150000;
-            height: 125vw;
-            background: #272727;
-            margin-top: -16.75vw;
-        }
-        .nav-links ul{
-            list-style: none;
-            font-size: 5vw;
-            text-align: center;
-            margin-left: -8vw;
-            margin-top: 10vw;
-        }
-        .nav-links li{
-            margin-bottom: 5vw;
-        }
-    }
+  import { onMount } from 'svelte';
+
+  let initialData;
+  let otherData;
+
+onMount(async () => {
+  const res = await fetch('some-url');
+  initialData = await res.json();
+});
+
+async function update() {
+  const res = await fetch('some-other-url');
+  otherData = await res.json();
+}
+</script>
+<body>
+    <nav>
+      <div class="navbar">
+        <div class="container nav-container">
+          <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>  
+          <div class="logo">
+            <a href="/"><img src="https://www.techsyndicate.us/assets/images/ts.png" alt="dare - go touch grass" width="45" height="45"></a>
+          </div>
+          <div class="menu-items" id="menu">
+            <li><a href="/"><img src="https://www.techsyndicate.us/assets/images/ts.png" alt="dare - go touch grass" width="45" height="45"></a></li>
+            <li><a on:click={update} href="http://localhost:8080/learn" class='link' use:link>Learn</a></li>
+            <li><a href="/event"   class='link' use:link>Event</a></li>
+            <li><a href="/about" class='link' use:link>About</a></li>
+            <li><a href="/team" class='link' use:link>Team</a></li>
+            <li><a href="/intech" class='link' use:link>inTech</a></li>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+
+<style>
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1050px;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+  width: 100%;
+  padding-top: 1vh;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+.navbar .menu-items {
+  display: flex;
+}
+
+.navbar .nav-container li {
+  list-style: none;
+}
+
+.navbar .nav-container a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.navbar .nav-container .link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.link{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover{
+    font-weight: bolder;
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+  height: 60px;
+}
+
+.nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height: 19.5px;
+    width: 24px;
+    top: 20px;
+    right: 10px;
+    z-index: 102;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.nav-container .hamburger-lines {
+  display: block;
+  height: 19.5px;
+  width: 24px;
+  position: absolute;
+  top: 17px;
+  right: 10px;
+  z-index: 101;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+  display: block;
+  height: 2px;
+  width: 100%;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.nav-container .hamburger-lines .line1 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items {
+  padding-top: 120px;
+  background-color: #272727f7;
+  height: 110vh;
+  width: 110%;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+  padding-left: 15px;
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+      position: fixed;
+    z-index: 100;
+    margin-top: -20px;
+}
+
+.navbar .menu-items li {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.logo {
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  font-size: 1.2rem;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .logo{
+  display: none;
+}
+
+@media screen and (min-width: 750px) and (max-width: 8000px) {
+    .navbar {
+  display: none;
+}}
+
 </style>
+

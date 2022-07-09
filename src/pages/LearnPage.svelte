@@ -10,6 +10,8 @@
 <script>
     import LearnGrid from '../components/LearnGrid.svelte'
 </script>
+<meta http-equiv="refresh" content="0">
+
 <style>
     .learn-div{
         width: 100%;    }

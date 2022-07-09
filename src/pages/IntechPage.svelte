@@ -4,6 +4,8 @@
 <svelte:head>
     <title>Tech Syndicate | Intech'22</title>
 </svelte:head>
+<meta http-equiv="refresh" content="0">
+
 <div class="intech-div">
     <h1>inTech '22</h1>
     <p class="intech-info"> 
@@ -28,9 +30,9 @@
     <div class="intech-events-grid">
         {#each events as event}
             <div class="event">
-                <h2 class="event-name">{event.name}</h2>
-                <p class="event-class"><span>Eligibility:</span> {event.class}</p>
-                <p class="event-info">{event.info}</p>
+                <h2 class="event-name" style="padding-bottom: 12px;">{event.name}</h2>
+                <p class="event-class" style="padding-bottom: 12px;"><span>Eligibility:</span> {event.class}</p>
+                <p class="event-info" style="padding-bottom: 12px;">{event.info}</p>
                 <br>
                 <br>
                 <a href="{event.link}">Prompt</a>
@@ -124,7 +126,7 @@
         }
         .intech-events-grid{
             display: block;
-            width: 100%;
+            width: 94%;
             margin-left: 7.5vw;
         }
         .event{
