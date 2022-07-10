@@ -4,7 +4,6 @@
 <svelte:head>
     <title>Tech Syndicate | Intech'22</title>
 </svelte:head>
-<meta http-equiv="refresh" content="0">
 
 <div class="intech-div">
     <h1>inTech '22</h1>

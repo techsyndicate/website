@@ -1,8 +1,6 @@
 <svelte:head>
     <title>Tech Syndicate</title>
 </svelte:head>
-<meta http-equiv="refresh" content="0">
-
 <div class="landing-div">
     <h1 class="tech">
         TECH

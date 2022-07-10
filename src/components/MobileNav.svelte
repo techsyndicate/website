@@ -1,21 +1,3 @@
-<script>
-  import {link} from 'svelte-navigator'
-
-  import { onMount } from 'svelte';
-
-  let initialData;
-  let otherData;
-
-onMount(async () => {
-  const res = await fetch('some-url');
-  initialData = await res.json();
-});
-
-async function update() {
-  const res = await fetch('some-other-url');
-  otherData = await res.json();
-}
-</script>
 <body>
     <nav>
       <div class="navbar">
@@ -31,11 +13,11 @@ async function update() {
           </div>
           <div class="menu-items" id="menu">
             <li><a href="/"><img src="https://www.techsyndicate.us/assets/images/ts.png" alt="dare - go touch grass" width="45" height="45"></a></li>
-            <li><a on:click={update} href="http://localhost:8080/learn" class='link' use:link>Learn</a></li>
-            <li><a href="/event"   class='link' use:link>Event</a></li>
-            <li><a href="/about" class='link' use:link>About</a></li>
-            <li><a href="/team" class='link' use:link>Team</a></li>
-            <li><a href="/intech" class='link' use:link>inTech</a></li>
+            <li><a href="https://techsyndicate.us/learn" class='link'>Learn</a></li>
+            <li><a href="https://techsyndicate.us/event"   class='link'>Event</a></li>
+            <li><a href="https://techsyndicate.us/about" class='link'>About</a></li>
+            <li><a href="https://techsyndicate.us/team" class='link'>Team</a></li>
+            <li><a href="https://techsyndicate.us/intech" class='link'>inTech</a></li>
           </div>
         </div>
       </div>

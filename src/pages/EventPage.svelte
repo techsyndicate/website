@@ -4,7 +4,6 @@
 <script>
     import {Link} from 'svelte-navigator';
 </script>
-<meta http-equiv="refresh" content="0">
 <div class="event-div" style="padding-bottom:20vh;">
     <h1>
         Events

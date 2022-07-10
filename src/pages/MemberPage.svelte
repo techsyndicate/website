@@ -20,8 +20,6 @@
         });
     })
 </script>
-<meta http-equiv="refresh" content="0">
-
 <div class="team-div">
     <div class="team-panel">
         <div class="team-toggle">

@@ -11,7 +11,6 @@
         console.log(cur);
     }
 </script>
-<meta http-equiv="refresh" content="0.00001">
 
 <svelte:head>
     <title>Tech Syndicate | Achievements</title>
