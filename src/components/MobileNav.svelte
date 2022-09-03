@@ -32,11 +32,11 @@
                 Team
             </Link>
         </li>
-        <li>
+        <!-- <li>
             <Link to="/intech" style="text-decoration: none; color: #eee;">
                 inTech
             </Link>
-        </li>
+        </li> -->
     </ul>
 </div>
 <script>
