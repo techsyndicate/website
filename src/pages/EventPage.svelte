@@ -219,6 +219,7 @@
       margin-top: 85vw;
     }
     .circle-5 {
+      background-color: #16e16e !important;
       margin-top: 110vw;
     }
     .circle-6 {
