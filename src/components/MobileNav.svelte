@@ -14,10 +14,9 @@
           <div class="menu-items" id="menu">
             <li><a href="/"><img src="/assets/images/ts.png" alt="dare - go touch grass" width="45" height="45"></a></li>
             <li><a href="/learn" class='link'>Learn</a></li>
-            <li><a href="/event"   class='link'>Event</a></li>
+            <li><a href="/event"   class='link'>Events</a></li>
             <li><a href="/about" class='link'>About</a></li>
             <li><a href="/team" class='link'>Team</a></li>
-            <li><a href="/intech" class='link'>inTech</a></li>
           </div>
         </div>
       </div>
