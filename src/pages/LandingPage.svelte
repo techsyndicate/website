@@ -64,8 +64,15 @@
         background-position: center;
         display: block;
         transform: translateY(-47.5vw);
+        animation: float 2s ease-in-out infinite;
+        transition: all 2s ease-in-out;
         margin-left: auto;
         margin-right: auto;
+    }
+    @keyframes float{
+        0% { transform: translate(0,  -47.5vw); }
+        50%  { transform: translate(0, -49vw); }
+        100%   { transform: translate(0, -47.5vw); }   
     }
     .social-div{
         position: absolute;
