@@ -6,7 +6,7 @@
     import MemberPage from './pages/MemberPage.svelte';
     import EventPage from './pages/EventPage.svelte';
     import LearnPage from './pages/LearnPage.svelte';
-    import IntechPage from './pages/IntechPage.svelte';
+    import Robopage from './pages/RoboPage.svelte';
     import MobileNav from './components/MobileNav.svelte';
     import AchievePage from './pages/AchievePage.svelte';
 </script>
@@ -18,7 +18,7 @@
     <Route path="about" component={AboutPage}/>
     <Route path="team" component={MemberPage}/>
     <Route path="event" component={EventPage}/>
-    <Route path="intech" component={IntechPage}/>
-    <!-- <Route path="achieve" component={AchievePage} /> -->
+    <Route path="robo" component={Robopage}/>
+    <Route path="achieve" component={AchievePage} />
     <Route path="/" component={LandingPage} />
 </Router>

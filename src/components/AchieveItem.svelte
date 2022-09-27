@@ -1,11 +1,10 @@
 <script>
     import { createEventDispatcher } from 'svelte';
-    import {slide} from 'svelte/transition';
     export let dt;
     const dispatch=createEventDispatcher();
 </script>
 
-<div class="item" transition:slide>
+<div class="item">
     <div class="itemIn">
         <div class="dot" class:bronze={dt["pos"]=="2nd RunnerUps"} class:silver={dt["pos"]=="RunnerUps"} class:gold={dt["pos"]=="Winners"}></div>
         <div class="itemText">
@@ -25,14 +24,12 @@
 <style>
     .item{
         background-color: #171717;
-        padding: 1.5em;
         border-radius: 10px;
-        padding-bottom: 0.5em;
+        padding: 2vw;
         margin: 0.5em 0;
         transition: all 0.3s ease-in-out;
         display:flex;
         align-items: center;
-        min-height: 25vh;
     }
 
     .itemIn{
