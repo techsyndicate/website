@@ -10,7 +10,6 @@
     import MobileNav from './components/MobileNav.svelte';
     import AchievePage from './pages/AchievePage.svelte';
 </script>
-
 <Router>
     <MobileNav />
     <Nav />

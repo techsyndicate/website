@@ -13,7 +13,7 @@
             computer science.
         </p>
     </div>
-    <div class="about-asset">          
+    <div class="about-asset" style="text-align:center;">          
         <img src="../assets/images/resources/about.svg" alt=""> 
     </div>
 </div>
@@ -45,7 +45,7 @@
             display: block;
         }
         .about-content{
-            margin: 120vw 5vw;
+            margin: 90vw 5vw;
         }
         .about-content h1{
             font-size: 6.5vw;
@@ -54,9 +54,9 @@
             font-size: 3.5vw;
         }
         .about-div .about-asset img{
-            margin-left: -7.5% !important;
-            width: 140vw !important;
-            margin-top: 5vw !important;
+            margin-left: 5% !important;
+            width: 90%;
+            margin-top: 12vw !important;
         }
     }
 </style>

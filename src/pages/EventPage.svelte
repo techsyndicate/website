@@ -4,14 +4,13 @@
 <script>
     import {Link} from 'svelte-navigator';
 </script>
-<div class="event-div">
+<div class="event-div" style="padding-bottom:20vh;">
     <h1>
         Events
     </h1>
     <div class="circle-1">
     </div>
     <div class="circle-2"></div>
-    <div class="line-overlap"></div>
     <div class="circle-3"></div>
     <div class="circle-4"></div>
     <div class="circle-5"></div>
@@ -84,12 +83,12 @@
         width:75%;
         height: .75vw;
         border-radius: 10vw;
-        background: #16e16e;
+        background: linear-gradient(to right, #4e4e4e 0%, #4e4e4e 58%, #16e16e 58%, #16e16e 100%);
         display: block;
         margin: 14.9vw auto auto;
     }
     .line-overlap{
-        width: 28.5%;
+        width: 43%;
         height: 0.75vw;
         border-radius: 10vw;
         background: #4e4e4e;
@@ -126,6 +125,7 @@
     }
     .circle-5{
         margin-left: 55%;
+        background: #4e4e4e;
     }
     .circle-6{
         margin-left: 69.5%;
@@ -151,6 +151,7 @@
         height: 12.5vw;
     }
     .event-blob-3{
+        background: #4e4e4e !important;
         margin: 3.5vw 45vw;
         height: 12.5vw;
     }
@@ -176,7 +177,7 @@
         font-weight: 500;
         text-decoration: none;
         width: 10vw;
-        max-height: 3vw;
+        max-height: -3vw;
         border-radius: 5px;
         background: #191919;
         color: #16e16e;
@@ -189,7 +190,7 @@
     }
     @media only screen and (max-width: 1920px){
         .event-div{
-            margin-bottom: 5vw;
+            margin-bottom: 30vw;
         }
         .circle-6{
             margin-left: 71% !important;
@@ -205,10 +206,11 @@
         .line{
             width: 1.5vw;
             height: 125vw;
+            background: linear-gradient(to bottom, #4e4e4e 0%, #4e4e4e 60%, #16e16e 60%, #16e16e 100%)bottom;
         }
         .line-overlap{
             width: 1.5vw;
-            height: 50vw;
+            height: 75vw;
             margin-left: 47.35%;
         }
         .circle-1,
@@ -219,7 +221,7 @@
             height: 3.5vw;
             width: 3.5vw;
             margin-left: 46.25%;
-            z-index: 100;
+            z-index: 90;
         }
         .circle-2{
             margin-top: 35vw;
@@ -230,14 +232,16 @@
         }
         .circle-4{
             margin-top: 85vw;
-            background: #16e16e !important;
-        }
+            background: #4e4e4e !important;
+                }
         .circle-5{
             margin-top: 110vw;
+            background: #16e16e;
         }
         .circle-6{
             margin-top: 132.5vw;
             margin-left: 46.25% !important;
+            background: #16e16e;
         }
         .circle-1{
             margin-top: 10vw;
@@ -247,7 +251,7 @@
         .event-blob-3,
         .event-blob-4{
             width: 40vw;
-            height: 30vw;
+            height: 35vw;
         }
         .event-blob-1{
             margin-top: -110vw;
