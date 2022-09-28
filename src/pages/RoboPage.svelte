@@ -17,16 +17,21 @@
         <br /><br /><br /><br />
         <span class="link-div">
             <a href="" target="_blank"> Event Guide </a>
-            <a href="" target="_blank"> Teaser </a>
+            <a href="" target="_blank"> Events </a>
             <a href="" target="_blank"> Register </a>
         </span>
     </p>
     <img src="../assets/images/snowglobe.png" />
 </div>
-<div class="event-div">
-    <h2>
-        Events
-    </h2>
+<div class="video">
+    <iframe
+        src="https://www.youtube.com/embed/Zigd6oobhPg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        class="video-teaser"
+    />
 </div>
 <div class="server-div">
     <div class="server-content">
@@ -85,8 +90,9 @@
                     </li>
                     <li>
                         <span>
-                            <span style="color: #16e16e;">School Email : </span
-                            >aisg46@amity.edu
+                            <span style="color: #16e16e;"
+                                >School Email :
+                            </span>aisg46@amity.edu
                         </span>
                     </li>
                     <li />
@@ -115,8 +121,9 @@
         width: 35%;
     }
     .robo-div img {
-        transform: scale(0.65);
-        margin: -40vw 40vw;
+        transform: scale(0.85);
+        float: right;
+        margin-top: -25vw;
     }
     .robo-div .link-div a {
         background: #171717;
@@ -145,8 +152,7 @@
         margin-left: 5vw;
     }
     .server-content h2,
-    .contact h2,
-    .event-div h2 {
+    .contact h2 {
         font-size: 3vw;
         letter-spacing: 1px;
     }
@@ -187,11 +193,18 @@
         margin-top: 0.5vw;
         list-style: none;
     }
-    .event-div{
+    .video {
         width: 100%;
-        margin-top: 25vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 12vh;
     }
-    .event-div h2{
-        text-align: center;
+    .video iframe {
+        width: 80%;
+        height: 100%;
+        border-radius: 10px;
     }
 </style>

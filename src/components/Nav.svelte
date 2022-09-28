@@ -36,12 +36,6 @@
                 <p>Robotronics'22</p>
             </li>
         </Link>
-        <li style="margin-top: -1.75vw;">|</li>
-        <Link to="/achieve" style="text-decoration: none; color:#eee;">
-            <li>
-                <p>Achievements</p>
-            </li>
-        </Link>
     </ul>
 </div>
 
