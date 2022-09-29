@@ -1,6 +1,9 @@
 <svelte:head>
     <title>Tech Syndicate | Robotronics'22</title>
 </svelte:head>
+<script>
+    import {Router, Route} from 'svelte-navigator';
+</script>
 <div class="robo-div">
     <h1>
         Welcome to <br />
@@ -16,12 +19,13 @@
         typesetting, remaining essentially
         <br /><br /><br /><br />
         <span class="link-div">
+            
             <a href="" target="_blank"> Event Guide </a>
             <a href="" target="_blank"> Events </a>
             <a href="" target="_blank"> Register </a>
         </span>
     </p>
-    <img src="../assets/images/snowglobe.png" />
+    <img src="https://github.com/techsyndicate/website-21/blob/main/public/assets/images/ts3d.png?raw=true" />
 </div>
 <div class="video">
     <iframe
@@ -121,7 +125,7 @@
         width: 35%;
     }
     .robo-div img {
-        transform: scale(0.85);
+        transform: scale(0.85) rotate(-15deg);
         float: right;
         margin-top: -25vw;
     }

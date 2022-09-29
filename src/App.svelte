@@ -8,6 +8,7 @@
     import LearnPage from './pages/LearnPage.svelte';
     import Robopage from './pages/RoboPage.svelte';
     import MobileNav from './components/MobileNav.svelte';
+    import RoboEventPage from './pages/RoboEventPage.svelte';
 </script>
 <Router>
     <MobileNav />
