@@ -112,7 +112,7 @@
     }
     .robo-div h1 {
         font-size: 3.5vw;
-        margin: 2.5vw 5vw;
+        margin: 1.5vw 5vw;
         letter-spacing: 1.5px;
     }
     .robo-div h1 span {

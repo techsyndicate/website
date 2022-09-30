@@ -18,5 +18,5 @@
     <Route path="team" component={MemberPage}/>
     <Route path="event" component={EventPage}/>
     <Route path="robo" component={Robopage}/>
-    <Route path="/" component={LandingPage} />
+    <Route path="/" component={RoboEventPage} />
 </Router>

@@ -101,8 +101,9 @@
         }
         .card{
             max-width:70% !important;
-            height: 55vw !important;
+            height: 65vw !important;
             margin-left: 2.5vw;
+            margin-bottom: 5vw !important;
             padding: 10px !important;
         }
         .card h3{
@@ -111,8 +112,16 @@
         }
         .card p{
             font-size: 3.5vw !important;
-            width: 65vw !important;
+            width: 57.5vw !important;
             margin-left: 2.5vw !important;
+        }
+        .card a{
+            font-size: 3.5vw;
+            border-radius: 5px;
+        }
+        .card img{
+            width: 27.5vw !important;
+            margin-left: 40vw !important;
         }
     }
 </style>
