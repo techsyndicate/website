@@ -21,7 +21,7 @@
         <br /><br /><br /><br />
         <span class="link-div">
             <a href="" target="_blank"> Event Guide </a>
-            <Link to="/roboEvent" style="text-decoration: none; color:#eee;">
+            <Link to="/roboEvent" style="text-decoration: none; color:#eee;" class="l">
                 <span class="link-span"> Events </span>
             </Link>
             <a href="" target="_blank"> Register </a>
@@ -84,7 +84,7 @@
                     <li>
                         <span
                             ><span style="color: #16e16e;">Address : </span>
-                            AMITY INTERNATIONAL SCHOOL-SECTOR 46, Sector 46,
+                            AMITY INTERNATIONAL SCHOOL, Sector 46,
                             <br />
                             Gurugram, Haryana 122022</span
                         >
@@ -212,5 +212,70 @@
         width: 80%;
         height: 100%;
         border-radius: 10px;
+    }
+    @media screen and (max-width: 768px) {
+        .robo-div h1{
+            font-size: 10vw;
+            margin-top: 7.5vw;
+        }
+        .robo-div p{
+            font-size: 4.5vw;
+            width: 77.5vw;
+        }
+        .robo-div .link-div{
+            display: grid;
+        }
+        .robo-div .link-div a,.robo-div .link-span{
+            margin-top: 5vw;
+            margin-bottom: 5vw;
+            text-align: center;
+            width: 65vw;
+            margin-left: 1.5vw;
+        }
+        .robo-div img{
+            transform: scale(0.6) rotate(-6deg);
+            float: left;
+            margin-left: -35vw;
+        }
+        .video{
+            margin-top: -85vw !important;
+            height: 50vh;
+        }
+        .video iframe{
+            height: 75vw;
+            width: 95%;
+        }
+        .server-div{
+            display: grid;
+            margin-top: -5vw;
+        }
+        .server-div iframe{
+            margin-top: 57.5vw;
+            width: 90vw;
+            margin-left:2.5vw;
+        }
+        .server-div h2{
+            font-size: 7.5vw;
+        }
+        .server-div p{
+            font-size: 4.5vw;
+            width: fit-content;
+        }
+        .contact-div{
+            display: grid;
+            margin-top: 5vw;
+        }
+        .contact-div iframe{
+            width: 87.5vw;
+            height: 50vw;
+            margin-bottom: 5vw;
+        }
+        .contact-div h2{
+            font-size: 7.5vw;
+        }
+        .contact-info{
+            width: 95vw;
+            margin-left: -7.5vw;
+        }
     }
 </style>
