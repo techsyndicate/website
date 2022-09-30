@@ -2,7 +2,7 @@
     <title>Tech Syndicate | Robotronics'22</title>
 </svelte:head>
 <script>
-    import {Router, Route} from 'svelte-navigator';
+    import { Link } from "svelte-navigator";
 </script>
 <div class="robo-div">
     <h1>
@@ -10,22 +10,24 @@
         <span>Robotronics'22</span>
     </h1>
     <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has text ever since the 1500s, when an unknown
-        printer took a galley of type and scrambled it to make a type specimen
-        book.
+        Robotronics'22, the <span style="color: #16e16e;">10th edition</span> of Tech Syndicate's annual event, will
+        take place from <span style="color: #16e16e;">October 20, 2022 to November 3, 2022</span>. Beginning as a robotics
+        exclusive symposium, Robotronics has now evolved and branched out to
+        include events across a much wider variety of domains.
         <br /><br />
-        It has survived not only five centuries, but also the leap into electronic
-        typesetting, remaining essentially
+        This year it shall comprise of <span style="color: #16e16e;">14 events</span> ranging from creative, robotics to 
+        an online cryptic hunt and crossword. There will be one school crowned as the
+        <span style="color: #16e16e;">overall winner </span>after taking into consideration all the 14 events.
         <br /><br /><br /><br />
         <span class="link-div">
-            
             <a href="" target="_blank"> Event Guide </a>
-            <a href="" target="_blank"> Events </a>
+            <Link to="/roboEvent" style="text-decoration: none; color:#eee;">
+                <span class="link-span"> Events </span>
+            </Link>
             <a href="" target="_blank"> Register </a>
         </span>
     </p>
-    <img src="https://github.com/techsyndicate/website-21/blob/main/public/assets/images/ts3d.png?raw=true" />
+    <img src="../assets/images/ts3d.png" />
 </div>
 <div class="video">
     <iframe
@@ -127,9 +129,9 @@
     .robo-div img {
         transform: scale(0.85) rotate(-15deg);
         float: right;
-        margin-top: -25vw;
+        margin-top: -30vw;
     }
-    .robo-div .link-div a {
+    .robo-div .link-div a ,.link-span{
         background: #171717;
         padding: 15px;
         margin-right: 10px;
