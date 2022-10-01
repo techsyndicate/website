@@ -86,5 +86,29 @@
         "participants": "1 team of 1 participant",
         "icon": "../../assets/images/robo/photo.svg",
         "bg": "#009A35"
+    },
+    {
+        "name": "Paint 3d",
+        "description": "“Painting is silent poetry, and poetry is a painting that speaks.” Exhibit your artistry using Paint 3D on the theme given. ",
+        "class": "III-IV",
+        "participants": "1 team of 1 participant",
+        "icon": "../../assets/images/robo/paint.svg",
+        "bg": "#930028"
+    },
+    {
+        "name": "Minecraft",
+        "description": "Unleash your creativity in an infinite world where you are bound only by your imagination.",
+        "class": "VII-VIII",
+        "participants": "1 team of 2 participant",
+        "icon": "../../assets/images/robo/minecraft.svg",
+        "bg": "#1E85A3"
+    },
+    {
+        "name": "Gamer",
+        "description": "“Keep calm and Start creating”, make a game on the theme using “Scratch 3” ",
+        "class": "V-VI",
+        "participants": "1 team of 2 participant",
+        "icon": "../../assets/images/robo/gamingjr.svg",
+        "bg": "#930028"
     }
 ]
