@@ -21,9 +21,7 @@
         <br /><br /><br /><br />
         <span class="link-div">
             <a href="" target="_blank"> Event Guide </a>
-            <Link to="/roboEvent" style="text-decoration: none; color:#eee;" class="l">
-                <span class="link-span"> Events </span>
-            </Link>
+            <a href="" target="_blank"> Events</a>
             <a href="" target="_blank"> Register </a>
         </span>
     </p>
@@ -227,15 +225,18 @@
         }
         .robo-div .link-div a,.robo-div .link-span{
             margin-top: 5vw;
-            margin-bottom: 5vw;
+            margin-bottom: -2vw;
             text-align: center;
             width: 65vw;
             margin-left: 1.5vw;
         }
         .robo-div img{
-            transform: scale(0.6) rotate(-6deg);
-            float: left;
-            margin-left: -35vw;
+float: left;
+    margin-left: -35vw;
+    padding: 10%;
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 10%;
         }
         .video{
             margin-top: -85vw !important;
@@ -250,7 +251,7 @@
             margin-top: -5vw;
         }
         .server-div iframe{
-            margin-top: 57.5vw;
+            margin-top: 60.5vw;
             width: 90vw;
             margin-left:2.5vw;
         }
