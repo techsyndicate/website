@@ -30,7 +30,7 @@
     </p>
     <img src="../assets/images/ts3d.png" />
 </div>
-<div class="video">
+<!-- <div class="video">
     <iframe
         src="https://www.youtube.com/embed/aOh8vcir49E"
         title="Robotronics'22"
@@ -39,7 +39,7 @@
         allowfullscreen
         class="video-teaser"
     />
-</div>
+</div> -->
 <div class="server-div">
     <div class="server-content">
         <h2>
