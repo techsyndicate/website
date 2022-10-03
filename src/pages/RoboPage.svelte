@@ -34,14 +34,15 @@
         <span class="link-span"> Events </span>
       </Link>
       <a href="https://ts46.club/register" target="_blank"> Register </a>
+      <a href="/roboEvent" class="link"> Events </a>
     </span>
   </p>
   <img src="../assets/images/ts3d.png" />
 </div>
 <div class="video">
   <iframe
-    src="https://www.youtube.com/embed/Zigd6oobhPg"
-    title="YouTube video player"
+    src="https://www.youtube.com/embed/aOh8vcir49E"
+    title="Robotronics'22"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
@@ -118,110 +119,43 @@
 </div>
 
 <style>
+  .link {
+    display: none;
+  }
   .robo-div {
     width: 100%;
   }
   .robo-div h1 {
-    font-size: 3.5vw;
-    margin: 1.5vw 5vw;
-    letter-spacing: 1.5px;
-  }
-  .robo-div h1 span {
-    color: #16e16e;
+    font-size: 10vw;
+    margin-top: 7.5vw;
   }
   .robo-div p {
-    margin-left: 5vw;
-    font-size: 1.25vw;
-    letter-spacing: 1px;
-    width: 35%;
+    font-size: 4.5vw;
+    width: 77.5vw;
   }
-  .robo-div img {
-    transform: scale(0.85) rotate(-15deg);
-    float: right;
-    margin-top: -30vw;
+  .robo-div .link-div {
+    display: grid;
   }
   .robo-div .link-div a,
-  .link-span {
-    background: #171717;
-    padding: 15px;
-    margin-right: 10px;
-    border-radius: 10px;
-    color: #eee;
-    transition: all 0.5s ease;
-    text-decoration: none;
-    width: 5vw;
+  .robo-div .link-span {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    text-align: center;
+    width: 65vw;
+    margin-left: 1.5vw;
   }
-  .robo-div .link-div a:hover {
-    color: #16e16e;
-  }
-  .server-div {
-    width: 100%;
-    display: flex;
-    margin-top: 7.5vw;
-  }
-  .server-div iframe {
-    border-radius: 5px;
-    margin-left: 25vw;
-  }
-  .server-content {
-    height: 25vw;
-    margin-left: 5vw;
-  }
-  .server-content h2,
-  .contact h2 {
-    font-size: 3vw;
-    letter-spacing: 1px;
-  }
-  .server-content p {
-    font-size: 1.25vw;
-    letter-spacing: 1px;
-  }
-  .server-content a {
-    background: #171717;
-    padding: 15px;
-    margin-right: 10px;
-    border-radius: 10px;
-    color: #eee;
-    transition: all 0.5s ease;
-    text-decoration: none;
-    width: 5vw;
-  }
-  .server-content a:hover {
-    color: #16e16e;
-  }
-  .contact-div {
-    width: 100%;
-    display: flex;
-    margin-top: 7.5vw;
-    padding-bottom: 2.5vw;
-  }
-  .contact-div iframe {
-    margin-left: 5vw;
-    margin-top: 2.5vw;
-  }
-  .contact h2 {
-    margin-left: 5vw;
-  }
-  .contact ul {
-    margin-left: -2.75vw;
-  }
-  .contact ul li {
-    margin-top: 0.5vw;
-    list-style: none;
+  .robo-div img {
+    transform: scale(0.6) rotate(-6deg);
+    float: left;
+    margin-left: -35vw;
   }
   .video {
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 12vh;
+    margin-top: -85vw !important;
+    height: 50vh;
   }
   .video iframe {
-    width: 80%;
-    height: 100%;
-    border-radius: 10px;
+    height: 75vw;
+    width: 95%;
   }
   @media screen and (max-width: 768px) {
     .robo-div h1 {
@@ -235,13 +169,15 @@
     .robo-div .link-div {
       display: grid;
     }
-    .robo-div .link-div a,
-    .robo-div .link-span {
+    .robo-div .link-div a {
       margin-top: 5vw;
       margin-bottom: 5vw;
       text-align: center;
       width: 65vw;
       margin-left: 1.5vw;
+    }
+    .link-span {
+      display: none;
     }
     .robo-div img {
       transform: scale(0.6) rotate(-6deg);
@@ -251,6 +187,9 @@
     .video {
       margin-top: -85vw !important;
       height: 50vh;
+    }
+    .link {
+      display: block;
     }
     .video iframe {
       height: 75vw;
@@ -288,5 +227,33 @@
       width: 95vw;
       margin-left: -7.5vw;
     }
+  }
+  .server-div iframe {
+    margin-top: 57.5vw;
+    width: 90vw;
+    margin-left: 2.5vw;
+  }
+  .server-div h2 {
+    font-size: 7.5vw;
+  }
+  .server-div p {
+    font-size: 4.5vw;
+    width: fit-content;
+  }
+  .contact-div {
+    display: grid;
+    margin-top: 5vw;
+  }
+  .contact-div iframe {
+    width: 87.5vw;
+    height: 50vw;
+    margin-bottom: 5vw;
+  }
+  .contact-div h2 {
+    font-size: 7.5vw;
+  }
+  .contact-info {
+    width: 95vw;
+    margin-left: -7.5vw;
   }
 </style>
