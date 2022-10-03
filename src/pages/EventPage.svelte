@@ -63,7 +63,7 @@
             Robotronics
         </p>
         <p class="event-duration">
-            Nov 2 - Nov 12
+            Oct 20 - Nov 3
         </p>
     </div>
 </div>

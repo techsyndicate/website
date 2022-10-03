@@ -20,19 +20,20 @@
         <span style="color: #16e16e;">overall winner </span>after taking into consideration all the 14 events.
         <br /><br /><br /><br />
         <span class="link-div">
-            <a href="" target="_blank"> Event Guide </a>
+            <a href="https://ts46.club/guide" target="_blank"> Event Guide </a>
             <Link to="/roboEvent" style="text-decoration: none; color:#eee;" class="l">
                 <span class="link-span"> Events </span>
             </Link>
-            <a href="" target="_blank"> Register </a>
+            <a href="https://ts46.club/register" target="_blank"> Register </a>
+            <a href="/roboEvent" class="link"> Events </a>
         </span>
     </p>
     <img src="../assets/images/ts3d.png" />
 </div>
 <div class="video">
     <iframe
-        src="https://www.youtube.com/embed/Zigd6oobhPg"
-        title="YouTube video player"
+        src="https://www.youtube.com/embed/aOh8vcir49E"
+        title="Robotronics'22"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
@@ -109,6 +110,9 @@
 </div>
 
 <style>
+    .link{
+        display: none;
+    }
     .robo-div {
         width: 100%;
     }
@@ -225,12 +229,15 @@
         .robo-div .link-div{
             display: grid;
         }
-        .robo-div .link-div a,.robo-div .link-span{
+        .robo-div .link-div a{
             margin-top: 5vw;
             margin-bottom: 5vw;
             text-align: center;
             width: 65vw;
             margin-left: 1.5vw;
+        }
+        .link-span{
+            display: none;
         }
         .robo-div img{
             transform: scale(0.6) rotate(-6deg);
@@ -240,6 +247,9 @@
         .video{
             margin-top: -85vw !important;
             height: 50vh;
+        }
+        .link{
+            display: block;
         }
         .video iframe{
             height: 75vw;
