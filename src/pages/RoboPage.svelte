@@ -28,8 +28,9 @@
             <a href="/roboEvent" class="link"> Events </a>
         </span>
     </p>
-    <img src="../assets/images/ts3d.png" />
+    <img src="../assets/images/events.png" />
 </div>
+<!-- <div class="event-ts-banner"></div> -->
 <!-- <div class="video">
     <iframe
         src="https://www.youtube.com/embed/aOh8vcir49E"
@@ -110,6 +111,16 @@
 </div>
 
 <style>
+    /* .event-ts-banner{
+        width: 80%;
+        height: 60vh;
+        background: url('/assets/images/events.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 20vw;
+        margin-left: auto;
+    } */
     .link{
         display: none;
     }
@@ -131,9 +142,10 @@
         width: 35%;
     }
     .robo-div img {
-        transform: scale(0.85) rotate(-15deg);
+        width: 50vw;
         float: right;
         margin-top: -30vw;
+        margin-right: 5vw;
     }
     .robo-div .link-div a ,.link-span{
         background: #171717;
@@ -240,9 +252,9 @@
             display: none;
         }
         .robo-div img{
-            transform: scale(0.6) rotate(-6deg);
             float: left;
-            margin-left: -35vw;
+            margin-top: 15vw;
+            width: 85vw;
         }
         .video{
             margin-top: -85vw !important;
