@@ -7,7 +7,7 @@
 <div class="robo-div">
     <h1>
         Welcome to <br />
-        <span>Robotronics'22</span>
+        <span>Robotronics '22</span>
     </h1>
     <p>
         Robotronics'22, the <span style="color: #16e16e;">10th edition</span> of Tech Syndicate's annual event, will
