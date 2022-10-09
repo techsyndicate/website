@@ -52,7 +52,7 @@
             in the fields of expertise covered by our club.
         </p>
         <br /><br />
-        <a href=""> Server Invite </a>
+        <a href="https://discord.com/invite/TEwymJd4"> Server Invite </a>
     </div>
     <iframe
         src="https://discord.com/widget?id=1008409770627182733&theme=dark"
