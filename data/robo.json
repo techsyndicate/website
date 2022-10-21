@@ -95,7 +95,7 @@
         "participants": "1 team of 1 participant",
         "icon": "../../assets/images/robo/photo.svg",
         "bg": "#009A35",
-        "link": "https://ts46.club/photo/prompt"
+        "link": "https://ts46.club/photo/prelims"
     },
     {
         "name": "Paint 3d",
@@ -104,7 +104,7 @@
         "participants": "1 team of 1 participant",
         "icon": "../../assets/images/robo/paint.svg",
         "bg": "#930028",
-        "link": "https://ts46.club/paint/prompt"
+        "link": "https://ts46.club/paint/prelims"
     },
     {
         "name": "Minecraft",
@@ -113,7 +113,7 @@
         "participants": "1 team of 2 participant",
         "icon": "../../assets/images/robo/minecraft.svg",
         "bg": "#1E85A3",
-        "link":"https://ts46.club/mc/prompt"
+        "link":"https://ts46.club/mc/prelims"
     },
     {
         "name": "Scratch",
@@ -122,6 +122,6 @@
         "participants": "1 team of 2 participant",
         "icon": "../../assets/images/robo/gamingjr.svg",
         "bg": "#930028",
-        "link": "https://ts46.clun/scratch/prompt"
+        "link": "https://ts46.clun/scratch/prelims"
     }
 ]
