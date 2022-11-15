@@ -2,6 +2,7 @@
     <title>Tech Syndicate</title>
 </svelte:head>
 <div class="landing-div">
+<!--  Panic because the revolution is here -->
     <h1 class="tech">
         TECH
     </h1>
