@@ -19,10 +19,14 @@
                     <img src="../assets/images/illus.svg" alt="" />
                 </div>
                 <div class="intro">
-                    Training Grounds is a tech-related learning event for students of Amity International School Sector 46. It offers an interactive and hands-on experience in various fields. <br>
+                    Training Grounds is a tech-related learning event for
+                    students of Amity International School Sector 46. It offers
+                    an interactive and hands-on experience in various fields. <br
+                    />
                     <button id="regbutton">Register Here!</button>
                 </div>
             </div>
+            <hr />
             <div class="regbar">
                 <div class="dc">
                     <div class="dclef">
@@ -41,8 +45,8 @@
                     <div class="dcright">
                         <iframe
                             src="https://discord.com/widget?id=1091008435321065573&theme=dark"
-                            width="400"
-                            height="500"
+                            width="700"
+                            height="350"
                             allowtransparency="true"
                             frameborder="0"
                             sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
@@ -54,30 +58,31 @@
         <hr />
         <div class="community section">
             <div class="heading">
-                <h1 style="margin: 10px 0;">Community Partners</h1>
+                <h1 style="margin: 10px 0;" id="commheading">Community Partners</h1>
             </div>
             <div class="partners">
                 <div class="partner">
-                    <img
-                        src="https://f2.codeday.org/d5pti1xheuyu/6cFN2R4ihGOeosMuEieqs0/c1250a23400062a1c760eb54d3b75bb8/CodeDay.svg"
-                        alt=""
-                    />
-                    <h1>codeday</h1>
+                    <img src="../assets/images/codeday.svg" alt="" />
                 </div>
                 <div class="partner">
                     <img src="../assets/images/hackclub.svg" alt="" />
-                    <h1>hack club</h1>
                 </div>
-                </div>
-                <div class="partners">
                 <div class="partner">
-                    <img src="../assets/images/bigfuture.svg" alt="" />
-                    <h1>amazon bigfuture</h1>
+                    <img src="../assets/images/amazon.svg" alt="" />
+                </div>
+                <div class="partner">
+                    <img src="../assets/images/coderz.svg" alt="" />
+                </div>
+                <div class="partner">
+                    <img src="../assets/images/fusion.svg" alt="" />
+                </div>
+                <div class="partner">
+                    <img src="../assets/images/usaco.svg" alt="" />
+                </div>
                 </div>
             </div>
         </div>
         <div class="events section" />
-    </div>
 </main>
 
 <style>
@@ -102,7 +107,7 @@
         font-weight: bolder;
         font-size: 3rem;
         margin: 0;
-        text-align: right;
+        text-align: center;
     }
 
     .section {
@@ -163,6 +168,15 @@
         margin: 10px 0;
     }
 
+    .dclef {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .dclef > * {
+        margin: 10px;
+    }
+
     #dcbutton {
         color: #5865f2;
         display: flex;
@@ -178,6 +192,7 @@
     .dc {
         margin: 30px 0;
         display: flex;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
@@ -196,6 +211,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 100px auto;
     }
 
     .partner {
@@ -203,27 +221,25 @@
         margin: 5px;
     }
 
-    .partner:hover {
-        
-    }
-    
-    .partners h1 {
+    .partner:hover .partners h1 {
         text-align: center;
         font-weight: 100;
     }
 
     .partner img {
-        height: 20vh;
-        margin: 20px 50px;
-        transition-duration: 100ms;
+        height: 70px;
+        margin: 10px;
+        transition-duration: 60ms;
     }
 
     .partner img:hover {
-        transform: scale(120%);
+        transform: scale(110%);
     }
 
     hr {
         border-color: #ffffff50;
+        width: 70%;
+        margin: 50px auto;
     }
 
     /* ? RESPONSIVE ? */
