@@ -1,10 +1,46 @@
 {
     "events": [
         {
-            "eventName": "",
-            "eventDesc": "",
-            "img":"",
-            "colorHex": ""
+            "eventName": "Web Development",
+            "eventDesc": "Lorem ipsum dolor sit amet.",
+            "img":"webd.svg",
+            "colorHex": "#03befc50"
+        },
+        {
+            "eventName": "App Development",
+            "eventDesc": "Lorem ipsum dolor sit amet.",
+            "img":"appd.svg",
+            "colorHex": "#fc9d0350"
+        },
+        {
+            "eventName": "2D Design",
+            "eventDesc": "Lorem ipsum dolor sit amet.",
+            "img":"2d.svg",
+            "colorHex": "#03fcad50"
+        },
+        {
+            "eventName": "3D Design",
+            "eventDesc": "Lorem ipsum dolor sit amet.",
+            "img":"3d.svg",
+            "colorHex": "#9803fc50"
+        },
+        {
+            "eventName": "Audio Video Editing",
+            "eventDesc": "Lorem ipsum dolor sit amet.",
+            "img":"av.svg",
+            "colorHex": "#fc03e350"
+        },
+        {
+            "eventName": "Crossword",
+            "eventDesc": "Lorem ipsum dolor sit amet.",
+            "img":"cross.svg",
+            "colorHex": "#6203fc50"
+        },
+        {
+            "eventName": "Cryptic Hunt",
+            "eventDesc": "Lorem ipsum dolor sit amet.",
+            "img":"cryptic.svg",
+            "colorHex": "#fc037750"
         }
     ]
 }

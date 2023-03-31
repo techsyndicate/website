@@ -1,5 +1,7 @@
 <script>
     import { Link } from "svelte-navigator";
+    import {events} from "../../data/events.json"
+    console.log(events)
 </script>
 
 <svelte:head>
@@ -61,28 +63,40 @@
                 <h1 style="margin: 10px 0;" id="commheading">Community Partners</h1>
             </div>
             <div class="partners">
-                <div class="partner">
+                <div class="partner" onclick="window.open('https://www.codeday.org/', '_blank')">
                     <img src="../assets/images/codeday.svg" alt="" />
                 </div>
-                <div class="partner">
+                <div class="partner" onclick="window.open('https://hackclub.com/', '_blank')">
                     <img src="../assets/images/hackclub.svg" alt="" />
                 </div>
-                <div class="partner">
+                <div class="partner" onclick="window.open('https://www.amazonfutureengineer.com/', '_blank')">
                     <img src="../assets/images/amazon.svg" alt="" />
                 </div>
-                <div class="partner">
+                <div class="partner" onclick="window.open('https://gocoderz.com/', '_blank')">
                     <img src="../assets/images/coderz.svg" alt="" />
                 </div>
-                <div class="partner">
+                <div class="partner" onclick="window.open('https://www.autodesk.in/products/fusion-360/overview', '_blank')">
                     <img src="../assets/images/fusion.svg" alt="" />
                 </div>
-                <div class="partner">
+                <div class="partner" onclick="window.open('http://www.usaco.org/', '_blank')">
                     <img src="../assets/images/usaco.svg" alt="" />
                 </div>
                 </div>
             </div>
         </div>
-        <div class="events section" />
+        <hr>
+        <div class="heading">
+            <h1>Events</h1>
+        </div>
+        <div class="events section">
+            {#each events as event}
+            <div class="event" style="background-color: {event.colorHex};">
+                <h1>{event.eventName}</h1>
+                <p>{event.eventDesc}</p>
+                <img src="../assets/images/resources/{event.img}" alt="">
+            </div>
+            {/each}
+        </div>
 </main>
 
 <style>
@@ -219,9 +233,10 @@
     .partner {
         /* background-color: #ffffff09; */
         margin: 5px;
+        cursor: pointer;
     }
 
-    .partner:hover .partners h1 {
+    .partners h1 {
         text-align: center;
         font-weight: 100;
     }
@@ -240,6 +255,26 @@
         border-color: #ffffff50;
         width: 70%;
         margin: 50px auto;
+    }
+
+    .events {
+        display: flex;
+        flex-wrap: wrap;
+        width: fit-content;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .event {
+        width: 300px;
+        border-radius: 20px;
+        margin: 20px;
+        padding: 20px;
+        transition-duration: 100ms;
+    }
+
+    .event:hover {
+        transform:rotateZ(-2deg)
     }
 
     /* ? RESPONSIVE ? */
