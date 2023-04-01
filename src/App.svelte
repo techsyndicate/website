@@ -20,6 +20,6 @@
     <Route path="team" component={MemberPage}/>
     <Route path="event" component={EventPage}/>
     <Route path="robo" component={Robopage}/>
-    <Route path="/" component={TGPage} />
+    <Route path="/" component={LandingPage} />
     <Route path="/roboEvent" component={RoboEventPage} />
 </Router>

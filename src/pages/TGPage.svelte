@@ -1,26 +1,7 @@
 <script>
     import { Link } from "svelte-navigator";
+    import { get_slot_changes } from "svelte/internal";
     import { events } from "../../data/events.json";
-    function popup(index) {
-        var popupEl = document.getElementById("popup");
-        var popupscreen = document.getElementById("popupscreen");
-        var cross = document.getElementsByClassName("cross")[0]
-        popupscreen.style.display = "flex";
-        popupEl.style.display = "flex";
-        cross.onclick = ()=>{
-            closePopup()
-        }
-        popupscreen.onclick = () => {
-            closePopup()
-        };
-    }
-    
-    function closePopup(){
-        var popupscreen = document.getElementById("popupscreen");
-        var popupEl = document.getElementById("popup");
-        popupscreen.style.display = "none";
-        popupEl.style.display = "none";
-    }
 </script>
 
 <svelte:head>
@@ -57,7 +38,7 @@
                         >Register</button
                     >
                     <a href="#events"><button>Events</button></a>
-                    <a href="#discord"><button>Discord</button></a>
+                    <a href="#dchead"><button>Discord</button></a>
                 </div>
             </div>
             <div class="illus">
@@ -95,9 +76,9 @@
                         Server invite
                     </button>
                     <p>
-                        Keep up to date with the course, all the materials,
+                        Keep up to date with the course; all the materials,
                         workshops, and much more will happen through the discord
-                        serve
+                        server.
                     </p>
                 </div>
             </div>
@@ -157,18 +138,12 @@
         {#each events as event, index}
             <div
                 class="event"
-                style="background-color: {event.colorHex}50;"
-                on:click={() => popup(index)}
-            >
+                style="background-color: {event.colorHex}50;" on:click={()=>window.open(event.eventUrl, '_blank')}>
                 <img src="../assets/images/resources/{event.img}" alt="" />
                 <h1>{event.eventName}</h1>
                 <p>{event.eventDesc}</p>
             </div>
         {/each}
-    </div>
-    <div id="popupscreen" />
-    <div id="popup">
-        <div class="cross">✕</div>
     </div>
 </main>
 
@@ -323,7 +298,6 @@
         width: fit-content;
         margin: 0 auto;
         justify-content: center;
-        cursor: pointer;
     }
 
     .event {
@@ -332,6 +306,7 @@
         margin: 20px;
         padding: 20px;
         transition-duration: 100ms;
+        cursor: pointer;
     }
 
     .event img {
@@ -345,35 +320,6 @@
 
     .event:hover {
         transform: rotateZ(-2deg);
-    }
-
-    #popupscreen {
-        background-color: #ffffff10;
-        backdrop-filter: blur(2px);
-        height: 100vh;
-        width: 100vw;
-        z-index: 10;
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: none;
-    }
-
-    #popup {
-        background-color: black;
-        height: 50vh;
-        width: 50vw;
-        position: fixed;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 11;
-        display: none;
     }
 
     /* ? RESPONSIVE ? */
