@@ -2,9 +2,13 @@
     import { Link } from "svelte-navigator";
     import { get_slot_changes } from "svelte/internal";
     import { events } from "../../data/events.json";
+    import {Notyf} from "notyf";
+    var notif = new Notyf();
+
     function comingSoon(){
-        
+        notif.success("Revolutionizing, coming soon!")
     }
+
 </script>
 
 <svelte:head>
@@ -134,7 +138,7 @@
         {#each events as event, index}
             <div
                 class="event"
-                style="background-color: {event.colorHex}50;" on:click={()=>window.open(event.eventUrl, '_blank')}>
+                style="background-color: {event.colorHex}50;" on:click={()=>comingSoon()}>
                 <img src="../assets/images/resources/{event.img}" alt="" />
                 <h1>{event.eventName}</h1>
                 <p>{event.eventDesc}</p>

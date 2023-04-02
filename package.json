@@ -23,6 +23,7 @@
   "dependencies": {
     "@barba/core": "^2.9.7",
     "gsap": "^3.9.1",
+    "notyf": "^3.10.0",
     "page": "^1.11.6",
     "sirv-cli": "^2.0.0",
     "svelte-navigator": "^3.1.5",
