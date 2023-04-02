@@ -1,0 +1,100 @@
+{
+    "events": [
+        {
+            "eventName": "CodeCup By CodeDay",
+            "eventDesc": "Introduction into cybersecurity",
+            "img":"webd.svg",
+            "colorHex": "#03befc",
+            "about": "",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "HackClub Sprig Workshop",
+            "eventDesc": "Intro into JS based GameDev",
+            "img":"appd.svg",
+            "colorHex": "#d9cc16",
+            "about": "",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "Amazon Future Engineer",
+            "eventDesc": "Robotics Challenge",
+            "img":"hardware.svg",
+            "colorHex": "#5932a8",
+            "about": "",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "Design",
+            "eventDesc": "Introduction into 2D and UI",
+            "img":"2d.svg",
+            "colorHex": "#32a850",
+            "about": "",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "Programming (Carnegie Mellon University)",
+            "eventDesc": "Python Basics",
+            "img":"hack.svg",
+            "colorHex": "#3238a8",
+            "about": "",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "Programming (UASCO)",
+            "eventDesc": "Algorithms Via Pseudocode",
+            "img":"hack.svg",
+            "colorHex": "#3238a8",
+            "about": "",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "Crossword",
+            "eventDesc": "Tech Puns",
+            "img":"cross.svg",
+            "colorHex": "#6d32a8",
+            "about": "",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "Group Discussion",
+            "eventDesc": "Changing Tech One Word at a Time",
+            "img":"gdlr.svg",
+            "colorHex": "#a032a8",
+            "about": "",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "A/V Editing",
+            "eventDesc": "Intro to Motion Graphics and audacity",
+            "img":"av.svg",
+            "colorHex": "#cf67d6",
+            "about": "",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "Cryptic Hunt",
+            "eventDesc": "Cicada 3301",
+            "img":"cryptic.svg",
+            "colorHex": "#d91681",
+            "about": "",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "3D Design",
+            "eventDesc": "Introduction to object modelling & 3d printing using Blender + Fusion 360",
+            "img":"3d.svg",
+            "colorHex": "#9116d9",
+            "about": "",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "WebDev",
+            "eventDesc": "Introduction to Frontend + Backend",
+            "img":"webd.svg",
+            "colorHex": "#03befc",
+            "about": "",
+            "eventUrl": "https://techsyndicate.notion.site"
+        }
+    ]
+}
