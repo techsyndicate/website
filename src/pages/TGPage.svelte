@@ -376,7 +376,9 @@
             flex-direction: column;
         }
         .illus img {
-            width: 60vw;
+            width: 100vw;
+            left: -5vw;
+            position: relative;
         }
         .dc {
             flex-direction: column;
