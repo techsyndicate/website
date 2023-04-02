@@ -384,9 +384,9 @@
         .dcright iframe {
             width: 70vw;
         }
-
         .dclef {
             flex-direction: column;
+            width: 90%;
         }
     }
 </style>
