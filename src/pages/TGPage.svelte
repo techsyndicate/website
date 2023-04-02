@@ -2,6 +2,9 @@
     import { Link } from "svelte-navigator";
     import { get_slot_changes } from "svelte/internal";
     import { events } from "../../data/events.json";
+    function comingSoon(){
+        
+    }
 </script>
 
 <svelte:head>
@@ -34,7 +37,7 @@
                 <div class="buttons">
                     <button
                         id="regbutton"
-                        onclick="window.open('https://forms.gle/Tm1toPDgEFDn9Kcq5', '_blank')"
+                        on:click={()=>comingSoon()}
                         >Register</button
                     >
                     <a href="#events"><button>Events</button></a>
@@ -52,14 +55,7 @@
             </div>
             <div class="dc" id="discord">
                 <div class="dcright">
-                    <iframe
-                        src="https://discord.com/widget?id=1091008435321065573&theme=dark"
-                        width="350"
-                        height="450"
-                        allowtransparency="true"
-                        frameborder="0"
-                        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-                    />
+                    <iframe src="https://discord.com/widget?id=1056120977785888838&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 </div>
                 <div class="dclef">
                     <h1>
@@ -67,7 +63,7 @@
                     </h1>
                     <button
                         id="dcbutton"
-                        onclick="window.open('https://discord.gg/49P3cXAc', '_blank')"
+                        onclick="window.open('https://discord.gg/gMYhjYnt', '_blank')"
                     >
                         <img
                             src="https://www.svgrepo.com/show/353655/discord-icon.svg"
@@ -321,9 +317,12 @@
     .event:hover {
         transform: rotateZ(-2deg);
     }
-
+    
     /* ? RESPONSIVE ? */
     @media only screen and (max-width: 650px) {
+        #dcbutton {
+            display: none;
+        }
         .heading h1 {
             font-size: 2rem;
         }
@@ -354,6 +353,7 @@
             margin: 4vw 1vw;
             font-size: 4vw;
         }
+        
     }
     @media only screen and (max-width: 450px) {
         .headingmain {
@@ -370,6 +370,9 @@
         hr {
             width: 90%;
         }
+        .dclef h1 {
+            font-size: 3vh;
+        }
     }
     @media only screen and (max-width: 900px) {
         .horizontal {
@@ -384,11 +387,14 @@
             flex-direction: column;
         }
         .dcright iframe {
-            width: 70vw;
+            width: 80vw;
         }
         .dclef {
             flex-direction: column;
             width: 90%;
+        }
+        #dchead {
+            font-size: 5vh;
         }
     }
 </style>
