@@ -4,14 +4,14 @@
     "alumni": [
       {
         "name": "Aayan Agarwal",
-        "role": "President",
+        "exrole": "President",
         "pfp": "https://avatars.githubusercontent.com/u/49789627?v=4",
         "batch": "2022-2023",
         "status": "Student at UW Seattle"
       },
       {
         "name": "Yuvraaj Narula",
-        "role": "Secretary",
+        "exrole": "Secretary",
         "pfp": "https://avatars.githubusercontent.com/u/49155095?v=4",
         "batch": "2022-2023",
         "status": "Student at UW Seattle"
