@@ -1,7 +1,7 @@
 [
   {
     "batch": "2022-2023",
-    "alumni": [
+    "alumni": [[
       {
         "name": "Aayan Agarwal",
         "exrole": "President",
@@ -37,7 +37,7 @@
         "batch": "2022-2023",
         "status": "Student at UW Seattle"
       }
-    ]
+    ]]
   },
   {
     "batch": "2021-22",
