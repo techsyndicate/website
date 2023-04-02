@@ -65,9 +65,6 @@
         font-size: 1.25vw;
         margin: -0.25vw 0.5vw;
     }
-    .learn-blob a svg{
-        transform: scale(0.5) translateX(1vw) translateY(1.25vw);
-    }
     @media only screen and (max-width: 768px){
         .learn-grid{
             display: block;
@@ -97,10 +94,6 @@
             font-size: 3.5vw;
             margin-left: 2.5vw;
             margin-top: 1.5vw;
-        }
-        .learn-blob a svg{
-            transform: scale(0.5) translateX(1vw) translateY(7.5vw) !important;
-            margin-bottom:2px;
         }
         .fa-arrow-right:before{
             padding-top: 10px;
