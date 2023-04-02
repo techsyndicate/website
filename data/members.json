@@ -1,17 +1,5 @@
 [
     {
-        "name": "Aayan Agarwal",
-        "role": "President",
-        "pfp": "https://avatars.githubusercontent.com/u/49789627?v=4",
-        "socials": [
-            "https://www.instagram.com/aayan_14.05",
-            "https://www.twitter.com/14coderz",
-            "https://github.com/ion05",
-            "mailto:aayanagarwal05@gmail.com",
-            "https://www.linkedin.com/in/aayan-agarwal-41a5181b9/"
-        ]
-    },
-    {
         "name": "Aayush Garg",
         "role": "Vice President",
         "pfp": "https://github.com/gamer-1478.png",
@@ -23,28 +11,6 @@
         ]
     },
     {
-        "name": "Yuvraaj Narula",
-        "role": "Secretary",
-        "pfp": "https://avatars.githubusercontent.com/u/49155095?v=4",
-        "socials": [
-            "https://www.instagram.com/yuvraaj.30",
-            "https://github.com/yuvraajnarula",
-            "https://www.linkedin.com/in/yuvraaj-narula-9095151b9/",
-            "mailto:ynaurla678@gmail.com"
-        ]
-    },
-    {
-        "name": "Nevis Kawatra",
-        "role": "Secretary",
-        "pfp": "https://media.discordapp.net/attachments/938649392670441502/958660680100233246/Screenshot_2021-08-15_100414.png",
-        "socials": [
-            "https://www.instagram.com/codewarriors42/",
-            "https://twitter.com/notneviskawatra",
-            "code-warriors.org",
-            "https://open.spotify.com/user/1wz929l78xh9x8kn29pmij0u1?si=gGySb9nJQvG97F7WgSwakQ&utm_source=copy-link"
-        ]
-    },
-    {
         "name": "Utkarsh Dugar",
         "role": "Joint Secretary",
         "pfp": "https://media.discordapp.net/attachments/939041732841062420/1013015727306973194/IMG-20220823-WA0032.jpg?width=770&height=513",
@@ -52,17 +18,6 @@
             "https://www.facebook.com/john.doe",
             "https://www.instagram.com/john.doe",
             "https://www.twitter.com/john.doe"
-        ]
-    },
-    {
-        "name": "Amish Mamtani",
-        "role": "Core Member",
-        "pfp": "https://media.discordapp.net/attachments/741244174736556076/974579902483415140/unknown.png",
-        "socials": [
-            "https://www.linkedin.com/in/amish-mamtani/",
-            "https://www.instagram.com/amishmamtani/",
-            "https://www.behance.net/amishmamtani",
-            "mailto:amishmamtani@gmail.com"
         ]
     },
     {
@@ -261,18 +216,6 @@
         "socials": [
             "mailto:aahana13121@gmail.com",
             "https://www.behance.net/aahana369"
-        ]
-    },
-    {
-        "name": "Harsimrat Anand",
-        "pfp": "https://media.discordapp.net/attachments/792024933718294558/989404799139184720/IMG-20211002-WA0009_1_1.jpg?width=508&height=513",
-        "role": "Member",
-        "socials": [
-            "mailto:simratanand01@gmail.com",
-            "https://www.linkedin.com/in/harsimrat-singh-anand-a144b4229",
-            "https://youtube.com/channel/UClju-TjpBTnbxQQR60L8-PA",
-            "https://open.spotify.com/user/fekuk1mvzm9sgk6llcmoi505m?si=qoqNeJbmRxSpq4pBB44csg&utm_source=copy-link",
-            "https://twitter.com/simratanand01"
         ]
     },
     {
