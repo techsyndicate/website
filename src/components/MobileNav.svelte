@@ -9,7 +9,7 @@
               <span class="line line3"></span>
             </div>  
           <div class="logo">
-            <a href="/"><img src="https://www.techsyndicate.us/assets/images/ts.png" alt="dare - go touch grass" width="45" height="45"></a>
+            <a href="/"><img src="/assets/images/ts.png" alt="dare - go touch grass" width="45" height="45"></a>
           </div>
           <div class="menu-items" id="menu">
             <li><a href="/"><img src="/assets/images/ts.png" alt="dare - go touch grass" width="45" height="45"></a></li>

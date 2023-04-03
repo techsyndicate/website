@@ -2,13 +2,12 @@
     import { Link } from "svelte-navigator";
     import { get_slot_changes } from "svelte/internal";
     import { events } from "../../data/events.json";
-    import {Notyf} from "notyf";
+    import { Notyf } from "notyf";
     var notif = new Notyf();
 
-    function comingSoon(){
-        notif.success("Revolutionizing, coming soon!")
+    function comingSoon() {
+        notif.success("Revolutionizing, coming soon!");
     }
-
 </script>
 
 <svelte:head>
@@ -39,13 +38,11 @@
                     <br />
                 </div>
                 <div class="buttons">
-                    <button
-                        id="regbutton"
-                        on:click={()=>comingSoon()}
+                    <button id="regbutton" on:click={() => comingSoon()}
                         >Register</button
                     >
-                    <a href="#events"><button>Events</button></a>
-                    <a href="#dchead"><button>Discord</button></a>
+                <button onclick="window.open('https://discord.gg/gMYhjYnt', '_blank')">Discord</button>
+                    <a><button on:click={() => comingSoon()}>Workshops</button></a>
                 </div>
             </div>
             <div class="illus">
@@ -59,12 +56,24 @@
             </div>
             <div class="dc" id="discord">
                 <div class="dcright">
-                    <iframe src="https://discord.com/widget?id=1056120977785888838&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    <iframe
+                        src="https://discord.com/widget?id=1056120977785888838&theme=dark"
+                        width="350"
+                        height="400"
+                        allowtransparency="true"
+                        frameborder="0"
+                        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+                    />
                 </div>
                 <div class="dclef">
                     <h1>
                         Hang out with the <span class="green">community</span>
                     </h1>
+                    <p>
+                        Keep up to date with the course; all the materials,
+                        workshops, and much more will happen through the discord
+                        server.
+                    </p>
                     <button
                         id="dcbutton"
                         onclick="window.open('https://discord.gg/gMYhjYnt', '_blank')"
@@ -75,11 +84,6 @@
                         />
                         Server invite
                     </button>
-                    <p>
-                        Keep up to date with the course; all the materials,
-                        workshops, and much more will happen through the discord
-                        server.
-                    </p>
                 </div>
             </div>
         </div>
@@ -94,15 +98,15 @@
         <div class="partners">
             <div
                 class="partner"
-                onclick="window.open('https://www.codeday.org/', '_blank')"
-            >
-                <img src="../assets/images/codeday.svg" alt="" />
-            </div>
-            <div
-                class="partner"
                 onclick="window.open('https://hackclub.com/', '_blank')"
             >
                 <img src="../assets/images/hackclub.svg" alt="" />
+            </div>
+            <div
+                class="partner"
+                onclick="window.open('https://www.codeday.org/', '_blank')"
+            >
+                <img src="../assets/images/codeday.svg" alt="" />
             </div>
             <div
                 class="partner"
@@ -112,33 +116,41 @@
             </div>
             <div
                 class="partner"
-                onclick="window.open('https://gocoderz.com/', '_blank')"
-            >
-                <img src="../assets/images/coderz.svg" alt="" />
-            </div>
-            <div
-                class="partner"
                 onclick="window.open('https://www.autodesk.in/products/fusion-360/overview', '_blank')"
             >
                 <img src="../assets/images/fusion.svg" alt="" />
             </div>
             <div
                 class="partner"
-                onclick="window.open('http://www.usaco.org/', '_blank')"
+                onclick="window.open('https://replit.com/', '_blank')"
             >
-                <img src="../assets/images/usaco.svg" alt="" />
+                <img src="../assets/images/replit.svg" alt="" />
+            </div>
+            <div
+                class="partner"
+                onclick="window.open('http://www.joincpi.org/', '_blank')"
+            >
+                <img src="../assets/images/cpi.svg" alt="" />
+            </div>
+            <div
+                class="partner"
+                onclick="window.open('https://gocoderz.com/', '_blank')"
+            >
+                <img src="../assets/images/coderz.svg" alt="" />
             </div>
         </div>
     </div>
     <hr />
     <div class="heading" id="events">
-        <h1>Courses</h1>
+        <h1>Workshops</h1>
     </div>
     <div class="events section">
         {#each events as event, index}
             <div
                 class="event"
-                style="background-color: {event.colorHex}50;" on:click={()=>comingSoon()}>
+                style="background-color: {event.colorHex}50;"
+                on:click={() => comingSoon()}
+            >
                 <img src="../assets/images/resources/{event.img}" alt="" />
                 <h1>{event.eventName}</h1>
                 <p>{event.eventDesc}</p>
@@ -177,7 +189,7 @@
         align-items: start;
     }
     .intro {
-        color: #999;
+        color: #fff;
         font-size: 125%;
         margin-bottom: 30px;
     }
@@ -201,7 +213,7 @@
 
     button {
         background-color: #1e1e1e;
-        color: #939393;
+        color: #fff;
         outline: none;
         border: none;
         font-family: outfit;
@@ -216,7 +228,7 @@
         display: flex;
         flex-direction: column;
         align-items: start;
-        width: 50%;
+        width: 50vw;
     }
 
     #dchead {
@@ -260,25 +272,28 @@
 
     .dcright {
         margin: 20px 0;
+        width: 50vw;
+        display: flex;
+        align-items: end;
+        justify-content: center;
     }
     .partners {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        width: 70%;
+        width: 60%;
         margin: 100px auto;
     }
 
     .partner {
-        /* background-color: #ffffff09; */
         margin: 5px;
         cursor: pointer;
     }
 
     .partner img {
-        height: 70px;
-        margin: 10px;
+        height: 3vw;
+        margin: 5px;
         transition-duration: 60ms;
     }
 
@@ -296,12 +311,13 @@
         display: flex;
         flex-wrap: wrap;
         width: fit-content;
-        margin: 0 auto;
+        margin: 5vw auto;
         justify-content: center;
     }
 
     .event {
-        width: 300px;
+        width: 20vw;
+        height: 220px;
         border-radius: 20px;
         margin: 20px;
         padding: 20px;
@@ -321,7 +337,7 @@
     .event:hover {
         transform: rotateZ(-2deg);
     }
-    
+
     /* ? RESPONSIVE ? */
     @media only screen and (max-width: 650px) {
         #dcbutton {
@@ -357,7 +373,6 @@
             margin: 4vw 1vw;
             font-size: 4vw;
         }
-        
     }
     @media only screen and (max-width: 450px) {
         .headingmain {
