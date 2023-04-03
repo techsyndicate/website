@@ -9,7 +9,7 @@
               <span class="line line3"></span>
             </div>  
           <div class="logo">
-            <a href="/"><img src="https://www.techsyndicate.us/assets/images/ts.png" alt="dare - go touch grass" width="45" height="45"></a>
+            <a href="/"><img src="/assets/images/ts.png" alt="dare - go touch grass" width="45" height="45"></a>
           </div>
           <div class="menu-items" id="menu">
             <li><a href="/"><img src="/assets/images/ts.png" alt="dare - go touch grass" width="45" height="45"></a></li>
@@ -17,8 +17,8 @@
             <li><a href="/event" class='link'>Events</a></li>
             <li><a href="/about" class='link'>About</a></li>
             <li><a href="/team" class='link'>Team</a></li>
-            <li><a href="/robo" class='link'>Robotronics</a></li>
-            <li><a href="/" class='link'>Training Grounds</a></li>
+            <!-- <li><a href="/robo" class='link'>Robotronics</a></li> -->
+            <li><a href="/tg" class='link'>Training Grounds</a></li>
           </div>
         </div>
       </div>
