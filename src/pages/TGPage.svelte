@@ -122,6 +122,12 @@
             </div>
             <div
                 class="partner"
+                onclick="window.open('https://replit.com/', '_blank')"
+            >
+                <img src="../assets/images/replit.svg" alt="" />
+            </div>
+            <div
+                class="partner"
                 onclick="window.open('http://www.joincpi.org/', '_blank')"
             >
                 <img src="../assets/images/cpi.svg" alt="" />
@@ -131,12 +137,6 @@
                 onclick="window.open('https://gocoderz.com/', '_blank')"
             >
                 <img src="../assets/images/coderz.svg" alt="" />
-            </div>
-            <div
-                class="partner"
-                onclick="window.open('https://replit.com/', '_blank')"
-            >
-                <img src="../assets/images/replit.svg" alt="" />
             </div>
         </div>
     </div>
