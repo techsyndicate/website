@@ -2,13 +2,12 @@
     import { Link } from "svelte-navigator";
     import { get_slot_changes } from "svelte/internal";
     import { events } from "../../data/events.json";
-    import {Notyf} from "notyf";
+    import { Notyf } from "notyf";
     var notif = new Notyf();
 
-    function comingSoon(){
-        notif.success("Revolutionizing, coming soon!")
+    function comingSoon() {
+        notif.success("Revolutionizing, coming soon!");
     }
-
 </script>
 
 <svelte:head>
@@ -39,9 +38,7 @@
                     <br />
                 </div>
                 <div class="buttons">
-                    <button
-                        id="regbutton"
-                        on:click={()=>comingSoon()}
+                    <button id="regbutton" on:click={() => comingSoon()}
                         >Register</button
                     >
                     <a href="#events"><button>Events</button></a>
@@ -59,7 +56,14 @@
             </div>
             <div class="dc" id="discord">
                 <div class="dcright">
-                    <iframe src="https://discord.com/widget?id=1056120977785888838&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    <iframe
+                        src="https://discord.com/widget?id=1056120977785888838&theme=dark"
+                        width="350"
+                        height="400"
+                        allowtransparency="true"
+                        frameborder="0"
+                        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+                    />
                 </div>
                 <div class="dclef">
                     <h1>
@@ -94,15 +98,15 @@
         <div class="partners">
             <div
                 class="partner"
-                onclick="window.open('https://www.codeday.org/', '_blank')"
-            >
-                <img src="../assets/images/codeday.svg" alt="" />
-            </div>
-            <div
-                class="partner"
                 onclick="window.open('https://hackclub.com/', '_blank')"
             >
                 <img src="../assets/images/hackclub.svg" alt="" />
+            </div>
+            <div
+                class="partner"
+                onclick="window.open('https://www.codeday.org/', '_blank')"
+            >
+                <img src="../assets/images/codeday.svg" alt="" />
             </div>
             <div
                 class="partner"
@@ -112,21 +116,21 @@
             </div>
             <div
                 class="partner"
-                onclick="window.open('https://gocoderz.com/', '_blank')"
-            >
-                <img src="../assets/images/coderz.svg" alt="" />
-            </div>
-            <div
-                class="partner"
                 onclick="window.open('https://www.autodesk.in/products/fusion-360/overview', '_blank')"
             >
                 <img src="../assets/images/fusion.svg" alt="" />
             </div>
             <div
                 class="partner"
-                onclick="window.open('http://www.usaco.org/', '_blank')"
+                onclick="window.open('http://www.joincpi.org/', '_blank')"
             >
-                <img src="../assets/images/usaco.svg" alt="" />
+                <img src="../assets/images/cpi.svg" alt="" />
+            </div>
+            <div
+                class="partner"
+                onclick="window.open('https://gocoderz.com/', '_blank')"
+            >
+                <img src="../assets/images/coderz.svg" alt="" />
             </div>
         </div>
     </div>
@@ -138,7 +142,9 @@
         {#each events as event, index}
             <div
                 class="event"
-                style="background-color: {event.colorHex}50;" on:click={()=>comingSoon()}>
+                style="background-color: {event.colorHex}50;"
+                on:click={() => comingSoon()}
+            >
                 <img src="../assets/images/resources/{event.img}" alt="" />
                 <h1>{event.eventName}</h1>
                 <p>{event.eventDesc}</p>
@@ -321,7 +327,7 @@
     .event:hover {
         transform: rotateZ(-2deg);
     }
-    
+
     /* ? RESPONSIVE ? */
     @media only screen and (max-width: 650px) {
         #dcbutton {
@@ -357,7 +363,6 @@
             margin: 4vw 1vw;
             font-size: 4vw;
         }
-        
     }
     @media only screen and (max-width: 450px) {
         .headingmain {
