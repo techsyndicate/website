@@ -1,19 +1,7 @@
 [
     {
-        "name": "Aayan Agarwal",
-        "role": "President",
-        "pfp": "https://avatars.githubusercontent.com/u/49789627?v=4",
-        "socials": [
-            "https://www.instagram.com/aayan_14.05",
-            "https://www.twitter.com/14coderz",
-            "https://github.com/ion05",
-            "mailto:aayanagarwal05@gmail.com",
-            "https://www.linkedin.com/in/aayan-agarwal-41a5181b9/"
-        ]
-    },
-    {
         "name": "Aayush Garg",
-        "role": "Vice President",
+        "role": "President",
         "pfp": "https://github.com/gamer-1478.png",
         "socials": [
             "https://www.linkedin.com/in/aayush-garg-585b6718b",
@@ -23,30 +11,8 @@
         ]
     },
     {
-        "name": "Yuvraaj Narula",
-        "role": "Secretary",
-        "pfp": "https://avatars.githubusercontent.com/u/49155095?v=4",
-        "socials": [
-            "https://www.instagram.com/yuvraaj.30",
-            "https://github.com/yuvraajnarula",
-            "https://www.linkedin.com/in/yuvraaj-narula-9095151b9/",
-            "mailto:ynaurla678@gmail.com"
-        ]
-    },
-    {
-        "name": "Nevis Kawatra",
-        "role": "Secretary",
-        "pfp": "https://media.discordapp.net/attachments/938649392670441502/958660680100233246/Screenshot_2021-08-15_100414.png",
-        "socials": [
-            "https://www.instagram.com/codewarriors42/",
-            "https://twitter.com/notneviskawatra",
-            "code-warriors.org",
-            "https://open.spotify.com/user/1wz929l78xh9x8kn29pmij0u1?si=gGySb9nJQvG97F7WgSwakQ&utm_source=copy-link"
-        ]
-    },
-    {
         "name": "Utkarsh Dugar",
-        "role": "Joint Secretary",
+        "role": "President",
         "pfp": "https://media.discordapp.net/attachments/939041732841062420/1013015727306973194/IMG-20220823-WA0032.jpg?width=770&height=513",
         "socials": [
             "https://www.facebook.com/john.doe",
@@ -55,19 +21,30 @@
         ]
     },
     {
-        "name": "Amish Mamtani",
-        "role": "Core Member",
-        "pfp": "https://media.discordapp.net/attachments/741244174736556076/974579902483415140/unknown.png",
+        "name": "Nimansh Jain",
+        "pfp": "https://cdn.discordapp.com/attachments/938649392670441502/989022673743020062/unknown.png",
+        "role": "Vice President",
         "socials": [
-            "https://www.linkedin.com/in/amish-mamtani/",
-            "https://www.instagram.com/amishmamtani/",
-            "https://www.behance.net/amishmamtani",
-            "mailto:amishmamtani@gmail.com"
+            "mailto:jainnimansh@gmail.com",
+            "https://github.com/NimanshJ",
+            "https://www.linkedin.com/in/nimansh-jain-067533214/",
+            "https://open.spotify.com/user/yxexjxtqtvid7dlit1pwu0q8q"
+        ]
+    },
+    {
+        "name": "Pranjli Aggarwal",
+        "pfp": "https://cdn.discordapp.com/attachments/938649392670441502/989076469613461534/unknown.png",
+        "role": "Director",
+        "socials": [
+            "https://github.com/PranjliAgg",
+            "https://www.behance.net/pranjliaggarwal",
+            "https://dribbble.com/PranjliAgg",
+            "https://www.instagram.com/pranjlii_07"
         ]
     },
     {
         "name": "Anirudh Chaturvedi",
-        "role": "Core",
+        "role": "Secretary",
         "pfp": "https://media.discordapp.net/attachments/865923623227228190/1025813251314962472/FaceApp_1664643264066.jpg",
         "socials": [
             "https://youtube.com/c/Anirudhchaturvedi",
@@ -78,14 +55,49 @@
         ]
     },
     {
+        "name": "Ansh Sakhuja",
+        "pfp": "https://cdn.discordapp.com/attachments/938649392670441502/989028936061161552/unknown.png",
+        "role": "Secretary",
+        "socials": [
+            "https://www.linkedin.com/in/ansh-sakhuja-7bb468242",
+            "mailto:ansh.sakhujaaa@gmail.com",
+            "https://open.spotify.com/user/b7elkx6cifiy1c02uvlaxcbqd?si=ec9e9181207d4076",
+            "https://youtube.com/c/Viper1234",
+            "https://www.instagram.com/anshsakhujaa/",
+            "https://twitter.com/anshsakhujaa"
+        ]
+    },
+    
+    {
+        "name": "Nishant Navani",
+        "role": "Joint Secretary",
+        "pfp": "https://i.imgur.com/lR4TIm2.jpeg",
+        "socials": [
+            "nishant.navani@gmail.com",
+            "https://github.com/nishantnavani",
+            "https://open.spotify.com/user/h5rrkbihhvx0b6d8atb84k4xi?si=8b0a0e90182a41ce",
+            "https://twitter.com/nishnavani"
+        ]
+    },
+    {
         "name": "Amogh Agrawal",
-        "role": "Member",
+        "role": "Core Member",
         "pfp": "https://media.discordapp.net/attachments/741244174736556076/974578914942910544/unknown.png",
         "socials": [
             "https://www.artstation.com/amoghagrawal",
             "https://dribbble.com/AmoghAgrawal",
             "https://twitter.com/amoghhagrawal",
             "mailto:amogh.ggn@gmail.com"
+        ]
+    },
+    {
+        "name": "Kunsh Tyagi",
+        "pfp": "https://cdn.discordapp.com/attachments/938649392670441502/989044071559487518/unknown.png",
+        "role": "Core Member",
+        "socials": [
+            "https://github.com/coderk987",
+            "mailto:k789.tyagi@gmail.com",
+            "https://www.hackerrank.com/k789_tyagi"
         ]
     },
     {
@@ -98,28 +110,6 @@
             "https://github.com/Khanak15",
             "mailto:khanakaggarwal15@gmail.com",
             "https://open.spotify.com/user/31vhyw4aomcefldokzkunltesi5y"
-        ]
-    },
-    {
-        "name": "Nishant Navani",
-        "role": "Member",
-        "pfp": "https://i.imgur.com/lR4TIm2.jpeg",
-        "socials": [
-            "nishant.navani@gmail.com",
-            "https://github.com/nishantnavani",
-            "https://open.spotify.com/user/h5rrkbihhvx0b6d8atb84k4xi?si=8b0a0e90182a41ce",
-            "https://twitter.com/nishnavani"
-        ]
-    },
-    {
-        "name": "Shaurya Sisaudia",
-        "role": "Member",
-        "pfp": "https://avatars.githubusercontent.com/u/76255549?v=4",
-        "socials": [
-            "https://github.com/shauryasisaudia",
-            "https://soundcloud.com/user-520492094?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-            "https://open.spotify.com/user/e06iia0iaopd7myggf3qti0yf",
-            "mailto:shaurya.sisaudia@gmail.com"
         ]
     },
     {
@@ -156,17 +146,6 @@
         ]
     },
     {
-        "name": "Nimansh Jain",
-        "pfp": "https://cdn.discordapp.com/attachments/938649392670441502/989022673743020062/unknown.png",
-        "role": "Member",
-        "socials": [
-            "mailto:jainnimansh@gmail.com",
-            "https://github.com/NimanshJ",
-            "https://www.linkedin.com/in/nimansh-jain-067533214/",
-            "https://open.spotify.com/user/yxexjxtqtvid7dlit1pwu0q8q"
-        ]
-    },
-    {
         "name": "Jai Dugal",
         "pfp": "https://cdn.discordapp.com/attachments/938649392670441502/989024591970193438/IMG-20220614-WA0000.jpg",
         "role": "Member",
@@ -175,19 +154,6 @@
             "https://www.instagram.com/jai_dugal/",
             "https://open.spotify.com/user/coglw7mqbo772v922wscvkj6b?si=_ov6LOzxQJaDfzPSe4bN_g&utm_source=copy-link",
             "https://lelagoon.artstation.com/"
-        ]
-    },
-    {
-        "name": "Ansh Sakhuja",
-        "pfp": "https://cdn.discordapp.com/attachments/938649392670441502/989028936061161552/unknown.png",
-        "role": "Member",
-        "socials": [
-            "https://www.linkedin.com/in/ansh-sakhuja-7bb468242",
-            "mailto:ansh.sakhujaaa@gmail.com",
-            "https://open.spotify.com/user/b7elkx6cifiy1c02uvlaxcbqd?si=ec9e9181207d4076",
-            "https://youtube.com/c/Viper1234",
-            "https://www.instagram.com/anshsakhujaa/",
-            "https://twitter.com/anshsakhujaa"
         ]
     },
     {
@@ -208,16 +174,6 @@
             "https://github.com/Guru-Khanna",
             "https://www.hackerrank.com/GuruKhanna",
             "https://www.codechef.com/users/guru_khanna"
-        ]
-    },
-    {
-        "name": "Kunsh Tyagi",
-        "pfp": "https://cdn.discordapp.com/attachments/938649392670441502/989044071559487518/unknown.png",
-        "role": "Member",
-        "socials": [
-            "https://github.com/coderk987",
-            "mailto:k789.tyagi@gmail.com",
-            "https://www.hackerrank.com/k789_tyagi"
         ]
     },
     {
@@ -244,35 +200,12 @@
         ]
     },
     {
-        "name": "Pranjli Aggarwal",
-        "pfp": "https://cdn.discordapp.com/attachments/938649392670441502/989076469613461534/unknown.png",
-        "role": "Member",
-        "socials": [
-            "https://github.com/PranjliAgg",
-            "https://www.behance.net/pranjliaggarwal",
-            "https://dribbble.com/PranjliAgg",
-            "https://www.instagram.com/pranjlii_07"
-        ]
-    },
-    {
         "name": "Aahana Srivastava",
         "pfp": "https://i.imgur.com/DlbFz0s.jpeg",
         "role": "Member",
         "socials": [
             "mailto:aahana13121@gmail.com",
             "https://www.behance.net/aahana369"
-        ]
-    },
-    {
-        "name": "Harsimrat Anand",
-        "pfp": "https://media.discordapp.net/attachments/792024933718294558/989404799139184720/IMG-20211002-WA0009_1_1.jpg?width=508&height=513",
-        "role": "Member",
-        "socials": [
-            "mailto:simratanand01@gmail.com",
-            "https://www.linkedin.com/in/harsimrat-singh-anand-a144b4229",
-            "https://youtube.com/channel/UClju-TjpBTnbxQQR60L8-PA",
-            "https://open.spotify.com/user/fekuk1mvzm9sgk6llcmoi505m?si=qoqNeJbmRxSpq4pBB44csg&utm_source=copy-link",
-            "https://twitter.com/simratanand01"
         ]
     },
     {
