@@ -122,12 +122,6 @@
             </div>
             <div
                 class="partner"
-                onclick="window.open('https://replit.com/', '_blank')"
-            >
-                <img src="../assets/images/replit.svg" alt="" />
-            </div>
-            <div
-                class="partner"
                 onclick="window.open('http://www.joincpi.org/', '_blank')"
             >
                 <img src="../assets/images/cpi.svg" alt="" />
@@ -292,7 +286,7 @@
     }
 
     .partner img {
-        height: 3vw;
+        height: 6vh;
         margin: 5px;
         transition-duration: 60ms;
     }
