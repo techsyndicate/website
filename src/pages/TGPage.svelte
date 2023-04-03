@@ -41,8 +41,8 @@
                     <button id="regbutton" on:click={() => comingSoon()}
                         >Register</button
                     >
-                    <a href="#events"><button>Events</button></a>
-                    <a href="#dchead"><button>Discord</button></a>
+                <button onclick="window.open('https://discord.gg/gMYhjYnt', '_blank')">Discord</button>
+                    <a><button on:click={() => comingSoon()}>Workshops</button></a>
                 </div>
             </div>
             <div class="illus">
@@ -69,6 +69,11 @@
                     <h1>
                         Hang out with the <span class="green">community</span>
                     </h1>
+                    <p>
+                        Keep up to date with the course; all the materials,
+                        workshops, and much more will happen through the discord
+                        server.
+                    </p>
                     <button
                         id="dcbutton"
                         onclick="window.open('https://discord.gg/gMYhjYnt', '_blank')"
@@ -79,11 +84,6 @@
                         />
                         Server invite
                     </button>
-                    <p>
-                        Keep up to date with the course; all the materials,
-                        workshops, and much more will happen through the discord
-                        server.
-                    </p>
                 </div>
             </div>
         </div>
@@ -132,11 +132,17 @@
             >
                 <img src="../assets/images/coderz.svg" alt="" />
             </div>
+            <div
+                class="partner"
+                onclick="window.open('https://replit.com/', '_blank')"
+            >
+                <img src="../assets/images/replit.svg" alt="" />
+            </div>
         </div>
     </div>
     <hr />
     <div class="heading" id="events">
-        <h1>Courses</h1>
+        <h1>Workshops</h1>
     </div>
     <div class="events section">
         {#each events as event, index}
@@ -183,7 +189,7 @@
         align-items: start;
     }
     .intro {
-        color: #999;
+        color: #fff;
         font-size: 125%;
         margin-bottom: 30px;
     }
@@ -207,7 +213,7 @@
 
     button {
         background-color: #1e1e1e;
-        color: #939393;
+        color: #fff;
         outline: none;
         border: none;
         font-family: outfit;
@@ -222,7 +228,7 @@
         display: flex;
         flex-direction: column;
         align-items: start;
-        width: 50%;
+        width: 50vw;
     }
 
     #dchead {
@@ -266,25 +272,28 @@
 
     .dcright {
         margin: 20px 0;
+        width: 50vw;
+        display: flex;
+        align-items: end;
+        justify-content: center;
     }
     .partners {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        width: 70%;
+        width: 60%;
         margin: 100px auto;
     }
 
     .partner {
-        /* background-color: #ffffff09; */
         margin: 5px;
         cursor: pointer;
     }
 
     .partner img {
-        height: 70px;
-        margin: 10px;
+        height: 3vw;
+        margin: 5px;
         transition-duration: 60ms;
     }
 
@@ -302,12 +311,13 @@
         display: flex;
         flex-wrap: wrap;
         width: fit-content;
-        margin: 0 auto;
+        margin: 5vw auto;
         justify-content: center;
     }
 
     .event {
-        width: 300px;
+        width: 20vw;
+        height: 220px;
         border-radius: 20px;
         margin: 20px;
         padding: 20px;
