@@ -132,6 +132,12 @@
             >
                 <img src="../assets/images/coderz.svg" alt="" />
             </div>
+            <div
+                class="partner"
+                onclick="window.open('https://replit.com/', '_blank')"
+            >
+                <img src="../assets/images/replit.svg" alt="" />
+            </div>
         </div>
     </div>
     <hr />
