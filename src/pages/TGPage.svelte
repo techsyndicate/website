@@ -41,7 +41,7 @@
                     <button id="regbutton" onclick="window.open('https://forms.gle/yUNXerX367mLnH2b7', '_blank')"
                         >Register</button
                     >
-                <button onclick="window.open('https://discord.gg/gMYhjYnt', '_blank')">Discord</button>
+                <button onclick="window.open('https://discord.gg/bsXZU9WGtY', '_blank')">Discord</button>
                     <a><button on:click={() => comingSoon()}>Workshops</button></a>
                 </div>
             </div>
