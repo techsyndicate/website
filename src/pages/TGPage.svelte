@@ -76,7 +76,7 @@
                     </p>
                     <button
                         id="dcbutton"
-                        onclick="window.open('https://discord.gg/gMYhjYnt', '_blank')"
+                        onclick="window.open('https://discord.gg/bsXZU9WGtY', '_blank')"
                     >
                         <img
                             src="https://www.svgrepo.com/show/353655/discord-icon.svg"
