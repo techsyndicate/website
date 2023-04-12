@@ -1,207 +1,247 @@
 [
-    {
-        "batch": "2021-22",
-        "alumni": [
-            [
-                {
-                    "name": "Oorjit Chowdhary",
-                    "pfp": "https://github.com/oorjitchowdhary.png",
-                    "exrole": "President",
-                    "batch": "2021-22",
-                    "status": "Student at UW Seattle"
-                },
-                {
-                    "name": "Mihir Aggarwal",
-                    "exrole": "Vice President",
-                    "pfp": "https://github.com/mihiraggarwal.png",
-                    "batch": "2021-22",
-                    "status": "Student at Ashoka University"
-                },
-                {
-                    "name": "Anshul Saha",
-                    "exrole": "Secretary",
-                    "pfp": "https://github.com/sheldor1510.png",
-                    "batch": "2021-22",
-                    "status": "Student at UMass Amherst"
-                },
-                {
-                    "name": "Jai Madhukar",
-                    "exrole": "Joint Secretary",
-                    "pfp": "https://github.com/jai-17.png",
-                    "batch": "2021-22",
-                    "status": "Outgoing Batch"
-                },
-                {
-                    "name": "Vaibhav Sharma",
-                    "exrole": "Core Member",
-                    "pfp": "https://github.com/gigabite-pro.png",
-                    "batch": "2021-22",
-                    "status": "Student at UBC, Vancouver"
-                }
-            ]
-        ]
-    },
-    {
-      "batch": "2020-21",
-      "alumni": [
-        [
-          {
-            "name": "Laxya Pahuja",
-            "pfp": "https://github.com/laxyapahuja.png",
-            "exrole": "President",
-            "batch": "2020-21",
-            "status": "Student at MIT, Manipal"
-          },
-          {
-            "name": "Ribhav Sharma",
-            "pfp": "https://github.com/ribhavsharma.png",
-            "exrole": "Secretary",
-            "batch": "2020-21",
-            "status": "Student at UBC"
-          },
-          {
-            "name": "Chiranjiv Singh Malhi",
-            "pfp": "https://github.com/chiranjivmalhi.png",
-            "exrole": "Member",
-            "batch": "2020-21",
-            "status": "Student at Thapar University"
-          },
-          {
-            "name": "Devjyoti Ghosh",
-            "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/devjyotighosh.jpg?raw=true",
-            "exrole": "Member",
-            "batch": "2020-21",
-            "status": "Student at Annapurna College"
-          }
-        ],
-        [
-          {
-            "name": "Pranav Uppal",
-            "pfp": "https://github.com/upspal.png",
-            "exrole": "Member",
-            "batch": "2020-21",
-            "status": "Student at SNUT"
-          }
-        ]
+  {
+    "batch": "2022-2023",
+    "alumni": [[
+      {
+        "name": "Aayan Agarwal",
+        "exrole": "President",
+        "pfp": "https://avatars.githubusercontent.com/u/49789627?v=4",
+        "batch": "2022-2023",
+        "status": "Student at UW Seattle"
+      },
+      {
+        "name": "Yuvraaj Narula",
+        "exrole": "Secretary",
+        "pfp": "https://avatars.githubusercontent.com/u/49155095?v=4",
+        "batch": "2022-2023",
+        "status": "Student at UW Seattle"
+      },
+      {
+        "name": "Nevis Kawatra",
+        "exrole": "Secretary",
+        "pfp": "https://media.discordapp.net/attachments/938649392670441502/958660680100233246/Screenshot_2021-08-15_100414.png",
+        "batch": "2022-2023",
+        "status": "Student at UW Seattle"
+      },
+      {
+        "name": "Amish Mamtani",
+        "exrole": "Core Member",
+        "pfp": "https://media.discordapp.net/attachments/741244174736556076/974579902483415140/unknown.png",
+        "batch": "2022-2023",
+        "status": "Student at UW Seattle"
+      },
+      {
+        "name": "Harsimrat Anand",
+        "pfp": "https://media.discordapp.net/attachments/792024933718294558/989404799139184720/IMG-20211002-WA0009_1_1.jpg?width=508&height=513",
+        "exrole": "Member",
+        "batch": "2022-2023",
+        "status": "Student at UW Seattle"
+      }
+    ]]
+  },
+  {
+    "batch": "2021-22",
+    "alumni": [
+      [
+        {
+          "name": "Oorjit Chowdhary",
+          "pfp": "https://github.com/oorjitchowdhary.png",
+          "exrole": "President",
+          "batch": "2021-22",
+          "status": "Student at UW Seattle"
+        },
+        {
+          "name": "Mihir Aggarwal",
+          "exrole": "Vice President",
+          "pfp": "https://github.com/mihiraggarwal.png",
+          "batch": "2021-22",
+          "status": "Student at Ashoka University"
+        },
+        {
+          "name": "Anshul Saha",
+          "exrole": "Secretary",
+          "pfp": "https://github.com/sheldor1510.png",
+          "batch": "2021-22",
+          "status": "Student at UMass Amherst"
+        },
+        {
+          "name": "Jai Madhukar",
+          "exrole": "Joint Secretary",
+          "pfp": "https://github.com/jai-17.png",
+          "batch": "2021-22",
+          "status": "Outgoing Batch"
+        },
+        {
+          "name": "Vaibhav Sharma",
+          "exrole": "Core Member",
+          "pfp": "https://github.com/gigabite-pro.png",
+          "batch": "2021-22",
+          "status": "Student at UBC, Vancouver"
+        }
       ]
-    },
-    {
-      "batch": "2019-20",
-      "alumni": [
-        [
-          {
-            "name": "Anurag Parida",
-            "pfp": "https://github.com/anuragparida.png",
-            "exrole": "President",
-            "batch": "2019-20",
-            "status": "Student at MUJ"
-          },
-          {
-            "name": "Sarthak Singhal",
-            "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/sarthaksinghal.png?raw=true",
-            "exrole": "Secretary",
-            "batch": "2019-20",
-            "status": "Student at HKUST"
-          },
-          {
-            "name": "Ansh Deo Singh",
-            "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/anshdeosingh.jpg?raw=true",
-            "exrole": "Member",
-            "batch": "2019-20",
-            "status": "Student"
-          },
-          {
-            "name": "Priyanshu Bhandari",
-            "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/priyanshubhandari.jpg?raw=true",
-            "exrole": "Member",
-            "batch": "2019-20",
-            "status": "Student"
-          }
-        ]
+    ]
+  },
+  {
+    "batch": "2020-21",
+    "alumni": [
+      [
+        {
+          "name": "Laxya Pahuja",
+          "pfp": "https://github.com/laxyapahuja.png",
+          "exrole": "President",
+          "batch": "2020-21",
+          "status": "Student at MIT, Manipal"
+        },
+        {
+          "name": "Ribhav Sharma",
+          "pfp": "https://github.com/ribhavsharma.png",
+          "exrole": "Secretary",
+          "batch": "2020-21",
+          "status": "Student at UBC"
+        },
+        {
+          "name": "Chiranjiv Singh Malhi",
+          "pfp": "https://github.com/chiranjivmalhi.png",
+          "exrole": "Member",
+          "batch": "2020-21",
+          "status": "Student at Thapar University"
+        },
+        {
+          "name": "Devjyoti Ghosh",
+          "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/devjyotighosh.jpg?raw=true",
+          "exrole": "Member",
+          "batch": "2020-21",
+          "status": "Student at Annapurna College"
+        }
+      ],
+      [
+        {
+          "name": "Pranav Uppal",
+          "pfp": "https://github.com/upspal.png",
+          "exrole": "Member",
+          "batch": "2020-21",
+          "status": "Student at SNUT"
+        }
       ]
-    },
-    {
-      "batch": "2018-19",
-      "alumni": [
-        [
-          {
-            "name": "Padam Chopra",
-            "pfp": "https://github.com/padamchopra.png",
-            "exrole": "President",
-            "batch": "2018-19",
-            "status": "Student at Waterloo University"
-          },
-          {
-            "name": "Aryaman Agrawal",
-            "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/aryamanagrawal.jpg?raw=true",
-            "exrole": "Secretary",
-            "batch": "2018-19",
-            "status": "Student at UMass Amherst"
-          },
-          {
-            "name": "Arnab Sagar",
-            "pfp": "https://github.com/ArnabSagar.png",
-            "exrole": "Member",
-            "batch": "2018-19",
-            "status": "Student at UGuelph"
-          }
-        ]
+    ]
+  },
+  {
+    "batch": "2019-20",
+    "alumni": [
+      [
+        {
+          "name": "Anurag Parida",
+          "pfp": "https://github.com/anuragparida.png",
+          "exrole": "President",
+          "batch": "2019-20",
+          "status": "Student at MUJ"
+        },
+        {
+          "name": "Sarthak Singhal",
+          "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/sarthaksinghal.png?raw=true",
+          "exrole": "Secretary",
+          "batch": "2019-20",
+          "status": "Student at HKUST"
+        },
+        {
+          "name": "Ansh Deo Singh",
+          "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/anshdeosingh.jpg?raw=true",
+          "exrole": "Member",
+          "batch": "2019-20",
+          "status": "Student"
+        },
+        {
+          "name": "Priyanshu Bhandari",
+          "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/priyanshubhandari.jpg?raw=true",
+          "exrole": "Member",
+          "batch": "2019-20",
+          "status": "Student"
+        }
       ]
-    },
-    {
-      "batch": "2017-18",
-      "alumni": [
-        [
-          {
-            "name": "Ashwin Tewary",
-            "pfp": "https://github.com/ashwintewary.png",
-            "exrole": "President",
-            "batch": "2017-18",
-            "status": "Student at USydney"
-          },
-          {
-            "name": "Gursimran Singh",
-            "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/gursimransingh.jpg?raw=true",
-            "exrole": "Secretary",
-            "batch": "2017-18",
-            "status": "Student at GaTech"
-          }
-        ]
+    ]
+  },
+  {
+    "batch": "2018-19",
+    "alumni": [
+      [
+        {
+          "name": "Padam Chopra",
+          "pfp": "https://github.com/padamchopra.png",
+          "exrole": "President",
+          "batch": "2018-19",
+          "status": "Student at Waterloo University"
+        },
+        {
+          "name": "Aryaman Agrawal",
+          "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/aryamanagrawal.jpg?raw=true",
+          "exrole": "Secretary",
+          "batch": "2018-19",
+          "status": "Student at UMass Amherst"
+        },
+        {
+          "name": "Arnab Sagar",
+          "pfp": "https://github.com/ArnabSagar.png",
+          "exrole": "Member",
+          "batch": "2018-19",
+          "status": "Student at UGuelph"
+        }
       ]
-    },
-    {
-      "batch": "2016-17",
-      "alumni": [
-        [
-          {
-            "name": "Satwik Dwivedi",
-            "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/satwikdwivedi.jpg?raw=true",
-            "exrole": "President",
-            "batch": "2016-17",
-            "status": "Student"
-          },
-          {
-            "name": "Mudit Sharma",
-            "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/muditsharma.jpg?raw=true",
-            "exrole": "Member",
-            "batch": "2016-17",
-            "status": "SWE at Oracle"
-          },
-          {
-            "name": "Shubh Jaroria",
-            "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/shubhjaroria.jpg?raw=true",
-            "exrole": "Member",
-            "batch": "2016-17",
-            "status": "Student"
-          },
-          {
-            "name": "Shivam Garg",
-            "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/shivamgarg.jpg?raw=true",
-            "exrole": "Member",
-            "batch": "2016-17",
-            "status": "Student"
-          }
-        ]
+    ]
+  },
+  {
+    "batch": "2017-18",
+    "alumni": [
+      [
+        {
+          "name": "Ashwin Tewary",
+          "pfp": "https://github.com/ashwintewary.png",
+          "exrole": "President",
+          "batch": "2017-18",
+          "status": "Student at USydney"
+        },
+        {
+          "name": "Gursimran Singh",
+          "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/gursimransingh.jpg?raw=true",
+          "exrole": "Secretary",
+          "batch": "2017-18",
+          "status": "Student at GaTech"
+        }
       ]
-    }
-  ]
+    ]
+  },
+  {
+    "batch": "2016-17",
+    "alumni": [
+      [
+        {
+          "name": "Satwik Dwivedi",
+          "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/satwikdwivedi.jpg?raw=true",
+          "exrole": "President",
+          "batch": "2016-17",
+          "status": "Student"
+        },
+        {
+          "name": "Mudit Sharma",
+          "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/muditsharma.jpg?raw=true",
+          "exrole": "Member",
+          "batch": "2016-17",
+          "status": "SWE at Oracle"
+        },
+        {
+          "name": "Shubh Jaroria",
+          "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/shubhjaroria.jpg?raw=true",
+          "exrole": "Member",
+          "batch": "2016-17",
+          "status": "Student"
+        },
+        {
+          "name": "Shivam Garg",
+          "pfp": "https://github.com/techsyndicate/website-21/blob/main/public/assets/images/alumni/shivamgarg.jpg?raw=true",
+          "exrole": "Member",
+          "batch": "2016-17",
+          "status": "Student"
+        }
+      ]
+    ]
+  }
+]

@@ -38,10 +38,10 @@
                     <br />
                 </div>
                 <div class="buttons">
-                    <button id="regbutton" on:click={() => comingSoon()}
+                    <button id="regbutton" onclick="window.open('https://forms.gle/yUNXerX367mLnH2b7', '_blank')"
                         >Register</button
                     >
-                <button onclick="window.open('https://discord.gg/gMYhjYnt', '_blank')">Discord</button>
+                <button onclick="window.open('https://discord.gg/bsXZU9WGtY', '_blank')">Discord</button>
                     <a><button on:click={() => comingSoon()}>Workshops</button></a>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                     </p>
                     <button
                         id="dcbutton"
-                        onclick="window.open('https://discord.gg/gMYhjYnt', '_blank')"
+                        onclick="window.open('https://discord.gg/bsXZU9WGtY', '_blank')"
                     >
                         <img
                             src="https://www.svgrepo.com/show/353655/discord-icon.svg"
@@ -92,7 +92,7 @@
     <div class="community section">
         <div class="heading">
             <h1 style="margin: 10px 0;" id="commheading">
-                <span class="green">Community</span> Partners
+                <span class="green">Content</span> Partners
             </h1>
         </div>
         <div class="partners">
@@ -138,8 +138,20 @@
             >
                 <img src="../assets/images/coderz.svg" alt="" />
             </div>
+            <div
+                class="partner"
+                onclick="window.open('https://replit.com/', '_blank')"
+            >
+                <img src="../assets/images/replit.svg" alt="" />
+            </div>
         </div>
     </div>
+    <hr />
+    <div class="heading">
+        <h1>Trailer</h1>
+    </div>
+    <div class="promovideo">
+        <iframe src="https://www.youtube.com/embed/3onxyfZ7hZc" title="Training Grounds &#39;23 | Opening Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
     <hr />
     <div class="heading" id="events">
         <h1>Workshops</h1>
@@ -292,7 +304,7 @@
     }
 
     .partner img {
-        height: 3vw;
+        height: 6vh;
         margin: 5px;
         transition-duration: 60ms;
     }
@@ -327,6 +339,16 @@
 
     .event img {
         width: 15%;
+    }
+
+    .promovideo {
+        margin: 50px auto;
+        width: fit-content;
+    }
+
+    .promovideo iframe {
+        width: 80vw;
+        height: calc(80vw * 580 / 1031)
     }
 
     .event h1,

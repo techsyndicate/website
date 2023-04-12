@@ -22,10 +22,10 @@
             Training Grounds
         </p>
         <p class="event-duration">
-            Mar 12 - Apr 25
+            Apr 15 - May 6
         </p>
         <br>
-        <Link to = "/training" style="text-decoration: none;">
+        <Link to = "/tg" style="text-decoration: none;">
             <button>
                <span>Join</span>
             </button>
@@ -36,34 +36,34 @@
             Summer Horizon
         </p>
         <p class="event-duration">
-            May 20 - May 25
+            Coming Soon...
         </p>
         <br>
-        <Link to = "/summer" style="text-decoration: none;">
+        <!-- <Link to = "/summer" style="text-decoration: none;">
             <button>
                <span>Register</span>
             </button>
-        </Link>
+        </Link> -->
     </div>
     <div class="event-blob-3">
         <p class="event-name">
             Intech
         </p>
         <p class="event-duration">
-            Jun 4 - Jun 20
+            Coming Soon...
         </p> <br>
-        <Link to = "/intech" style="text-decoration: none;">
+        <!-- <Link to = "/intech" style="text-decoration: none;">
             <button>
                 <span>Explore</span>
             </button>
-        </Link>
+        </Link> -->
     </div>
     <div class="event-blob-4">
         <p class="event-name">
             Robotronics
         </p>
         <p class="event-duration">
-            Oct 20 - Nov 3
+            Coming Soon...
         </p>
     </div>
 </div>
@@ -83,7 +83,7 @@
         width:75%;
         height: .75vw;
         border-radius: 10vw;
-        background: linear-gradient(to right, #4e4e4e 0%, #4e4e4e 58%, #16e16e 58%, #16e16e 100%);
+        background: linear-gradient(to right, #4e4e4e 20%,#16e16e 0%, #16e16e 0%,  #16e16e 100%);
         display: block;
         margin: 14.9vw auto auto;
     }
@@ -117,15 +117,15 @@
     }
     .circle-3{
         margin-left: 26.5%;
-        background: #4e4e4e;
+        /* background: #4e4e4e; */
     }
     .circle-4{
         margin-left: 40.5%;
-        background: #4e4e4e;
+        /* background: #4e4e4e; */
     }
     .circle-5{
         margin-left: 55%;
-        background: #4e4e4e;
+        /* background: #4e4e4e; */
     }
     .circle-6{
         margin-left: 69.5%;
@@ -141,19 +141,19 @@
         border-radius: 7.5px;
     }
     .event-blob-1{
-        background: #4e4e4e;
+        /* background: #4e4e4e; */
         margin: 3.5vw 15vw;
         height: 12.5vw;
     }
     .event-blob-2{
-        background: #4e4e4e !important;
+        /* background: #4e4e4e !important; */
         margin: -15vw 31vw;
-        height: 12.5vw;
+        height: 8.5vw;
     }
     .event-blob-3{
-        background: #4e4e4e !important;
+        /* background: #4e4e4e !important; */
         margin: 3.5vw 45vw;
-        height: 12.5vw;
+        height: 8.5vw;
     }
     .event-blob-4{
         margin: -15vw 61vw;
@@ -206,7 +206,7 @@
         .line{
             width: 1.5vw;
             height: 125vw;
-            background: linear-gradient(to bottom, #4e4e4e 0%, #4e4e4e 60%, #16e16e 60%, #16e16e 100%)bottom;
+            background: linear-gradient(to bottom, #4e4e4e 20%, #16e16e 0%, #16e16e 0%, #16e16e 100%)bottom;
         }
         .line-overlap{
             width: 1.5vw;
