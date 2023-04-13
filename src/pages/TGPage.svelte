@@ -93,7 +93,6 @@
         <div class="heading">
             <h1 style="margin: 10px 0;" id="commheading">
                 <span class="green">Content</span> Partners
-                <span class="green">Content</span> Partners
             </h1>
         </div>
         <div class="partners">
@@ -139,20 +138,8 @@
             >
                 <img src="../assets/images/replit.svg" alt="" />
             </div>
-            <div
-                class="partner"
-                onclick="window.open('https://replit.com/', '_blank')"
-            >
-                <img src="../assets/images/replit.svg" alt="" />
-            </div>
         </div>
     </div>
-    <hr />
-    <div class="heading">
-        <h1>Trailer</h1>
-    </div>
-    <div class="promovideo">
-        <iframe src="https://www.youtube.com/embed/3onxyfZ7hZc" title="Training Grounds &#39;23 | Opening Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
     <hr />
     <div class="heading">
         <h1>Trailer</h1>
