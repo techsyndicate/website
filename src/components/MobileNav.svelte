@@ -18,7 +18,7 @@
             <li><a href="/about" class='link'>About</a></li>
             <li><a href="/team" class='link'>Team</a></li>
             <!-- <li><a href="/robo" class='link'>Robotronics</a></li> -->
-            <li><a href="/tg" class='link'>Training Grounds</a></li>
+            <li><a href="/intech" class='link'>Intech '23</a></li>
           </div>
         </div>
       </div>

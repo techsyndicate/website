@@ -21,14 +21,14 @@
         ]
     },
     {
-        "name": "Nimansh Jain",
-        "pfp": "https://cdn.discordapp.com/attachments/938649392670441502/989022673743020062/unknown.png",
+        "name": "Nishant Navani",
         "role": "Vice President",
+        "pfp": "https://i.imgur.com/lR4TIm2.jpeg",
         "socials": [
-            "mailto:jainnimansh@gmail.com",
-            "https://github.com/NimanshJ",
-            "https://www.linkedin.com/in/nimansh-jain-067533214/",
-            "https://open.spotify.com/user/yxexjxtqtvid7dlit1pwu0q8q"
+            "nishant.navani@gmail.com",
+            "https://github.com/nishantnavani",
+            "https://open.spotify.com/user/h5rrkbihhvx0b6d8atb84k4xi?si=8b0a0e90182a41ce",
+            "https://twitter.com/nishnavani"
         ]
     },
     {
@@ -67,21 +67,9 @@
             "https://twitter.com/anshsakhujaa"
         ]
     },
-    
-    {
-        "name": "Nishant Navani",
-        "role": "Joint Secretary",
-        "pfp": "https://i.imgur.com/lR4TIm2.jpeg",
-        "socials": [
-            "nishant.navani@gmail.com",
-            "https://github.com/nishantnavani",
-            "https://open.spotify.com/user/h5rrkbihhvx0b6d8atb84k4xi?si=8b0a0e90182a41ce",
-            "https://twitter.com/nishnavani"
-        ]
-    },
     {
         "name": "Amogh Agrawal",
-        "role": "Core Member",
+        "role": "Joint Secretary",
         "pfp": "https://media.discordapp.net/attachments/741244174736556076/974578914942910544/unknown.png",
         "socials": [
             "https://www.artstation.com/amoghagrawal",
@@ -91,13 +79,14 @@
         ]
     },
     {
-        "name": "Kunsh Tyagi",
-        "pfp": "https://cdn.discordapp.com/attachments/938649392670441502/989044071559487518/unknown.png",
-        "role": "Core Member",
+        "name": "Simhadri Mohith",
+        "role": "Core",
+        "pfp": "https://media.discordapp.net/attachments/741244174736556076/974579424332771348/unknown.png",
         "socials": [
-            "https://github.com/coderk987",
-            "mailto:k789.tyagi@gmail.com",
-            "https://www.hackerrank.com/k789_tyagi"
+            "https://www.artstation.com/simhadrimohith",
+            "https://www.youtube.com/c/Mohiththedrummer",
+            "https://www.instagram.com/_._mohithrocks/",
+            "mailto:mohithsimhadri@gmail.com"
         ]
     },
     {
@@ -121,17 +110,6 @@
             "https://www.behance.net/chahatarora3",
             "https://dribbble.com/Chahat_6912",
             "mailto:chahat.arora@ais.amity.edu"
-        ]
-    },
-    {
-        "name": "Simhadri Mohith",
-        "role": "Member",
-        "pfp": "https://media.discordapp.net/attachments/741244174736556076/974579424332771348/unknown.png",
-        "socials": [
-            "https://www.artstation.com/simhadrimohith",
-            "https://www.youtube.com/c/Mohiththedrummer",
-            "https://www.instagram.com/_._mohithrocks/",
-            "mailto:mohithsimhadri@gmail.com"
         ]
     },
     {
