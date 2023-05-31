@@ -16,7 +16,7 @@
         <a href="mailto:contact@techsyndicate.us">
             <i class="fa-solid fa-envelope"></i>
         </a>
-        <a href="https://t11e.us/insta">
+        <a href="https://www.instagram.com/techsyndicate46/">
             <i class="fa-brands fa-instagram"></i>
         </a>
         <a href="https://t11e.us/fb">
