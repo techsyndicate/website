@@ -8,6 +8,7 @@
   import LearnPage from "./pages/LearnPage.svelte";
   import MobileNav from "./components/MobileNav.svelte";
   import TgPage from "./pages/TGPage.svelte";
+  import Tbr from "./pages/TBR.svelte";
 </script>
 
 <Router>
@@ -15,8 +16,9 @@
   <Nav />
   <Route path="learn" component={LearnPage} />
   <Route path="about" component={AboutPage} />
-  <Route path="intech" component={TgPage} />
+  <!-- <Route path="intech" component={TgPage} /> -->
   <Route path="team" component={MemberPage} />
   <Route path="event" component={EventPage} />
+  <Route path="/tbr" component={Tbr} />
   <Route path="/" component={LandingPage} />
 </Router>
