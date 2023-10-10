@@ -17,9 +17,9 @@
 <!-- <div class="intech-div">
   <h1>Welcome to <br /> <span>Robotronics '23</span></h1>
   <p class="intech-info">
-    Robotronics '22, the <span style="color: #16e16e;">10th edition</span> of
+    Robotronics '23, the <span style="color: #16e16e;">10th edition</span> of
     Tech Syndicate's annual event, will take place from
-    <span style="color: #16e16e;">October 20, 2022 to November 3, 2022</span>.
+    <span style="color: #16e16e;">October 20, 2023 to November 3, 2023</span>.
     Beginning as a robotics exclusive symposium, Robotronics has now evolved and
     branched out to include events across a much wider variety of domains.
     <br /><br />
@@ -78,9 +78,9 @@
   <div class="intech-div">
     <h1>Welcome to <br /> <span>Robotronics '23</span></h1>
     <p class="intech-info">
-      Robotronics '22, the <span style="color: #16e16e;">10th edition</span> of
+      Robotronics '23, the <span style="color: #16e16e;">11th edition</span> of
       Tech Syndicate's annual event, will take place from
-      <span style="color: #16e16e;">October 20, 2022 to November 3, 2022</span>.
+      <span style="color: #16e16e;">October 20, 2023 to November 3, 2023</span>.
       Beginning as a robotics exclusive symposium, Robotronics has now evolved
       and branched out to include events across a much wider variety of domains.
       <br /><br />
