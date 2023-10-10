@@ -7,8 +7,8 @@
   import EventPage from "./pages/EventPage.svelte";
   import LearnPage from "./pages/LearnPage.svelte";
   import MobileNav from "./components/MobileNav.svelte";
-  import TgPage from "./pages/TGPage.svelte";
   import Tbr from "./pages/TBR.svelte";
+  import Robotronics from "./pages/Robotronics.svelte";
 </script>
 
 <Router>
@@ -20,5 +20,6 @@
   <Route path="team" component={MemberPage} />
   <Route path="event" component={EventPage} />
   <Route path="/tbr" component={Tbr} />
+  <Route path="robo" component={Robotronics} />
   <Route path="/" component={LandingPage} />
 </Router>
