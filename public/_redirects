@@ -17,10 +17,10 @@
 /gd/prelims                         /tbr
 /film/prelims                       /tbr
 /photo/prompt                       /tbr
-/robotics/prompt                    /tbr
-/robotics/mat                       /tbr
-/jrrobotics/prompt                  /tbr
-/jrrobotics/mat                     /tbr
+/robotics/prompt                    https://docs.google.com/document/d/1QcQnTuUuY7Lp9GpB86XpIPmIKXi8ORJ67mC301e5SFc/edit
+/robotics/mat                       https://drive.google.com/drive/folders/1JOZ9VyR8uyhrOuK7CtK53yrNg1-JwT0q
+/jrrobotics/prompt                  https://docs.google.com/document/d/1dZ0mDfBBY7D2gmig4BHWNn9uoYVD4I7Y6s9hOY1onW8/edit
+/jrrobotics/mat                     https://drive.google.com/file/d/1-lDEp88Ts9ihO9VrLDUzH9X-PmwhYX94/view
 /paint/prompt                       /tbr
 /scratch/prompt                     /tbr
 /prompt/appd                        /tbr
