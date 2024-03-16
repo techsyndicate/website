@@ -18,8 +18,8 @@
   <Route path="about" component={AboutPage} />
   <!-- <Route path="intech" component={TgPage} /> -->
   <Route path="/" component={LandingPage} />
-  <Route path="tg" component={EventPage} />
+  <Route path="event" component={EventPage} />
   <Route path="/tbr" component={Tbr} />
-  <Route path="event" component={Robotronics} />
+  <Route path="tg" component={Robotronics} />
   <Route path="team" component={MemberPage} />
 </Router>
