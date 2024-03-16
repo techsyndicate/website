@@ -190,7 +190,7 @@
     }
     @media only screen and (max-width: 1920px){
         .event-div{
-            margin-bottom: 30vw;
+            /* margin-bottom: 30vw; */
         }
         .circle-6{
             margin-left: 71% !important;

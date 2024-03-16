@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-  <title>Tech Syndicate | Robotronics '23</title>
+  <title>Tech Syndicate | Training Grounds '24</title>
 </svelte:head>
 
 <!-- <div class="intech-div">
@@ -76,20 +76,12 @@
 
 <main>
   <div class="intech-div">
-    <h1>Welcome to <br /> <span>Robotronics '23</span></h1>
+    <h1>Welcome to <br /> <span style="font-weight: 700;">Training Grounds '24</span></h1>
     <p class="intech-info">
-      Robotronics '23, the <span style="color: #16e16e;">11th edition</span> of
-      Tech Syndicate's annual event, will take place from
-      <span style="color: #16e16e;">October 20, 2023 to November 3, 2023</span>.
-      Beginning as a robotics exclusive symposium, Robotronics has now evolved
-      and branched out to include events across a much wider variety of domains.
-      <br /><br />
-      This year it shall comprise of
-      <span style="color: #16e16e;">14 events</span>
-      ranging from creative, robotics to an online cryptic hunt and crossword. There
-      will be one school crowned as the
-      <span style="color: #16e16e;">overall winner </span>after taking into
-      consideration all the 14 events.
+      Training Grounds '24, the <span style="color: #16e16e;">3rd edition</span> of our workshop and task-based learning program will take place from
+      <span style="color: #16e16e;">April 8 to April 23</span>.
+      It aims to promote learning and
+      <span style="color: #16e16e;">skill development</span>through a variety of authentic and guided learning experiences. This year it shall comprise of __ events ranging from design, development, cryptography and crossword.
       <br /><br /><br /><br />
     </p>
     <img src="../assets/images/events.png" />
@@ -191,6 +183,10 @@
 </main>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+  span {
+    font-weight: 500;
+  }
   .intech-div {
     width: 100%;
   }
@@ -204,6 +200,8 @@
   }
   .intech-div .intech-info {
     margin-left: 7.5vw;
+    line-height: 110%;
+    font-weight: 300;
     font-size: 1.25vw;
   }
   .intech-div img {

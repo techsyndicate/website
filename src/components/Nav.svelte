@@ -33,7 +33,7 @@
         <li style="margin-top: -1.75vw;">|</li>
         <Link to="/robo" style="text-decoration: none; color:#eee;">
             <li>
-                <p>Robotronics</p>
+                <p>Training Grounds</p>
             </li>
         </Link>
         <!-- <li style="margin-top: -1.75vw;">|</li>
@@ -44,7 +44,6 @@
         </Link> -->
     </ul>
 </div>
-
 <style>
     .nav {
         width: 100%;
