@@ -19,13 +19,13 @@
         <a href="https://www.instagram.com/techsyndicate46/">
             <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="https://t11e.us/fb">
+        <a href="https://techsyndicate.us/fb">
             <i class="fa-brands fa-facebook"></i>
         </a>
-        <a href="https://www.behance.net/techsyndicate">
+        <a href="https://www.behance.net/techsyndicate46">
             <i class="fa-brands fa-behance-square"></i>
         </a>
-        <a href="https://t11e.us/gh">
+        <a href="https://github.com/techsyndicate">
             <i class="fa-brands fa-github"></i>
         </a>
     </div>

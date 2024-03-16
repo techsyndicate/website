@@ -17,9 +17,9 @@
   <Route path="learn" component={LearnPage} />
   <Route path="about" component={AboutPage} />
   <!-- <Route path="intech" component={TgPage} /> -->
-  <Route path="/" component={LandingPage} />
-  <Route path="event" component={EventPage} />
+  <Route path="robo" component={LandingPage} />
+  <Route path="/" component={EventPage} />
   <Route path="/tbr" component={Tbr} />
-  <Route path="robo" component={Robotronics} />
+  <Route path="event" component={Robotronics} />
   <Route path="team" component={MemberPage} />
 </Router>
