@@ -22,7 +22,7 @@
             Training Grounds
         </p>
         <p class="event-duration">
-            Apr 15 - May 6
+            Apr 8 - Apr 28
         </p>
         <br>
         <Link to = "/tg" style="text-decoration: none;">
