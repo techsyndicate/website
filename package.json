@@ -22,7 +22,9 @@
   },
   "dependencies": {
     "@barba/core": "^2.9.7",
+    "dotenv": "^16.4.5",
     "gsap": "^3.9.1",
+    "mongodb": "^6.5.0",
     "notyf": "^3.10.0",
     "page": "^1.11.6",
     "sirv-cli": "^2.0.0",

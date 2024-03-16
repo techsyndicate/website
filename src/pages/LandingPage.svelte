@@ -60,7 +60,7 @@
     .snowglobe-assets{
         height: 42.5vw;
         width: 42.5vw;
-        background: url('https://media.discordapp.net/attachments/741244174736556076/973287751468339200/unknown.png?width=513&height=513');
+        background: url('/assets/images/snowglobe.png');
         background-size: cover;
         background-position: center;
         display: block;

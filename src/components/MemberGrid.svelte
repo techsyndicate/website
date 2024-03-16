@@ -39,6 +39,21 @@
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
                         {/if}
+                        {#if social.includes('linktr')}
+                            <a href="{social}" style="display: block; width: fit-content;" target="_blank">
+                                <!-- <div class="linktr" style="width: 10px; aspect-ratio: 1; background-image: url('https://cdn.discordapp.com/attachments/1090231322745769986/1218468129298976829/image.png?ex=6607c5e0&is=65f550e0&hm=1663380297e5396d9b0567b107bfd20d17f80e09b7d1b7bb4af28e3bb2c7e5ee&');" /> -->
+                                <svg version="1.1" width="12px" height="12px" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 97.7" style="enable-background:new 0 0 80 97.7;" xml:space="preserve">
+                                    <style type="text/css">
+                                     .st0{fill:#646464;}
+                                    </style>
+                                    <g>
+                                     <path class="st0" d="M0.2,33.1h24.2L7.1,16.7l9.5-9.6L33,23.8V0h14.2v23.8L63.6,7.1l9.5,9.6L55.8,33H80v13.5H55.7l17.3,16.7
+                                           l-9.5,9.4L40,49.1L16.5,72.7L7,63.2l17.3-16.7H0V33.1H0.2z M33.1,65.8h14.2v32H33.1V65.8z">
+                                     </path>
+                                    </g>
+                                   </svg>
+                            </a>
+                        {/if}
                         {#if social.includes('facebook')}
                             <a href="{social}" target="_blank">
                                 <i class="fa-brands fa-facebook"></i>
@@ -48,6 +63,14 @@
                             <a href="{social}" target="_blank">
                                 <i class="fa-brands fa-twitter"></i>
                             </a>
+                        {/if}
+                        {#if social.includes('artstation')}
+                            <a href="{social}" target="_blank">
+                                <i class="fa-brands fa-artstation"></i>                            </a>
+                        {/if}
+                        {#if social.includes('bento')}
+                            <a href="{social}" target="_blank">
+                                <i class="fa-brands fa-artstation"></i>                            </a>
                         {/if}
                         {#if social.includes('mailto:')}
                             <a href="{social}" target="_blank">
@@ -101,6 +124,13 @@
     {/each}
 </div>
 <style>
+    svg {
+        fill: #646464;
+        transition: all 0.2s ease-in-out;
+    }
+    svg:hover {
+        fill: #16e16e;
+    }
     .member-table{
         display: grid;
         grid-template-columns: repeat(3,30vw);
@@ -175,6 +205,11 @@
     }
     .team-search svg{
         transform: scale(.5) translateX(40vw);
+    }
+    .socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     @media only screen and (max-width: 768px){
