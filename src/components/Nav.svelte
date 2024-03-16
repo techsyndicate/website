@@ -31,7 +31,7 @@
             </li>
         </Link>
         <li style="margin-top: -1.75vw;">|</li>
-        <Link to="/robo" style="text-decoration: none; color:#eee;">
+        <Link to="/tg" style="text-decoration: none; color:#eee;" id="tg">
             <li>
                 <p>Training Grounds</p>
             </li>
@@ -92,6 +92,9 @@
     }
     .nav-links p:hover:after {
         width: 55%;
+    }
+    .nav-links #tg p:hover:after {
+        width: 30%;
     }
     @media only screen and (max-width: 768px) {
         .nav {

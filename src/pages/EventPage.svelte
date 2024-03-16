@@ -17,7 +17,7 @@
     <div class="circle-6"></div>
     <div class="line">
     </div>
-    <div class="event-blob-1">
+    <div class="event-blob-1 current">
         <p class="event-name">
             Training Grounds
         </p>
@@ -83,7 +83,7 @@
         width:75%;
         height: .75vw;
         border-radius: 10vw;
-        background: linear-gradient(to right, #4e4e4e 20%,#16e16e 0%, #16e16e 0%,  #16e16e 100%);
+        background: linear-gradient(to right, #16e16e 20%,#4e4e4e 0%, #4e4e4e 0%,  #4e4e4e 100%);
         display: block;
         margin: 14.9vw auto auto;
     }
@@ -101,7 +101,7 @@
     .circle-3,
     .circle-4,
     .circle-5,.circle-6{
-        background: #16e16e;
+        background: #4e4e4e;
         height: 1.5vw;
         width: 1.5vw;
         position: absolute;
@@ -110,12 +110,13 @@
     }
     .circle-1 {
         margin-left: 11.5vw;
-        background: #4e4e4e;
+        background: #16e16e;
     }
     .circle-2{
         margin-left: 85.5%;
     }
     .circle-3{
+        background: #16e16e;
         margin-left: 26.5%;
         /* background: #4e4e4e; */
     }
@@ -134,11 +135,14 @@
     .event-blob-2,
     .event-blob-3,
     .event-blob-4{
-        background: #009e45;
+        background: #4e4e4e;
         position: absolute;
         width: 20vw;
         height: 8.5vw;
         border-radius: 7.5px;
+    }
+    .current {
+        background-color: #009e45;
     }
     .event-blob-1{
         /* background: #4e4e4e; */

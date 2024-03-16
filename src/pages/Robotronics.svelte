@@ -79,7 +79,7 @@
     <h1>Welcome to <br /> <span style="font-weight: 700;">Training Grounds '24</span></h1>
     <p class="intech-info">
       Training Grounds '24, the <span style="color: #16e16e;">3rd edition</span> of our workshop and task-based learning program will take place from
-      <span style="color: #16e16e;">April 8 to April 23</span>.
+      <span style="color: #16e16e;">April 8 to April 28</span>.
       It aims to promote learning and
       <span style="color: #16e16e;">skill development</span>through a variety of authentic and guided learning experiences. This year it shall comprise of __ events ranging from design, development, cryptography and crossword.
       <br /><br /><br /><br />
