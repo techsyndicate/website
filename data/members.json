@@ -37,7 +37,7 @@
         "socials": [
             "https://spotify.link/lAMAJtHz4Db",
             "https://www.linkedin.com/in/aarth-shah-51247a279",
-            "https://www.instagram.com/aaaarthshaah07/",
+            "https://www.instagram.com/aarth.sh/",
             "mailto:aarth.shah07@gmail.com"
         ]
     },
@@ -62,7 +62,7 @@
     },
     {
         "name": "Pakhi Bisht",
-        "pfp": "https://cdn.discordapp.com/attachments/1090231322745769986/1218430090262745129/image.png?ex=6607a272&is=65f52d72&hm=af643e7eed7b00222e5df0fabf2b1c3d427efd92d357ebc3961a7cc62f36c8aa&",
+        "pfp": "https://cdn.discordapp.com/attachments/1185210397779841084/1218616205204656189/IMG_20240316_231518.jpg?ex=66084fc8&is=65f5dac8&hm=e14e88e6aaede209929bf1b6179a385962254269b534dad34a8f27f3b90f29bb&",
         "role": "Member",
         "socials": [
             "https://github.com/Psych4-383",
@@ -122,6 +122,17 @@
         ]
     },
     {
+        "name": "Bhavit Grover",
+        "role": "Member",
+        "pfp": "https://cdn.discordapp.com/attachments/907235240555184150/1218573361781674116/image.png?ex=660827e1&is=65f5b2e1&hm=c65e60669a39aadb7a791b905f6bb023a562afdd6cfda83fc3fab8a6667594e8&",
+        "socials": [
+            "https://github.com/casaN0va-bhavit/",
+            "https://www.youtube.com/@ch4r4cter",
+            "https://www.behance.net/bhavitgrover",
+            "mailto:groverbhavit@gmail.com"
+        ]
+    },
+    {
         "name": "Udayan Chowdhary",
         "pfp": "https://cdn.discordapp.com/attachments/1165148384064176128/1165346096424431656/udayan_photo.jpg?ex=65ff1620&is=65eca120&hm=919c0b3696e808d2f2829d109100b30275b62f586effc2de685679b407209a64&",
         "role": "Member",
@@ -149,17 +160,6 @@
             "mailto:sethshyamak@gmail.com",
             "https://github.com/Shyamak-Seth",
             "https://open.spotify.com/user/31ki3cswnsvdp7mhh23pdug4vf5i?si=abbffcf738824fb8"
-        ]
-    },
-    {
-        "name": "Bhavit Grover",
-        "role": "Member",
-        "pfp": "https://cdn.discordapp.com/attachments/907235240555184150/1218573361781674116/image.png?ex=660827e1&is=65f5b2e1&hm=c65e60669a39aadb7a791b905f6bb023a562afdd6cfda83fc3fab8a6667594e8&",
-        "socials": [
-            "https://github.com/casaN0va-bhavit/",
-            "https://www.youtube.com/@ch4r4cter",
-            "https://www.behance.net/bhavitgrover",
-            "mailto:groverbhavit@gmail.com"
         ]
     }
 ]
