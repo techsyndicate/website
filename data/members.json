@@ -4,8 +4,10 @@
         "role": "President",
         "pfp": "https://cdn.discordapp.com/attachments/1165148384064176128/1165355612356497569/yuvimeta_1.png?ex=65ff1efd&is=65eca9fd&hm=8ff52d8c7bc1168409805a9999c7c9e4a784f1de3c6a2ac1d7ddddeb4fba17f4&",
         "socials": [
+            "https://www.linkedin.com/in/yuvraj-mehta-021682241/",
+            "https://open.spotify.com/user/31hevavz7vm6yuuzx3b6khnzmunu?si=ef2b38d13f204205&nd=1&dlsi=3bed815b80e2476e",
             "https://www.instagram.com/yuvrajmehta0_0/",
-            "https://linktr.ee/Ybot"
+            "mailto:yuvraj20007@gmail.com"
         ]
     },
     {
@@ -162,6 +164,26 @@
             "https://github.com/Shyamak-Seth",
             "https://open.spotify.com/user/31ki3cswnsvdp7mhh23pdug4vf5i?si=abbffcf738824fb8",
             "mailto:sethshyamak@gmail.com"
+        ]
+    },
+    {
+        "name": "Prabhnoor Ratra",
+        "pfp": "https://cdn.discordapp.com/attachments/1185210397779841084/1218810745874284624/20231021_202630.jpg?ex=660904f6&is=65f68ff6&hm=42963e372c03c8bdc58d2c2f9f69f5ba90563637efd5dfc89905ae552ce4b85b&",
+        "role": "Member",
+        "socials": [
+            "https://spotify.link/lwtuFbJP4Db",
+            "https://www.instagram.com/the.amazeart/",
+            "https://x.com/pkr_random?s=09",
+            "mailto:justanunknownrandomperson@gmail.com"
+        ]
+    },
+    {
+        "name": "Naitik Agarwal",
+        "pfp": "https://media.discordapp.net/attachments/1125490691066302496/1125725115192197180/WhatsApp_Image_2023-07-04_at_06.03.14.jpg?ex=66029a36&is=65f02536&hm=545733904822137e460515f18d8e6a73740a4469f60f3071da6a983bb3fadb14&format=webp&width=429&height=602&",
+        "role": "Member",
+        "socials": [
+            "https://www.instagram.com/",
+            "https://www.youtube.com/"
         ]
     }
 ]
