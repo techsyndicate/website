@@ -210,7 +210,7 @@
         .line{
             width: 1.5vw;
             height: 125vw;
-            background: linear-gradient(to bottom, #4e4e4e 20%, #16e16e 0%, #16e16e 0%, #16e16e 100%)bottom;
+            background: linear-gradient(to bottom, #16e16e 20%, #4e4e4e 0%, #4e4e4e 0%, #4e4e4e 100%)bottom;
         }
         .line-overlap{
             width: 1.5vw;
@@ -226,36 +226,35 @@
             width: 3.5vw;
             margin-left: 46.25%;
             z-index: 90;
+            background: #4e4e4e;
         }
         .circle-2{
             margin-top: 35vw;
-            background: #4e4e4e !important;
+            background: #16e16e !important;
         }
         .circle-3{
             margin-top: 60vw;
         }
         .circle-4{
             margin-top: 85vw;
-            background: #4e4e4e !important;
-                }
+        }
         .circle-5{
             margin-top: 110vw;
-            background: #16e16e;
         }
         .circle-6{
             margin-top: 132.5vw;
             margin-left: 46.25% !important;
-            background: #16e16e;
         }
         .circle-1{
             margin-top: 10vw;
+            background: #16e16e !important;
         }
         .event-blob-1,
         .event-blob-2,
         .event-blob-3,
         .event-blob-4{
             width: 40vw;
-            height: 35vw;
+            height: 32vw;
         }
         .event-blob-1{
             margin-top: -110vw;
@@ -264,15 +263,17 @@
         .event-blob-2{
             margin-top: -85vw;
             margin-left: 52.5vw;
+            height: 20vw;
         }
         .event-blob-3{
             margin-top: -60vw;
             margin-left: 3.5vw;
+            height: 20vw;
         }
         .event-blob-4{
             margin-top: -35vw;
             margin-left: 52.5vw;
-            height: 25vw;
+            height: 20vw;
         }
         .event-name {
             font-size: 3.5vw;
@@ -284,8 +285,8 @@
         }
         .event-blob-3 button,.event-blob-1 button, .event-blob-2 button{
             font-size: 3vw;
-            height: 12.5vw !important;
-            padding: 4vw !important;
+            height: 10.5vw !important;
+            padding: 2vw !important;
             width: 25vw;
         }
         button span{

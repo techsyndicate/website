@@ -75,6 +75,11 @@
         50%  { transform: translate(0, -49vw); }
         100%   { transform: translate(0, -47.5vw); }   
     }
+    @keyframes floatMobile{
+        0% { transform: translate(0,  -75vw); }
+        50%  { transform: translate(0, -76.5vw); }
+        100%   { transform: translate(0, -75vw); }   
+    }
     .social-div{
         position: absolute;
         margin-left: 70%;
@@ -145,7 +150,7 @@
         .snowglobe-assets{
             height: 80vw !important;
             width: 80vw !important;
-            transform: translateY(-75vw) !important;
+            animation: floatMobile 1.5s ease-in-out infinite;
         }
         .social-div{
             margin-top: -20vh !important;
