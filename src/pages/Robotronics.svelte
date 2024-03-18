@@ -81,7 +81,7 @@
       Training Grounds '24, the <span style="color: #16e16e;">3rd edition</span> of our workshop and task-based learning program will take place from
       <span style="color: #16e16e;">April 8 to April 28</span>.
       It aims to promote learning and
-      <span style="color: #16e16e;">skill development </span>through a variety of authentic and guided learning experiences. This year it shall comprise of <span style="color: #16e16e;">10 events</span> ranging from design, development, cryptography and crossword.
+      <span style="color: #16e16e;">skill development </span>through a variety of authentic and guided learning experiences. This year it shall comprise of <span style="color: #16e16e;">10 workshops</span> ranging from design, development, cryptography and crossword.
       <br /><br />
     </p>
     <img src="https://cdn.discordapp.com/attachments/1090231322745769986/1219227796933443584/image.png?ex=660a895e&is=65f8145e&hm=9bb116176b68f59385a48f2c6f0ed7d6bacc49b18410f46b41701eb2f3c6f431&" />
@@ -165,7 +165,7 @@
   </div> -->
   <!-- <hr /> -->
   <div class="heading" id="events">
-    <h1>Events</h1>
+    <h1>Workshops</h1>
   </div>
   <div class="events section">
     {#each events as event, index}
@@ -188,29 +188,33 @@
         <div class="shadow">
         </div>
       </div>
-    {/each}
-  </div>
+      {/each}
+    </div>
 </main>
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
   .eventCard {
-    /* position: relative; */
+    position: inherit;
     width: 18vw;
     height: 20vw;
     flex-shrink: 0;
-    border-radius: 12px;
+    border-radius: 1vw;
     background: linear-gradient(180deg, #131313 0%, #1A1A1A 100%);
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    
     margin-bottom: 5vw;
-
+    
     /* box-shadow: 0px 10px #121212; */
     /* filter: drop-shadow(0px 5px rgba(0,0,0,1)); */
+    transition: all 350ms ;
+  }
+  .eventCard:hover {
+    margin-top: -1vw;
   }
   .shadow {
     position: absolute;
@@ -218,8 +222,8 @@
     margin-top: 1vw;
     background: #fff;
     height: 20vw;
-    z-index: -2;
-    border-radius: 12.293px;
+    z-index: -10000 !important;
+    border-radius: 1vw;
     background: #121212;
   }
   .creds {
@@ -249,10 +253,10 @@
     width: 15vw;
   }
   .link {
-    color: #16E16E;
+    color: #16E16E; 
     text-align: center;
     font-family: Outfit;
-    font-size: 0.8vw;
+    font-size: 1vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -361,6 +365,8 @@
   @media only screen and (max-width: 768px) {
     .intech-div {
       margin-top: 10vw;
+      display: flex;
+      flex-direction: column;
     }
     .intech-div h1 {
       font-size: 6.5vw;
@@ -368,18 +374,60 @@
     .intech-div .intech-info {
       font-size: 4.5vw;
     }
+    .intech-div img{
+      width: 50vw;
+      margin: auto;
+    }
+    
+    .intech-div p {
+      width: 85%;
+    }
     .intech-events-grid {
       display: block;
       width: 94%;
       margin-left: 7.5vw;
     }
-    .event {
+    .events {
       max-width: 75vw !important;
       height: 70vw;
       border-radius: 1vw;
       margin-bottom: 5vw;
       padding: 3.5vw;
+      gap: 25vw !important;
     }
+    .eventCard {
+      transform: scale(1.8);
+      z-index: 2;
+      margin-top: 10vw;
+      box-shadow: 0 1.5vw 0 -1vw #121212;
+    }
+
+    .shadow {
+      display: none;
+    }
+    
+    /* .eventCard {
+      width: 36vw;
+      height: 40vw;
+      border-radius: 24px;
+      margin-top: 10vw;
+    }
+    .shadow {
+      width: 34vw;
+      margin-top: 2vw;
+      height: 40vw;
+      border-radius: 12.6px;
+    }
+    .eventCard img {
+      width: 30vw;
+      margin-top: -15vw;
+    }
+    .eventCard .creds p {
+      width: 30vw;
+    }
+    .eventCard .creds > h1, .eventCard .creds > a, .eventCard .creds > p {
+      font-size: 2vw !important;
+    } */
     .event-name {
       font-size: 5vw;
     }
@@ -639,6 +687,19 @@
     .buttons button {
       margin: 4vw 1vw;
       font-size: 4vw;
+    }
+    .events {
+      gap: 50vw !important;
+      margin: 30vw auto;
+    }
+    .eventCard {
+      transform: scale(3);
+      z-index: 2;
+      box-shadow: 0 1.5vw 0 -1vw #121212;
+    }
+
+    .shadow {
+      display: none;
     }
   }
   @media only screen and (max-width: 450px) {
