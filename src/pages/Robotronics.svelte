@@ -81,8 +81,8 @@
       Training Grounds '24, the <span style="color: #16e16e;">3rd edition</span> of our workshop and task-based learning program will take place from
       <span style="color: #16e16e;">April 8 to April 28</span>.
       It aims to promote learning and
-      <span style="color: #16e16e;">skill development </span>through a variety of authentic and guided learning experiences. This year it shall comprise of 10 events ranging from design, development, cryptography and crossword.
-      <br /><br /><br /><br />
+      <span style="color: #16e16e;">skill development </span>through a variety of authentic and guided learning experiences. This year it shall comprise of <span style="color: #16e16e;">10 events</span> ranging from design, development, cryptography and crossword.
+      <br /><br />
     </p>
     <img src="https://cdn.discordapp.com/attachments/1090231322745769986/1219227796933443584/image.png?ex=660a895e&is=65f8145e&hm=9bb116176b68f59385a48f2c6f0ed7d6bacc49b18410f46b41701eb2f3c6f431&" />
   </div>
@@ -288,7 +288,7 @@
   .intech-div img {
     width: 33vw;
     float: right;
-    margin-top: -30vw;
+    margin-top: -25vw;
     margin-right: 10vw;
   }
   .intech-div p {
