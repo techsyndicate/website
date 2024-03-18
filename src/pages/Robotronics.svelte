@@ -84,7 +84,7 @@
       <span style="color: #16e16e;">skill development </span>through a variety of authentic and guided learning experiences. This year it shall comprise of <span style="color: #16e16e;">10 workshops</span> ranging from design, development, cryptography and crossword.
       <br /><br />
     </p>
-    <img src="https://cdn.discordapp.com/attachments/1090231322745769986/1219227796933443584/image.png?ex=660a895e&is=65f8145e&hm=9bb116176b68f59385a48f2c6f0ed7d6bacc49b18410f46b41701eb2f3c6f431&" />
+    <img alt="illus_image" src="https://cdn.discordapp.com/attachments/1090231322745769986/1219227796933443584/image.png?ex=660a895e&is=65f8145e&hm=9bb116176b68f59385a48f2c6f0ed7d6bacc49b18410f46b41701eb2f3c6f431&" />
   </div>
   <div class="button-panel">
     <!-- <button
@@ -317,7 +317,7 @@
     cursor: pointer;
     border: none;
   }
-  .intech-events-grid {
+  /* .intech-events-grid {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(3, 28.5vw);
@@ -360,7 +360,7 @@
   }
   .event:hover {
     transform: translateY(-10px);
-  }
+  } */
 
   @media only screen and (max-width: 768px) {
     .intech-div {
@@ -382,11 +382,11 @@
     .intech-div p {
       width: 85%;
     }
-    .intech-events-grid {
+    /* .intech-events-grid {
       display: block;
       width: 94%;
       margin-left: 7.5vw;
-    }
+    } */
     .events {
       max-width: 75vw !important;
       height: 70vw;
@@ -428,7 +428,7 @@
     .eventCard .creds > h1, .eventCard .creds > a, .eventCard .creds > p {
       font-size: 2vw !important;
     } */
-    .event-name {
+    /* .event-name {
       font-size: 5vw;
     }
     .event-info {
@@ -439,7 +439,7 @@
     .event a {
       margin-top: 18.5vw !important;
       font-size: 3vw;
-    }
+    } */
     .button-panel {
       display: flex;
     }
@@ -465,7 +465,7 @@
     margin: 0 0 50px;
   }
 
-  .main {
+  /* .main {
     padding: 1.5vw 2.5vw;
   }
 
@@ -599,7 +599,7 @@
     border-color: #ffffff20;
     width: 70%;
     margin: 50px auto;
-  }
+  } */
 
   .events {
     display: flex;
@@ -610,7 +610,7 @@
     gap: 4.3vw;
   }
 
-  .event {
+  /* .event {
     width: 20vw;
     height: 220px;
     border-radius: 20px;
@@ -651,17 +651,17 @@
 
   .event:hover {
     transform: rotateZ(-2deg);
-  }
+  } */
 
   /* ? RESPONSIVE ? */
   @media only screen and (max-width: 650px) {
-    #dcbutton {
+    /* #dcbutton {
       display: none;
-    }
+    } */
     .heading h1 {
       font-size: 2rem;
     }
-    .intro {
+    /* .intro {
       font-size: 120%;
       margin: 0px;
       margin-bottom: 30px;
@@ -676,18 +676,18 @@
 
     .buttons button {
       font-size: 17px;
-    }
+    } */
   }
   @media only screen and (max-width: 1000px) {
-    .introdiv {
+    /* .introdiv {
       flex-direction: column;
-    }
+    } */
   }
   @media only screen and (max-width: 500px) {
-    .buttons button {
+    /* .buttons button {
       margin: 4vw 1vw;
       font-size: 4vw;
-    }
+    } */
     .events {
       gap: 50vw !important;
       margin: 30vw auto;
@@ -702,7 +702,7 @@
       display: none;
     }
   }
-  @media only screen and (max-width: 450px) {
+  /* @media only screen and (max-width: 450px) {
     .headingmain {
       font-size: 1.5rem;
     }
@@ -720,8 +720,8 @@
     .dclef h1 {
       font-size: 3vh;
     }
-  }
-  @media only screen and (max-width: 900px) {
+  } */
+  /* @media only screen and (max-width: 900px) {
     .horizontal {
       flex-direction: column;
     }
@@ -743,5 +743,5 @@
     #dchead {
       font-size: 5vh;
     }
-  }
+  } */
 </style>
