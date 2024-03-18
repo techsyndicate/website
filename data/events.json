@@ -1,115 +1,65 @@
 {
     "events": [
         {
-            "eventName": "Creative",
-            "eventDesc": "Hackathon + Designathon + Ideation. ",
-            "img": "/robo/creative.svg",
-            "colorHex": "#03befc",
-            "about": "",
-            "eventUrl": "https://techsyndicate.notion.site"
-        },
-        {
-            "eventName": "Encryptid x CTF",
-            "eventDesc": "24 Hour long Cryptic Hunt",
-            "img": "/resources/cryptic.svg",
-            "colorHex": "#32a850",
-            "about": "",
-            "eventUrl": "https://techsyndicate.notion.site"
-        },
-        {
-            "eventName": "Competitive Programming",
-            "eventDesc": "High stake Programming",
-            "img": "/robo/prog.svg",
-            "colorHex": "#9116d9",
-            "about": "",
-            "eventUrl": "https://techsyndicate.notion.site"
-        },
-        {
-            "eventName": "Gaming",
-            "eventDesc": "Competitive gaming",
-            "img": "/robo/gaming.svg",
-            "colorHex": "#9116d9",
-            "about": "",
-            "eventUrl": "https://techsyndicate.notion.site"
-        },
-        {
-            "eventName": "Crossword",
-            "eventDesc": "Tech Puns",
-            "img": "/resources/cross.svg",
-            "colorHex": "#d91681",
-            "about": "",
-            "eventUrl": "https://techsyndicate.notion.site"
-        },
-        {
-            "eventName": "Surprise",
-            "eventDesc": "????",
-            "img": "/robo/surprise.svg",
-            "colorHex": "#cf67d6",
-            "about": "",
-            "eventUrl": "https://techsyndicate.notion.site"
-        },
-        {
-            "eventName": "Group Discussion",
-            "eventDesc": "Conveying views through a firm stance",
-            "img": "/robo/gd.svg",
-            "colorHex": "#03befc",
-            "about": "",
-            "eventUrl": "https://techsyndicate.notion.site"
-        },
-        {
-            "eventName": "Senior Robotics",
-            "eventDesc": "Using Robots to solve a given challenge",
-            "img": "/robo/robo.svg",
-            "colorHex": "#03befc",
-            "about": "",
-            "eventUrl": "https://techsyndicate.notion.site"
-        },
-        {
-            "eventName": "Junior Robotics",
-            "eventDesc": "Using Robots to cross hurdles.",
-            "img": "/robo/robo.svg",
-            "colorHex": "#03befc",
-            "about": "",
-            "eventUrl": "https://techsyndicate.notion.site"
-        },
-        {
-            "eventName": "Film Making",
-            "eventDesc": "Creating Short films",
-            "img": "/robo/film.svg",
-            "colorHex": "#9116d9",
-            "about": "",
+            "eventName": "Cryptic x CTF",
+            "eventDesc": "Cryptic hunts basically refer to the scavenger hunts that are carried out over the internet...",
+            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219228578680672276/image.png?ex=660a8a19&is=65f81519&hm=c7a44139637c518b2fb757824f493b4e2fa71978d00cdfc580917229cd71f3aa&",
             "eventUrl": "https://techsyndicate.notion.site"
         },
         {
             "eventName": "Photography",
-            "eventDesc": "Photoshoots and Editing",
-            "img": "/robo/photo.svg",
-            "colorHex": "#9116d9",
-            "about": "",
+            "eventDesc": "Photography is the art, application, and practice of creating durable images...",
+            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219228742786879489/image.png?ex=660a8a40&is=65f81540&hm=67c799f033bc9e2fce59ed75f7455f13d3509c6563d0aff7bbc09b1cd87e137c&",
             "eventUrl": "https://techsyndicate.notion.site"
         },
         {
-            "eventName": "App Development",
-            "eventDesc": "App Challenge",
-            "img": "/resources/appd.svg",
+            "eventName": "Web Development",
+            "eventDesc": "Web development essentially consists of two paradigms: frontend and backend development...",
+            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219228959892443238/image.png?ex=660a8a74&is=65f81574&hm=092fca8eb1bbc193a0ffbed1cffef2228f3b827a856c57b22188fc5b6fa41494&",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "Programming",
+            "eventDesc": "Competitive Programming involves Programming a software that takes the given input...",
+            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219226245078978570/image.png?ex=660a87ec&is=65f812ec&hm=8f359736fc824867cdb4963406064c8aaf73f672791afc9898b3e3d6f9aa322a&",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "Crossword",
+            "eventDesc": "Crossword is one of the most fun events that you’ll ever come across. It doesn’t require...",
+            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219229416945881158/image.png?ex=660a8ae1&is=65f815e1&hm=6a3224043b37e41a9deca38930a56b8a0ef7593d9d9f05640845fcb31b5f8239&",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "Group Discussion",
+            "eventDesc": "Group discussion consists of a group of individuals having an intellectual discussion...",
+            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219229579974021190/image.png?ex=660a8b08&is=65f81608&hm=4d46c9fe173ba5e4833df1d7495507885fec8c9cd663582567fdd6228ece4107&",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "AV Editing",
+            "eventDesc": "A/V can be categorized following types: Films, Motion Graphics, Animation, Videos...",
+            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219229852473753661/image.png?ex=660a8b49&is=65f81649&hm=e68da7554d11b727e028a576918e01195a80e9c03fd5d237a70e847a16900178&",
+            "eventUrl": "https://techsyndicate.notion.site"
+        },
+        {
+            "eventName": "3D Design",
+            "eventDesc": "3D modelling is a vast field from low poly designs to realistically detailed environments...",
+            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219230016395677696/image.png?ex=660a8b70&is=65f81670&hm=d2e0372229a349fe168c872f312196ae663c8316b6a50ac4b3505ab959aa8a5e&",
             "colorHex": "#03befc",
             "about": "",
             "eventUrl": "https://techsyndicate.notion.site"
         },
         {
-            "eventName": "Scratch Coding",
-            "eventDesc": "Game Dev",
-            "img": "/robo/scratch.png",
-            "colorHex": "#5932a8",
-            "about": "",
+            "eventName": "2D Design",
+            "eventDesc": "Design is something that involves thorough planning as well as ideation of the way your product...",
+            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219230193290317844/image.png?ex=660a8b9a&is=65f8169a&hm=aa77c6ab9b5712edb58fca1de907119c7d824139a72211ad40ed033fc1392cd7&",
             "eventUrl": "https://techsyndicate.notion.site"
         },
         {
-            "eventName": "Paint 3D",
-            "eventDesc": "Paint 3d Designing",
-            "img": "/robo/paint.svg",
-            "colorHex": "#5932a8",
-            "about": "",
+            "eventName": "Film Making",
+            "eventDesc": "Films are made to convey a story through a video. To learn film editing, one must choose...",
+            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219230355027132516/image.png?ex=660a8bc0&is=65f816c0&hm=13e1dc9ab42bc270aaa69ff55a1c905c52b3bcee0ce831a456b2aae53ad4e3d8&",
             "eventUrl": "https://techsyndicate.notion.site"
         }
     ]

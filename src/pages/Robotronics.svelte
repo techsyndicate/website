@@ -84,16 +84,16 @@
       <span style="color: #16e16e;">skill development</span>through a variety of authentic and guided learning experiences. This year it shall comprise of __ events ranging from design, development, cryptography and crossword.
       <br /><br /><br /><br />
     </p>
-    <img src="../assets/images/events.png" />
+    <img src="https://cdn.discordapp.com/attachments/1090231322745769986/1219227796933443584/image.png?ex=660a895e&is=65f8145e&hm=9bb116176b68f59385a48f2c6f0ed7d6bacc49b18410f46b41701eb2f3c6f431&" />
   </div>
   <div class="button-panel">
-    <button
+    <!-- <button
       on:click={() => {
         window.location.href = "/guide";
       }}
     >
       Event Guide
-    </button>
+    </button> -->
     <button
       on:click={() => {
         window.location.href = "/server";
@@ -109,8 +109,8 @@
       Registration
     </button>
   </div>
-  <hr />
-  <div class="regbar">
+  <!-- <hr /> -->
+  <!-- <div class="regbar">
     <div class="heading">
       <h1 id="dchead">Join our discord server</h1>
     </div>
@@ -148,7 +148,7 @@
         </button>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- <hr />
   <div class="heading">
@@ -163,13 +163,13 @@
       allowfullscreen
     />
   </div> -->
-  <hr />
+  <!-- <hr /> -->
   <div class="heading" id="events">
     <h1>Events</h1>
   </div>
   <div class="events section">
     {#each events as event, index}
-      <div
+      <!-- <div
         class="event"
         style="background-color: {event.colorHex}50;"
         on:click={() => comingSoon()}
@@ -177,6 +177,16 @@
         <img src="../assets/images/{event.img}" alt="" />
         <h1>{event.eventName}</h1>
         <p>{event.eventDesc}</p>
+      </div> -->
+      <div class="eventCard">
+        <img src="{event.img}" alt="">
+        <div class="creds">
+          <h1>{event.eventName}</h1>
+          <p class="info">{event.eventDesc}</p>
+          <a href="{event.eventUrl}" target="_blank" class="link">Learn More</a>
+        </div>
+        <div class="shadow">
+        </div>
       </div>
     {/each}
   </div>
@@ -184,6 +194,77 @@
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+  .eventCard {
+    /* position: relative; */
+    width: 18vw;
+    height: 20vw;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #131313 0%, #1A1A1A 100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 5vw;
+
+    /* box-shadow: 0px 10px #121212; */
+    /* filter: drop-shadow(0px 5px rgba(0,0,0,1)); */
+  }
+  .shadow {
+    position: absolute;
+    width: 17vw;
+    margin-top: 1vw;
+    background: #fff;
+    height: 20vw;
+    z-index: -2;
+    border-radius: 12.293px;
+    background: #121212;
+  }
+  .creds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .creds h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -0.5vw;
+  }
+  .info { 
+    color: rgba(255, 255, 255, 0.25);
+    text-align: center;
+    font-family: Outfit;
+    font-size: 0.9vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 15vw;
+  }
+  .link {
+    color: #16E16E;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 0.5vw;
+  }
+  .eventCard img {
+    width: 15vw;
+    aspect-ratio: 1;
+    margin-top: -7vw;
+  }
   span {
     font-weight: 500;
   }
@@ -205,10 +286,10 @@
     font-size: 1.25vw;
   }
   .intech-div img {
-    width: 50vw;
+    width: 33vw;
     float: right;
     margin-top: -30vw;
-    margin-right: 5vw;
+    margin-right: 10vw;
   }
   .intech-div p {
     margin-left: 5vw;
@@ -326,7 +407,10 @@
     font-weight: bolder;
     font-size: 3rem;
     margin: 0;
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 7.7vw;
+    margin-top: 4.5vw;
+    margin-bottom: 7.7vw !important;
   }
 
   .section {
@@ -475,6 +559,7 @@
     width: fit-content;
     margin: 5vw auto;
     justify-content: center;
+    gap: 4.3vw;
   }
 
   .event {
