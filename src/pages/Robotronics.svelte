@@ -1,6 +1,5 @@
 <script>
-  import { Link } from "svelte-navigator";
-  import { get_slot_changes } from "svelte/internal";
+  import { redirect } from "page";
   import { events } from "../../data/events.json";
   import { Notyf } from "notyf";
   var notif = new Notyf();
@@ -96,14 +95,16 @@
     </button> -->
     <button
       on:click={() => {
-        window.location.href = "/server";
+        comingSoon()
+        
       }}
     >
       Discord
     </button>
     <button
       on:click={() => {
-        window.location.href = "https://register.techsyndicate.us";
+        // comingSoon()
+        window.location.href="https://forms.gle/Kgn3ZXuBv58YCJPc8"
       }}
     >
       Registration
@@ -396,7 +397,7 @@
       gap: 25vw !important;
     }
     .eventCard {
-      transform: scale(1.8);
+      transform: scale(2);
       z-index: 2;
       margin-top: 10vw;
       box-shadow: 0 1.5vw 0 -1vw #121212;
@@ -693,7 +694,7 @@
       margin: 30vw auto;
     }
     .eventCard {
-      transform: scale(3);
+      transform: scale(3.3);
       z-index: 2;
       box-shadow: 0 1.5vw 0 -1vw #121212;
     }

@@ -87,7 +87,7 @@
         display: block;
         margin: 14.9vw auto auto;
     }
-    .line-overlap{
+    /* .line-overlap{
         width: 43%;
         height: 0.75vw;
         border-radius: 10vw;
@@ -95,7 +95,7 @@
         position: absolute;
         margin-top: 12.6vw;
         margin-left: 12.5vw;
-    }
+    } */
     .circle-1,
     .circle-2,
     .circle-3,
