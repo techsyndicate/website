@@ -14,7 +14,7 @@
         </p>
     </div>
     <div class="about-asset" style="text-align:center;">          
-        <img src="../assets/images/resources/about.svg" alt=""> 
+        <img src="https://cdn.discordapp.com/attachments/1090231322745769986/1219699084680630402/about.png?ex=660c404a&is=65f9cb4a&hm=b796be22d0db59ec3eb4bf4433de4f247eb22c1be5512e8be127a232c08ad801&" alt=""> 
     </div>
 </div>
 <style>
