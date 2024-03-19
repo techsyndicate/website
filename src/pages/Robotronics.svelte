@@ -690,11 +690,11 @@
       font-size: 4vw;
     } */
     .events {
-      gap: 50vw !important;
-      margin: 30vw auto;
+      gap: 60vw !important;
+      margin: 33vw auto;
     }
     .eventCard {
-      transform: scale(3.3);
+      transform: scale(3.6);
       z-index: 2;
       box-shadow: 0 1.5vw 0 -1vw #121212;
     }
