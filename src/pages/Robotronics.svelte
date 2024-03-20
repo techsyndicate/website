@@ -95,6 +95,14 @@
     </button> -->
     <button
       on:click={() => {
+        // comingSoon()
+        window.location.href="https://forms.gle/Kgn3ZXuBv58YCJPc8"
+      }}
+    >
+      Registration
+    </button>
+    <button
+      on:click={() => {
         comingSoon()
         
       }}
@@ -103,11 +111,11 @@
     </button>
     <button
       on:click={() => {
-        // comingSoon()
-        window.location.href="https://forms.gle/Kgn3ZXuBv58YCJPc8"
+        comingSoon()
+        
       }}
     >
-      Registration
+      WhatsApp
     </button>
   </div>
   <!-- <hr /> -->
