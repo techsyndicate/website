@@ -74,6 +74,7 @@
 </div> -->
 
 <main>
+  {#if window.innerWidth > 600}
   <div class="intech-div">
     <h1>Welcome to <br /> <span style="font-weight: 700;">Training Grounds '24</span></h1>
     <p class="intech-info">
@@ -86,13 +87,6 @@
     <img alt="illus_image" src="https://cdn.discordapp.com/attachments/1090231322745769986/1219227796933443584/image.png?ex=660a895e&is=65f8145e&hm=9bb116176b68f59385a48f2c6f0ed7d6bacc49b18410f46b41701eb2f3c6f431&" />
   </div>
   <div class="button-panel">
-    <!-- <button
-      on:click={() => {
-        window.location.href = "/guide";
-      }}
-    >
-      Event Guide
-    </button> -->
     <button
       on:click={() => {
         // comingSoon()
@@ -118,6 +112,46 @@
       WhatsApp
     </button>
   </div>
+  {:else}
+  <div class="intech-div">
+    <h1>Welcome to <br /> <span style="font-weight: 700;">Training Grounds '24</span></h1>
+    <p class="intech-info">
+      Training Grounds '24, the <span style="color: #16e16e;">3rd edition</span> of our workshop and task-based learning program will take place from
+      <span style="color: #16e16e;">April 8 to April 28</span>.
+      It aims to promote learning and
+      <span style="color: #16e16e;">skill development </span>through a variety of authentic and guided learning experiences. This year it shall comprise of <span style="color: #16e16e;">10 workshops</span> ranging from design, development, cryptography and crossword.
+      <br /><br />
+    </p>
+    <div class="button-panel">
+      <button
+        on:click={() => {
+          // comingSoon()
+          window.location.href="https://forms.gle/Kgn3ZXuBv58YCJPc8"
+        }}
+      >
+        Registration
+      </button>
+      <button
+        on:click={() => {
+          comingSoon()
+          
+        }}
+      >
+        Discord
+      </button>
+      <button
+        on:click={() => {
+          comingSoon()
+          
+        }}
+      >
+        WhatsApp
+      </button>
+    </div>
+    <img alt="illus_image" src="https://cdn.discordapp.com/attachments/1090231322745769986/1219227796933443584/image.png?ex=660a895e&is=65f8145e&hm=9bb116176b68f59385a48f2c6f0ed7d6bacc49b18410f46b41701eb2f3c6f431&" />
+  </div>
+  {/if}
+  
   <!-- <hr /> -->
   <!-- <div class="regbar">
     <div class="heading">
