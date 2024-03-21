@@ -73,8 +73,10 @@
         height: 65vh;
         padding-bottom: 5vw;
         margin-top: -3vw;
+        overflow: hidden;
     }
     .event-div h1{
+        margin-top: 1vw;
         font-size: 3.5vw;
         margin-left: 5vw;
         letter-spacing: 1px;

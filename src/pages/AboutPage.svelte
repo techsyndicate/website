@@ -21,7 +21,7 @@
     .about-div{
         width: 100%;
         display: flex;
-        margin-top: -.5vw;
+        margin-top: -5vw;
     }
     .about-div .about-asset img{
         width: 50vw;

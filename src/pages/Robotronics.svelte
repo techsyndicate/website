@@ -233,6 +233,9 @@
       </div>
       {/each}
     </div>
+    <!-- <div style="width: 100%; height: 50vh" class="">
+
+    </div> -->
 </main>
 
 <style>
@@ -734,6 +737,7 @@
     .events {
       gap: 60vw !important;
       margin: 33vw auto;
+      /* padding: 20vw; */
     }
     .eventCard {
       transform: scale(3.6);
@@ -743,6 +747,11 @@
 
     .shadow {
       display: none;
+    }
+    .button-panel button {
+      margin-right: 3vw;
+      padding: 3vw;
+      margin-bottom: 10vw;
     }
   }
   /* @media only screen and (max-width: 450px) {
