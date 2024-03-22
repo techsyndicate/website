@@ -90,7 +90,8 @@
     <button
       on:click={() => {
         // comingSoon()
-        window.location.href="https://forms.gle/Kgn3ZXuBv58YCJPc8"
+        // window.location.href="https://forms.gle/Kgn3ZXuBv58YCJPc8"
+        window.open('https://forms.gle/Kgn3ZXuBv58YCJPc8', '_blank', 'noopener, noreferrer');
       }}
     >
       Registration
@@ -126,7 +127,12 @@
       <button
         on:click={() => {
           // comingSoon()
-          window.location.href="https://forms.gle/Kgn3ZXuBv58YCJPc8"
+          // window.location.href="https://forms.gle/Kgn3ZXuBv58YCJPc8"
+          // window.open(
+          //   'https://forms.gle/Kgn3ZXuBv58YCJPc8',
+          //   "_blank" // <- This is what makes it open in a new window.
+          // );
+          window.open('https://forms.gle/Kgn3ZXuBv58YCJPc8', '_blank', 'noopener, noreferrer');
         }}
       >
         Registration
