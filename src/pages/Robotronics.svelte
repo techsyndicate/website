@@ -94,20 +94,21 @@
         window.open('https://forms.gle/Kgn3ZXuBv58YCJPc8', '_blank', 'noopener, noreferrer');
       }}
     >
-      Registration
-    </button>
-    <button
-      on:click={() => {
-        comingSoon()
-        
-      }}
+    Registration
+  </button>
+  <button
+  on:click={() => {
+    // comingSoon()
+    window.open('https://discord.gg/3AeWKvUGDc', '_blank', 'noopener, noreferrer');
+    
+  }}
     >
-      Discord
-    </button>
-    <button
-      on:click={() => {
-        comingSoon()
-        
+    Discord
+  </button>
+  <button
+  on:click={() => {
+    comingSoon()
+    window.open('https://chat.whatsapp.com/IrfgAUMusLyDZar7CYNpJD', '_blank', 'noopener, noreferrer');
       }}
     >
       WhatsApp
