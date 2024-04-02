@@ -3,61 +3,61 @@
         {
             "eventName": "Web Development",
             "eventDesc": "Web development essentially consists of two paradigms: frontend and backend development...",
-            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219228959892443238/image.png?ex=660a8a74&is=65f81574&hm=092fca8eb1bbc193a0ffbed1cffef2228f3b827a856c57b22188fc5b6fa41494&",
+            "img": "webdTG.svg",
             "eventUrl": "https://www.techsyndicate.us/resources/dev/web"
         },
         {
             "eventName": "Cryptic x CTF",
             "eventDesc": "Cryptic and CTF refer to hunting and looking for either a flag or an answer to a specific level...",
-            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219228578680672276/image.png?ex=660a8a19&is=65f81519&hm=c7a44139637c518b2fb757824f493b4e2fa71978d00cdfc580917229cd71f3aa&",
+            "img": "crypticTG.svg",
             "eventUrl": "https://www.techsyndicate.us/resources/ctf"
         },
         {
             "eventName": "2D Design",
             "eventDesc": "Design is something that involves thorough planning as well as ideation of the way your product...",
-            "img": "https://cdn.discordapp.com/attachments/1185210397779841084/1219256618374398002/image.png?ex=660aa436&is=65f82f36&hm=659019a341d8e3af8ccbb033185d786d771c50d1fe86352ab1fef0421e2ced68&",
+            "img": "2dTG.svg",
             "eventUrl": "https://www.techsyndicate.us/resources/design/2d"
         },
         {
             "eventName": "3D Design",
             "eventDesc": "3D modelling is a vast field from low poly designs to realistically detailed environments...",
-            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219230016395677696/image.png?ex=660a8b70&is=65f81670&hm=d2e0372229a349fe168c872f312196ae663c8316b6a50ac4b3505ab959aa8a5e&",
+            "img": "3dTG.svg",
             "eventUrl": "https://www.techsyndicate.us/resources/design/3d"
         },
         {
             "eventName": "AV Editing",
             "eventDesc": "A/V can be categorized following types: Films, Motion Graphics, Animation, Videos...",
-            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219229852473753661/image.png?ex=660a8b49&is=65f81649&hm=e68da7554d11b727e028a576918e01195a80e9c03fd5d237a70e847a16900178&",
+            "img": "avTG.svg",
             "eventUrl": "https://www.techsyndicate.us/resources/av"
         },
         {
-            "eventName": "Programming",
+            "eventName": "Competitive Programming",
             "eventDesc": "Competitive Programming involves Programming a software that takes the given input...",
-            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219226245078978570/image.png?ex=660a87ec&is=65f812ec&hm=8f359736fc824867cdb4963406064c8aaf73f672791afc9898b3e3d6f9aa322a&",
+            "img": "progTG.svg",
             "eventUrl": "https://www.techsyndicate.us/resources/prog"
         },
         {
             "eventName": "Crossword",
             "eventDesc": "Crossword is one of the most fun events that you’ll ever come across. It doesn’t require...",
-            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219229416945881158/image.png?ex=660a8ae1&is=65f815e1&hm=6a3224043b37e41a9deca38930a56b8a0ef7593d9d9f05640845fcb31b5f8239&",
+            "img": "crossTG.svg",
             "eventUrl": "https://www.techsyndicate.us/resources/cross"
         },
         {
             "eventName": "Film Making",
             "eventDesc": "Films are made to convey a story through a video. To learn film editing, one must choose...",
-            "img": "https://cdn.discordapp.com/attachments/1185210397779841084/1219257194151805028/image.png?ex=660aa4bf&is=65f82fbf&hm=10e530f06aca3ba6ccbc59783bdbeba5fa75318102aa363281acd3fddcfc0777&",
+            "img": "filmTG.svg",
             "eventUrl": "https://www.techsyndicate.us/resources/av"
         },
         {
             "eventName": "Photography",
             "eventDesc": "Photography is the art, application, and practice of creating durable images...",
-            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219228742786879489/image.png?ex=660a8a40&is=65f81540&hm=67c799f033bc9e2fce59ed75f7455f13d3509c6563d0aff7bbc09b1cd87e137c&",
+            "img": "photographyTG.svg",
             "eventUrl": "https://www.techsyndicate.us/resources/photography"
         },
         {
             "eventName": "Group Discussion",
             "eventDesc": "Group discussion consists of a group of individuals having an intellectual discussion...",
-            "img": "https://cdn.discordapp.com/attachments/1090231322745769986/1219229579974021190/image.png?ex=660a8b08&is=65f81608&hm=4d46c9fe173ba5e4833df1d7495507885fec8c9cd663582567fdd6228ece4107&",
+            "img": "gdTG.svg",
             "eventUrl": "https://www.techsyndicate.us/resources/gd"
         }
         
