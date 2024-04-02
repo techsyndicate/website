@@ -84,7 +84,7 @@
       <span style="color: #16e16e;">skill development </span>through a variety of authentic and guided learning experiences. This year it shall comprise of <span style="color: #16e16e;">10 workshops</span> ranging from design, development, cryptography and crossword.
       <br /><br />
     </p>
-    <img src="../assets/images/resources/tgabout.svg" />
+    <img alt="illus_img" src="https://i.imgur.com/fAshaQa.png" />
   </div>
   <div class="button-panel">
     <button
@@ -140,7 +140,7 @@
       </button>
       <button
         on:click={() => {
-          comingSoon()
+          window.open('https://discord.gg/3AeWKvUGDc', '_blank', 'noopener, noreferrer');
           
         }}
       >
@@ -148,14 +148,14 @@
       </button>
       <button
         on:click={() => {
-          comingSoon()
+          window.open('https://chat.whatsapp.com/IrfgAUMusLyDZar7CYNpJD', '_blank', 'noopener, noreferrer');
           
         }}
       >
         WhatsApp
       </button>
     </div>
-    <img alt="illus_image" src="https://cdn.discordapp.com/attachments/1090231322745769986/1219227796933443584/image.png?ex=660a895e&is=65f8145e&hm=9bb116176b68f59385a48f2c6f0ed7d6bacc49b18410f46b41701eb2f3c6f431&" />
+    <img alt="illus_image" src="https://i.imgur.com/fAshaQa.png" />
   </div>
   {/if}
   
