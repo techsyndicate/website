@@ -453,6 +453,7 @@
       z-index: 2;
       margin-top: 10vw;
       box-shadow: 0 1.5vw 0 -1vw #121212;
+      animation: none;
     }
 
     .shadow {
@@ -750,6 +751,7 @@
       transform: scale(3.6);
       z-index: 2;
       box-shadow: 0 1.5vw 0 -1vw #121212;
+      animation: none;
     }
 
     .shadow {
