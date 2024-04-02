@@ -84,35 +84,35 @@
       <span style="color: #16e16e;">skill development </span>through a variety of authentic and guided learning experiences. This year it shall comprise of <span style="color: #16e16e;">10 workshops</span> ranging from design, development, cryptography and crossword.
       <br /><br />
     </p>
-    <img alt="illus_img" src="https://i.imgur.com/fAshaQa.png" />
-  </div>
-  <div class="button-panel">
-    <button
-      on:click={() => {
-        // comingSoon()
-        // window.location.href="https://forms.gle/Kgn3ZXuBv58YCJPc8"
-        window.open('https://forms.gle/Kgn3ZXuBv58YCJPc8', '_blank', 'noopener, noreferrer');
-      }}
-    >
-    Registration
-  </button>
-  <button
-  on:click={() => {
-    // comingSoon()
-    window.open('https://discord.gg/3AeWKvUGDc', '_blank', 'noopener, noreferrer');
-    
-  }}
-    >
-    Discord
-  </button>
-  <button
-  on:click={() => {
-    comingSoon()
-    window.open('https://chat.whatsapp.com/IrfgAUMusLyDZar7CYNpJD', '_blank', 'noopener, noreferrer');
-      }}
-    >
-      WhatsApp
+    <div class="button-panel">
+      <button
+        on:click={() => {
+          // comingSoon()
+          // window.location.href="https://forms.gle/Kgn3ZXuBv58YCJPc8"
+          window.open('https://forms.gle/Kgn3ZXuBv58YCJPc8', '_blank', 'noopener, noreferrer');
+        }}
+      >
+      Registration
     </button>
+    <button
+    on:click={() => {
+      // comingSoon()
+      window.open('https://discord.gg/3AeWKvUGDc', '_blank', 'noopener, noreferrer');
+      
+    }}
+      >
+      Discord
+    </button>
+    <button
+    on:click={() => {
+      comingSoon()
+      window.open('https://chat.whatsapp.com/IrfgAUMusLyDZar7CYNpJD', '_blank', 'noopener, noreferrer');
+        }}
+      >
+        WhatsApp
+      </button>
+    </div>
+    <img alt="illus_img" src="https://i.imgur.com/fAshaQa.png" />
   </div>
   {:else}
   <div class="intech-div">
