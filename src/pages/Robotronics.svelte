@@ -266,8 +266,10 @@
     /* filter: drop-shadow(0px 5px rgba(0,0,0,1)); */
     transition: all 350ms ;
   }
-  .eventCard:hover {
-    margin-top: -1vw;
+  @media only screen and (min-width: 768px) {
+    .eventCard:hover {
+      margin-top: -1vw;
+    }
   }
   .shadow {
     position: absolute;
@@ -454,8 +456,11 @@
       margin-top: 10vw;
       box-shadow: 0 1.5vw 0 -1vw #121212;
       animation: none;
+      transition: none;
     }
-
+    .eventCard:hover {
+      z-index: 4;
+    }
     .shadow {
       display: none;
     }
@@ -752,8 +757,11 @@
       z-index: 2;
       box-shadow: 0 1.5vw 0 -1vw #121212;
       animation: none;
+      transition: none;
     }
-
+    .eventCard:hover {
+      z-index: 4;
+    }
     .shadow {
       display: none;
     }
