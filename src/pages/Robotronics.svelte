@@ -105,7 +105,6 @@
     </button>
     <button
     on:click={() => {
-      comingSoon()
       window.open('https://chat.whatsapp.com/IrfgAUMusLyDZar7CYNpJD', '_blank', 'noopener, noreferrer');
         }}
       >
