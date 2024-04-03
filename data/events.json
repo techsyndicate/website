@@ -3,61 +3,61 @@
         {
             "eventName": "Web Development",
             "eventDesc": "Web development essentially consists of two paradigms: frontend and backend development...",
-            "img": "webdTG.svg",
+            "img": "webdTG.png",
             "eventUrl": "https://www.techsyndicate.us/resources/dev/web"
         },
         {
             "eventName": "Cryptic x CTF",
             "eventDesc": "Cryptic and CTF refer to hunting and looking for either a flag or an answer to a specific level...",
-            "img": "crypticTG.svg",
+            "img": "crypticTG.png",
             "eventUrl": "https://www.techsyndicate.us/resources/ctf"
         },
         {
             "eventName": "2D Design",
             "eventDesc": "Design is something that involves thorough planning as well as ideation of the way your product...",
-            "img": "2dTG.svg",
+            "img": "2dTG.png",
             "eventUrl": "https://www.techsyndicate.us/resources/design/2d"
         },
         {
             "eventName": "3D Design",
             "eventDesc": "3D modelling is a vast field from low poly designs to realistically detailed environments...",
-            "img": "3dTG.svg",
+            "img": "3dTG.png",
             "eventUrl": "https://www.techsyndicate.us/resources/design/3d"
         },
         {
             "eventName": "AV Editing",
             "eventDesc": "A/V can be categorized following types: Films, Motion Graphics, Animation, Videos...",
-            "img": "avTG.svg",
+            "img": "avTG.png",
             "eventUrl": "https://www.techsyndicate.us/resources/av"
         },
         {
             "eventName": "Competitive Programming",
             "eventDesc": "Competitive Programming involves Programming a software that takes the given input...",
-            "img": "progTG.svg",
+            "img": "progTG.png",
             "eventUrl": "https://www.techsyndicate.us/resources/prog"
         },
         {
             "eventName": "Crossword",
             "eventDesc": "Crossword is one of the most fun events that you’ll ever come across. It doesn’t require...",
-            "img": "crossTG.svg",
+            "img": "crossTG.png",
             "eventUrl": "https://www.techsyndicate.us/resources/cross"
         },
         {
             "eventName": "Film Making",
             "eventDesc": "Films are made to convey a story through a video. To learn film editing, one must choose...",
-            "img": "filmTG.svg",
+            "img": "filmTG.png",
             "eventUrl": "https://www.techsyndicate.us/resources/av"
         },
         {
             "eventName": "Photography",
             "eventDesc": "Photography is the art, application, and practice of creating durable images...",
-            "img": "photographyTG.svg",
+            "img": "photographyTG.png",
             "eventUrl": "https://www.techsyndicate.us/resources/photography"
         },
         {
             "eventName": "Group Discussion",
             "eventDesc": "Group discussion consists of a group of individuals having an intellectual discussion...",
-            "img": "gdTG.svg",
+            "img": "gdTG.png",
             "eventUrl": "https://www.techsyndicate.us/resources/gd"
         }
         
