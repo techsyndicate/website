@@ -94,7 +94,7 @@
       >
       Registration
     </button>
-    <button
+    <!-- <button
     on:click={() => {
       // comingSoon()
       window.open('https://discord.gg/3AeWKvUGDc', '_blank', 'noopener, noreferrer');
@@ -102,7 +102,7 @@
     }}
       >
       Discord
-    </button>
+    </button> -->
     <button
     on:click={() => {
       window.open('https://chat.whatsapp.com/IrfgAUMusLyDZar7CYNpJD', '_blank', 'noopener, noreferrer');
@@ -137,14 +137,14 @@
       >
         Registration
       </button>
-      <button
+      <!-- <button
         on:click={() => {
           window.open('https://discord.gg/3AeWKvUGDc', '_blank', 'noopener, noreferrer');
           
         }}
       >
         Discord
-      </button>
+      </button> -->
       <button
         on:click={() => {
           window.open('https://chat.whatsapp.com/IrfgAUMusLyDZar7CYNpJD', '_blank', 'noopener, noreferrer');
