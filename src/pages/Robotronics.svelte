@@ -105,7 +105,7 @@
     </button>
     <button
     on:click={() => {
-      window.open('https://chat.whatsapp.com/IrfgAUMusLyDZar7CYNpJD', '_blank', 'noopener, noreferrer');
+      window.open('https://chat.whatsapp.com/KnACzOmShrg41P0qjunbkH', '_blank', 'noopener, noreferrer');
         }}
       >
         WhatsApp
@@ -147,7 +147,7 @@
       </button>
       <button
         on:click={() => {
-          window.open('https://chat.whatsapp.com/IrfgAUMusLyDZar7CYNpJD', '_blank', 'noopener, noreferrer');
+          window.open('https://chat.whatsapp.com/KnACzOmShrg41P0qjunbkH', '_blank', 'noopener, noreferrer');
           
         }}
       >

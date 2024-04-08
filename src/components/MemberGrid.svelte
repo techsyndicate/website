@@ -27,8 +27,9 @@
     </div><br class="br">
     {#each members as member}
         <div class="member">
-            <div class="member-pfp" style="background: url('{member.pfp}');background-size: cover;
-            background-position:center;"></div>
+            <!-- <div class="member-pfp" crossorigin="anonymous" style="background: url('{member.pfp}');background-size: cover;
+            background-position:center;"></div> -->
+            <img src="{member.pfp}" crossorigin="anonymous" class="memberImg" alt="">
             <div class="member-info">
                 <p class="member-name">{member.name}</p>
                 <p class="member-role" style="padding-bottom: 12px;">{member.role}</p>
@@ -144,7 +145,7 @@
         margin-bottom: 2.5vw;
         display: flex;
     }
-    .member .member-pfp{
+    .member .memberImg{
         width: 10vw;
         height: 10vw;
         border-radius: 100%;
@@ -232,7 +233,7 @@
         .member-info .socials{
             margin: -5vw 0.5vw;
         }
-        .member .member-pfp{
+        .member .memberImg{
             width: 20vw;
             height: 20vw;
             border-radius: 100%;
