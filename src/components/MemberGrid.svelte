@@ -151,6 +151,9 @@
         border-radius: 100%;
         margin: 2.5vw 2vw;
     }
+    .memberImg {
+        object-fit: cover;
+    }
     .member-info{
         margin-top: 1.75vw;
     }
