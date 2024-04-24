@@ -36,8 +36,7 @@
                 {#each member.alumni as member}
                     {#each member as alumni}
                         <div  class="alumni">
-                            <div  class="alumni-pfp" style="background: url('{alumni.pfp}');background-size: cover;
-                            background-position:center;"></div>
+                            <img  class="alumni-pfp" src="{alumni.pfp}" crossorigin="anonymous">
                             <div  class="alumni-info">
                                 <p  class="alumni-name">{alumni.name}</p>
                                 <p  class="alumni-role">{alumni.exrole}</p>
@@ -82,6 +81,9 @@
         height: 10vw;
         border-radius: 100%;
         margin: 2.5vw 2vw;
+    }
+    .alumni-pfp {
+        object-fit: cover;
     }
      .alumni-info{
         margin-top: 1.75vw;
