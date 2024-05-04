@@ -1,14 +1,15 @@
 <svelte:head>
     <title>Tech Syndicate</title>
 </svelte:head>
-<div class="landing-div">
-<!--  Panic because the revolution is here -->
-    <h1 class="tech">
-        TECH
-    </h1>
-    <h1 class="syndicate">
-        SYNDICATE
-    </h1>
+<div id="no-scroll">
+    <div class="landing-div">
+        <!--  Panic because the revolution is here -->
+        <h1 class="tech">
+            TECH
+        </h1>
+        <h1 class="syndicate">
+            SYNDICATE
+        </h1>
     <div class="snowglobe-assets"></div>
 </div>
 <div class="social-div">
@@ -30,7 +31,11 @@
         </a>
     </div>
 </div>
+</div>
 <style>
+    html::-webkit-scrollbar{
+        display: none;
+    }
     .landing-div{
         height: 80vh;
         width: 100%;
@@ -92,7 +97,7 @@
         justify-content: space-between;
         font-size: 1.5vw;
         margin-top: 1.5vw; 
-       
+        
     }
     .socials a{
         color: #fff;
