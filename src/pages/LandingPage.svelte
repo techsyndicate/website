@@ -1,5 +1,7 @@
 <svelte:head>
     <title>Tech Syndicate</title>
+    <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 </svelte:head>
 <div id="no-scroll">
     <div class="landing-div">
@@ -92,7 +94,7 @@
         position: absolute;
         margin-left: 70%;
         z-index: 5;
-        margin-top: -5.5vw;
+        margin-top: -3.5vw;
     }
     .socials{
         display: flex;
