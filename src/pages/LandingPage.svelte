@@ -36,8 +36,11 @@
     html::-webkit-scrollbar{
         display: none;
     }
+    #no-scroll {
+        overflow-y: hidden !important;
+    }
     .landing-div{
-        height: 80vh;
+        height: 78vh;
         width: 100%;
     }
     .landing-div .tech,.landing-div .syndicate{
