@@ -7,9 +7,9 @@
 # /23/eventguide                  https://docs.google.com/document/d/e/2PACX-1vRUW6qGbIvs5Z_QYr-PtfTW1LOLI3x_lGFcDfAYBLvxV4fxtrTMYfINZih1FyByKY9nq477MeqTuTla/pub
 
 # Intech '24
-/24/discord                       https://discord.gg/vduvC64NGM
-/24/wh                             https://chat.whatsapp.com/EEfXtUfbI3L0hpmVz1cvbj
-/24/eventguide                    https://docs.google.com/document/d/e/2PACX-1vRi4y3ApNHXqbBuAx2MU7byBtRXzIIOy0iFyFIzkDifqq-wt0UTSHdwl229JA99szedTPBkcVEbqUlh/pub
+/24/discord                         https://discord.gg/vduvC64NGM
+/24/wh                              https://chat.whatsapp.com/EEfXtUfbI3L0hpmVz1cvbj
+/24/guide                           https://docs.google.com/document/d/e/2PACX-1vRi4y3ApNHXqbBuAx2MU7byBtRXzIIOy0iFyFIzkDifqq-wt0UTSHdwl229JA99szedTPBkcVEbqUlh/pub
 
 
 # Robotronics '23
@@ -56,6 +56,16 @@
 /resources/ctf                  https://www.notion.so/Capture-The-Flag-a66386a75ce44bc79c51429b34250931
 /resources/prog                 https://www.notion.so/Programming-46280d608cab4b9bafe84187ffaed616
 /resources/photography          https://techsyndicate.notion.site/Photography-2ae74af2944545328dd5f69a71218465
+
+# intech prompts
+/prompts/dev                    https://techsyndicate.us
+/prompts/design                 https://techsyndicate.us
+/prompts/cryptic                https://techsyndicate.us
+/prompts/av                     https://techsyndicate.us
+/prompts/gd                     https://techsyndicate.us
+/prompts/photo                  https://techsyndicate.us
+/prompts/film                   https://techsyndicate.us
+/prompts/handware               https://techsyndicate.us
 
 # Routes
 /*                              /                  200

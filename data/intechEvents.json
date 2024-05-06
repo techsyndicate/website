@@ -1,0 +1,97 @@
+{
+    "events": [
+        {
+            "eventName": "App Development",
+            "eventDesc": "Web development essentially consists of two paradigms: frontend and backend development...",
+            "img": "webdTG.png",
+            "eventUrl": "https://www.techsyndicate.us/prompts/dev"
+        },
+        {
+            "eventName": "Web Development",
+            "eventDesc": "Web development essentially consists of two paradigms: frontend and backend development...",
+            "img": "webdTG.png",
+            "eventUrl": "https://www.techsyndicate.us/prompts/dev"
+        },
+        {
+            "eventName": "Game Development",
+            "eventDesc": "Web development essentially consists of two paradigms: frontend and backend development...",
+            "img": "webdTG.png",
+            "eventUrl": "https://www.techsyndicate.us/prompts/dev"
+        },
+        {
+            "eventName": "Encryptid | Cryptic x CTF",
+            "eventDesc": "Cryptic and CTF refer to hunting and looking for either a flag or an answer to a specific level...",
+            "img": "crypticTG.png",
+            "eventUrl": "https://www.techsyndicate.us/prompts/cryptic"
+        },
+        {
+            "eventName": "3D Design",
+            "eventDesc": "3D modelling is a vast field from low poly designs to realistically detailed environments...",
+            "img": "3dTG.png",
+            "eventUrl": "https://www.techsyndicate.us/prompts/design"
+        },
+        {
+            "eventName": "2D Design",
+            "eventDesc": "Design is something that involves thorough planning as well as ideation of the way your product...",
+            "img": "2dTG.png",
+            "eventUrl": "https://www.techsyndicate.us/prompts/design"
+        },
+        {
+            "eventName": "UI Design",
+            "eventDesc": "Design is something that involves thorough planning as well as ideation of the way your product...",
+            "img": "2dTG.png",
+            "eventUrl": "https://www.techsyndicate.us/prompts/design"
+        },
+        {
+            "eventName": "AV Editing",
+            "eventDesc": "A/V can be categorized following types: Films, Motion Graphics, Animation, Videos...",
+            "img": "avTG.png",
+            "eventUrl": "https://www.techsyndicate.us/prompts/av"
+        },
+        {
+            "eventName": "Group Discussion",
+            "eventDesc": "Group discussion consists of a group of individuals having an intellectual discussion...",
+            "img": "gdTG.png",
+            "eventUrl": "https://www.techsyndicate.us/prompts/gd"
+        },
+        {
+            "eventName": "Crossword",
+            "eventDesc": "Crossword is one of the most fun events that you’ll ever come across. It doesn’t require...",
+            "img": "crossTG.png"
+        },
+        {
+            "eventName": "Gaming",
+            "eventDesc": "Crossword is one of the most fun events that you’ll ever come across. It doesn’t require...",
+            "img": "crossTG.png"
+        },
+        {
+            "eventName": "Photography",
+            "eventDesc": "Photography is the art, application, and practice of creating durable images...",
+            "img": "photographyTG.png",
+            "eventUrl": "https://www.techsyndicate.us/prompts/photo"
+        },
+        {
+            "eventName": "Competitive Programming",
+            "eventDesc": "Competitive Programming involves Programming a software that takes the given input...",
+            "img": "progTG.png"
+        },
+        {
+            "eventName": "Film Making",
+            "eventDesc": "Films are made to convey a story through a video. To learn film editing, one must choose...",
+            "img": "filmTG.png",
+            "eventUrl": "https://www.techsyndicate.us/prompts/film"
+        },
+        {
+            "eventName": "Hardware",
+            "eventDesc": "Films are made to convey a story through a video. To learn film editing, one must choose...",
+            "img": "filmTG.png",
+            "eventUrl": "https://www.techsyndicate.us/prompts/handware"
+        },
+        {
+            "eventName": "Cubing",
+            "eventDesc": "Films are made to convey a story through a video. To learn film editing, one must choose...",
+            "img": "filmTG.png"
+        }
+        
+    ]
+}

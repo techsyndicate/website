@@ -30,18 +30,18 @@
                 <p>Team</p>
             </li>
         </Link>
-        <li style="margin-top: -1.75vw;">|</li>
-        <Link to="/tg" style="text-decoration: none; color:#eee;" id="tg">
+        <!-- <li style="margin-top: -1.75vw;">|</li>
+        <Link to="/intech" style="text-decoration: none; color:#eee;" id="tg">
             <li>
                 <p>Training Grounds</p>
             </li>
-        </Link>
-        <!-- <li style="margin-top: -1.75vw;">|</li>
+        </Link> -->
+        <li style="margin-top: -1.75vw;">|</li>
         <Link to="/intech" style="text-decoration: none; color:#eee;">
             <li>
-                <p>Intech '23</p>
+                <p>Intech '24</p>
             </li>
-        </Link> -->
+        </Link>
     </ul>
 </div>
 <style>

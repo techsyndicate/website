@@ -17,8 +17,8 @@
             <li><a href="/event" class='link'>Events</a></li>
             <li><a href="/about" class='link'>About</a></li>
             <li><a href="/team" class='link'>Team</a></li>
-            <li><a href="/tg" class='link'>Training Grounds</a></li>
-            <!-- <li><a href="/intech" class='link'>Intech '23</a></li> -->
+            <!-- <li><a href="/tg" class='link'>Training Grounds</a></li> -->
+            <li><a href="/intech" class='link'>Intech '24</a></li>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 <script>
   import { redirect } from "page";
-  import { events } from "../../data/events.json";
+  import { events } from "../../data/intechEvents.json";
   import { Notyf } from "notyf";
   var notif = new Notyf();
 
@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-  <title>Tech Syndicate | Training Grounds '24</title>
+  <title>Tech Syndicate | inTech '24</title>
 </svelte:head>
 
 <!-- <div class="intech-div">
@@ -76,12 +76,10 @@
 <main>
   {#if window.innerWidth > 600}
   <div class="intech-div">
-    <h1>Welcome to <br /> <span style="font-weight: 700;">Training Grounds '24</span></h1>
+    <h1>Welcome to <br /> <span style="font-weight: 700;">inTech '24</span></h1>
     <p class="intech-info">
-      Training Grounds '24, the <span style="color: #16e16e;">3rd edition</span> of our workshop and task-based learning program will take place from
-      <span style="color: #16e16e;">April 8 to April 28</span>.
-      It aims to promote learning and
-      <span style="color: #16e16e;">skill development </span>through a variety of authentic and guided learning experiences. This year it shall comprise of <span style="color: #16e16e;">10 workshops</span> ranging from design, development, cryptography and crossword.
+      inTech '24, the <span style="color: #16e16e;">6th edition</span> our annual intra-school tech fest will take place from 
+      <span style="color: #16e16e;">May 18 to June 8</span>. 16 events across different domains in the field of technology ranging from design, development, photography and cryptography will be conducted for the students of classes 7-12. The most talented students will be <span style="color: #16e16e;"> inducted into Tech Syndicate</span>, where they’ll level up their skills and represent the school in various inter-school and national competitions!
       <br /><br />
     </p>
     <div class="button-panel">
@@ -89,23 +87,23 @@
         on:click={() => {
           // comingSoon()
           // window.location.href="https://forms.gle/Kgn3ZXuBv58YCJPc8"
-          window.open('https://forms.gle/Kgn3ZXuBv58YCJPc8', '_blank', 'noopener, noreferrer');
+          window.open('https://intech.techsyndicate.us/', '_blank', 'noopener, noreferrer');
         }}
       >
       Registration
     </button>
-    <!-- <button
+    <button
     on:click={() => {
       // comingSoon()
-      window.open('https://discord.gg/3AeWKvUGDc', '_blank', 'noopener, noreferrer');
+      window.open('https://techsyndicate.us/24/discord', '_blank', 'noopener, noreferrer');
       
     }}
       >
       Discord
-    </button> -->
+    </button>
     <button
     on:click={() => {
-      window.open('https://chat.whatsapp.com/KnACzOmShrg41P0qjunbkH', '_blank', 'noopener, noreferrer');
+      window.open('https://techsyndicate.us/24/wh', '_blank', 'noopener, noreferrer');
         }}
       >
         WhatsApp
@@ -115,12 +113,10 @@
   </div>
   {:else}
   <div class="intech-div">
-    <h1>Welcome to <br /> <span style="font-weight: 700;">Training Grounds '24</span></h1>
+    <h1>Welcome to <br /> <span style="font-weight: 700;">inTech '24</span></h1>
     <p class="intech-info">
-      Training Grounds '24, the <span style="color: #16e16e;">3rd edition</span> of our workshop and task-based learning program will take place from
-      <span style="color: #16e16e;">April 8 to April 28</span>.
-      It aims to promote learning and
-      <span style="color: #16e16e;">skill development </span>through a variety of authentic and guided learning experiences. This year it shall comprise of <span style="color: #16e16e;">10 workshops</span> ranging from design, development, cryptography and crossword.
+      inTech '24, the <span style="color: #16e16e;">6th edition</span> our annual intra-school tech fest will take place from 
+      <span style="color: #16e16e;">May 18 to June 8</span>. 16 events across different domains in the field of technology ranging from design, development, photography and cryptography will be conducted for the students of classes 7-12. The most talented students will be <span style="color: #16e16e;"> inducted into Tech Syndicate</span>, where they’ll level up their skills and represent the school in various inter-school and national competitions!
       <br /><br />
     </p>
     <div class="button-panel">
@@ -132,22 +128,22 @@
           //   'https://forms.gle/Kgn3ZXuBv58YCJPc8',
           //   "_blank" // <- This is what makes it open in a new window.
           // );
-          window.open('https://forms.gle/Kgn3ZXuBv58YCJPc8', '_blank', 'noopener, noreferrer');
+          window.open('https://intech.techsyndicate.us', '_blank', 'noopener, noreferrer');
         }}
       >
         Registration
       </button>
-      <!-- <button
+      <button
         on:click={() => {
-          window.open('https://discord.gg/3AeWKvUGDc', '_blank', 'noopener, noreferrer');
+          window.open('https://techsyndicate.us/24/discord', '_blank', 'noopener, noreferrer');
           
         }}
       >
         Discord
-      </button> -->
+      </button>
       <button
         on:click={() => {
-          window.open('https://chat.whatsapp.com/KnACzOmShrg41P0qjunbkH', '_blank', 'noopener, noreferrer');
+          window.open('https://techsyndicate.us/24/wh', '_blank', 'noopener, noreferrer');
           
         }}
       >
@@ -232,7 +228,10 @@
         <div class="creds">
           <h1>{event.eventName}</h1>
           <p class="info">{event.eventDesc}</p>
-          <a href="{event.eventUrl}" target="_blank" class="link">Learn More</a>
+          {#if event.eventUrl}
+          <!-- <a href="{event.eventUrl}" target="_blank" class="link">Prompt</a> -->  
+          <a on:click={comingSoon} target="_blank" class="link">Prompt</a>
+          {/if}
         </div>
         <div class="shadow">
         </div>
