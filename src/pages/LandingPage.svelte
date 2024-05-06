@@ -35,11 +35,8 @@
 </div>
 </div>
 <style>
-    html::-webkit-scrollbar{
+    :global(::-webkit-scrollbar){
         display: none;
-    }
-    #no-scroll {
-        overflow-y: hidden !important;
     }
     .landing-div{
         height: 78vh;
@@ -94,7 +91,7 @@
         position: absolute;
         margin-left: 70%;
         z-index: 5;
-        margin-top: -3.5vw;
+        margin-top: -5.5vw;
     }
     .socials{
         display: flex;
