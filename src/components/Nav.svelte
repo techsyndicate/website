@@ -37,11 +37,11 @@
             </li>
         </Link> -->
         <li style="margin-top: -1.75vw;">|</li>
-        <Link to="/intech" style="text-decoration: none; color:#eee;">
+        <!-- <Link to="/intech" style="text-decoration: none; color:#eee;">
             <li>
                 <p>Intech '24</p>
             </li>
-        </Link>
+        </Link> -->
     </ul>
 </div>
 <style>
