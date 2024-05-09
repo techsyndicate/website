@@ -2,8 +2,8 @@
     "events": [
         {
             "eventName": "App Development",
-            "eventDesc": "Web development essentially consists of two paradigms: frontend and backend development...",
-            "img": "webdTG.png",
+            "eventDesc": "App development is the process of creating software applications for mobile devices...",
+            "img": "appdTG.png",
             "eventUrl": "https://www.techsyndicate.us/prompts/dev"
         },
         {
@@ -14,8 +14,8 @@
         },
         {
             "eventName": "Game Development",
-            "eventDesc": "Web development essentially consists of two paradigms: frontend and backend development...",
-            "img": "webdTG.png",
+            "eventDesc": "Game development refers to the procress involving the creation of video games. It consists of 5 stages...",
+            "img": "gamedTG.png",
             "eventUrl": "https://www.techsyndicate.us/prompts/dev"
         },
         {
@@ -37,9 +37,9 @@
             "eventUrl": "https://www.techsyndicate.us/prompts/design"
         },
         {
-            "eventName": "UI Design",
-            "eventDesc": "Design is something that involves thorough planning as well as ideation of the way your product...",
-            "img": "2dTG.png",
+            "eventName": "UI/UX Design",
+            "eventDesc": "UX design focuses on the overall user experience of a product or service, while UI design focuses on the product's visual and interactive elements...",
+            "img": "uiTG.png",
             "eventUrl": "https://www.techsyndicate.us/prompts/design"
         },
         {
@@ -60,11 +60,6 @@
             "img": "crossTG.png"
         },
         {
-            "eventName": "Gaming",
-            "eventDesc": "Crossword is one of the most fun events that you’ll ever come across. It doesn’t require...",
-            "img": "crossTG.png"
-        },
-        {
             "eventName": "Photography",
             "eventDesc": "Photography is the art, application, and practice of creating durable images...",
             "img": "photographyTG.png",
@@ -72,26 +67,30 @@
         },
         {
             "eventName": "Competitive Programming",
-            "eventDesc": "Competitive Programming involves Programming a software that takes the given input...",
+            "eventDesc": "Competitive Programming involves programming a software that takes the given input...",
             "img": "progTG.png"
         },
         {
             "eventName": "Film Making",
-            "eventDesc": "Films are made to convey a story through a video. To learn film editing, one must choose...",
+            "eventDesc": "Films are made to convey a story through a video. It involves a number of discrete stages, beginning with a story, idea, or commission...",
             "img": "filmTG.png",
             "eventUrl": "https://www.techsyndicate.us/prompts/film"
         },
         {
             "eventName": "Hardware",
-            "eventDesc": "Films are made to convey a story through a video. To learn film editing, one must choose...",
-            "img": "filmTG.png",
+            "eventDesc": "Hardware is the part of a computer that is designed and developed to perform a specific task...",
+            "img": "hardTG.png",
             "eventUrl": "https://www.techsyndicate.us/prompts/handware"
         },
         {
             "eventName": "Cubing",
-            "eventDesc": "Films are made to convey a story through a video. To learn film editing, one must choose...",
-            "img": "filmTG.png"
-        }
-        
+            "eventDesc": "Cubing/Speedcubing is a competitive event where people solve combination puzzles as quickly as possible...",
+            "img": "cubingTG.png"
+        },
+        {
+            "eventName": "Gaming",
+            "eventDesc": "Gaming stands out as one of the most enjoyable events you'll ever encounter, demanding no more than...",
+            "img": "gamingTG.png"
+        }        
     ]
 }
