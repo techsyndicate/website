@@ -21,5 +21,5 @@
   <Route path="event" component={EventPage} />
   <Route path="/tbr" component={Tbr} />
   <Route path="team" component={MemberPage} />
-  <Route path="intech" component={Robotronics} />
+  <!-- <Route path="intech" component={Robotronics} /> -->
 </Router>
