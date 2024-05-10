@@ -23,7 +23,7 @@
         <p class="event-name">Intech</p>
         <p class="event-duration">May 18 - June 8</p>
         <br />
-        <Link to="/tg" style="text-decoration: none;">
+        <Link to="/intech" style="text-decoration: none;">
             <button>
                 <span>Join</span>
             </button>
