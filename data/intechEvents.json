@@ -55,20 +55,10 @@
             "eventUrl": "https://www.techsyndicate.us/prompts/gd"
         },
         {
-            "eventName": "Crossword",
-            "eventDesc": "Crossword is one of the most fun events that you’ll ever come across. It doesn’t require...",
-            "img": "crossTG.png"
-        },
-        {
             "eventName": "Photography",
             "eventDesc": "Photography is the art, application, and practice of creating durable images...",
             "img": "photographyTG.png",
             "eventUrl": "https://www.techsyndicate.us/prompts/photo"
-        },
-        {
-            "eventName": "Competitive Programming",
-            "eventDesc": "Competitive Programming involves programming a software that takes the given input...",
-            "img": "progTG.png"
         },
         {
             "eventName": "Film Making",
@@ -81,6 +71,16 @@
             "eventDesc": "Hardware is the part of a computer that is designed and developed to perform a specific task...",
             "img": "hardTG.png",
             "eventUrl": "https://www.techsyndicate.us/prompts/handware"
+        },
+        {
+            "eventName": "Crossword",
+            "eventDesc": "Crossword is one of the most fun events that you’ll ever come across. It doesn’t require...",
+            "img": "crossTG.png"
+        },
+        {
+            "eventName": "Competitive Programming",
+            "eventDesc": "Competitive Programming involves programming a software that takes the given input...",
+            "img": "progTG.png"
         },
         {
             "eventName": "Cubing",
