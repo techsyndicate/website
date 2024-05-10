@@ -210,7 +210,7 @@
   </div> -->
   <!-- <hr /> -->
   <div class="heading" id="events">
-    <h1>Workshops</h1>
+    <h1>Events</h1>
   </div>
   <div class="events section">
     {#each events as event, index}
