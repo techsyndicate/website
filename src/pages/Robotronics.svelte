@@ -79,7 +79,7 @@
     <h1>Welcome to <br /> <span style="font-weight: 700;">inTech '24</span></h1>
     <p class="intech-info">
       inTech '24, the sixth edition of our annual intra-school tech fest will take place from 
-      <span style="color: #16e16e;">May 18 to June 8</span>. This year it shall comprise of <a href="/24/guide" style="color:#16e16e;"> <u><span style=" font-weight:400px;">16 events</span></u></a> across different domains in the field of technology. The most skilled students will be <span style="color: #16e16e;"> inducted into Tech Syndicate</span>,  where they’ll level up their skills and represent the school in various competitions.
+      <span style="color: #16e16e;">May 18 to June 8</span>. This year it shall comprise of <a href="https://www.techsyndicate.us/24/guide/" target="_blank" style="color:#16e16e;"> <u><span style=" font-weight:400px;">16 events</span></u></a> across different domains in the field of technology. The most skilled students will be <span style="color: #16e16e;"> inducted into Tech Syndicate</span>,  where they’ll level up their skills and represent the school in various competitions.
       <br /><br />
     </p>
     <div class="button-panel">
@@ -117,7 +117,7 @@
     <h1>Welcome to <br /> <span style="font-weight: 700;">inTech '24</span></h1>
     <p class="intech-info">
       inTech '24, the sixth edition of our annual intra-school tech fest will take place from 
-      <span style="color: #16e16e;">May 18 to June 8</span>. This year it shall comprise of <a href="/24/guide" style="color:#16e16e;"> <u><span style=" font-weight:400px;">16 events</span></u></a> across different domains in the field of technology. The most skilled students will be <span style="color: #16e16e;"> inducted into Tech Syndicate</span>,  where they’ll level up their skills and represent the school in various competitions.
+      <span style="color: #16e16e;">May 18 to June 8</span>. This year it shall comprise of <a href="https://www.techsyndicate.us/24/guide/" style="color:#16e16e;"> <u><span style=" font-weight:400px;">16 events</span></u></a> across different domains in the field of technology. The most skilled students will be <span style="color: #16e16e;"> inducted into Tech Syndicate</span>,  where they’ll level up their skills and represent the school in various competitions.
       <br /><br />
     </p>
     <div class="button-panel">
