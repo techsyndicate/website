@@ -39,7 +39,7 @@
         <li style="margin-top: -1.75vw;">|</li>
         <Link to="/intech" style="text-decoration: none; color:#eee;">
             <li>
-                <p>Intech '24</p>
+                <p>inTech '24</p>
             </li>
         </Link>
     </ul>
