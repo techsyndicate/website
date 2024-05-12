@@ -85,17 +85,17 @@
     <div class="button-panel">
       <button
         on:click={() => {
-          comingSoon()
+          // comingSoon()
           // window.location.href="https://forms.gle/Kgn3ZXuBv58YCJPc8"
-          // window.open('https://intech.techsyndicate.us/', '_blank', 'noopener, noreferrer');
+          window.open('https://intech.techsyndicate.us/', '_blank', 'noopener, noreferrer');
         }}
       >
       Registration
     </button>
     <button
     on:click={() => {
-      comingSoon()
-      // window.open('https://techsyndicate.us/24/discord', '_blank', 'noopener, noreferrer');
+      // comingSoon()
+      window.open('https://techsyndicate.us/24/discord', '_blank', 'noopener, noreferrer');
       
     }}
       >
@@ -103,8 +103,8 @@
     </button>
     <button
     on:click={() => {
-      comingSoon()
-      // window.open('https://techsyndicate.us/24/wh', '_blank', 'noopener, noreferrer');
+      // comingSoon()
+      window.open('https://techsyndicate.us/24/wh', '_blank', 'noopener, noreferrer');
         }}
       >
         WhatsApp
