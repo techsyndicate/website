@@ -230,8 +230,8 @@
           <h1>{event.eventName}</h1>
           <p class="info">{event.eventDesc}</p>
           {#if event.eventUrl}
-          <!-- <a href="{event.eventUrl}" target="_blank" class="link">Prompt</a> -->  
-          <a on:click={comingSoon} target="_blank" class="link">Prompt</a>
+          <a href="{event.eventUrl}" target="_blank" class="link">Prompt</a>  
+          <!-- <a on:click={comingSoon} target="_blank" class="link">Prompt</a> -->
           {/if}
         </div>
         <div class="shadow">
