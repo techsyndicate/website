@@ -42,6 +42,13 @@
                 <p>inTech '24</p>
             </li>
         </Link>
+
+        <li style="margin-top: -1.75vw;">|</li>
+        <Link to="/sheldon" style="text-decoration: none; color:#eee;">
+            <li>
+                <p>Sheldon</p>
+            </li>
+        </Link>
     </ul>
 </div>
 <style>

@@ -9,6 +9,7 @@
   import MobileNav from "./components/MobileNav.svelte";
   import Tbr from "./pages/TBR.svelte";
   import Robotronics from "./pages/Robotronics.svelte";
+  import Sheldon from "./pages/Sheldon.svelte";
 </script>
 
 <Router>
@@ -22,4 +23,5 @@
   <Route path="/tbr" component={Tbr} />
   <Route path="team" component={MemberPage} />
   <Route path="intech" component={Robotronics} />
+  <Route path="sheldon" component={Sheldon} />
 </Router>
