@@ -21,7 +21,8 @@
         {
             "eventName": "Encryptid | Cryptic x CTF",
             "eventDesc": "Cryptic and CTF refer to hunting and looking for either a flag or an answer to a specific level...",
-            "img": "crypticTG.png"
+            "img": "crypticTG.png",
+            "website": "https://encryptid.techsyndicate.us/"
         },
         {
             "eventName": "3D Design",

@@ -234,7 +234,7 @@
             <!-- <a on:click={comingSoon} target="_blank" class="link">Prompt</a> -->
           {/if}
           {#if event.eventName == "Encryptid | Cryptic x CTF"}
-              <a on:click={comingSoon} target="_blank" class="link">Website</a>
+              <a href="{event.website}" target="_blank" class="link">Website</a>
           {/if}
         </div>
         <div class="shadow">
