@@ -78,7 +78,7 @@
         border-radius: 10vw;
         background: linear-gradient(
             to right,
-            #16e16e 50%,
+            #16e16e 63%,
             #4e4e4e 0%,
             #4e4e4e 0%,
             #4e4e4e 100%
@@ -213,12 +213,10 @@
             width: 1.5vw;
             height: 125vw;
             background: linear-gradient(
-                    to bottom,
-                    #16e16e 50%,
-                    #4e4e4e 0%,
-                    #4e4e4e 0%,
-                    #4e4e4e 100%
-                )
+                to bottom,
+                #16e16e 50%,
+                #4e4e4e 50%
+            )
                 bottom;
         }
         .line-overlap {
