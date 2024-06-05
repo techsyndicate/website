@@ -19,14 +19,14 @@
         <p class="event-name">Training Grounds</p>
         <p class="event-duration">April 8 - April 28</p>
     </div>
-    <div class="event-blob-2 current">
+    <div class="event-blob-2">
         <p class="event-name">Intech</p>
         <p class="event-duration">May 18 - June 8</p>
         <br />
         <Link to="/intech" style="text-decoration: none;">
-            <button>
+            <!-- <button>
                 <span>Join</span>
-            </button>
+            </button> -->
         </Link>
         <br />
         <!-- <Link to = "/summer" style="text-decoration: none;">
@@ -153,7 +153,7 @@
     }
     .event-blob-2 {
         /* background: #4e4e4e !important; */
-        margin: -15vw 41.5vw;
+        margin: -13.5vw 41.5vw;
         height: 8.5vw;
     }
     .event-blob-3 {
