@@ -82,7 +82,7 @@
       <span style="color: #16e16e;">May 18 to June 8</span>. This year it shall comprise of <a href="https://www.techsyndicate.us/24/guide/" target="_blank" style="color:#16e16e;"> <u><span style=" font-weight:400px;">16 events</span></u></a> across different domains in the field of technology. The most skilled students will be <span style="color: #16e16e;"> inducted into Tech Syndicate</span>,  where they’ll level up their skills and represent the school in various competitions.
       <br /><br />
     </p>
-    <div class="button-panel">
+    <!-- <div class="button-panel">
       <button
         on:click={() => {
           // comingSoon()
@@ -109,7 +109,7 @@
       >
         WhatsApp
       </button>
-    </div>
+    </div> -->
     <img alt="illus_img" src="https://i.imgur.com/fAshaQa.png" />
   </div>
   {:else}
@@ -120,7 +120,7 @@
       <span style="color: #16e16e;">May 18 to June 8</span>. This year it shall comprise of <a href="https://www.techsyndicate.us/24/guide/" style="color:#16e16e;"> <u><span style=" font-weight:400px;">16 events</span></u></a> across different domains in the field of technology. The most skilled students will be <span style="color: #16e16e;"> inducted into Tech Syndicate</span>,  where they’ll level up their skills and represent the school in various competitions.
       <br /><br />
     </p>
-    <div class="button-panel">
+    <!-- <div class="button-panel">
       <button 
         on:click={() => {
           // comingSoon()
@@ -150,7 +150,7 @@
       >
         WhatsApp
       </button>
-    </div>
+    </div> -->
     <img alt="illus_image" src="https://i.imgur.com/fAshaQa.png" />
   </div>
   {/if}
