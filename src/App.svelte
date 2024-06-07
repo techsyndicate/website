@@ -10,6 +10,7 @@
   import Tbr from "./pages/TBR.svelte";
   import Robotronics from "./pages/Robotronics.svelte";
   import Sheldon from "./pages/Sheldon.svelte";
+  import PataNahi from "./pages/PataNahi.svelte";
 </script>
 
 <Router>
@@ -24,4 +25,5 @@
   <Route path="team" component={MemberPage} />
   <!-- <Route path="/" component={Robotronics} /> -->
   <Route path="sheldon" component={Sheldon} />
+  <Route path="/24/interview" component={PataNahi} />
 </Router>
