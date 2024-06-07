@@ -14,6 +14,7 @@
 </script>
 
 <Router>
+  <Route path="/24/interview" component={PataNahi} />
   <MobileNav />
   <Nav />
   <Route path="learn" component={LearnPage} />
@@ -25,5 +26,4 @@
   <Route path="team" component={MemberPage} />
   <!-- <Route path="/" component={Robotronics} /> -->
   <Route path="sheldon" component={Sheldon} />
-  <Route path="/24/interview" component={PataNahi} />
 </Router>
