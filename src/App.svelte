@@ -19,10 +19,10 @@
   <Route path="learn" component={LearnPage} />
   <Route path="about" component={AboutPage} />
   <!-- <Route path="intech" component={TgPage} /> -->
-  <Route path="team" component={LandingPage} />
+  <Route path="/" component={LandingPage} />
   <Route path="event" component={EventPage} />
   <Route path="/tbr" component={Tbr} />
-  <Route path="/" component={MemberPage} />
+  <Route path="team" component={MemberPage} />
   <!-- <Route path="/" component={Robotronics} /> -->
   <Route path="sheldon" component={Sheldon} />
 </Router>
