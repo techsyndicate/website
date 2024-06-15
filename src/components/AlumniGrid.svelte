@@ -36,7 +36,7 @@
                 {#each member.alumni as member}
                     {#each member as alumni}
                         <div  class="alumni">
-                            <img  class="alumni-pfp" src="{alumni.pfp}" crossorigin="anonymous">
+                            <img  class="alumni-pfp" src="{alumni.pfp}">
                             <div  class="alumni-info">
                                 <p  class="alumni-name">{alumni.name}</p>
                                 <p  class="alumni-role">{alumni.exrole}</p>
