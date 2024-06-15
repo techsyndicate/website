@@ -30,7 +30,7 @@
         <div class="member">
             <!-- <div class="member-pfp" crossorigin="anonymous" style="background: url('{member.pfp}');background-size: cover;
             background-position:center;"></div> -->
-            <img src="{member.pfp}" crossorigin="anonymous" class="memberImg" alt="">
+            <img src="{member.pfp}" class="memberImg" alt="">
             <div class="member-info">
                 <p class="member-name">{member.name}</p>
                 <p class="member-role" style="padding-bottom: 12px;">{member.role}</p>
