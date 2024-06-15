@@ -14,7 +14,6 @@
 </script>
 
 <Router>
-  <Route path="/24/interview" component={PataNahi} />
   <MobileNav />
   <Nav />
   <Route path="learn" component={LearnPage} />
