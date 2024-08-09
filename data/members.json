@@ -168,17 +168,6 @@
         ]
     },
     {
-        "name": "Prabhnoor Kaur",
-        "pfp": "https://www.dropbox.com/scl/fi/h8sama7dk3h3ynl6zwkn7/20240715_010552.jpg?rlkey=49rujy40s6imr2stcavyc0asc&st=3ftru5va&raw=1",
-        "role": "Member",
-        "socials": [
-            "https://spotify.link/lwtuFbJP4Db",
-            "https://www.instagram.com/real.prabhnoorkaur/",
-            "https://x.com/pkr_random?s=09",
-            "mailto:justanunknownrandomperson@gmail.com"
-        ]
-    },
-    {
         "name": "Naitik Agarwal",
         "pfp": "https://www.dropbox.com/scl/fi/5wl0x81gigzrll0zh764y/naitik.jpg?rlkey=sqn39paphoc28s4lmkdgrn70v&st=agjhikrl&raw=1",
         "role": "Member",
@@ -237,16 +226,6 @@
         ]
     },
     {
-        "name": "Harshal Vithal",
-        "pfp": "https://www.dropbox.com/scl/fi/h2b4kqk4nknyy2255p273/harshal.jpg?rlkey=sb5ubkgnv36lrqyhjbpym766w&st=bc40um6z&raw=1",
-        "role": "Member",
-        "socials": [
-            "https://open.spotify.com/user/h3ksb757df45k71y4lor1izpb?si=71bbdc27746c4ca8",
-            "https://www.instagram.com/harshal0625/",
-            "mailto:harshalvithal@gmail.com"
-        ]
-    },
-    {
         "name": "Ayush Sharma",
         "pfp": "https://www.dropbox.com/scl/fi/1f327ltzzcu0h2nqm3xjs/ayuss.png?rlkey=dhvd6y78tff9lhesfsc9ypza5&st=d1gi8mgf&raw=1",
         "role": "Member",
@@ -281,10 +260,21 @@
     {
         "name": "Diya Kerur",
         "pfp": "https://www.dropbox.com/scl/fi/nxrqx35j5vvimpx38o6ob/diya.jpg?rlkey=0t2pk09vkm2lc6gku0cd0bl3k&st=uiqstnlk&raw=1",
-        "role": "Trainee",
+        "role": "Member",
         "socials": [
             "https://open.spotify.com/user/zq69okuu42j8tcxjby28jx0c8?si=5J3Rt5i2ShSwljQQNUFrBQ",
             "mailto:kerur.diya@gmail.com"
+        ]
+    },
+    {
+        "name": "Prabhnoor Kaur",
+        "pfp": "https://www.dropbox.com/scl/fi/h8sama7dk3h3ynl6zwkn7/20240715_010552.jpg?rlkey=49rujy40s6imr2stcavyc0asc&st=3ftru5va&raw=1",
+        "role": "Trainee",
+        "socials": [
+            "https://spotify.link/lwtuFbJP4Db",
+            "https://www.instagram.com/real.prabhnoorkaur/",
+            "https://x.com/pkr_random?s=09",
+            "mailto:justanunknownrandomperson@gmail.com"
         ]
     },
     {
