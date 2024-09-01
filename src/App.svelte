@@ -11,6 +11,7 @@
   import Robotronics from "./pages/Robotronics.svelte";
   import Sheldon from "./pages/Sheldon.svelte";
   import PataNahi from "./pages/PataNahi.svelte";
+  import NotFound from "./pages/NotFound.svelte";
 </script>
 
 <Router>
@@ -24,5 +25,6 @@
   <Route path="/tbr" component={Tbr} />
   <Route path="team" component={MemberPage} />
   <!-- <Route path="/" component={Robotronics} /> -->
-  <Route path="sheldon" component={Sheldon} />
+  <!-- <Route path="sheldon" component={Sheldon} /> -->
+  <Route component={NotFound} />
 </Router>
