@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Creative",
+        "description": "Teams will be required to think of a unique solution to a problem of their choice based on the theme given.",
+        "class": "IX-XII",
+        "participants": "1 team of 6 participants",
+        "icon": "../../assets/images/robo/creative.svg",
+        "bg": "#2a3e98",
+        "link": "https://ts46.club/creative/prelims"
+    },
+    {
+        "name": "Encryptid",
+        "description": "Tech Syndicate's annual cryptic hunt, a scavenger hunt-like experience, based on web security, cryptography, and steganography.",
+        "class": "Open",
+        "participants": "Open",
+        "icon": "../../assets/images/resources/cryptic.svg",
+        "bg": "#891145", 
+        "link": "https://ts46.club/encryptid"
+    },
+    {
+        "name": "Crossword",
+        "description": "A tech-based crossword solely based on puns. The only things that you need to know are the names of popular tech companies, products, and games.",
+        "class": " IX-XII",
+        "participants": "1 team of 2 participants",
+        "icon": "../../assets/images/resources/cross.svg",
+        "bg": "#5730BA", 
+        "link": "https://ts46.club/cross/prelims"
+    },
+    {
+        "name": "Group Discussion",
+        "description": "An engaging panel discussion debating the rights and wrongs of the latest technology trends/issues.",
+        "class": " IX-XII",
+        "participants": "1 team of 1 participant",
+        "icon": "../../assets/images/robo/gd.svg",
+        "bg": "#7C457C",
+        "link": "https://ts46.club/gd/prelims"
+    },
+    {
+        "name": "Surprise",
+        "description": "dG8ga25vdyBpcyB0aG UgZmly c3Qgc3RlcCB0b3dhcmRzIFtSRURBQ1RFRF0=",
+        "class": "IX-XII",
+        "participants": "1 team of 2 participants",
+        "icon": "../../assets/images/robo/surprise.svg",
+        "bg" : "#A89100", 
+        "link": "https://ts46.club/surp/prelims"
+    },
+    {
+        "name": "Programming",
+        "description": "Participants will compete with each other to solve exciting programming challenges.",
+        "class": "IX-XII",
+        "participants": "1 team of 2 participants",
+        "icon": "../../assets/images/robo/prog.svg",
+        "bg": "#009A35",
+        "link": "https://ts46.club/prog/prelims"    },
+    {
+        "name": "Filmmaking",
+        "description": "“If it can be written or thought, it can be filmed”, Participants will be required to create a film on the topic given.",
+        "class": "VIII-XII",
+        "participants": "1 team of 4 participants",
+        "icon": "../../assets/images/robo/film.svg",
+        "bg":"#930028", 
+        "link": "https://ts46.club/film/prelims"
+    },
+    {
+        "name": "Gaming",
+        "description": "In round 1, participants will compete with each other in the game “Splitgate”.",
+        "class": "IX-XII",
+        "participants": "1 team of 2 participants",
+        "icon": "../../assets/images/robo/gaming.svg",
+        "bg": "#3200c2",
+        "link": "https://ts46.club/gaming/prelims"
+    },
+    {
+        "name": "Quiz",
+        "description": "An enthralling quiz based on the field of computers, technology, and recent events in the world of IT.",
+        "class": "IX-XII",
+        "participants": "1 team of participant",
+        "icon": "../../assets/images/resources/quiz.svg",
+        "bg" : "#A89100",
+        "link": "https://ts46.club/quiz/prelims"
+    },
+    {
+        "name": "Robotics",
+        "description": "An event that tests the programming and building abilities of teams.",
+        "class": "VII-XII",
+        "participants": "1 team of 3 participants",
+        "icon": "../../assets/images/robo/robo.svg",
+        "bg": "#7800a8",
+        "link": "https://ts46.club/robotics/prompt"
+    },
+    {
+        "name": "Photography",
+        "description": "Participants will be required to click a photograph on their interpretation of the prompt given.",
+        "class": "IX-XII",
+        "participants": "1 team of 1 participant",
+        "icon": "../../assets/images/robo/photo.svg",
+        "bg": "#009A35",
+        "link": "https://ts46.club/photo/prelims"
+    },
+    {
+        "name": "Paint 3d",
+        "description": "“Painting is silent poetry, and poetry is a painting that speaks.” Exhibit your artistry using Paint 3D on the theme given. ",
+        "class": "III-IV",
+        "participants": "1 team of 1 participant",
+        "icon": "../../assets/images/robo/paint.svg",
+        "bg": "#930028",
+        "link": "https://ts46.club/paint/prelims"
+    },
+    {
+        "name": "Minecraft",
+        "description": "Unleash your creativity in an infinite world where you are bound only by your imagination.",
+        "class": "VII-VIII",
+        "participants": "1 team of 2 participant",
+        "icon": "../../assets/images/robo/minecraft.svg",
+        "bg": "#1E85A3",
+        "link":"https://ts46.club/mc/prelims"
+    },
+    {
+        "name": "Scratch",
+        "description": "“Keep calm and Start creating”, make a game on the theme using “Scratch 3” ",
+        "class": "V-VI",
+        "participants": "1 team of 2 participant",
+        "icon": "../../assets/images/robo/gamingjr.svg",
+        "bg": "#930028",
+        "link": "https://ts46.club/scratch/prelims"
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "field" : "App Dev",
+        "link" : "/resources/dev/app",
+        "svg": "../assets/images/resources/appd.svg",
+        "info" : "Mobile app development is, quite simply, the process of developing apps"
+    },
+    {
+        "field" : "Web Dev",
+        "link" : "/resources/dev/web",
+        "svg": "../assets/images/resources/webd.svg",
+        "info":"Web development essentially consists of two paradigms: frontend and backend development"   
+    },
+    {
+        "field" : "2D Design",
+        "link" : "/resources/design/2d",
+        "svg": "../assets/images/resources/2d.svg"   ,
+        "info": "Design is something that involves thorough planning as well as ideation of the way your product"
+    },
+    {
+        "field" : "3D Design",
+        "link" : "/resources/design/3d",
+        "svg": "../assets/images/resources/3d.svg"   ,
+        "info" : "3D modelling is a vast field from low poly designs to realistically detailed environments"
+    },
+    {
+        "field" : "A/V Editing",
+        "link" : "/resources/av",
+        "svg": "../assets/images/resources/av.svg" ,
+        "info" : "A/V can be categorized following types: Films, Motion Graphics, Animation, Videos"
+    },
+    {
+        "field" : "Crossword",
+        "link" : "/resources/cross",
+        "svg": "../assets/images/resources/cross.svg" ,
+        "info" : "Crossword is one of the most fun events that you’ll ever come across. It doesn’t require"
+    },
+    {
+        "field" : "Cryptic Hunts",
+        "link" : "/resources/cryptic",
+        "svg": "../assets/images/resources/cryptic.svg",
+        "info" : "Cryptic hunts basically refer to scavenger hunts that are carried out over the internet"
+    },
+    {
+        "field" : "Quiz",
+        "link" : "/resources/quiz",
+        "svg": "../assets/images/resources/quiz.svg",
+        "info" : "Quizzing is one of the most challenging events in any tech competition. It aims at testing"
+    },
+    {
+        "field" : "Group Discussion",
+        "link" : "/resources/gd",
+        "svg": "../assets/images/resources/gdlr.svg",
+        "info" : "Group discussion consists of a group of individuals having an intellectual discussion"
+    },
+    {
+        "field" : "Programming",
+        "link" : "/resources/prog",
+        "svg": "../assets/images/resources/hack.svg",
+        "info" : "Competitive Programming involves Programming a software that takes the given input"
+    },
+    {
+        "field" : "Hardware",
+        "link": "",
+        "svg": "../assets/images/resources/hardware.svg",
+        "info" : "Hardware is the part of a computer that is designed to perform a specific task"
+    },
+    {
+        "field": "Capture the flag",
+        "link" : "/resources/ctf",
+        "svg": "../assets/images/resources/ctf.svg",
+        "info" : "Capture the flag challenges are cyber security exercises where flags"
+    },
+    {
+        "field": "Photography",
+        "link": "/resources/photography",
+        "svg": "../assets/images/resources/photography.svg",
+        "info": "Photography is the art, application, and practice of creating durable images"
+    }
+]
