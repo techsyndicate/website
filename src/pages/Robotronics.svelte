@@ -43,7 +43,7 @@
       </button>
       <button
         on:click={() => {
-          window.open("/brochure");
+          window.open("/guide");
         }}
       >
         Brochure
