@@ -10,15 +10,15 @@
 </script>
 
 <svelte:head>
-  <title>Tech Syndicate | inTech '24</title>
+  <title>Tech Syndicate | Robotronics '24</title>
 </svelte:head>
 
-<!-- <div class="intech-div">
-  <h1>Welcome to <br /> <span>Robotronics '23</span></h1>
-  <p class="intech-info">
-    Robotronics '23, the <span style="color: #16e16e;">10th edition</span> of
+<div class="intech-div">
+  <h1>Welcome to <br /> <span>Robotronics '24</span></h1>
+  <p class="intech-info" style="margin-bottom: 0px;">
+    Robotronics '24, the <span style="color: #16e16e;">10th edition</span> of
     Tech Syndicate's annual event, will take place from
-    <span style="color: #16e16e;">October 20, 2023 to November 3, 2023</span>.
+    <span style="color: #16e16e;">October 20, 2024 to November 3, 2024</span>.
     Beginning as a robotics exclusive symposium, Robotronics has now evolved and
     branched out to include events across a much wider variety of domains.
     <br /><br />
@@ -30,33 +30,43 @@
     consideration all the 14 events.
     <br /><br /><br /><br />
   </p>
-  <img src="../assets/images/events.png" />
+  <img alt="illus_image" src="https://i.imgur.com/fAshaQa.png" />
 
   <div class="button-panel">
-    <button
-      on:click={() => {
-        window.location.href = "/guide";
-      }}
-    >
-      Event Guide
-    </button>
-    <button
-      on:click={() => {
-        window.location.href = "/server";
-      }}
-    >
-      Discord
-    </button>
-    <button
+    <button style="width: 32.5vw; margin-bottom: 0.65vw;"
       on:click={() => {
         window.location.href = "https://register.techsyndicate.us";
       }}
     >
       Registration
     </button>
+    <div class="unspecial-buttons">
+      <button
+        on:click={() => {
+          window.open("https://ts46.club/whatsapp");
+
+        }}
+      >
+        WhatsApp
+      </button>
+      <button
+        on:click={() => {
+          window.open("https://ts46.club/server");
+        }}
+      >
+        Discord
+      </button>
+      <button
+        on:click={() => {
+          window.open("/brochure");
+        }}
+      >
+        Brochure
+      </button>
+    </div>
   </div>
 
-  <div class="intech-events-grid">
+  <!-- <div class="intech-events-grid">
     {#each events.events as event}
       <div class="event">
         <h2 class="event-name" style="padding-bottom: 12px;">{event.name}</h2>
@@ -70,93 +80,12 @@
         <a href={event.link}>Prompt</a>
       </div>
     {/each}
-  </div>
-</div> -->
+  </div> -->
+</div>
 
 <main>
-  {#if window.innerWidth > 600}
-  <div class="intech-div">
-    <h1>Welcome to <br /> <span style="font-weight: 700;">inTech '24</span></h1>
-    <p class="intech-info">
-      inTech '24, the sixth edition of our annual intra-school tech fest will take place from 
-      <span style="color: #16e16e;">May 18 to June 8</span>. This year it shall comprise of <a href="https://www.techsyndicate.us/24/guide/" target="_blank" style="color:#16e16e;"> <u><span style=" font-weight:400px;">16 events</span></u></a> across different domains in the field of technology. The most skilled students will be <span style="color: #16e16e;"> inducted into Tech Syndicate</span>,  where they’ll level up their skills and represent the school in various competitions.
-      <br /><br />
-    </p>
-    <!-- <div class="button-panel">
-      <button
-        on:click={() => {
-          // comingSoon()
-          // window.location.href="https://forms.gle/Kgn3ZXuBv58YCJPc8"
-          window.open('https://intech.techsyndicate.us/', '_blank', 'noopener, noreferrer');
-        }}
-      >
-      Registration
-    </button>
-    <button
-    on:click={() => {
-      // comingSoon()
-      window.open('https://techsyndicate.us/24/discord', '_blank', 'noopener, noreferrer');
-      
-    }}
-      >
-      Discord
-    </button>
-    <button
-    on:click={() => {
-      // comingSoon()
-      window.open('https://techsyndicate.us/24/wh', '_blank', 'noopener, noreferrer');
-        }}
-      >
-        WhatsApp
-      </button>
-    </div> -->
-    <img alt="illus_img" src="https://i.imgur.com/fAshaQa.png" />
-  </div>
-  {:else}
-  <div class="intech-div">
-    <h1>Welcome to <br /> <span style="font-weight: 700;">inTech '24</span></h1>
-    <p class="intech-info">
-      inTech '24, the sixth edition of our annual intra-school tech fest will take place from 
-      <span style="color: #16e16e;">May 18 to June 8</span>. This year it shall comprise of <a href="https://www.techsyndicate.us/24/guide/" style="color:#16e16e;"> <u><span style=" font-weight:400px;">16 events</span></u></a> across different domains in the field of technology. The most skilled students will be <span style="color: #16e16e;"> inducted into Tech Syndicate</span>,  where they’ll level up their skills and represent the school in various competitions.
-      <br /><br />
-    </p>
-    <!-- <div class="button-panel">
-      <button 
-        on:click={() => {
-          // comingSoon()
-          // window.location.href="https://forms.gle/Kgn3ZXuBv58YCJPc8"
-          // window.open(
-          //   'https://forms.gle/Kgn3ZXuBv58YCJPc8',
-          //   "_blank" // <- This is what makes it open in a new window.
-          // );
-          window.open('https://intech.techsyndicate.us', '_blank', 'noopener, noreferrer');
-        }}
-      >
-        Registration
-      </button>
-      <button
-        on:click={() => {
-          window.open('https://techsyndicate.us/24/discord', '_blank', 'noopener, noreferrer');
-          
-        }}
-      >
-        Discord
-      </button>
-      <button
-        on:click={() => {
-          window.open('https://techsyndicate.us/24/wh', '_blank', 'noopener, noreferrer');
-          
-        }}
-      >
-        WhatsApp
-      </button>
-    </div> -->
-    <img alt="illus_image" src="https://i.imgur.com/fAshaQa.png" />
-  </div>
-  {/if}
-  
-  <!-- <hr /> -->
-  <!-- <div class="regbar">
+  <hr />
+  <div class="regbar">
     <div class="heading">
       <h1 id="dchead">Join our discord server</h1>
     </div>
@@ -171,7 +100,6 @@
           frameborder="0"
           sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
         />
-        
       </div>
       <div class="dclef">
         <h1>
@@ -194,7 +122,7 @@
         </button>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <!-- <hr />
   <div class="heading">
@@ -203,13 +131,13 @@
   <div class="promovideo">
     <iframe
       src="https://www.youtube.com/embed/3onxyfZ7hZc"
-      title="Training Grounds &#39;23 | Opening Video"
+      title="Training Grounds &#39;24 | Opening Video"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen
     />
   </div> -->
-  <!-- <hr /> -->
+  <hr />
   <div class="heading" id="events">
     <h1>Events</h1>
   </div>
@@ -221,52 +149,49 @@
         on:click={() => comingSoon()}
       >
         <img src="../assets/images/{event.img}" alt="" />
-        <h1>{event.eventName}</h1>
+        <h1>{event.eventName}</h1> //tg vala laga rakha hu
         <p>{event.eventDesc}</p>
       </div> -->
-      <div class="eventCard">
-        <img src="../assets/images/resources/{event.img}" alt="">
+      <div class="eventCard" key={index}>
+        <img src="../assets/images/resources/{event.img}" alt="" />
         <div class="creds">
           <h1>{event.eventName}</h1>
           <p class="info">{event.eventDesc}</p>
           {#if event.eventUrl}
-            <a href="{event.eventUrl}" target="_blank" class="link">Prompt</a>  
-            <!-- <a on:click={comingSoon} target="_blank" class="link">Prompt</a> -->
+            <!-- <a href={event.eventUrl} target="_blank" class="link">Prompt</a> -->
+            <a on:click={comingSoon} target="_blank" class="link">Prompt</a>
           {/if}
           {#if event.eventName == "Encryptid | Cryptic x CTF"}
-              <a href="{event.website}" target="_blank" class="link">Website</a>
+            <a href={event.website} target="_blank" class="link">Website</a>
           {/if}
         </div>
-        <div class="shadow">
-        </div>
+        <div class="shadow"></div>
       </div>
-      {/each}
-    </div>
-    <!-- <div style="width: 100%; height: 50vh" class="">
-
-    </div> -->
+    {/each}
+  </div>
+  <div class="bottom-div"></div>
 </main>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
   .eventCard {
     position: inherit;
     width: 18vw;
     height: 20vw;
     flex-shrink: 0;
     border-radius: 1vw;
-    background: linear-gradient(180deg, #131313 0%, #1A1A1A 100%);
-    
+    background: linear-gradient(180deg, #131313 0%, #1a1a1a 100%);
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
     margin-bottom: 5vw;
-    
+
     /* box-shadow: 0px 10px #121212; */
     /* filter: drop-shadow(0px 5px rgba(0,0,0,1)); */
-    transition: all 350ms ;
+    transition: all 350ms;
   }
   @media only screen and (min-width: 768px) {
     .eventCard:hover {
@@ -290,7 +215,7 @@
     justify-content: center;
   }
   .creds h1 {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-family: Outfit;
     font-size: 1.2vw;
@@ -299,7 +224,7 @@
     line-height: normal;
     margin-top: -0.5vw;
   }
-  .info { 
+  .info {
     color: rgba(255, 255, 255, 0.25);
     text-align: center;
     font-family: Outfit;
@@ -310,7 +235,7 @@
     width: 15vw;
   }
   .link {
-    color: #16E16E; 
+    color: #16e16e;
     text-align: center;
     font-family: Outfit;
     font-size: 1vw;
@@ -349,8 +274,8 @@
   .intech-div img {
     width: 33vw;
     float: right;
-    margin-top: -25vw;
-    margin-right: 10vw;
+    margin-top: -30vw;
+    margin-right: 7.5vw;
   }
   .intech-div p {
     margin-left: 5vw;
@@ -374,7 +299,7 @@
     cursor: pointer;
     border: none;
   }
-  /* .intech-events-grid {
+  .intech-events-grid {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(3, 28.5vw);
@@ -417,7 +342,7 @@
   }
   .event:hover {
     transform: translateY(-10px);
-  } */
+  }
 
   @media only screen and (max-width: 768px) {
     .intech-div {
@@ -431,11 +356,11 @@
     .intech-div .intech-info {
       font-size: 4.5vw;
     }
-    .intech-div img{
+    .intech-div img {
       width: 50vw;
       margin: auto;
     }
-    
+
     .intech-div p {
       width: 85%;
     }
@@ -449,11 +374,21 @@
       height: 70vw;
       border-radius: 1vw;
       margin-bottom: 5vw;
+      margin-top: 20vw !important;
       padding: 3.5vw;
-      gap: 25vw !important;
+      gap: 40vw !important;
+    }
+    #dchead {
+      margin: 0;
+    }
+    .dclef {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
     .eventCard {
-      transform: scale(2);
+      transform: scale(1.7);
       z-index: 2;
       margin-top: 10vw;
       box-shadow: 0 1.5vw 0 -1vw #121212;
@@ -466,8 +401,8 @@
     .shadow {
       display: none;
     }
-    
-    /* .eventCard {
+
+    .eventCard {
       width: 36vw;
       height: 40vw;
       border-radius: 24px;
@@ -486,10 +421,12 @@
     .eventCard .creds p {
       width: 30vw;
     }
-    .eventCard .creds > h1, .eventCard .creds > a, .eventCard .creds > p {
+    .eventCard .creds > h1,
+    .eventCard .creds > a,
+    .eventCard .creds > p {
       font-size: 2vw !important;
-    } */
-    /* .event-name {
+    }
+    .event-name {
       font-size: 5vw;
     }
     .event-info {
@@ -500,7 +437,7 @@
     .event a {
       margin-top: 18.5vw !important;
       font-size: 3vw;
-    } */
+    }
     .button-panel {
       display: flex;
     }
@@ -526,7 +463,7 @@
     margin: 0 0 50px;
   }
 
-  /* .main {
+  .main {
     padding: 1.5vw 2.5vw;
   }
 
@@ -658,9 +595,9 @@
 
   hr {
     border-color: #ffffff20;
-    width: 70%;
+    width: 85%;
     margin: 50px auto;
-  } */
+  }
 
   .events {
     display: flex;
@@ -671,7 +608,7 @@
     gap: 4.3vw;
   }
 
-  /* .event {
+  .event {
     width: 20vw;
     height: 220px;
     border-radius: 20px;
@@ -712,7 +649,7 @@
 
   .event:hover {
     transform: rotateZ(-2deg);
-  } */
+  }
 
   /* ? RESPONSIVE ? */
   @media only screen and (max-width: 650px) {
@@ -722,7 +659,7 @@
     .heading h1 {
       font-size: 2rem;
     }
-    /* .intro {
+    .intro {
       font-size: 120%;
       margin: 0px;
       margin-bottom: 30px;
@@ -737,7 +674,7 @@
 
     .buttons button {
       font-size: 17px;
-    } */
+    }
   }
   @media only screen and (max-width: 1000px) {
     /* .introdiv {
@@ -749,13 +686,17 @@
       margin: 4vw 1vw;
       font-size: 4vw;
     } */
+    .bottom-div {
+      width: 100%;
+      height: 50vh;
+    }
     .events {
       gap: 60vw !important;
       margin: 33vw auto;
       /* padding: 20vw; */
     }
     .eventCard {
-      transform: scale(3.6);
+      transform: scale(2);
       z-index: 2;
       box-shadow: 0 1.5vw 0 -1vw #121212;
       animation: none;
@@ -773,7 +714,7 @@
       margin-bottom: 10vw;
     }
   }
-  /* @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 450px) {
     .headingmain {
       font-size: 1.5rem;
     }
@@ -791,8 +732,15 @@
     .dclef h1 {
       font-size: 3vh;
     }
-  } */
-  /* @media only screen and (max-width: 900px) {
+  }
+  @media only screen and (max-width: 900px) {
+    .dclef {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10vw;
+    }
     .horizontal {
       flex-direction: column;
     }
@@ -814,5 +762,5 @@
     #dchead {
       font-size: 5vh;
     }
-  } */
+  }
 </style>

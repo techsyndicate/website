@@ -30,6 +30,12 @@
                 <p>Team</p>
             </li>
         </Link>
+        <li style="margin-top: -1.75vw;">|</li>
+        <Link to="/robo" style="text-decoration: none; color:#eee;">
+            <li>
+                <p>Robotronics</p>
+            </li>
+        </Link>
         <!-- <li style="margin-top: -1.75vw;">|</li>
         <Link to="/intech" style="text-decoration: none; color:#eee;" id="tg">
             <li>
