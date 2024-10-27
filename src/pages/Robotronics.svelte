@@ -36,10 +36,10 @@
     <div class="unspecial-buttons">
       <button
         on:click={() => {
-          window.open("https://ts46.club/server");
+          window.open("https://register.techsyndicate.us");
         }}
       >
-        Discord
+        Register
       </button>
       <button
         on:click={() => {
