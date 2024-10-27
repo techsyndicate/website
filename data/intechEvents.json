@@ -1,21 +1,9 @@
 {
     "events": [
         {
-            "eventName": "App Development",
-            "eventDesc": "App development is the process of creating software applications for mobile devices...",
-            "img": "appdTG.png",
-            "eventUrl": "https://www.techsyndicate.us/prompts/dev"
-        },
-        {
-            "eventName": "Web Development",
-            "eventDesc": "Web development essentially consists of two paradigms: frontend and backend development...",
+            "eventName": "Creative",
+            "eventDesc": "Creative consists of development and design, the most important aspects of...",
             "img": "webdTG.png",
-            "eventUrl": "https://www.techsyndicate.us/prompts/dev"
-        },
-        {
-            "eventName": "Game Development",
-            "eventDesc": "Game development refers to the procress involving the creation of video games. It consists of 5 stages...",
-            "img": "gamedTG.png",
             "eventUrl": "https://www.techsyndicate.us/prompts/dev"
         },
         {
@@ -25,71 +13,34 @@
             "website": "https://encryptid.techsyndicate.us/"
         },
         {
-            "eventName": "3D Design",
-            "eventDesc": "3D modelling is a vast field from low poly designs to realistically detailed environments...",
-            "img": "3dTG.png",
-            "eventUrl": "https://www.techsyndicate.us/prompts/design"
-        },
-        {
-            "eventName": "2D Design",
-            "eventDesc": "Design is something that involves thorough planning as well as ideation of the way your product...",
-            "img": "2dTG.png",
-            "eventUrl": "https://www.techsyndicate.us/prompts/design"
-        },
-        {
-            "eventName": "UI/UX Design",
-            "eventDesc": "UI/UX design focuses on the overall user experience of a product and on the product's visual elements...",
-            "img": "uiTG.png",
-            "eventUrl": "https://www.techsyndicate.us/prompts/design"
-        },
-        {
-            "eventName": "AV Editing",
-            "eventDesc": "A/V can be categorized following types: Films, Motion Graphics, Animation, Videos...",
-            "img": "avTG.png",
-            "eventUrl": "https://www.techsyndicate.us/prompts/av"
-        },
-        {
-            "eventName": "Group Discussion",
-            "eventDesc": "Group discussion consists of a group of individuals having an intellectual discussion...",
-            "img": "gdTG.png",
-            "eventUrl": "https://www.techsyndicate.us/prompts/gd"
-        },
-        {
             "eventName": "Photography",
             "eventDesc": "Photography is the art, application, and practice of creating durable images...",
             "img": "photographyTG.png",
             "eventUrl": "https://www.techsyndicate.us/prompts/photo"
         },
         {
-            "eventName": "Film Making",
-            "eventDesc": "Film making involves a number of discrete stages, beginning with a story, idea, or commission...",
-            "img": "filmTG.png",
-            "eventUrl": "https://www.techsyndicate.us/prompts/film"
-        },
-        {
-            "eventName": "Hardware",
-            "eventDesc": "Hardware is the part of a computer that is designed and developed to perform a specific task...",
-            "img": "hardTG.png",
-            "eventUrl": "https://www.techsyndicate.us/prompts/hardware"
-        },
-        {
-            "eventName": "Crossword",
-            "eventDesc": "Crossword is one of the most fun events that you’ll ever come across. It doesn’t require...",
-            "img": "crossTG.png"
-        },
-        {
-            "eventName": "Competitive Programming",
+            "eventName": "Programming",
             "eventDesc": "Competitive Programming involves programming a software that takes the given input...",
             "img": "progTG.png"
         },
         {
-            "eventName": "Cubing",
-            "eventDesc": "Cubing/Speedcubing is a competitive event where people solve combination puzzles as quickly as possible...",
-            "img": "cubingTG.png"
-        },
-        {
             "eventName": "Gaming",
             "eventDesc": "Gaming stands out as one of the most enjoyable events you'll ever encounter, demanding no more than...",
+            "img": "gamingTG.png"
+        },
+        {
+            "eventName": "Surprise",
+            "eventDesc": "Gqx klidk jhy, eexp, tugttmgn.",
+            "img": "gamingTG.png"
+        },
+        {
+            "eventName": "Minecraft (Jr. Event)",
+            "eventDesc": "Behold as juniors battle in the one and only Cave Game Event",
+            "img": "gamingTG.png"
+        },
+        {
+            "eventName": "Scratch (Jr. Event)",
+            "eventDesc": "Playing games is fun, but making them... even more fun...",
             "img": "gamingTG.png"
         }        
     ]

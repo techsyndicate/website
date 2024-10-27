@@ -37,7 +37,7 @@
     </div>
     <div class="event-blob-3">
         <p class="event-name">Robotronics</p>
-        <p class="event-duration">Coming Soon...</p>
+        <p class="event-duration">Oct 29 - 11 Nov</p>
         <br />
         <!-- <Link to = "/intech" style="text-decoration: none;">
             <button>
@@ -78,7 +78,7 @@
         border-radius: 10vw;
         background: linear-gradient(
             to right,
-            #16e16e 63%,
+            #16e16e 75%,
             #4e4e4e 0%,
             #4e4e4e 0%,
             #4e4e4e 100%
@@ -123,6 +123,7 @@
     }
     .circle-4 {
         margin-left: 67.1%;
+        background: #16e16e;
         /* background: #4e4e4e; */
     }
     .circle-5 {

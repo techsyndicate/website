@@ -18,37 +18,22 @@
   <p class="intech-info" style="margin-bottom: 0px;">
     Robotronics '24, the <span style="color: #16e16e;">10th edition</span> of
     Tech Syndicate's annual event, will take place from
-    <span style="color: #16e16e;">October 20, 2024 to November 3, 2024</span>.
+    <span style="color: #16e16e;">November 1, 2024 to November 10, 2024</span>.
     Beginning as a robotics exclusive symposium, Robotronics has now evolved and
     branched out to include events across a much wider variety of domains.
     <br /><br />
     This year it shall comprise of
-    <span style="color: #16e16e;">14 events</span>
+    <span style="color: #16e16e;">8 events</span>
     ranging from creative, robotics to an online cryptic hunt and crossword. There
     will be one school crowned as the
     <span style="color: #16e16e;">overall winner </span>after taking into
-    consideration all the 14 events.
+    consideration all the 8 events.
     <br /><br /><br /><br />
   </p>
   <img alt="illus_image" src="https://i.imgur.com/fAshaQa.png" />
 
   <div class="button-panel">
-    <button style="width: 32.5vw; margin-bottom: 0.65vw;"
-      on:click={() => {
-        window.location.href = "https://register.techsyndicate.us";
-      }}
-    >
-      Registration
-    </button>
     <div class="unspecial-buttons">
-      <button
-        on:click={() => {
-          window.open("https://ts46.club/whatsapp");
-
-        }}
-      >
-        WhatsApp
-      </button>
       <button
         on:click={() => {
           window.open("https://ts46.club/server");
@@ -87,15 +72,14 @@
   <hr />
   <div class="regbar">
     <div class="heading">
-      <h1 id="dchead">Join our discord server</h1>
+      <h1 id="dchead" style="margin-left: 0px">Join our discord server</h1>
     </div>
     <div class="dc" id="discord">
       <div class="dcright">
         <iframe
-          src="https://discord.com/widget?id=1155922275942543372&theme=dark"
-          width="350"
+          src="https://discord.com/widget?id=1277219118701084742&theme=dark"
           title="Discord"
-          height="400"
+          style="width: 30vw; height: 30vw;"
           allowtransparency="true"
           frameborder="0"
           sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
@@ -106,8 +90,7 @@
           Hang out with the <span class="green">community</span>
         </h1>
         <p>
-          Keep up to date with the event announcements and <br />
-          much more through the discord server.
+          Keep up to date with the event announcements and much more through the discord server.
         </p>
         <button
           id="dcbutton"
@@ -290,7 +273,7 @@
     background: #171717;
     color: #16e16e;
     font-size: 1.25vw;
-    width: 10vw;
+    width: 15vw;
     padding: 0.75vw;
     border-radius: 10px;
     margin-right: 1vw;
@@ -371,7 +354,7 @@
     } */
     .events {
       max-width: 75vw !important;
-      height: 70vw;
+      /* min-height: 70vw; */
       border-radius: 1vw;
       margin-bottom: 5vw;
       margin-top: 20vw !important;
@@ -390,7 +373,6 @@
     .eventCard {
       transform: scale(1.7);
       z-index: 2;
-      margin-top: 10vw;
       box-shadow: 0 1.5vw 0 -1vw #121212;
       animation: none;
       transition: none;
@@ -406,7 +388,7 @@
       width: 36vw;
       height: 40vw;
       border-radius: 24px;
-      margin-top: 10vw;
+      margin-top: 7vw;
     }
     .shadow {
       width: 34vw;
@@ -456,7 +438,7 @@
     /* text-align: center; */
     margin-left: 7.7vw;
     margin-top: 4.5vw;
-    margin-bottom: 7.7vw !important;
+    margin-bottom: 4.5vw !important;
   }
 
   .section {
@@ -519,8 +501,8 @@
   .dclef {
     display: flex;
     flex-direction: column;
-    align-items: start;
-    width: 50vw;
+    align-items: flex-start;
+    width: 30vw;
   }
 
   #dchead {
@@ -564,7 +546,7 @@
 
   .dcright {
     margin: 20px 0;
-    width: 50vw;
+    /* width: 50vw; */
     display: flex;
     align-items: end;
     justify-content: center;
@@ -686,13 +668,13 @@
       margin: 4vw 1vw;
       font-size: 4vw;
     } */
-    .bottom-div {
+    /* .bottom-div {
       width: 100%;
       height: 50vh;
-    }
+    } */
     .events {
       gap: 60vw !important;
-      margin: 33vw auto;
+      margin: 33vw auto !important;
       /* padding: 20vw; */
     }
     .eventCard {
@@ -753,11 +735,13 @@
       flex-direction: column;
     }
     .dcright iframe {
-      width: 80vw;
+      width: 80vw !important;
+      height: 40vh !important;
     }
     .dclef {
       flex-direction: column;
       width: 90%;
+      text-align: center !important;
     }
     #dchead {
       font-size: 5vh;
