@@ -14,7 +14,7 @@
 </svelte:head>
 
 <div class="intech-div">
-  <h1><span style="font-weight: 200; color: white;">Welcome to</span> <br /> <span>Robotronics '24</span></h1>
+  <h1><span style="font-weight: 200; color: white;">Welcome to</span> <br /> <span style="font-weight: bold">Robotronics '24</span></h1>
   <p class="intech-info" style="margin-bottom: 0px;">
     Robotronics '24, the <span style="color: #16e16e;">12th edition</span> of
     Tech Syndicate's annual event, will take place from
