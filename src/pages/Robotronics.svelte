@@ -1,6 +1,6 @@
 <script>
   import { redirect } from "page";
-  import { events } from "../../data/intechEvents.json";
+  import { events } from "../../data/events.json";
   import { Notyf } from "notyf";
   var notif = new Notyf();
 
@@ -14,17 +14,17 @@
 </svelte:head>
 
 <div class="intech-div">
-  <h1>Welcome to <br /> <span>Robotronics '24</span></h1>
+  <h1><span style="font-weight: 200; color: white;">Welcome to</span> <br /> <span>Robotronics '24</span></h1>
   <p class="intech-info" style="margin-bottom: 0px;">
-    Robotronics '24, the <span style="color: #16e16e;">10th edition</span> of
+    Robotronics '24, the <span style="color: #16e16e;">12th edition</span> of
     Tech Syndicate's annual event, will take place from
-    <span style="color: #16e16e;">November 1, 2024 to November 10, 2024</span>.
+    <span style="color: #16e16e;">October 29, 2024 to November 10, 2024</span>.
     Beginning as a robotics exclusive symposium, Robotronics has now evolved and
     branched out to include events across a much wider variety of domains.
     <br /><br />
     This year it shall comprise of
     <span style="color: #16e16e;">8 events</span>
-    ranging from creative, robotics to an online cryptic hunt and crossword. There
+    ranging from creative, gaming to an online cryptic hunt and CTF. There
     will be one school crowned as the
     <span style="color: #16e16e;">overall winner </span>after taking into
     consideration all the 8 events.
@@ -43,7 +43,7 @@
       </button>
       <button
         on:click={() => {
-          window.open("/guide");
+          window.open("https://ts46.club/guide");
         }}
       >
         Brochure
@@ -140,13 +140,6 @@
         <div class="creds">
           <h1>{event.eventName}</h1>
           <p class="info">{event.eventDesc}</p>
-          {#if event.eventUrl}
-            <!-- <a href={event.eventUrl} target="_blank" class="link">Prompt</a> -->
-            <a on:click={comingSoon} target="_blank" class="link">Prompt</a>
-          {/if}
-          {#if event.eventName == "Encryptid | Cryptic x CTF"}
-            <a href={event.website} target="_blank" class="link">Website</a>
-          {/if}
         </div>
         <div class="shadow"></div>
       </div>

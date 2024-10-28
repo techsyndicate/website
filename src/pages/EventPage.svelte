@@ -35,7 +35,7 @@
             </button>
         </Link> -->
     </div>
-    <div class="event-blob-3">
+    <div class="event-blob-3" style="background: #16e16e">
         <p class="event-name">Robotronics</p>
         <p class="event-duration">Oct 29 - 11 Nov</p>
         <br />
