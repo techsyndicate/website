@@ -152,7 +152,7 @@
   @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
   .eventCard {
     position: inherit;
-    width: 18vw;
+    width: 25vw;
     height: 20vw;
     flex-shrink: 0;
     border-radius: 1vw;
@@ -176,7 +176,7 @@
   }
   .shadow {
     position: absolute;
-    width: 17vw;
+    width: 24vw;
     margin-top: 1vw;
     background: #fff;
     height: 20vw;
@@ -208,7 +208,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 15vw;
+    width: 20vw;
   }
   .link {
     color: #16e16e;
@@ -225,7 +225,7 @@
   .eventCard img {
     width: 15vw;
     aspect-ratio: 1;
-    margin-top: -7vw;
+    margin-top: -9.5vw;
   }
   span {
     font-weight: 500;
@@ -415,9 +415,12 @@
     }
     .button-panel {
       display: flex;
+      justify-content: center;
+      margin-left: 0px;
+      margin-top: 5vw;
     }
     .button-panel button {
-      width: 25vw;
+      width: 35vw;
       font-size: 3.5vw;
       padding: 1.5vw;
       border-radius: 1vw;
