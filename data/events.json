@@ -4,49 +4,58 @@
             "eventName": "Creative",
             "eventDesc": "Creative consists of development and design, the most important aspects of...",
             "img": "webdTG.png",
-            "eventUrl": "https://www.techsyndicate.us/prompts/dev"
+            "eventUrl": "https://www.techsyndicate.us/prompts/dev",
+            "participants": "5"
         },
         {
             "eventName": "Encryptid | Cryptic x CTF",
             "eventDesc": "Cryptic and CTF refer to hunting and looking for either a flag or an answer to a specific level...",
             "img": "crypticTG.png",
-            "website": "https://encryptid.techsyndicate.us/"
+            "website": "https://encryptid.techsyndicate.us/",
+            "participants": "∞"
         },
         {
             "eventName": "Photography",
             "eventDesc": "Photography is the art, application, and practice of creating durable images...",
             "img": "photographyTG.png",
-            "eventUrl": "https://www.techsyndicate.us/prompts/photo"
+            "eventUrl": "https://www.techsyndicate.us/prompts/photo",
+            "participants": "1"
         },
         {
             "eventName": "Programming",
             "eventDesc": "Competitive Programming involves programming a software that takes the given input...",
-            "img": "progTG.png"
+            "img": "progTG.png",
+            "participants": "2"
         },
         {
             "eventName": "Gaming",
-            "eventDesc": "Gaming stands out as one of the most enjoyable events you'll ever encounter, demanding no more than...",
-            "img": "gamingTG.png"
+            "eventDesc": "Gaming stands out as one of the most enjoyable events you'll encounter, demanding...",
+            "img": "gamingTG.png",
+            "participants": "2"
         },
         {
             "eventName": "Surprise",
-            "eventDesc": "Gqx klidk jhy, eexp, tugttmgn.",
-            "img": "surp.png"
+            "eventDesc": "Ycg umcdr jgp nqgvhbry rudb eonpv nbvakbei umzh qp yhyj unb.",
+            "img": "surp.png",
+            "participants": "2"
         },
         {
             "eventName": "Minecraft (Jr. Event)",
             "eventDesc": "Behold as juniors battle in the one and only Cave Game Event...",
-            "img": "minecraft.png"
+            "img": "minecraft.png",
+            "participants": "2"
         },
         {
             "eventName": "Scratch (Jr. Event)",
             "eventDesc": "Young minds will gather to develop their own games on Scratch, while also...",
-            "img": "scratch.png"
+            "img": "scratch.png",
+            "participants": "2"
         },
         {
             "eventName": "Video Editing (Jr. Event)",
             "eventDesc": "Juniors will use Adobe Express, Canva or any other video editing software to...",
-            "img": "video.png"
+            "img": "video.png",
+            "participants": "2"
         } 
     ]
 }

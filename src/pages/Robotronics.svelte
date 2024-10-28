@@ -72,7 +72,7 @@
   <hr />
   <div class="regbar">
     <div class="heading">
-      <h1 id="dchead" style="margin-left: 0px">Join our discord server</h1>
+      <h1 id="dchead" style="margin: 0px; margin-bottom: 2vw !important;">Join our discord server</h1>
     </div>
     <div class="dc" id="discord">
       <div class="dclef" style="margin-bottom: 5vw;">
@@ -84,7 +84,7 @@
         </p>
         <button
         id="dcbutton"
-          onclick="window.open('https://techsyndicate.us/server', '_blank')"
+          onclick="window.open('https://discord.gg/robo24', '_blank')"
         >
           <img
           src="https://www.svgrepo.com/show/353655/discord-icon.svg"
@@ -122,7 +122,7 @@
   </div> -->
   <hr />
   <div class="heading" id="events">
-    <h1>Events</h1>
+    <h1 style="text-align: center; margin-left: 0px; margin-bottom: 8vw !important;">Events</h1>
   </div>
   <div class="events section">
     {#each events as event, index}
@@ -138,8 +138,9 @@
       <div class="eventCard" key={index}>
         <img src="../assets/images/resources/{event.img}" alt="" />
         <div class="creds">
-          <h1>{event.eventName}</h1>
+          <h1 style="margin-top: 1vw;">{event.eventName}</h1>
           <p class="info">{event.eventDesc}</p>
+          <p class="link">Max. {event.participants} participants</p>
         </div>
         <div class="shadow"></div>
       </div>
@@ -152,7 +153,7 @@
   @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
   .eventCard {
     position: inherit;
-    width: 25vw;
+    width: 22vw;
     height: 20vw;
     flex-shrink: 0;
     border-radius: 1vw;
@@ -176,7 +177,7 @@
   }
   .shadow {
     position: absolute;
-    width: 24vw;
+    width: 21vw;
     margin-top: 1vw;
     background: #fff;
     height: 20vw;
@@ -220,12 +221,12 @@
     line-height: normal;
     text-decoration: none;
     cursor: pointer;
-    margin-top: 0.5vw;
+    margin-top: 1.5vw;
   }
   .eventCard img {
     width: 15vw;
     aspect-ratio: 1;
-    margin-top: -9.5vw;
+    margin-top: -8vw;
   }
   span {
     font-weight: 500;
