@@ -74,7 +74,26 @@
     <div class="heading">
       <h1 id="dchead" style="margin-left: 0px">Join our discord server</h1>
     </div>
-    <div class="dc" id="discord" style="flex-direction: row-reverse;">
+    <div class="dc" id="discord">
+      <div class="dclef" style="margin-bottom: 5vw;">
+        <h1>
+          Hang out with the <span class="green">community</span>
+        </h1>
+        <p>
+          Keep up to date with the event announcements and much more through the discord server.
+        </p>
+        <button
+        id="dcbutton"
+          onclick="window.open('https://techsyndicate.us/server', '_blank')"
+        >
+          <img
+          src="https://www.svgrepo.com/show/353655/discord-icon.svg"
+          width="30px"
+          alt="discord"
+          />
+          Server invite
+        </button>
+      </div>
       <div class="dcright">
         <iframe
           src="https://discord.com/widget?id=1277219118701084742&theme=dark"
@@ -84,25 +103,6 @@
           frameborder="0"
           sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
         />
-      </div>
-      <div class="dclef">
-        <h1>
-          Hang out with the <span class="green">community</span>
-        </h1>
-        <p>
-          Keep up to date with the event announcements and much more through the discord server.
-        </p>
-        <button
-          id="dcbutton"
-          onclick="window.open('https://techsyndicate.us/server', '_blank')"
-        >
-          <img
-            src="https://www.svgrepo.com/show/353655/discord-icon.svg"
-            width="30px"
-            alt="discord"
-          />
-          Server invite
-        </button>
       </div>
     </div>
   </div>
