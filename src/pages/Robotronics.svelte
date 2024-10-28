@@ -18,16 +18,16 @@
   <p class="intech-info" style="margin-bottom: 0px;">
     Robotronics '24, the <span style="color: #16e16e;">12th edition</span> of
     Tech Syndicate's annual event, will take place from
-    <span style="color: #16e16e;">October 29, 2024 to November 10, 2024</span>.
+    <span style="color: #16e16e;">November 2, 2024 to November 10, 2024</span>.
     Beginning as a robotics exclusive symposium, Robotronics has now evolved and
     branched out to include events across a much wider variety of domains.
     <br /><br />
     This year it shall comprise of
-    <span style="color: #16e16e;">8 events</span>
+    <span style="color: #16e16e;">9 events</span>
     ranging from creative, gaming to an online cryptic hunt and CTF. There
     will be one school crowned as the
     <span style="color: #16e16e;">overall winner </span>after taking into
-    consideration all the 8 events.
+    consideration all the 9 events.
     <br /><br /><br /><br />
   </p>
   <img alt="illus_image" src="https://i.imgur.com/fAshaQa.png" />
@@ -74,7 +74,7 @@
     <div class="heading">
       <h1 id="dchead" style="margin-left: 0px">Join our discord server</h1>
     </div>
-    <div class="dc" id="discord">
+    <div class="dc" id="discord" style="flex-direction: row-reverse;">
       <div class="dcright">
         <iframe
           src="https://discord.com/widget?id=1277219118701084742&theme=dark"
