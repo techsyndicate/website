@@ -220,7 +220,6 @@
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-    cursor: pointer;
     margin-top: 1.5vw;
   }
   .eventCard img {
