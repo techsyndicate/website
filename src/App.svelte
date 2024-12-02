@@ -24,7 +24,6 @@
   <Route path="event" component={EventPage} />
   <Route path="/tbr" component={Tbr} />
   <Route path="team" component={MemberPage} />
-  <Route path="robo" component={Robotronics} />
   <!-- <Route path="/" component={Robotronics} /> -->
   <!-- <Route path="sheldon" component={Sheldon} /> -->
   <Route component={NotFound} />
