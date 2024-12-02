@@ -86,7 +86,7 @@
     {
         "name": "Aryan Soni",
         "role": "Member",
-        "pfp": " https://www.dropbox.com/scl/fi/5bot8unmib5i0r14lz08z/khLkQc3.png?rlkey=f2ggw7vu0jwdml37tzt6s4s4x&st=c7r0tyw9&raw=1",
+        "pfp": "https://www.dropbox.com/scl/fi/7qfpjgo1na0xq6vsm0qui/aryan.png?rlkey=8zxeoa17svvrye7q27slcdkxv&st=lvx1yjep&raw=1",
         "socials": [
             "https://www.linkedin.com/in/aryansoni01/",
             "https://open.spotify.com/user/0k18blw6t0png8seypurvf6p6?si=7f521de2103f44c0",
@@ -136,7 +136,7 @@
     },
     {
         "name": "Ishit Rastogi",
-        "pfp": "https://www.dropbox.com/scl/fi/yprt5ymyoka0g5mvhrb81/ishit?rlkey=b6o55kf90s8mfhbsabc4y564m&st=cmmo2o2d&raw=1",
+        "pfp": "https://www.dropbox.com/scl/fi/yprt5ymyoka0g5mvhrb81/ishit?rlkey=b6o55kf90s8mfhbsabc4y564m&st=cmmo2o2d&raw=1a",
         "role": "Member",
         "socials": [
             "https://github.com/NotIshi28",
@@ -157,7 +157,7 @@
     },
     {
         "name": "Naitik Agarwal",
-        "pfp": "https://www.dropbox.com/scl/fi/5wl0x81gigzrll0zh764y/naitik.jpg?rlkey=sqn39paphoc28s4lmkdgrn70v&st=agjhikrl&raw=1",
+        "pfp": "https://www.dropbox.com/scl/fi/2rxhulpb5k5bfe109e19f/nautuk.webp?rlkey=x0ijoa0yb02ims8s2gw89s358&st=msk9ii2d&raw=1",
         "role": "Member",
         "socials": [
             "https://open.spotify.com/user/zsrce5b46sjn303d0yf6344lx?si=1c9332cae03546c6",
@@ -266,10 +266,13 @@
     },
     {
         "name": "Kushagra Goel",
-        "pfp": "https://www.dropbox.com/scl/fi/jfmbofg16kye6r0a9y6hc/kushagra?rlkey=cdjpsty6wvz0axyzj1s7tqn4g&st=udzcsrb9&raw=1",
+        "pfp": "https://www.dropbox.com/scl/fi/k82kq0auowj9gq0v34n89/kushagra.png?rlkey=c63br8gbmgiqnplqa5z9wlpe1&st=z56qokc9&raw=1",
         "role": "Member",
         "socials": [
-            "https://www.instagram.com/kushagra_goel_/"
+            "mailto:goel.kush11@gmail.com",
+            "https://www.linkedin.com/in/kushagragoel11/",
+            "https://github.com/Kushagra-goel-1011",
+            "https://www.youtube.com/@KARdS-1011"
         ]
     }
 ]
